@@ -219,7 +219,7 @@
     "slug": "elemental_surge",
     "title": {
       "en": "Elemental Surge",
-      "ru": "Стихийный Всплеск"
+      "ru": "Стихийный всплеск"
     },
     "description": {
       "en": "When you roll Initiative, regain {{amount|WIL}} (17 level - 2d4+{{amount|WIL}}, 10 level - 1d4+{{amount|WIL}}) mana (this expires at the end of combat if unused).",
@@ -254,8 +254,12 @@
       "en": "Control Table",
       "ru": "Таблица порядка"
     },
-    "origin": "class",
-    "origin_value": "mage",
+    "description": {
+      "en": "Choose 1 option from the Control Table which you haven't chosen yet; resets when you roll Initiative, or when you have chosen all options once.",
+      "ru": "Выберите 1 вариант из таблицы порядка, который вы еще не выбрали; сбрасывается при броске инициативы или когда вы выбрали все варианты по одному разу."
+    },
+    "origin": "subclass",
+    "origin_value": "control",
     "kind": "many_from_list",
     "options": {
       "i_insist": { "en": "I Insist", "ru": "Я настаиваю" },
@@ -275,8 +279,8 @@
       "en": "Cast a cantrip for free, ignoring all disadvantage; it cannot miss.",
       "ru": "Примените заговор бесплатно, игнорируя все помехи; оно не может промахнуться."
     },
-    "origin": "class",
-    "origin_value": "mage",
+    "origin": "subclass",
+    "origin_value": "control",
     "kind": "static",
     "conditions": { "selected_feature": "i_insist" }
   },
@@ -290,8 +294,8 @@
       "en": "A creature of your choice within 12 spaces gains the *Charged*, *Smoldering*, or *Slowed* condition.",
       "ru": "Любое существо по вашему выбору, находящееся в пределах 12 квадратов, получает состояние *Заряженное*, *Тлеющее* или *Замедленное*."
     },
-    "origin": "class",
-    "origin_value": "mage",
+    "origin": "subclass",
+    "origin_value": "control",
     "kind": "static",
     "conditions": { "selected_feature": "elemental_affliction" }
   },
@@ -305,8 +309,8 @@
       "en": "Choose a creature; it cannot harm a creature of your choice during its next turn.",
       "ru": "Выберите существо; оно не сможет причинить вред выбранному вами существу в свой следующий ход."
     },
-    "origin": "class",
-    "origin_value": "mage",
+    "origin": "subclass",
+    "origin_value": "control",
     "kind": "static",
     "conditions": { "selected_feature": "no" }
   },
@@ -317,11 +321,11 @@
       "ru": "Потерять контроль"
     },
     "description": {
-      "en": "Do ALL of the above, but the GM chooses each",
+      "en": "Do ALL of the above, but the GM chooses each.",
       "ru": "Выполните ВСЕ вышеперечисленные действия, но мастер игры выбирает каждое из них."
     },
-    "origin": "class",
-    "origin_value": "mage",
+    "origin": "subclass",
+    "origin_value": "control",
     "kind": "static",
     "conditions": { "selected_feature": "lose_control" }
   },
@@ -347,8 +351,8 @@
       "ru": "Сила воли"
     },
     "description": {
-      "en": "Once per round, on your turn, you may Demand Control: Choose 1 option from the Control Table which you haven't chosen yet; resets when you roll Initiative, or when you have chosen all options once.",
-      "ru": "Один раз за раунд, в свой ход, вы можете *установить порядок*: выберите 1 вариант из таблицы порядка, который вы еще не выбрали; сбрасывается при броске инициативы или когда вы выбрали все варианты по одному разу."
+      "en": "Once per round, on your turn, you may Demand Control.",
+      "ru": "Один раз за раунд, в свой ход, вы можете *установить порядок*:."
     },
     "origin": "subclass",
     "origin_value": "control",
