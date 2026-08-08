@@ -1,10 +1,10 @@
 [
   {
     "slug": "fire_step",
-    "title": { "en": "Fire Step", "ru": "" },
+    "title": { "en": "Fire Step", "ru": "Огненный шаг" },
     "description": {
       "en": "Teleport to a fire source you can see.",
-      "ru": ""
+      "ru": "Телепортируйся к видимому источнику огня."
     },
     "origin": "utility_spell",
     "origin_value": "fire",
@@ -16,11 +16,42 @@
     }
   },
   {
-    "slug": "flame_dart",
-    "title": { "en": "Flame Dart", "ru": "" },
+    "slug": "firebrand",
+    "title": { "en": "Firebrand", "ru": "Клеймо" },
     "description": {
-      "en": "**Damage**: 1d10.\n\n**On crit**: Smoldering.",
-      "ru": ""
+      "en": "Touch a surface and secretly mark it with a symbol or brief message. Speaking a chosen command word while nearby reveals it.",
+      "ru": "Коснись поверхности и секретно пометь его символом или коротким сообщением. Произнесение выбранной команды рядом раскроет его."
+    },
+    "origin": "utility_spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "kindle",
+    "title": { "en": "Kindle", "ru": "Разжигание" },
+    "description": {
+      "en": "Conjure a minor visual illusion.\n\n**Ignite**: Or Ignite a small, unheld item within Range 6.",
+      "ru": "Призовите простую визуальную иллюзию.\n\n**Воспламенение**: или воспламените маленький не удерживаемый предмет на дальности 6."
+    },
+    "origin": "utility_spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single"
+    }
+  },
+  {
+    "slug": "flame_dart",
+    "title": { "en": "Flame Dart", "ru": "Огненная стрела" },
+    "description": {
+      "en": "**Damage**: 1d10+{{bonus|0}}.\n\n**On crit**: Smoldering.",
+      "ru": "**Урон**: 1d10+{{bonus|0}}.\n\n**При крите**: Тлеющий."
     },
     "origin": "spell",
     "origin_value": "fire",
@@ -32,14 +63,17 @@
       "range": "8",
       "damage": "1d10",
       "damage_bonus": "ROUND(level / 5) * 5"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 5"
     }
   },
   {
     "slug": "heart_fire",
-    "title": { "en": "Heart's Fire", "ru": "" },
+    "title": { "en": "Heart's Fire", "ru": "Горячая кровь" },
     "description": {
       "en": "Give an ally within range an extra action. Spend 1 mana to cast this when it is not your turn.",
-      "ru": ""
+      "ru": "Союзник в досягаемости получает доп. действие. Потратьте 1 ману, чтобы использовать это заклинание не на своём ходу."
     },
     "origin": "spell",
     "origin_value": "fire",
@@ -53,10 +87,10 @@
   },
   {
     "slug": "ignite",
-    "title": { "en": "Ignite", "ru": "" },
+    "title": { "en": "Ignite", "ru": "Воспламенение" },
     "description": {
-      "en": "**Damage**: 4d10 to a Smoldering target, ending the condition on hit.",
-      "ru": ""
+      "en": "**Damage**: 4d10 to a Smoldering target, ending the condition on hit.\n\n**Upcast**: +10 damage.",
+      "ru": "**Урон**: 4d10 *тлеющей* цели, состояние на цели прекращается.\n\n**Усиление**: +10 урона."
     },
     "origin": "spell",
     "origin_value": "fire",
@@ -70,10 +104,136 @@
     }
   },
   {
+    "slug": "enchant_weapon",
+    "title": { "en": "Enchant Weapon", "ru": "Зачаровать оружие" },
+    "description": {
+      "en": "**Concentration**: Up to 1 minute. A weapon you touch is enchanted with magical flame. It deals +{{key|KEY}} damage and inflicts *Smoldering* on crit.\n\n**Upcast**: +{{key|KEY}} damage.",
+      "ru": "**Концентрация**: До 1 мин. Коснитесь оружия, оно наносит +{{key|KEY}} урона и цель становится *тлеющей* при крите.\n\n**Усиление**: +{{key|KEY}} урона."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 2,
+      "time": "a,a",
+      "target": "single"
+    },
+    "description_eval_variables": {
+      "key": "key"
+    }
+  },
+  {
+    "slug": "flame_barrier",
+    "title": { "en": "Flame Barrier", "ru": "Огненный барьер" },
+    "description": {
+      "en": "**Reaction**: When attacked, Defend for free. Until the start of your next turn, melee attackers against you take {{key|KEY}} damage (ignoring armor) and gain Smoldering.\n\n**Upcast**: +{{key|KEY}} damage.",
+      "ru": "**Реакция**: Когда вы атакованы, то можете *защититься* бесплатно. До начала вашего следующего хода, атакующие вас в ближнем бою получают {{key|KEY}} урона (игнорирование брони) и становятся *тлеющими*.\n\n**Усиление**: +{{key|KEY}} урона."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "1,a",
+      "target": "self"
+    },
+    "description_eval_variables": {
+      "key": "key"
+    }
+  },
+  {
+    "slug": "hearth_home",
+    "title": { "en": "Hearth & Home", "ru": "Домашний очаг" },
+    "description": {
+      "en": "Conjure a welcoming inn, complete with sturdy wooden tables, plush chairs, and a soft rug underfoot. At its heart burns a cozy fire in a fireplace, filling the space with warmth and light. The inn lasts for 12 hours and vanishes without a trace afterward.",
+      "ru": "Призовите себе гостеприимную таверну с прочными деревянными столами, мягкими креслами и нежным ковром под ногами. В её центре горит уютный камин, наполняющий пространство теплом и светом. Таверна существует 12 часов, а затем бесследно исчезает."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "10,m"
+    }
+  },
+  {
+    "slug": "pyroclasm",
+    "title": { "en": "Pyroclasm", "ru": "Пироклазм" },
+    "description": {
+      "en": "Others within Reach take 2d20+10 damage (ignoring armor) on a failed DEX save. Half damage on save. Smoldering creatures fail.\n\n**Upcast**: +1 Reach, +2 damage.",
+      "ru": "Все остальные существа в пределах дальности получают 2d20+10 урона (игнорирование брони) при проваленном спасе DEX. Половина урона при успешном. *Тлеющие* существа автоматически проваливают спас.\n\n**Усиление**: +1 дальность, +2 урона."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 4,
+      "time": "2,a",
+      "target": "aoe",
+      "range": "3",
+      "damage": "2d20",
+      "damage_bonus": "10"
+    }
+  },
+  {
+    "slug": "fiery_embrace",
+    "title": { "en": "Fiery Embrace", "ru": "Огненные объятия" },
+    "description": {
+      "en": "**Concentration**: Up to 1 minute. While within Reach: 1 ally gains the effects of **Enchant Weapon**. Enemies gain Smoldering, lose damage resistance, and their damage immunity is reduced to resistance.\n\n**Upcast**: +1 ally.",
+      "ru": "**Концентрация**: До 1 минуты. 1 союзник, находящийся в пределах дальности, получает эффекты от **Зачаровать оружие**. Противники получают *тление*, теряют сопротивления урону, а иммунитет у урону становится сопротивлением.\n\n**Усиление**: +1 союзник."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 5,
+      "time": "2,a",
+      "target": "aoe",
+      "range": "8"
+    }
+  },
+  {
+    "slug": "living_inferno",
+    "title": { "en": "Living Inferno", "ru": "Воплощение ада" },
+    "description": {
+      "en": "Gain the effects of **Flame Barrier** until your next turn. At the end of this turn and your next turn, cast **Pyroclasm** for free.\n\n**Upcast**: Upcast **Flame Barrier** and **Pyroclasm**.",
+      "ru": "Вы получаете эффекты **Огненного барьера** до конца вашего следующего хода. В конце этого и следующего вашего хода, вы можете бесплатно использовать **Пироклазм**.\n\n**Усиление**: **Огненный барьер** и **Пироклазм** усиливаются."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 7,
+      "time": "3,a",
+      "target": "self"
+    }
+  },
+  {
+    "slug": "dragonform",
+    "title": { "en": "Dragonform", "ru": "Дранонье обличие" },
+    "description": {
+      "en": "Transform into a Huge dragon. Gain 3 actions, a fly speed of 12, {{level|LVL}} Armor, {{hp|10×LVL}} temp HP.\n\n**Tooth & Claw**. Action: (Reach 2) 1d20+{{level|LVL}} damage (ignoring armor). Inflicts Smoldering.\n\n**Immolating Breath**. 2 Actions: (Reach: Cone 8). DC 20 DEX save, {{key|KEY}}d20 damage, half on save. Smoldering targets fail.\n\nYou can maintain this form for as long as the temp HP granted by this spell remain (max. 10 minutes). When it ends, you drop to 0 HP.",
+      "ru": "Превратись в огромного дракона. Получите 3 действия, скорость полёта 12, {{level|LVL}} Брони, {{hp|10×LVL}} временных ОЗ.\n\n**Зуб и коготь**. Действие: (Досягаемость 2) 1d20+{{level|LVL}} урона (игнорирование брони). Вызывает *тление*.\n\n**Сжигающее дыхание**. 2 действия: (Досягаемость: конус 8). DC 20 DEX спас, {{key|KEY}}d20 урона, половина при успехе. *Тлеющие* существа автоматически проваливают спас.\n\nВы можете поддерживать эту форму пока не иссякнут временные ОЗ от этого заклинания (до 10 минут). После заклинания ваши ОЗ падают до 0."
+    },
+    "origin": "spell",
+    "origin_value": "fire",
+    "kind": "static",
+    "info": {
+      "level": 9,
+      "time": "5,a",
+      "target": "self"
+    },
+    "description_eval_variables": {
+      "level": "level",
+      "hp": "level * 10",
+      "key": "key"
+    }
+  },
+  {
     "slug": "razor_wind",
     "title": { "en": "Razor Wind", "ru": "" },
     "description": {
-      "en": "**Damage**: 1d4 slashing.\n\n**Vicious**: roll 1 additional die whenever you roll crit damage.\n\nAlso damages up to 1 adjacent target.",
+      "en": "**Damage**: 1d4+{{bonus|0}} slashing.\n\n**Vicious**: roll 1 additional die whenever you roll crit damage.\n\nAlso damages up to 1 adjacent target.",
       "ru": ""
     },
     "origin": "spell",
@@ -86,6 +246,9 @@
       "range": "12",
       "damage": "1d4",
       "damage_bonus": "ROUND(level / 5) * 2"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 2"
     }
   },
   {
