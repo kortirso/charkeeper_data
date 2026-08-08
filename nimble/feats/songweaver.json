@@ -3,7 +3,7 @@
     "slug": "songweaver_spellcasting",
     "title": {
       "en": "Songweaver's Spellcasting",
-      "ru": "Заклинания песнотворца"
+      "ru": "Заклинания менестреля"
     },
     "description": {
       "en": "Choose additional magic school.",
@@ -76,7 +76,7 @@
     "slug": "songweaver_inspiration",
     "title": {
       "en": "Songweaver's Inspiration",
-      "ru": "Вдохновение песнотворца"
+      "ru": "Вдохновение менестреля"
     },
     "description": {
       "en": "**Free Reaction**: Allow an ally to reroll a single die related to an attack or save (must keep either result).",
@@ -132,7 +132,7 @@
     },
     "description": {
       "en": "When you roll Initiative, you may regain 2 spent uses of your **Songweaver's Inspiration** (these expire at the end of combat if left unused).",
-      "ru": "При броске на инициативу вы можете восстановить 2 потраченных использования **Вдохновения песнотворца** (они исчезают в конце боя, если остаются неиспользованными)."
+      "ru": "При броске на инициативу вы можете восстановить 2 потраченных использования **Вдохновения менестреля** (они исчезают в конце боя, если остаются неиспользованными)."
     },
     "origin": "class",
     "origin_value": "songweaver",
@@ -172,7 +172,7 @@
     },
     "description": {
       "en": "+2 max **Songweaver's Inspiration** charges. When used to reroll an ally's attack, your Songweaver's Inspiration also grants them +{{wil|WIL}} damage on the attack.",
-      "ru": "+2 максимальных заряда **Вдохновения песнотворца**. При использовании для переброса броска атаки союзника, **Вдохновение песнотворца** также увеличивает его урон от атаки (+{{wil|WIL}})."
+      "ru": "+2 максимальных заряда **Вдохновения менестреля**. При использовании для переброса броска атаки союзника, **Вдохновение менестреля** также увеличивает его урон от атаки (+{{wil|WIL}})."
     },
     "origin": "class",
     "origin_value": "songweaver",
@@ -241,7 +241,7 @@
     },
     "description": {
       "en": "When you roll 4 or more on your **Vicious Mockery**, you may spend a **Songweaver's Inspiration** charge to temporarily suppress any special abilities they have until the end of their next turn.",
-      "ru": "Когда вы выбрасываете 4 или больше при использовании **Злой насмешки**, вы можете потратить заряд **Вдохновения песнотворца**, чтобы временно подавить любые особые способности противника до конца его следующего хода."
+      "ru": "Когда вы выбрасываете 4 или больше при использовании **Злой насмешки**, вы можете потратить заряд **Вдохновения менестреля**, чтобы временно подавить любые особые способности противника до конца его следующего хода."
     },
     "origin": "class",
     "origin_value": "songweaver",
@@ -271,7 +271,7 @@
     },
     "description": {
       "en": "+1 to any 2 of your stats. Your **Songweaver's Inspiration** cannot fail (your target succeeds).",
-      "ru": "+1 к любым двум вашим характеристикам. Ваше **Вдохновение песнотворца** не может провалиться (ваша цель преуспевает)."
+      "ru": "+1 к любым двум вашим характеристикам. Ваше **Вдохновение менестреля** не может провалиться (ваша цель преуспевает)."
     },
     "origin": "class",
     "origin_value": "songweaver",
@@ -351,7 +351,7 @@
     },
     "description": {
       "en": "Whenever you use **Songweaver's Inspiration**, your allies within 12 spaces who can hear you gain {{wil|WIL}} temp HP.",
-      "ru": "Каждый раз, когда вы используете **Вдохновение песнотворца**, ваши союзники в радиусе 12 квадратов, которые вас слышат, получают временные ОЗ - {{wil|WIL}}."
+      "ru": "Каждый раз, когда вы используете **Вдохновение менестреля**, ваши союзники в радиусе 12 квадратов, которые вас слышат, получают временные ОЗ - {{wil|WIL}}."
     },
     "origin": "subclass",
     "origin_value": "courage",
@@ -369,7 +369,7 @@
     },
     "description": {
       "en": "Your **Songweaver's Inspiration** allows your target to roll with advantage.",
-      "ru": "**Вдохновение песнотворца** позволяет вашей цели совершать броски с преимуществом."
+      "ru": "**Вдохновение менестреля** позволяет вашей цели совершать броски с преимуществом."
     },
     "origin": "subclass",
     "origin_value": "courage",
@@ -384,7 +384,7 @@
     },
     "description": {
       "en": "Your **Songweaver's Inspiration** also grants your target 1 additional action.",
-      "ru": "**Вдохновение песнотворца** также предоставляет вашей цели 1 дополнительное действие."
+      "ru": "**Вдохновение менестреля** также предоставляет вашей цели 1 дополнительное действие."
     },
     "origin": "subclass",
     "origin_value": "courage",
