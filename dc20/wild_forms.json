@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "tiny_size",
+    "title": { "en": "Tiny Size", "ru": "Крошечный размер" },
+    "description": {
+      "en": "Your size changes to tiny.",
+      "ru": "Ваш размер изменяется на крошечный."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 2
+    },
+    "modifiers": { "size": { "type": "set", "value": "tiny" } }
+  },
+  {
+    "slug": "large_size",
+    "title": { "en": "Large Size", "ru": "Большой размер" },
+    "description": {
+      "en": "Your size changes to large.",
+      "ru": "Ваш размер изменяется на большой."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 2
+    },
+    "modifiers": { "size": { "type": "set", "value": "large" } }
+  },
+  {
+    "slug": "might_increase",
+    "title": { "en": "Might Increase", "ru": "Увеличение мощи" },
+    "description": {
+      "en": "You gain +2 to Might.",
+      "ru": "Вы получаете +2 к мощи."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 1,
+      "multiple": true
+    },
+    "modifiers": { "might": { "type": "add", "value": 2 } }
+  },
+  {
+    "slug": "agility_increase",
+    "title": { "en": "Agility Increase", "ru": "Увеличение ловкости" },
+    "description": {
+      "en": "You gain +2 to Agility.",
+      "ru": "Вы получаете +2 к ловкости."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 1,
+      "multiple": true
+    },
+    "modifiers": { "agility": { "type": "add", "value": 2 } }
+  },
+  {
+    "slug": "precise_defensive",
+    "title": { "en": "Precise Defensive", "ru": "Точечная защищённость" },
+    "description": {
+      "en": "Your PD increases by 2.",
+      "ru": "Ваша ТЗ увеличивается на 2."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 1,
+      "multiple": true
+    },
+    "modifiers": { "pd_base": { "type": "add", "value": 2 } }
+  },
+  {
+    "slug": "area_defensive",
+    "title": { "en": "Area Defensive", "ru": "Площадная защищённость" },
+    "description": {
+      "en": "Your AD increases by 2.",
+      "ru": "Ваша ПЗ увеличивается на 2."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 1,
+      "multiple": true
+    },
+    "modifiers": { "ad_base": { "type": "add", "value": 2 } }
+  },
+  {
+    "slug": "healthy",
+    "title": { "en": "Healthy", "ru": "Здоровый" },
+    "description": {
+      "en": "You gain +2 maximum HP.",
+      "ru": "Ваш максимум ОЗ увеличивается на 2."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 1,
+      "multiple": true
+    },
+    "modifiers": { "max_health": { "type": "add", "value": 2 } }
+  }
+]

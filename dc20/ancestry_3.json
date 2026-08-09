@@ -31,7 +31,7 @@
     },
     "origin": "base_ancestry",
     "origin_value": "beastborn",
-    "kind": "static",
+    "kind": "text",
     "price": {},
     "info": {
       "price": 0
@@ -824,11 +824,11 @@
     "slug": "extended_natural_weapon",
     "title": {
       "en": "Extended Natural Weapon",
-      "ru": "Расширенное Природное оружие"
+      "ru": "Длинное природное оружие"
     },
     "description": {
-      "en": "Your **Natural Weapon** now has the **Reach** Property.",
-      "ru": "Ваше **Природное оружие** теперь обладает свойством **Досягаемость**."
+      "en": "Your **Natural Weapon** now has the *Reach* Property.",
+      "ru": "Ваше **Природное оружие** теперь обладает свойством *Досягаемость*."
     },
     "origin": "ancestry",
     "origin_value": "beastborn",
@@ -915,8 +915,8 @@
       "ru": "Выдвижное природное оружие"
     },
     "description": {
-      "en": "Your **Natural Weapon** is able to be concealed or retracted and gains the **Concealable** Property (gain ADV on the first Attack Check you make in Combat).",
-      "ru": "Ваше естественное оружие может быть скрыто или убрано и приобретает свойство **Скрытие** (получает преимущество к атаке при первой проверке в бою)."
+      "en": "Your **Natural Weapon** is able to be concealed or retracted and gains the *Concealable* Property (gain ADV on the first Attack Check you make in Combat).",
+      "ru": "Ваше естественное оружие может быть скрыто или убрано и приобретает свойство *Скрытное* (получает преимущество к атаке при первой проверке в бою)."
     },
     "origin": "ancestry",
     "origin_value": "beastborn",
@@ -934,8 +934,8 @@
       "ru": "Ядовитое природное оружие"
     },
     "description": {
-      "en": "When you Hit a creature with your **Natural Weapon**, they make a Physical Save against your Save DC. **Failure:** The target becomes Impaired until the start of your next turn.",
-      "ru": "Когда вы попадаете по существу своим **Природным оружием**, оно совершает физический спасбросок против вашей сложности. **Провал:** цель становится неуязвимой до начала вашего следующего хода."
+      "en": "When you Hit a creature with your **Natural Weapon**, they make a Physical Save against your Save DC. **Failure:** The target becomes *Impaired* until the start of your next turn.",
+      "ru": "Когда вы попадаете по существу своим **Природным оружием**, оно совершает физический спасбросок против вашего УС спаса. **Провал:** цель становится *Ослабленой* до начала вашего следующего хода."
     },
     "origin": "ancestry",
     "origin_value": "beastborn",
