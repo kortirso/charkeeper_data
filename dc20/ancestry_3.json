@@ -29,7 +29,7 @@
       "en": "You can understand and speak to (in a limited capacity) the species of Beast your **Beastborn** is modeled after. You can understand the meaning of their noises and behaviors, and they understand the meanings of simple words, concepts, or states of emotion.",
       "ru": "Вы можете понимать и общаться (в ограниченном объеме) с представителями того вида Зверей, на основе которого создан ваш **Зверорожденный**. Вы можете понимать значение их звуков и поведения, а они понимают значение простых слов, понятий или эмоциональных состояний."
     },
-    "origin": "ancestry",
+    "origin": "base_ancestry",
     "origin_value": "beastborn",
     "kind": "static",
     "price": {},
@@ -72,9 +72,9 @@
     "origin_value": "beastborn",
     "kind": "many_from_list",
     "options": {
-      "": { "en": "", "ru": "" },
-      "": { "en": "", "ru": "" },
-      "": { "en": "", "ru": "" }
+      "keen_sense_hearing": { "en": "Hearing", "ru": "Слух" },
+      "keen_sense_sight": { "en": "Sight", "ru": "Зрение" },
+      "keen_sense_smell": { "en": "Smell", "ru": "Обоняние" }
     },
     "price": {},
     "info": {
@@ -554,7 +554,7 @@
     "slug": "additional_limb",
     "title": {
       "en": "Additional Limb",
-      "ru": "Дополнительная конечность"
+      "ru": "Доп. конечность"
     },
     "description": {
       "en": "You have an additional limb (such as an extra arm or prehensile tail or trunk) that has a range of 1 Space. You can use it to lift, hold, or drop objects, and to push, pull, or grapple creatures. It can't wield Weapons, Shields, or Spell Focuses, and you can't use it to perform the Somatic Components of Spells.",
@@ -810,9 +810,9 @@
     "origin_value": "beastborn",
     "kind": "one_from_list",
     "options": {
-      "bludge": { "en": "Bludgeoning", "ru": "Дробящий" },
-      "pierce": { "en": "Piercing", "ru": "Колющий" },
-      "slash": { "en": "Slashing", "ru": "Рубящий" }
+      "natural_weapon_bludge": { "en": "Bludgeoning", "ru": "Дробящий" },
+      "natural_weapon_pierce": { "en": "Piercing", "ru": "Колющий" },
+      "natural_weapon_slash": { "en": "Slashing", "ru": "Рубящий" }
     },
     "price": {},
     "info": {
@@ -872,14 +872,14 @@
     "origin_value": "beastborn",
     "kind": "one_from_list",
     "options": {
-      "axe": { "en": "Axe", "ru": "Топор" },
-      "fist": { "en": "Fist", "ru": "Кулак" },
-      "hammer": { "en": "Hammer", "ru": "Молот" },
-      "pick": { "en": "Pick", "ru": "Кирка" },
-      "spear": { "en": "Spear", "ru": "Копьё" },
-      "staff": { "en": "Staff", "ru": "Посох" },
-      "sword": { "en": "Sword", "ru": "Меч" },
-      "whip": { "en": "Whip", "ru": "Хлыст" }
+      "natural_weapon_style_axe": { "en": "Axe", "ru": "Топор" },
+      "natural_weapon_style_fist": { "en": "Fist", "ru": "Кулак" },
+      "natural_weapon_style_hammer": { "en": "Hammer", "ru": "Молот" },
+      "natural_weapon_style_pick": { "en": "Pick", "ru": "Кирка" },
+      "natural_weapon_style_spear": { "en": "Spear", "ru": "Копьё" },
+      "natural_weapon_style_staff": { "en": "Staff", "ru": "Посох" },
+      "natural_weapon_style_sword": { "en": "Sword", "ru": "Меч" },
+      "natural_weapon_style_whip": { "en": "Whip", "ru": "Хлыст" }
     },
     "price": {},
     "info": {
