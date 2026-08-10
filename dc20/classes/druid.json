@@ -15,19 +15,162 @@
     "conditions": { "level": 1, "main_class": "druid" }
   },
   {
+    "slug": "druid_domain",
+    "title": {
+      "en": "Druid Domain",
+      "ru": "Владения друида"
+    },
+    "description": {
+      "en": "You can **spend 1 AP and 1 MP** to create your own Druid Domain that includes small plant life, sand, shallow water, or other naturally occurring features. You create up to 8 Domain Spaces along the ground or walls. The first Domain Space must be within 1 Space of you, and each additional Domain Space must be adjacent to another Domain Space. If you use this Feature again, the first Domain Space of it must be within 1 Space of you or another Domain Space.\n\n**Domain Spaces**: The area is considered to be Difficult Terrain for creatures of your choice, and when you cast a Spell, you can do so as if you were standing in any Space within your Domain.\n\n**Losing Domain Spaces**: A Domain Space also disappears if you end your turn farther than 15 Spaces away from it or you die.\n\nWhile you have Domain Spaces, you can take any of the following Domain Actions:\n\n**Nature's Grasp**: You can **spend 1 AP** to attempt to bind a creature of your choice within your Domain. Make a Spell Check against the target's Repeated Physical Save. Success: The target is *Immobilized* by your Domain for 1 minute or until the Domain Space it occupies ends.\n\n**Move Creature**: You can **spend 1 AP** to move a creature bound by this feature up to 2 Spaces within your Domain.\n\n**Move Object**: You can take the Object Action to use your vines to interact with any object within your Domain as if you were standing in any of your Domain Spaces. When you do, you can move the object up to 5 Spaces within your Domain.\n\n**Wild Growth**: You can **spend 1 AP and 1 MP** to make a DC 10 Spell Check to heal a target within your Domain. **Success**: The target immediately regains 1 HP. For the next minute, they regain an additional 1 HP each time they end their turn within your Domain. **Success (each 5)**: They immediately regain +1 HP. **Failure**: The target only regains 1 HP immediately.",
+      "ru": "Вы можете **потратить 1 ОД и 1 ОМ**, чтобы создать свои собственные Владения. Владения — участок дикой природы, где есть небольшая растительность, песок, мелкая вода или другие природные элементы. Вы создаете до 8 Клеток владений на земле или стенах. Первая клетка должна находиться в пределах 1 Клетки от вас, а каждая следующая — примыкать к одной из предыдущих. При повторном использовании новые **Владения друида** должны соприкасаться с вашей Клеткой, либо с уже существующими Клетками ваших владений.\n\n**Клетки владений**: эта область считается труднопроходимой местностью для всех выбранных вами существ. При этом вы можете накладывать заклинания, как если бы находились в любой из ваших Клеток владений.\n\n**Потеря клеток владений**: Клетка владений исчезает, если вы оказываетесь дальше чем в 15 Клетках от неё или если вы умираете.\n\nПока у вас есть Клетки владений вы можете выполнять следующие действия:\n\n**Хватка природы**: Вы можете **потратить 1 ОД**, чтобы заставить выбранное вами существо в хотя бы одной Клетке ваших владений совершить повторяемый физический спас против вашей СЛ. **Провал:** Цель *обездвижена* на 1 минуту или пока Клетка владений не исчезнет.\n\n**Перемещение существа**: Вы можете **потратить 1 ОД**, чтобы переместить существо, *обездвиженное* вашими владениями, до 2 Клеток в пределах ваших владений.\n\n**Перемещение объекта**: Если предмет находится в ваших владениях, вы можете использовать этот предмет, как если бы находились в любой из ваших клеток владений. Одновременно с этим вы можете переместить этот предмет до 5 Клеток в пределах ваших владений.\n\n**Дикий рост**: Вы можете **потратить 1 ОД и 1 ОМ**, чтобы совершить проверку заклинания СЛ 10 и исцелить одно существо в ваших владениях. **Успех**: Цель немедленно восстанавливает 1 ОЗ. В течение следующей минуты она восстанавливает дополнительное 1 ОЗ каждый раз, когда заканчивает ход в ваших владениях. **Успех (каждые 5)**: Цель немедленно восстанавливает +1 ОЗ. **Провал**: Цель восстанавливает 1 ОЗ немедленно, но не восстанавливает ОЗ, заканчивая ход в ваших владениях."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "level": 1 },
+    "price": { "ap": 1, "mp": 1 }
+  },
+  {
     "slug": "wild_form",
     "title": {
       "en": "Wild Form",
       "ru": "Дикая форма"
     },
     "description": {
-      "en": "You can **spend 1 AP and 1 MP** to transform into a Wild Form of your choice. You can spend 1 AP on your turn to shift back and forth between your True Form and any Wild Forms you currently have available. Once per Long Rest, you can transform without spending MP or using MP enhancements.",
-      "ru": "You can **spend 1 AP and 1 MP** to transform into a Wild Form of your choice. You can spend 1 AP on your turn to shift back and forth between your True Form and any Wild Forms you currently have available. Once per Long Rest, you can transform without spending MP or using MP enhancements."
+      "en": "You can **spend 1 AP and 1 MP** to transform into a Wild Form of your choice. You can **spend 1 AP** on your turn to shift back and forth between your True Form and any Wild Forms you currently have available. Once per Long Rest, you can transform without spending MP or using MP enhancements.\n\nYou have trait points for selecting traits for Wild Form - {{amount|3}}.",
+      "ru": "Вы можете **потратить 1 ОД и 1 ОМ**, чтобы перейти в **Дикую форму**. В свой ход вы можете **потратить 1 ОД**, чтобы переключиться между своей истинной формой и любой из доступных вам в данный момент Диких форм. Один раз в день вы можете трансформироваться без затрат ОМ.\n\nВы получаете очки способностей, чтобы выбрать способности для Дикой формы - {{amount|3}}."
     },
     "origin": "class",
     "origin_value": "druid",
     "kind": "static",
     "conditions": { "level": 1 },
+    "price": { "ap": 1, "mp": 1 },
+    "description_eval_variables": {
+      "amount": "if (level >= 4, 4, 3)"
+    },
+    "limit_refresh": "long_rest",
+    "info": {
+      "limit": 1
+    }
+  },
+  {
+    "slug": "wild_speech",
+    "title": {
+      "en": "Wild Speech",
+      "ru": "Дикая речь"
+    },
+    "description": {
+      "en": "You learn the Druidcraft.",
+      "ru": "Вы изучаете искусство друидов."
+    },
+    "origin": "class_flavor",
+    "origin_value": "druid",
+    "kind": "one_from_list",
+    "options": {
+      "wild_speech_animals": { "en": "Animals", "ru": "Дикая речь: Животные" },
+      "wild_speech_plants": { "en": "Plants", "ru": "Дикая речь: Растения" },
+      "wild_speech_weather": { "en": "Weather", "ru": "" }
+    },
+    "conditions": { "level": 1 },
+    "price": { "ap": 1, "mp": 1 }
+  },
+  {
+    "slug": "wild_speech_animals",
+    "title": {
+      "en": "Wild Speech: Animals",
+      "ru": "Дикая речь: Животные"
+    },
+    "description": {
+      "en": "You can understand and speak with Beasts in a limited manner. You can understand the meaning of their movements, sounds, and behaviors, and they can understand the meanings of simple words, concepts, and emotions.",
+      "ru": "Вы получаете ограниченную способность общаться со зверями. Вы понимаете смысл их звуков и поведения, а они понимают значения ваших простых слов, концепций и эмоций."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "selected_feature": "wild_speech_animals" }
+  },
+  {
+    "slug": "wild_speech_plants",
+    "title": {
+      "en": "Wild Speech: Plants",
+      "ru": "Дикая речь: Растения"
+    },
+    "description": {
+      "en": "You can understand and speak with Plants in a limited manner. You can understand the meaning of their swaying, folding, unfolding of their leaves and flowers, and they can understand the meanings of simple words, concepts, and emotions.",
+      "ru": "Вы получаете ограниченную способность общаться с растениями. Вы понимаете смысл их покачивания, складывания листьев и распускания лепестков, а они понимают значения ваших простых слов, концепций и эмоций."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "selected_feature": "wild_speech_plants" }
+  },
+  {
+    "slug": "wild_speech_weather",
+    "title": {
+      "en": "Wild Speech: Weather",
+      "ru": "Дикая речь: Погода"
+    },
+    "description": {
+      "en": "You can reach out to nature and cast the **Commune with Nature** Spell as a Ritual once per Long Rest.",
+      "ru": "Один раз в день вы можете обратиться к природе и наложить **Общение с природой** как ритуал."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "selected_feature": "wild_speech_weather" },
+    "limit_refresh": "long_rest",
+    "info": {
+      "limit": 1
+    }
+  },
+  {
+    "slug": "nature_torrent",
+    "title": {
+      "en": "Nature's Torrent",
+      "ru": "Водоворот природы"
+    },
+    "description": {
+      "en": "When a creature within 10 spaces of you takes Elemental damage, you can **spend 1 AP** as a Reaction to summon a torrent of nature. The torrent fills a 3 Space Diameter Sphere centered on the target that lasts for 1 minute. While creatures are within the area, they have Vulnerability (1) against the triggering damage type and have DisADV on Checks and Saves to resist being moved or knocked *Prone*.\n\n**Ending Early**: The torrent ends early if you use this Feature again, become *Incapacitated*, die, or choose to end it for free at anytime.",
+      "ru": "Когда существо в пределах 10 Клеток получает стихийный урон, вы можете **потратить 1 ОД** в качестве Реакции, чтобы окружить её водоворотом стихии. Водоворот является сферой диаметом 3 Клетки, исходящей от цели, и существует 1 минуту. Существа в ауре получают Уязвимость (1) к изначальному стихийному урону и помеху на проверки и спасы от толкания и *поваленности*.\n\n**Окончание**: Водоворот рассеивается, если вы *Шокированы*, умираете, повторно используете эту черту или решаете бесплатно окончить её во время своего хода."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "level": 2 },
+    "price": { "ap": 1 }
+  },
+  {
+    "slug": "expert_nature_torrent",
+    "title": {
+      "en": "Nature's Torrent",
+      "ru": "Водоворот природы"
+    },
+    "description": {
+      "en": "When a creature within 15 spaces of you takes Elemental damage, you can **spend 1 AP** as a Reaction to summon a torrent of nature. The torrent fills a 3 Space Diameter Sphere centered on the target that lasts for 1 minute. While creatures are within the area, they have Vulnerability (1) against the triggering damage type and have DisADV on Checks and Saves to resist being moved or knocked *Prone*.\n\n**Ending Early**: The torrent ends early if you use this Feature again, become *Incapacitated*, die, or choose to end it for free at anytime.\n\nWhen you use Nature's Torrent, you can spend MP to enhance its effects:\n\n**Vulnerability**: (2 MP) The Vulnerability increases by 1.\n\n**Area**: (X MP) The diameter of the Sphere increases by X.",
+      "ru": "Когда существо в пределах 15 Клеток получает стихийный урон, вы можете **потратить 1 ОД** в качестве Реакции, чтобы окружить её водоворотом стихии. Водоворот является сферой диаметом 3 Клетки, исходящей от цели, и существует 1 минуту. Существа в ауре получают Уязвимость (1) к изначальному стихийному урону и помеху на проверки и спасы от толкания и *поваленности*.\n\n**Окончание**: Водоворот рассеивается, если вы *Шокированы*, умираете, повторно используете эту черту или решаете бесплатно окончить её во время своего хода.\n\nВы можете потратить ОМ, чтобы усилить эффект:\n\n**Уязвимость**: (2 ОМ) Уязвимость увеличивается на 1.\n\n**Область**: (X ОМ) Диаметр сферы увеличивается на X."
+    },
+    "exclude": ["nature_torrent"],
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "level": 5 },
+    "price": { "ap": 1 }
+  },
+  {
+    "slug": "expert_druid_domain",
+    "title": {
+      "en": "Druid Domain",
+      "ru": "Владения друида"
+    },
+    "description": {
+      "en": "You can **spend 1 AP and 1 MP** to create your own Druid Domain that includes small plant life, sand, shallow water, or other naturally occurring features. You create up to 10 Domain Spaces along the ground or walls. The first Domain Space must be within 1 Space of you, and each additional Domain Space must be adjacent to another Domain Space. If you use this Feature again, the first Domain Space of it must be within 1 Space of you or another Domain Space.\n\nYou can spend additional MP when you use Druid Domain to increase the number of Domain Spaces created by 8 per additional MP spent.\n\n**Domain Spaces**: The area is considered to be Difficult Terrain for creatures of your choice, and when you cast a Spell, you can do so as if you were standing in any Space within your Domain.\n\n**Losing Domain Spaces**: A Domain Space also disappears if you end your turn farther than 20 Spaces away from it or you die.\n\nWhile you have Domain Spaces, you can take any of the following Domain Actions:\n\n**Nature's Grasp**: You can **spend 1 AP** to attempt to bind a creature of your choice within your Domain. Make a Spell Check against the target's Repeated Physical Save. Success: The target is *Immobilized* by your Domain for 1 minute or until the Domain Space it occupies ends.\n\n**Move Creature**: You can **spend 1 AP** to move a creature bound by this feature up to 2 Spaces within your Domain.\n\n**Move Object**: You can take the Object Action to use your vines to interact with any object within your Domain as if you were standing in any of your Domain Spaces. When you do, you can move the object up to 5 Spaces within your Domain.\n\n**Wild Growth**: You can **spend 1 AP and 1 MP** to make a DC 10 Spell Check to heal a target within your Domain. Success: The target immediately regains 1 HP. For the next minute, they regain an additional 1 HP each time they end their turn within your Domain. **Success (each 5)**: They immediately regain +1 HP. **Failure**: The target only regains 1 HP immediately. You can **spend additional MP** to increase the healing by 1 per 2 additional MP spent.",
+      "ru": "Вы можете **потратить 1 ОД и 1 ОМ**, чтобы создать свои собственные Владения. Владения — участок дикой природы, где есть небольшая растительность, песок, мелкая вода или другие природные элементы. Вы создаете до 10 Клеток владений на земле или стенах. Первая клетка должна находиться в пределах 1 Клетки от вас, а каждая следующая — примыкать к одной из предыдущих. При повторном использовании новые **Владения друида** должны соприкасаться с вашей Клеткой, либо с уже существующими Клетками ваших владений.\n\nВы можете потратить ОМ, чтобы увеличить владения на 8 клеток за каждое потраченное ОМ.\n\n**Клетки владений**: эта область считается труднопроходимой местностью для всех выбранных вами существ. При этом вы можете накладывать заклинания, как если бы находились в любой из ваших Клеток владений.\n\n**Потеря клеток владений**: Клетка владений исчезает, если вы оказываетесь дальше чем в 20 Клетках от неё или если вы умираете.\n\nПока у вас есть Клетки владений вы можете выполнять следующие действия:\n\n**Хватка природы**: Вы можете **потратить 1 ОД**, чтобы заставить выбранное вами существо в хотя бы одной Клетке ваших владений совершить повторяемый физический спас против вашей СЛ. **Провал:** Цель *обездвижена* на 1 минуту или пока Клетка владений не исчезнет.\n\n**Перемещение существа**: Вы можете **потратить 1 ОД**, чтобы переместить существо, *обездвиженное* вашими владениями, до 2 Клеток в пределах ваших владений.\n\n**Перемещение объекта**: Если предмет находится в ваших владениях, вы можете использовать этот предмет, как если бы находились в любой из ваших клеток владений. Одновременно с этим вы можете переместить этот предмет до 5 Клеток в пределах ваших владений.\n\n**Дикий рост**: Вы можете **потратить 1 ОД и 1 ОМ**, чтобы совершить проверку заклинания СЛ 10 и исцелить одно существо в ваших владениях. **Успех**: Цель немедленно восстанавливает 1 ОЗ. В течение следующей минуты она восстанавливает дополнительное 1 ОЗ каждый раз, когда заканчивает ход в ваших владениях. **Успех (каждые 5)**: Цель немедленно восстанавливает +1 ОЗ. **Провал**: Цель восстанавливает 1 ОЗ немедленно, но не восстанавливает ОЗ, заканчивая ход в ваших владениях. Вы можете потратить дополнительное кол-во ОМ, чтобы усилить исцеление на 1 за каждые 2 ОМ."
+    },
+    "exclude": ["druid_domain"],
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "level": 5 },
     "price": { "ap": 1, "mp": 1 }
   }
 ]

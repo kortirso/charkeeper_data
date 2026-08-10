@@ -101,5 +101,48 @@
       "multiple": true
     },
     "modifiers": { "max_health": { "type": "add", "value": 2 } }
+  },
+  {
+    "slug": "swift",
+    "title": { "en": "Swift", "ru": "Быстрый" },
+    "description": {
+      "en": "Your Speed is increased by 1 Space.",
+      "ru": "Ваша скорость увеличивается на 1 клетку."
+    },
+    "origin": "wild_form",
+    "kind": "update_result",
+    "info": {
+      "price": 1,
+      "multiple": true
+    },
+    "modifiers": { "speeds.ground": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "skillful",
+    "title": { "en": "Skillful", "ru": "Умелый" },
+    "description": {
+      "en": "You gain Skill Mastery in 2 of the following Skills of your choice, up to your Skill Mastery Cap: Acrobatics, Animal, Athletics, Awareness, Intimidation, Stealth, or Survival. If your Mastery with the chosen Skill is already equal to your Skill Mastery Cap, you instead gain ADV on the Check.",
+      "ru": "Вы повышаете ступень мастерства в 2 из следующих навыков по вашему выбору, вплоть до вашего предела мастерства: Акробатика, Атлетика, Выживание, Бдительность, Животные, Запугивание или Скрытность. Если ступень мастерства уже равна пределу мастерства, вместо этого вы получаете преимущество на проверки этого навыка."
+    },
+    "origin": "wild_form",
+    "kind": "text",
+    "info": {
+      "price": 1,
+      "multiple": true
+    }
+  },
+  {
+    "slug": "resistance",
+    "title": { "en": "Resistance", "ru": "Сопротивление" },
+    "description": {
+      "en": "Choose a Physical or Elemental damage type. You gain Resistance (1) to the chosen damage type.",
+      "ru": "Выберите один тип физического или стихийного урона. Вы получаете Сопротивление (1) к выбранному типу урона."
+    },
+    "origin": "wild_form",
+    "kind": "text",
+    "info": {
+      "price": 1,
+      "multiple": true
+    }
   }
 ]
