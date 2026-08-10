@@ -253,7 +253,7 @@
   },
   {
     "slug": "vicious_mockery",
-    "title": { "en": "Vicious Mockery", "ru": "Злобная насмешка" },
+    "title": { "en": "Vicious Mockery", "ru": "Злая насмешка" },
     "description": {
       "en": "**Damage**: 1d4+{{bonus|INT}} psychic (ignoring armor).\n\n**On hit**: the target is Taunted during their next turn.",
       "ru": "Урон**: 1d4+{{bonus|INT}} психический (без учета брони).\n\n**При попадании**: цель подвергается провокации в течение своего следующего хода."
@@ -311,7 +311,7 @@
   },
   {
     "slug": "barrier_of_wind",
-    "title": { "en": "Barrier of Wind", "ru": "Ветрозащитные барьеры" },
+    "title": { "en": "Barrier of Wind", "ru": "Ветряной барьер" },
     "description": {
       "en": "**Reaction:** When attacked at Range. *Defend* for free. Ranged attacks have disadvantage against you this round (including the triggering attack).\n\n**Upcast:** +3 Armor.",
       "ru": "**Реакция:** При атаке на расстоянии. *Защищайтесь* бесплатно. В этом раунде атаки на расстоянии совершаются с помехой против вас (включая атаку, вызвавшую срабатывание).\n\n**Усиление**: +3 к броне."
@@ -414,7 +414,7 @@
   },
   {
     "slug": "wind_whisper",
-    "title": { "en": "Wind Whisper", "ru": "Шепот ветра" },
+    "title": { "en": "Wind Whisper", "ru": "Шёпот ветра" },
     "description": {
       "en": "You whisper a message into the wind and it will be secretly carried to a specified target within 100 miles/160 km.",
       "ru": "Вы шепчете сообщение в ветер, и оно будет тайно доставлено в указанную цель в пределах 100 миль/160 км."
@@ -464,7 +464,7 @@
   },
   {
     "slug": "ice_lance",
-    "title": { "en": "Ice Lance", "ru": "Ледяное копье" },
+    "title": { "en": "Ice Lance", "ru": "Ледяное копьё" },
     "description": {
       "en": "**Damage:** 1d6+{{bonus|0}} cold or piercing damage.\n\n**On hit**: *Slowed*.",
       "ru": "**Урон:** 1d6+{{bonus|0}} урона холодом или колющим уроном.\n\n**При попадании**: *Замедлен*."
@@ -486,7 +486,7 @@
   },
   {
     "slug": "snowblind",
-    "title": { "en": "Snowblind", "ru": "Снежная слепота" },
+    "title": { "en": "Snowblind", "ru": "Снежная пелена" },
     "description": {
       "en": "**Damage:** 1d6+{{bonus|0}}.\n\n**On hit**: *Blinded* until the end of their next turn.",
       "ru": "**Урон:** 1d6+{{bonus|0}}.\n\n**При попадании**: *Ослеплен* до конца своего следующего хода."
@@ -527,7 +527,7 @@
   },
   {
     "slug": "shatter",
-    "title": { "en": "Shatter", "ru": "Дребезги" },
+    "title": { "en": "Shatter", "ru": "Раскол" },
     "description": {
       "en": "**Damage:** 3d6. If any die rolls the max against a *Hampered* target, this counts as a crit.\n\n**On crit**: +20 damage.\n\n**Upcast:** Increase the result of ANY die by 1. +5 damage on crit.",
       "ru": "**Урон:** 3d6. Если какой-либо куб показывает максимальное значение против цели с *ослабленным* состоянием, это считается критическим попаданием.\n\n**При критическом попадании**: +20 урона.\n\n**Усиление**: Увеличивает результат ЛЮБОГО куба на 1. +5 урона при критическом попадании."
@@ -740,7 +740,7 @@
   },
   {
     "slug": "alacrity",
-    "title": { "en": "Alacrity", "ru": "Быстрота" },
+    "title": { "en": "Alacrity", "ru": "Молниеносность" },
     "description": {
       "en": "**Reaction:** When attacked, Defend for free. After damage is dealt, you gain the *Charged* condition then teleport anywhere within Range.\n\n**Upcast:** +4 Range.",
       "ru": "**Реакция:** Когда вы атакованы, то можете *защититься* бесплатно. После нанесения урона вы получаете состояние *Заряжено*, а затем телепортируетесь в любое место в пределах дальности.\n\n**Усиление**: +4 к дальности."
@@ -775,7 +775,7 @@
   },
   {
     "slug": "electrickery",
-    "title": { "en": "Electrickery", "ru": "Электрооборудование" },
+    "title": { "en": "Electrickery", "ru": "Электротрюк" },
     "description": {
       "en": "**Reaction:** When an ally is attacked. Choose another creature within Range to swap places with your ally on a failed WIL save (they become the new target). Costs 1 Action while *Charged*, ending the condition.\n\n**Upcast:** +4 Range.",
       "ru": "**Реакция:** Когда союзник подвергается атаке. Выберите другое существо в пределах дальности, чтобы поменяться местами с вашим союзником при неудачной проверке Воли (он становится новой целью). Стоимость действия — 1 действие, пока находится в состоянии *Заряд*, эффект прекращается.\n\n**Усиление**: +4 к дальности."
@@ -889,7 +889,7 @@
   },
   {
     "slug": "rebuke",
-    "title": { "en": "Rebuke", "ru": "Упрек" },
+    "title": { "en": "Rebuke", "ru": "Отповедь" },
     "description": {
       "en": "**Damage:** 1d6+{{bonus|0}} (ignoring armor), does not miss. 2× damage against undead or cowardly (those Frightened or behind cover).",
       "ru": "**Урон:** 1d6+{{bonus|0}} (игнорирование брони), не промахивается. Урон в 2 раза выше против нежити или трусливых (испуганных или находящихся за укрытием)."
@@ -911,7 +911,7 @@
   },
   {
     "slug": "true_strike",
-    "title": { "en": "True Strike", "ru": "Точный удар" },
+    "title": { "en": "True Strike", "ru": "Меткий удар" },
     "description": {
       "en": "Give a creature advantage on the next attack they make (until the end of their next turn).",
       "ru": "Дайте существу преимущество при следующей атаке (до конца его следующего хода)."
@@ -996,7 +996,7 @@
   },
   {
     "slug": "vengeance",
-    "title": { "en": "Vengeance", "ru": "Месть" },
+    "title": { "en": "Vengeance", "ru": "Возмездие" },
     "description": {
       "en": "**Damage:** 1d100, to a creature that attacked a *Dying* ally or reduced one to 0 HP since your last turn.\n\n**Upcast:** +1 Reach, roll w/ advantage.",
       "ru": "**Урон:** 1d100 существу, атаковавшему *умирающего* союзника или уменьшившему его ОЗ до 0 с момента вашего последнего хода.\n\n**Усиление**: +1 к дальности, бросок с преимуществом."
@@ -1014,7 +1014,7 @@
   },
   {
     "slug": "sacrifice",
-    "title": { "en": "Sacrifice", "ru": "Жертва" },
+    "title": { "en": "Sacrifice", "ru": "Самопожертвование" },
     "description": {
       "en": "Reduce yourself to 0 HP. You cannot have more than 0 HP until you **Safe Rest**. Heal a number of HP equal to your maximum HP, divided as you choose to any other creatures within Reach. You may revive a creature that has died in the past minute if you give them at least 20 HP (also healing 2 Wounds from them), provided they have not been revived with this spell before.\n\n**Upcast:** +4 Reach.",
       "ru": "Снизьте свои очки здоровья до 0. У вас не может быть больше 0 очков здоровья, пока вы не восстановите здоровье с помощью безопасного отдыха. Восстановите количество ОЗ, равное вашему максимальному количеству очков здоровья, которое вы можете распределить по своему усмотрению между другими существами в пределах дальности. Вы можете оживить существо, умершее за последнюю минуту, если вы дадите ему не менее 20 очков здоровья (также восстановив 2 раны), при условии, что оно не было оживлено этим заклинанием ранее.\n\n**Усиление**: +4 к дальности."
@@ -1114,7 +1114,7 @@
   },
   {
     "slug": "entice",
-    "title": { "en": "Entice", "ru": "Соблазнить" },
+    "title": { "en": "Entice", "ru": "Соблазн" },
     "description": {
       "en": "**Damage:** 1d4 (ignoring armor).\n\n**On hit**: target moves 2 spaces closer to you.\n\n**High Levels:** Increment the die size 1 step every 5 levels (d6 » d8 » d10 » d12).",
       "ru": "**Урон:** 1d4 (игнорирование брони).\n\n**При попадании**: цель перемещается на 2 клетки ближе к вам.\n\n**Высокие уровни:** Размер кубика увеличивается на 1 шаг каждые 5 уровней (d6 » d8 » d10 » d12)."
@@ -1171,7 +1171,7 @@
   },
   {
     "slug": "dread_visage",
-    "title": { "en": "Dread Visage", "ru": "Ужасное лицо" },
+    "title": { "en": "Dread Visage", "ru": "Ужасающий лик" },
     "description": {
       "en": "**Reaction:** When attacked, Defend for free. Melee attackers are Frightened of you and suffer 1d12 damage if they attack you this round. Costs 2 mana less while dying.\n\n**Upcast:** +2 damage, +2 Armor.",
       "ru": "**Реакция:** При атаке, *защищайтесь* бесплатно. Атакующие в ближнем бою пугаются вас и получают 1d12 урона, если атакуют вас в этом раунде. Стоимость уменьшается на 2 маны при смерти.\n\n**Усиление**: +2 урона, +2 брони."
@@ -1188,7 +1188,7 @@
   },
   {
     "slug": "vampiric_greed",
-    "title": { "en": "Vampiric Greed", "ru": "Вампирская жадность" },
+    "title": { "en": "Vampiric Greed", "ru": "Алчность вампира" },
     "description": {
       "en": "Gain 1 Wound. 4d12 to all adjacent creatures, and heal HP equal to the damage done. Any surviving creatures make a STR save. Gain 1 additional Wound for each creature that saves.\n\n**Upcast:** +1 DC.",
       "ru": "Получите 1 рану. 4d12 всем соседним существам, и восстановите ОЗ, равное нанесенному урону. Все выжившие существа совершают спасбросок Силы. Получите 1 дополнительную рану за каждое существо, совершившее спасбросок.\n\n**Усиление**: +1 к сложности."
@@ -1319,7 +1319,7 @@
   },
   {
     "slug": "gravecraft",
-    "title": { "en": "Gravecraft", "ru": "Могильное ремесло" },
+    "title": { "en": "Gravecraft", "ru": "Могильщик" },
     "description": {
       "en": "**Gravemark.** Action: Soil a surface with blood, filth, or other disgusting things. OR:\n\n**Gravework:** Casting time 1 minute: Shape/move a body-sized plot of earth.",
       "ru": "**Могила.** Действие: Запачкать поверхность кровью, грязью или другими отвратительными вещами. ИЛИ:\n\n**Могильная работа:** Время применения 1 минута: Сформировать/переместить участок земли размером с тело."
@@ -1349,7 +1349,7 @@
   },
   {
     "slug": "thought_leech",
-    "title": { "en": "Thought Leech", "ru": "Мыслеед" },
+    "title": { "en": "Thought Leech", "ru": "Мыслечервь" },
     "description": {
       "en": "Read the surface thoughts of a creature within Reach. Creatures can sense you doing this and may not like it.",
       "ru": "Прочтите поверхностные мысли существа в пределах дальности. Существа могут чувствовать, что вы это делаете, и им это может не понравиться."

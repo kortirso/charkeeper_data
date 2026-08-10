@@ -301,7 +301,7 @@
     },
     "description": {
       "en": "Once per turn when an enemy is damaged by your **Vicious Mockery**, you may have one of your allies *Taunt* them until the end of the enemy's turn instead.",
-      "ru": "Один раз за ход, когда враг получает урон от вашей **Злобной насмешки**, вы можете заставить одного из ваших союзников *провоцировать* его до конца хода врага."
+      "ru": "Один раз за ход, когда враг получает урон от вашей **Злой насмешки**, вы можете заставить одного из ваших союзников *провоцировать* его до конца хода врага."
     },
     "origin": "subclass",
     "origin_value": "snark",
