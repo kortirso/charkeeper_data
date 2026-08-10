@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "druid_stamina_regen",
+    "title": {
+      "en": "Stamina Regen",
+      "ru": "Восстановление выносливости"
+    },
+    "description": {
+      "en": "Once per round, you can regain up to half your maximum SP when you use a Spell Enhancement",
+      "ru": "Один раз за раунд вы можете восстановить половину ОВ, когда вы используете улучшение заклинания."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "level": 1, "main_class": "druid" }
+  },
+  {
+    "slug": "wild_form",
+    "title": {
+      "en": "Wild Form",
+      "ru": "Дикая форма"
+    },
+    "description": {
+      "en": "You can **spend 1 AP and 1 MP** to transform into a Wild Form of your choice. You can spend 1 AP on your turn to shift back and forth between your True Form and any Wild Forms you currently have available. Once per Long Rest, you can transform without spending MP or using MP enhancements.",
+      "ru": "You can **spend 1 AP and 1 MP** to transform into a Wild Form of your choice. You can spend 1 AP on your turn to shift back and forth between your True Form and any Wild Forms you currently have available. Once per Long Rest, you can transform without spending MP or using MP enhancements."
+    },
+    "origin": "class",
+    "origin_value": "druid",
+    "kind": "static",
+    "conditions": { "level": 1 },
+    "price": { "ap": 1, "mp": 1 }
+  }
+]

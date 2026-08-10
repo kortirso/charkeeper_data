@@ -40,7 +40,7 @@
       "price": 1,
       "multiple": true
     },
-    "modifiers": { "might": { "type": "add", "value": 2 } }
+    "modifiers": { "mig": { "type": "add", "value": 2 } }
   },
   {
     "slug": "agility_increase",
@@ -55,7 +55,7 @@
       "price": 1,
       "multiple": true
     },
-    "modifiers": { "agility": { "type": "add", "value": 2 } }
+    "modifiers": { "agi": { "type": "add", "value": 2 } }
   },
   {
     "slug": "precise_defensive",
