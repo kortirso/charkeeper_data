@@ -190,7 +190,7 @@
     },
     "description": {
       "en": "When you *Defend*, force the attacker to choose another target within range on a failed WIL save (if there is none, the attack fails). If they fail by 5 or more, they attack themselves instead.",
-      "ru": "При *защите* заставьте атакующего выбрать другую цель в пределах досягаемости при неудачной проверке Воли (если такой цели нет, атака проваливается). Если он провалит проверку на 5 или более пунктов, он атакует себя сам."
+      "ru": "При *защите* заставьте атакующего выбрать другую цель в пределах дальности при неудачной проверке Воли (если такой цели нет, атака проваливается). Если он провалит проверку на 5 или более пунктов, он атакует себя сам."
     },
     "origin": "class",
     "origin_value": "songweaver",

@@ -289,7 +289,7 @@
     },
     "description": {
       "en": "Whenever you avoid all of the damage of a melee attack whether it misses or you Defend, you may swap places with the attacker and then choose another target that is now within the attack's reach, and they are hit instead.",
-      "ru": "Всякий раз, когда вы избегаете урона от рукопашной атаки, независимо от того, промахнулась ли атака или вы защитились, вы можете поменяться местами с атакующим и выбрать другую цель, которая теперь находится в пределах досягаемости атаки, и тогда удар будет нанесен по ней."
+      "ru": "Всякий раз, когда вы избегаете урона от рукопашной атаки, независимо от того, промахнулась ли атака или вы защитились, вы можете поменяться местами с атакующим и выбрать другую цель, которая теперь находится в пределах дальности атаки, и тогда удар будет нанесен по ней."
     },
     "origin": "class",
     "origin_value": "zephyr",
@@ -479,7 +479,7 @@
     },
     "description": {
       "en": "Your **Swiftstrike** can also target a 2nd creature within Reach 2.",
-      "ru": "Ваш **Быстрый удар** также может нацелиться на второе существо в пределах досягаемости 2."
+      "ru": "Ваш **Быстрый удар** также может нацелиться на второе существо в пределах дальности 2."
     },
     "origin": "subclass",
     "origin_value": "pain",
@@ -509,7 +509,7 @@
     },
     "description": {
       "en": "Your **Swiftstrike** can also target a 3rd creature within Reach 4.",
-      "ru": "Ваш **Быстрый удар** также может нацелиться на третье существо в пределах досягаемости 4."
+      "ru": "Ваш **Быстрый удар** также может нацелиться на третье существо в пределах дальности 4."
     },
     "origin": "subclass",
     "origin_value": "pain",

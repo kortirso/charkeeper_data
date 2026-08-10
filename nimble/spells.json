@@ -213,7 +213,7 @@
     "title": { "en": "Dragonform", "ru": "Дранонье обличие" },
     "description": {
       "en": "Transform into a Huge dragon. Gain 3 actions, a fly speed of 12, {{level|LVL}} Armor, {{hp|10×LVL}} temp HP.\n\n**Tooth & Claw**. Action: (Reach 2) 1d20+{{level|LVL}} damage (ignoring armor). Inflicts Smoldering.\n\n**Immolating Breath**. 2 Actions: (Reach: Cone 8). DC 20 DEX save, {{key|KEY}}d20 damage, half on save. Smoldering targets fail.\n\nYou can maintain this form for as long as the temp HP granted by this spell remain (max. 10 minutes). When it ends, you drop to 0 HP.",
-      "ru": "Превратись в огромного дракона. Получите 3 действия, скорость полёта 12, {{level|LVL}} Брони, {{hp|10×LVL}} временных ОЗ.\n\n**Зуб и коготь**. Действие: (Досягаемость 2) 1d20+{{level|LVL}} урона (игнорирование брони). Вызывает *тление*.\n\n**Сжигающее дыхание**. 2 действия: (Досягаемость: конус 8). DC 20 DEX спас, {{key|KEY}}d20 урона, половина при успехе. *Тлеющие* существа автоматически проваливают спас.\n\nВы можете поддерживать эту форму пока не иссякнут временные ОЗ от этого заклинания (до 10 минут). После заклинания ваши ОЗ падают до 0."
+      "ru": "Превратись в огромного дракона. Получите 3 действия, скорость полёта 12, {{level|LVL}} Брони, {{hp|10×LVL}} временных ОЗ.\n\n**Зуб и коготь**. Действие: (Дальность 2) 1d20+{{level|LVL}} урона (игнорирование брони). Вызывает *тление*.\n\n**Сжигающее дыхание**. 2 действия: (Дальность: конус 8). DC 20 DEX спас, {{key|KEY}}d20 урона, половина при успехе. *Тлеющие* существа автоматически проваливают спас.\n\nВы можете поддерживать эту форму пока не иссякнут временные ОЗ от этого заклинания (до 10 минут). После заклинания ваши ОЗ падают до 0."
     },
     "origin": "spell",
     "origin_value": "fire",
@@ -231,10 +231,10 @@
   },
   {
     "slug": "razor_wind",
-    "title": { "en": "Razor Wind", "ru": "" },
+    "title": { "en": "Razor Wind", "ru": "Лезвие ветра" },
     "description": {
       "en": "**Damage**: 1d4+{{bonus|0}} slashing.\n\n**Vicious**: roll 1 additional die whenever you roll crit damage.\n\nAlso damages up to 1 adjacent target.",
-      "ru": ""
+      "ru": "**Урон**: 1d4+{{bonus|0}} рубящий.\n\n**Свирепый**: бросайте 1 дополнительный куб каждый раз, когда выпадает критический урон.\n\nТакже наносит урон по 1 соседней цели."
     },
     "origin": "spell",
     "origin_value": "wind",
@@ -253,10 +253,10 @@
   },
   {
     "slug": "vicious_mockery",
-    "title": { "en": "Vicious Mockery", "ru": "" },
+    "title": { "en": "Vicious Mockery", "ru": "Злобная насмешка" },
     "description": {
       "en": "**Damage**: 1d4+{{bonus|INT}} psychic (ignoring armor).\n\n**On hit**: the target is Taunted during their next turn.",
-      "ru": ""
+      "ru": "Урон**: 1d4+{{bonus|INT}} психический (без учета брони).\n\n**При попадании**: цель подвергается провокации в течение своего следующего хода."
     },
     "origin": "spell",
     "origin_value": "wind",
@@ -271,7 +271,1096 @@
       "damage_bonus": "ROUND(level / 5) * 2 + int"
     },
     "description_eval_variables": {
-      "bonus": "int"
+      "bonus": "ROUND(level / 5) * 2 + int"
+    }
+  },
+  {
+    "slug": "breath_of_life",
+    "title": { "en": "Breath of Life", "ru": "Дыхание жизни" },
+    "description": {
+      "en": "Restore 1 HP to a *Dying* creature.",
+      "ru": "Восстанавливает 1 ОЗ *умирающему* существу."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "6"
+    }
+  },
+  {
+    "slug": "blustery_gale",
+    "title": { "en": "Blustery Gale", "ru": "Сильный шторм" },
+    "description": {
+      "en": "**Damage:** 3d4 bludgeoning, advantage against flying, Small, or Tiny targets.\n\n**On hit**: Move a Med target 2 spaces away; Small/Tiny twice as far; Large half as far (round down). For each die you would roll due to forced movement from this spell, deal +5 damage instead.\n\n**Upcast:** +1 movement.",
+      "ru": "**Урон:** 3d4 дробящего урона, преимущество против летающих, малых или крошечных целей.\n\n**При попадании**: переместите среднюю цель на 2 клетки; маленькую/крошечную — в два раза дальше; большую — в два раза дальше (округление в меньшую сторону). За каждый куб, который вы должны были бы бросить из-за вынужденного перемещения, вызванного этим заклинанием, нанесите +5 урона.\n\n**Усиление**: +1 к перемещению."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 1,
+      "time": "2,a",
+      "target": "single",
+      "range": "12",
+      "damage": "3d4"
+    }
+  },
+  {
+    "slug": "barrier_of_wind",
+    "title": { "en": "Barrier of Wind", "ru": "Ветрозащитные барьеры" },
+    "description": {
+      "en": "**Reaction:** When attacked at Range. *Defend* for free. Ranged attacks have disadvantage against you this round (including the triggering attack).\n\n**Upcast:** +3 Armor.",
+      "ru": "**Реакция:** При атаке на расстоянии. *Защищайтесь* бесплатно. В этом раунде атаки на расстоянии совершаются с помехой против вас (включая атаку, вызвавшую срабатывание).\n\n**Усиление**: +3 к броне."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 2,
+      "time": "1,a",
+      "target": "self"
+    }
+  },
+  {
+    "slug": "fly",
+    "title": { "en": "Fly", "ru": "Полет" },
+    "description": {
+      "en": "**Concentration:** Up to 10 minutes.Touch a creature, grant a flying speed of 12.\n\n**Upcast:** +1 target.",
+      "ru": "**Концентрация:** До 10 минут. Прикоснитесь к существу, получите скорость полета 12.\n\n**Усиление**: +1 к цели."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "1,a",
+      "target": "single"
+    }
+  },
+  {
+    "slug": "eye_of_storm",
+    "title": { "en": "Eye of the Storm", "ru": "Глаз бури" },
+    "description": {
+      "en": "**Damage:** 4d4+10 bludgeoning to enemies within Reach. You may place surviving creatures anywhere within 1 space of the storm's Reach on a failed STR save.\n\n**Upcast:** +1 Reach.",
+      "ru": "**Урон:** 4d4+10 дробящего урона врагам в пределах дальности. Вы можете разместить выживших существ в любом месте в пределах 1 квадрата от дальности бури при неудачной проверке Силы.\n\n**Усиление**: +1 к дальности."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 4,
+      "time": "2,a",
+      "target": "aoe",
+      "range": "3",
+      "damage": "4d4",
+      "damage_bonus": 10
+    }
+  },
+  {
+    "slug": "updraft",
+    "title": { "en": "Updraft", "ru": "Восходящий поток" },
+    "description": {
+      "en": "Enemies within a 5×5 area must repeat a DEX save until they succeed. For each time they failed they suffer 1d6 falling damage and land prone.\n\n**Upcast:** +2 Range, +1 area.",
+      "ru": "Враги в пределах области 5×5 должны повторять спасбросок DEX до тех пор, пока не добьются успеха. За каждый провал они получают 1d6 урона от падения и приземляются ничком.\n\n**Усиление**: +2 к дальности, +1 к области."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 5,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "12",
+      "damage": "1d6"
+    }
+  },
+  {
+    "slug": "thousand_cuts",
+    "title": { "en": "Thousand Cuts", "ru": "Тысяча порезов" },
+    "description": {
+      "en": "**Damage:** d44 slashing damage (roll with advantage), also damages enemies within Reach 1 of your target.\n\n**Upcast:** +1 Reach.",
+      "ru": "**Урон:** d44 рубящего урона (бросок с преимуществом), также наносит урон врагам в пределах 1 радиуса действия от вашей цели.\n\n**Усиление**: +1 к радиусу действия."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 6,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "12",
+      "damage": "d44"
+    }
+  },
+  {
+    "slug": "boisterous_winds",
+    "title": { "en": "Boisterous Winds", "ru": "Сильные ветра" },
+    "description": {
+      "en": "**Concentration:** Up to 1 minute.You and up to 12 allies within Reach 12 gain: Ranged attacks have disadvantage against you, a flying speed of 12, and can move for free 1/round.\n\n**Upcast:** +1 minute or +2 targets.",
+      "ru": "**Концентрация:** До 1 минуты. Вы и до 12 союзников в радиусе 12 получаете: атаки дальнего боя совершаются с помехой против вас, скорость полета 12, и вы можете перемещаться бесплатно 1 раз в раунд.\n\n**Усиление**: +1 минута или +2 цели."
+    },
+    "origin": "spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 7,
+      "time": "2,a",
+      "target": "multi"
+    }
+  },
+  {
+    "slug": "wind_whisper",
+    "title": { "en": "Wind Whisper", "ru": "Шепот ветра" },
+    "description": {
+      "en": "You whisper a message into the wind and it will be secretly carried to a specified target within 100 miles/160 km.",
+      "ru": "Вы шепчете сообщение в ветер, и оно будет тайно доставлено в указанную цель в пределах 100 миль/160 км."
+    },
+    "origin": "utility_spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "helpful_gust",
+    "title": { "en": "Helpful Gust", "ru": "Полезный порыв" },
+    "description": {
+      "en": "Gently move a Tiny unheld item within Reach in any direction. OR: Generate an illusory scent.",
+      "ru": "Аккуратно переместите крошечный предмет, не держа его в руках, в любом направлении или создайте иллюзорный запах."
+    },
+    "origin": "utility_spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single",
+      "range": "6",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "feather_fall",
+    "title": { "en": "Feather Fall", "ru": "Падение пера" },
+    "description": {
+      "en": "**Reaction:** When a creature falls, cause them to gently float to the ground, unharmed.",
+      "ru": "**Реакция:** Когда существо падает, заставьте его плавно опуститься на землю, не получив никаких повреждений."
+    },
+    "origin": "utility_spell",
+    "origin_value": "wind",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single",
+      "range": "6",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "ice_lance",
+    "title": { "en": "Ice Lance", "ru": "Ледяное копье" },
+    "description": {
+      "en": "**Damage:** 1d6+{{bonus|0}} cold or piercing damage.\n\n**On hit**: *Slowed*.",
+      "ru": "**Урон:** 1d6+{{bonus|0}} урона холодом или колющим уроном.\n\n**При попадании**: *Замедлен*."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "12",
+      "damage": "1d6",
+      "damage_bonus": "ROUND(level / 5) * 3"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 3"
+    }
+  },
+  {
+    "slug": "snowblind",
+    "title": { "en": "Snowblind", "ru": "Снежная слепота" },
+    "description": {
+      "en": "**Damage:** 1d6+{{bonus|0}}.\n\n**On hit**: *Blinded* until the end of their next turn.",
+      "ru": "**Урон:** 1d6+{{bonus|0}}.\n\n**При попадании**: *Ослеплен* до конца своего следующего хода."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "1",
+      "damage": "1d6",
+      "damage_bonus": "ROUND(level / 5) * 3"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 3"
+    }
+  },
+  {
+    "slug": "frost_shield",
+    "title": { "en": "Frost Shield", "ru": "Морозный щит" },
+    "description": {
+      "en": "**Reaction:** When attacked, Gain {{key|2×KEY}} temp HP and *Defend* for free. The ice melts and these temp HP are lost at the start of your next turn.\n\n**High Levels:** +{{key|2×KEY}} temp HP.",
+      "ru": "**Реакция:** При атаке вы получаете {{key|2×KEY}} временных ОЗ и *защищайтесь* бесплатно. Лед тает, и эти временные ОЗ теряются в начале вашего следующего хода.\n\n**Высокие уровни:** +{{key|2×KEY}} временных ОЗ."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 1,
+      "time": "1,a",
+      "target": "self"
+    },
+    "description_eval_variables": {
+      "key": "2 * key"
+    }
+  },
+  {
+    "slug": "shatter",
+    "title": { "en": "Shatter", "ru": "Дребезги" },
+    "description": {
+      "en": "**Damage:** 3d6. If any die rolls the max against a *Hampered* target, this counts as a crit.\n\n**On crit**: +20 damage.\n\n**Upcast:** Increase the result of ANY die by 1. +5 damage on crit.",
+      "ru": "**Урон:** 3d6. Если какой-либо куб показывает максимальное значение против цели с *ослабленным* состоянием, это считается критическим попаданием.\n\n**При критическом попадании**: +20 урона.\n\n**Усиление**: Увеличивает результат ЛЮБОГО куба на 1. +5 урона при критическом попадании."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 2,
+      "time": "2,a",
+      "target": "single",
+      "range": "12",
+      "damage": "3d6"
+    }
+  },
+  {
+    "slug": "cryosleep",
+    "title": { "en": "Cryosleep", "ru": "Криосон" },
+    "description": {
+      "en": "Creatures in a 2×2 area within Reach are *Dazed*. On a failed STR save, they fall asleep instead, becoming Incapacitated until their next two turns have passed, until damaged, or until an ally uses an action to wake them.\n\n**Upcast:** +1 area, +1 turn asleep.",
+      "ru": "Существа в зоне 2×2 в пределах дальности *ошеломлены*. При неудачном спасброске STR они вместо этого засыпают, становясь недееспособными до тех пор, пока не пройдут следующие два хода, пока не получат урон или пока союзник не выполнит действие, чтобы разбудить их.\n\n**Усиление**: +1 область, +1 засыпание."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "2,a",
+      "target": "aoe",
+      "range": "12"
+    }
+  },
+  {
+    "slug": "rimeblades",
+    "title": { "en": "Rimeblades", "ru": "Ледяные клинки" },
+    "description": {
+      "en": "**Concentration:** Up to 1 minute. Conjure razor-sharp icy spikes in 5 contiguous spaces within Reach; this area is difficult terrain. Creatures that enter these spaces (or who are in the area when you conjure them) suffer 2d6 damage for each space they touch.\n\n**Upcast:** +1 space, +1 damage.",
+      "ru": "**Концентрация:** До 1 минуты. Создайте острые как бритва ледяные шипы в 5 смежных областях в пределах дальности; эта область представляет собой труднопроходимую местность. Существа, которые входят в эти области (или находятся в этой области, когда вы их создаете), получают 2d6 урона за каждую область, которой они касаются.\n\n**Усиление**: +1 область, +1 урон."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 4,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "12",
+      "damage": "2d6"
+    }
+  },
+  {
+    "slug": "arctic_blast",
+    "title": { "en": "Arctic Blast", "ru": "Арктический взрыв" },
+    "description": {
+      "en": "**Reach:** Cone 4. **Damage:** 4d6+10 damage. This area is difficult terrain until the end of your next turn. Surviving creatures must make a STR save or be frozen in place (Restrained) until the end of their next turn; creatures already Hampered are Incapacitated for 1 turn instead.\n\n**Upcast:** +1 Reach.",
+      "ru": "**Диапазон действия:** Конус 4. **Урон:** 4d6+10 урона. Эта область является труднопроходимой местностью до конца вашего следующего хода. Выжившие существа должны совершить спасбросок Силы, иначе они будут обездвижены (Скованы) до конца своего следующего хода; существа, уже находящиеся в состоянии Скованности, вместо этого становятся недееспособными на 1 ход.\n\n**Усиление**: +1 к дальности действия."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 5,
+      "time": "2,a",
+      "target": "aoe",
+      "damage": "4d6",
+      "damage_bonus": 10
+    }
+  },
+  {
+    "slug": "glacier_strike",
+    "title": { "en": "Glacier Strike", "ru": "Ледниковый удар" },
+    "description": {
+      "en": "**Damage:** d66 bludgeoning to creatures in a 3×3 area. Creatures adjacent to that area take half as much. The entire area permanently becomes difficult terrain.\n\n**Upcast:** +1 initial area.",
+      "ru": "**Урон:** d66 дробящего урона существам в области 3×3. Существа, находящиеся рядом с этой областью, получают вдвое меньший урон. Вся область навсегда становится труднопроходимой местностью.\n\n**Усиление**: +1 к начальной области."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 8,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "12",
+      "damage": "d66"
+    }
+  },
+  {
+    "slug": "arctic_annihilation",
+    "title": { "en": "Arctic Annihilation", "ru": "Арктическое уничтожение" },
+    "description": {
+      "en": "Choose any number of objects or willing creatures within Reach to encase in ice. They are Incapacitated and immune to damage and negative effects until the start of their next turn. All other creatures and objects within Reach take d66 damage. Any surviving creature who took this damage must make a STR save or be Incapacitated for 1 round. Once you cast this spell, you must Safe Rest for 1 week before using it again.",
+      "ru": "Выберите любое количество предметов или существ, готовых выполнить заклинание, в пределах дальности, чтобы заключить их во льду. Они становятся недееспособными и невосприимчивыми к урону и негативным эффектам до начала своего следующего хода. Все остальные существа и предметы в пределах дальности получают d66 урона. Любое выжившее существо, получившее этот урон, должно совершить спасбросок Силы, иначе оно будет недееспособно в течение 1 раунда. После применения этого заклинания вы должны совершить безопасный отдых в течение 1 недели, прежде чем использовать его снова."
+    },
+    "origin": "spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 9,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "12"
+    }
+  },
+  {
+    "slug": "ice_disk",
+    "title": { "en": "Ice Disk", "ru": "Ледяной диск" },
+    "description": {
+      "en": "Conjure a disk of ice that floats just above the ground and follows you. It can carry up to 250 lbs./115 kg of weight for 1 hour or until you cast this spell again.",
+      "ru": "Создайте ледяной диск, который будет парить прямо над землей и следовать за вами. Он может нести до 250 фунтов/115 кг веса в течение 1 часа или до тех пор, пока вы не произнесете это заклинание снова."
+    },
+    "origin": "utility_spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,m"
+    }
+  },
+  {
+    "slug": "Chillcraft",
+    "title": { "en": "Chillcraft", "ru": "Холодное ремесло" },
+    "description": {
+      "en": "**Chill.** Harmlessly freeze, thaw, or move a bath-sized amount of water near you. OR: **Craft**: Conjure a sheet of opaque, mirror-like, or transparent ice the size of a window or small door.",
+      "ru": "**Холод.** Безвредно заморозьте, оттайте или переместите рядом с собой количество воды, достаточное для принятия ванны. ИЛИ: **Ремесло**: Создайте лист непрозрачного, зеркального или прозрачного льда размером с окно или небольшую дверь."
+    },
+    "origin": "utility_spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "wintry_scrying",
+    "title": { "en": "Wintry Scrying", "ru": "Зимнее гадание" },
+    "description": {
+      "en": "Turn a small patch of water into a reflective icy mirror. Looking though it grants you vision of any desired location near this same body of water for 10 minutes.",
+      "ru": "Превратите небольшой участок воды в отражающее ледяное зеркало. Глядя сквозь него, вы сможете в течение 10 минут видеть любое желаемое место рядом с этим же водоемом."
+    },
+    "origin": "utility_spell",
+    "origin_value": "ice",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "10,m"
+    }
+  },
+  {
+    "slug": "zap",
+    "title": { "en": "Zap", "ru": "Разряд" },
+    "description": {
+      "en": "**Damage:** 2d8+{{bonus|0}}.\n\n**On miss**: the lightning fails to find ground, and strikes you instead.",
+      "ru": "**Урон:** 2d8+{{bonus|0}}.\n\n**При промахе**: молния не достигает земли и поражает вас."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "12",
+      "damage": "2d8",
+      "damage_bonus": "ROUND(level / 5) * 6"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 6"
+    }
+  },
+  {
+    "slug": "overload",
+    "title": { "en": "Overload", "ru": "Перегрузка" },
+    "description": {
+      "en": "**Damage:** 2d8+{{bonus|0}} to others within Reach.",
+      "ru": "**Урон:** 2d8+{{bonus|0}} другим в пределах дальности."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "aoe",
+      "range": "2",
+      "damage": "2d8",
+      "damage_bonus": "ROUND(level / 5) * 4"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 4"
+    }
+  },
+  {
+    "slug": "arc_lightning",
+    "title": { "en": "Arc Lightning", "ru": "Дуговая молния" },
+    "description": {
+      "en": "**Damage:** 3d8. The bolt also damages the next closest creatures to your target.\n\n**On miss**: the lightning fails to find ground and strikes you instead.\n\n**Upcast:** +4 damage.",
+      "ru": "**Урон:** 3d8. Молния также наносит урон ближайшим существам, находящимся рядом с вашей целью.\n\n**При промахе**: молния не попадает в землю и поражает вас.\n\n**Усиление**: +4 урона."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 1,
+      "time": "2,a",
+      "target": "single",
+      "range": "12",
+      "damage": "3d8"
+    }
+  },
+  {
+    "slug": "alacrity",
+    "title": { "en": "Alacrity", "ru": "Быстрота" },
+    "description": {
+      "en": "**Reaction:** When attacked, Defend for free. After damage is dealt, you gain the *Charged* condition then teleport anywhere within Range.\n\n**Upcast:** +4 Range.",
+      "ru": "**Реакция:** Когда вы атакованы, то можете *защититься* бесплатно. После нанесения урона вы получаете состояние *Заряжено*, а затем телепортируетесь в любое место в пределах дальности.\n\n**Усиление**: +4 к дальности."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 2,
+      "time": "1,a",
+      "range": "4",
+      "target": "self"
+    }
+  },
+  {
+    "slug": "stormlash",
+    "title": { "en": "Stormlash", "ru": "Штормовой удар" },
+    "description": {
+      "en": "**Reach:** Line 12. **Damage:** 3d8+4 (ignoring metal armor). Surviving creatures are *Dazed* on a failed STR save, or *Incapacitated* instead for 1 of their turns if they fail by 5 or more. Creatures with a large amount of metal (e.g., armor or a longsword) roll with disadvantage.\n\n**Upcast:** +4 damage.",
+      "ru": "**Достигаемость:** Линия 12. **Урон:** 3d8+4 (игронирование металлической брони). Выжившие существа *ошеломлены* при неудачном спасброске силы или вместо этого становятся *недееспособными* на 1 свой ход, если они провалили 5 или более. Существа с большим количеством металла (например, броня или длинный меч) получают помеху на спас.\n\n**Усиление**: +4 урона."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "2,a",
+      "target": "aoe",
+      "damage": "3d8",
+      "damage_bonus": 4
+    }
+  },
+  {
+    "slug": "electrickery",
+    "title": { "en": "Electrickery", "ru": "Электрооборудование" },
+    "description": {
+      "en": "**Reaction:** When an ally is attacked. Choose another creature within Range to swap places with your ally on a failed WIL save (they become the new target). Costs 1 Action while *Charged*, ending the condition.\n\n**Upcast:** +4 Range.",
+      "ru": "**Реакция:** Когда союзник подвергается атаке. Выберите другое существо в пределах дальности, чтобы поменяться местами с вашим союзником при неудачной проверке Воли (он становится новой целью). Стоимость действия — 1 действие, пока находится в состоянии *Заряд*, эффект прекращается.\n\n**Усиление**: +4 к дальности."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 4,
+      "time": "3,a",
+      "target": "2",
+      "range": "8"
+    }
+  },
+  {
+    "slug": "electrocharge",
+    "title": { "en": "Electrocharge", "ru": "Электрозаряд" },
+    "description": {
+      "en": "**Concentration:** Up to 1 minute.A creature you touch gains the *Charged* condition, +1 max action, +5 armor, 2x speed, and advantage on DEX saves.\n\n**Upcast:** +4 Range.",
+      "ru": "**Концентрация:** До 1 минуты. Существо, к которому вы прикасаетесь, получает состояние *Заряженное*, +1 к максимальному действию, +5 к броне, удвоенную скорость и преимущество при спасбросках Ловкости.\n\n**Усиление**: +4 к дальности."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 5,
+      "time": "2,a",
+      "target": "single"
+    }
+  },
+  {
+    "slug": "ride_the_lightning",
+    "title": { "en": "Ride the Lightning", "ru": "Оседлать молнию" },
+    "description": {
+      "en": "Teleport up to 12 spaces away to a spot you can see (if a willing creature is there, swap places with them). Adjacent creatures take d88 damage. Surviving creatures must make a STR save or be hurled back 3 spaces, knocked Prone, and deafened for 1 day.\n\n**Upcast:** +1 DC.",
+      "ru": "Телепортируйтесь на расстояние до 12 квадратов в видимое вами место (если там находится существо, готовое к этому, поменяйтесь с ним местами). Соседние существа получают d88 урона. Выжившие существа должны совершить спасбросок Силы, иначе их отбросит на 3 квадрата назад, они будут сбиты с ног и оглушены на 1 день.\n\n**Усиление**: +1 к УС."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 6,
+      "time": "3,a",
+      "target": "aoe",
+      "damage": "d88"
+    }
+  },
+  {
+    "slug": "seething_storm",
+    "title": { "en": "Seething Storm", "ru": "Кипящая буря" },
+    "description": {
+      "en": "**Concentration:** Up to 1 minute. You become a cloud of tempestuous storm. You can fly, move for free 1/round, and attacks against you are made with disadvantage.\n\n- At the end of each of your turns, strike up to 4 creatures within Reach with a bolt of lightning for d88 damage (a creature can only be struck 1/round).\n\n- +2 Reach and number of bolts each round. Costs 3 actions each round to maintain.\n\nOnce you cast this spell, you must Safe Rest for 1 week before you can use it again.",
+      "ru": "**Концентрация:** До 1 минуты. Вы превращаетесь в облако бушующей бури. Вы можете летать, перемещаться бесплатно 1 раз в раунд, и атаки против вас совершаются с помехой.\n\n- В конце каждого вашего хода поразите молнией до 4 существ в пределах дальности, нанеся d88 урона (существо может быть поражено только 1 раз в раунд).\n\n- +2 к дальности и количеству молний каждый раунд. Поддержание действия стоит 3 действия каждый раунд.\n\nПосле применения этого заклинания вы должны совершить безопасный отдых в течение 1 недели, прежде чем сможете использовать его снова."
+    },
+    "origin": "spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 9,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "4"
+    }
+  },
+  {
+    "slug": "Spark Buddy",
+    "title": { "en": "Spark Buddy", "ru": "Друг-огонёк" },
+    "description": {
+      "en": "Conjure a Tiny (squirrel-sized) electrical helper for up to 1 hour. It can fetch Tiny objects (~1 lb./500 g max), open unlocked doors, illuminate a small area, or deliver a harmless shock. If it takes damage or moves further than 6 spaces away from you, it dissipates into sparks.",
+      "ru": "Призовите крошечного (размером с белку) электрического помощника на срок до 1 часа. Он может приносить крошечные предметы (максимум 500 г), открывать незапертые двери, освещать небольшую область или наносить безвредный удар током. Если он получит урон или отойдет от вас более чем на 6 клеток, он рассеется, превратившись в искры."
+    },
+    "origin": "utility_spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,m"
+    }
+  },
+  {
+    "slug": "spark_step",
+    "title": { "en": "Spark Step", "ru": "Шаг искры" },
+    "description": {
+      "en": "Teleport to a metal object.",
+      "ru": "Телепортироваться к металлическому объекту."
+    },
+    "origin": "utility_spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "range": "4",
+      "target": "self",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "tempest_command",
+    "title": { "en": "Tempest's Command", "ru": "Повеление бури" },
+    "description": {
+      "en": "**Dispel** a minor magical effect, or temporarily suppress a stronger one (the more powerful an enchantment, the shorter the duration). OR: **Voice of Thunder:** Your eyes glow and your voice is amplified to a booming, thunder-like volume for 1 min.",
+      "ru": "**Рассейте** незначительный магический эффект или временно подавите более сильный (чем сильнее заклинание, тем короче его действие). ИЛИ: **Голос грома:** Ваши глаза загораются, а голос усиливается до раскатистого, громоподобного звучания на 1 минуту."
+    },
+    "origin": "utility_spell",
+    "origin_value": "lightning",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "rebuke",
+    "title": { "en": "Rebuke", "ru": "Упрек" },
+    "description": {
+      "en": "**Damage:** 1d6+{{bonus|0}} (ignoring armor), does not miss. 2× damage against undead or cowardly (those Frightened or behind cover).",
+      "ru": "**Урон:** 1d6+{{bonus|0}} (игнорирование брони), не промахивается. Урон в 2 раза выше против нежити или трусливых (испуганных или находящихся за укрытием)."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "4",
+      "damage": "1d6",
+      "damage_bonus": "ROUND(level / 5) * 2"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 2"
+    }
+  },
+  {
+    "slug": "true_strike",
+    "title": { "en": "True Strike", "ru": "Точный удар" },
+    "description": {
+      "en": "Give a creature advantage on the next attack they make (until the end of their next turn).",
+      "ru": "Дайте существу преимущество при следующей атаке (до конца его следующего хода)."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "2 + ROUND(level / 5)"
+    }
+  },
+  {
+    "slug": "heal",
+    "title": { "en": "Heal", "ru": "Лечение" },
+    "description": {
+      "en": "Heal a creature 1d6+{{key|KEY}} HP.\n\n**Upcast:** Choose one: +1 target, +4 Reach, +1d6 healing. If 5+ mana is spent, you may also heal 1 negative condition (e.g., Blind, Poisoned, 1 Wound).",
+      "ru": "Исцелите существо на 1d6{{key|KEY}} ОЗ.\n\n**Усиление**: Выберите одно: +1 к цели, +4 к дальности, +1d6 к исцелению. Если потрачено 5 + маны, вы также можете исцелить 1 негативное состояние (например, ослепление, отравление, 1 рана)."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 1,
+      "time": "1,a",
+      "target": "single"
+    },
+    "description_eval_variables": {
+      "key": "key"
+    }
+  },
+  {
+    "slug": "warding_bond",
+    "title": { "en": "Warding Bond", "ru": "Защитные узы" },
+    "description": {
+      "en": "Designate a willing creature as your ward for 1 minute. They take half damage from all attacks; you are attacked for the other half.\n\n**Upcast:** +1 creature.",
+      "ru": "Назначьте существо, согласившееся на это, своим подопечным на 1 минуту. Оно получает половину урона от всех атак; вы получаете оставшуюся половину урона.\n\n**Усиление**: +1 существо."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 2,
+      "time": "1,a",
+      "target": "single"
+    }
+  },
+  {
+    "slug": "shield_of_justice",
+    "title": { "en": "Shield of Justice", "ru": "Щит правосудия" },
+    "description": {
+      "en": "**Reaction:** When attacked, *Defend* for free and reflect Radiant damage back at the attacker equal to the amount blocked (ignoring armor).\n\n**Upcast:** +5 Armor.",
+      "ru": "**Реакция:** При атаке, *защищайтесь* бесплатно, и урон излучением отражается обратно на атакующего, равный заблокированному значению (игнорирование брони).\n\n**Усиление**: +5 брони."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "1,a",
+      "target": "self"
+    }
+  },
+  {
+    "slug": "condemn",
+    "title": { "en": "Condemn", "ru": "Приговор" },
+    "description": {
+      "en": "**Damage:** 30. Can only target an enemy that crit you or an ally since your last turn. Cannot be reduced by any means. The next attack against that enemy is made with advantage.\n\n**Upcast:** +1 Reach, +1 advantage.",
+      "ru": "**Урон:** 30. Может быть нацелен только на врага, который нанёс вам или вашему союзнику критический удар с вашего последнего хода. Не может быть уменьшен никакими способами. Следующая атака по этому врагу совершается с преимуществом.\n\n**Усиление**: +1 дальность, +1 преимущество."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 4,
+      "time": "2,a",
+      "target": "single",
+      "range": "4"
+    }
+  },
+  {
+    "slug": "vengeance",
+    "title": { "en": "Vengeance", "ru": "Месть" },
+    "description": {
+      "en": "**Damage:** 1d100, to a creature that attacked a *Dying* ally or reduced one to 0 HP since your last turn.\n\n**Upcast:** +1 Reach, roll w/ advantage.",
+      "ru": "**Урон:** 1d100 существу, атаковавшему *умирающего* союзника или уменьшившему его ОЗ до 0 с момента вашего последнего хода.\n\n**Усиление**: +1 к дальности, бросок с преимуществом."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 5,
+      "time": "2,a",
+      "target": "single",
+      "range": "1",
+      "damage": "1d100"
+    }
+  },
+  {
+    "slug": "sacrifice",
+    "title": { "en": "Sacrifice", "ru": "Жертва" },
+    "description": {
+      "en": "Reduce yourself to 0 HP. You cannot have more than 0 HP until you **Safe Rest**. Heal a number of HP equal to your maximum HP, divided as you choose to any other creatures within Reach. You may revive a creature that has died in the past minute if you give them at least 20 HP (also healing 2 Wounds from them), provided they have not been revived with this spell before.\n\n**Upcast:** +4 Reach.",
+      "ru": "Снизьте свои очки здоровья до 0. У вас не может быть больше 0 очков здоровья, пока вы не восстановите здоровье с помощью безопасного отдыха. Восстановите количество ОЗ, равное вашему максимальному количеству очков здоровья, которое вы можете распределить по своему усмотрению между другими существами в пределах дальности. Вы можете оживить существо, умершее за последнюю минуту, если вы дадите ему не менее 20 очков здоровья (также восстановив 2 раны), при условии, что оно не было оживлено этим заклинанием ранее.\n\n**Усиление**: +4 к дальности."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 6,
+      "time": "1,a",
+      "target": "special",
+      "range": "4"
+    }
+  },
+  {
+    "slug": "redeem",
+    "title": { "en": "Redeem", "ru": "Искупление" },
+    "description": {
+      "en": "**Requires:** A diamond worth at least 10,000 gp, which this spell consumes. Revive any number of deceased creatures you choose—within 1 mile—that have died in the past year, provided they have not died of old age or been revived with this spell before.",
+      "ru": "**Требуется:** Алмаз стоимостью не менее 10 000 золотых монет, который расходуется этим заклинанием. Воскрешает любое количество умерших существ по вашему выбору — в радиусе 1 мили — умерших за последний год, при условии, что они не умерли от старости или не были воскрешены с помощью этого заклинания ранее."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 9,
+      "time": "24,h",
+      "target": "aoe"
+    }
+  },
+  {
+    "slug": "lifebinding_spirit",
+    "title": { "en": "Lifebinding Spirit", "ru": "Жизнетворный дух" },
+    "description": {
+      "en": "Summon a spirit companion that follows you and is immune to harm. It lasts until you cast this spell again, take a Safe Rest, or it heals a number of times equal to the mana spent summoning it.\n\n**Action:** It attacks or heals a creature within Reach 4. It attacks for 1d6+{{wil|WIL}} radiant damage (ignoring armor), or heals for the same amount.\n\n**Upcast:** Increment its die size by 1 (max d12), +1 healing use.",
+      "ru": "Призовите духа-спутника, который следует за вами и неуязвим к урону. Он существует до тех пор, пока вы не примените это заклинание снова, не совершите безопасный отдых или пока не восстановит здоровье в количестве, равном мане, потраченной на его призыв.\n\n**Действие:** Он атакует или исцеляет существо в пределах дальности 4. Он атакует, нанося 1d6+{{wil|WIL}} урона излучением (игнорирование брони), или исцеляет на ту же сумму.\n\n**Усиление**: Увеличьте размер его куба на 1 (максимум d12), +1 использование исцеления."
+    },
+    "origin": "spell",
+    "origin_value": "radiant",
+    "origin_values": ["shepherd"],
+    "kind": "static",
+    "info": {
+      "level": 1,
+      "time": "1,a"
+    },
+    "description_eval_variables": {
+      "wil": "wil"
+    }
+  },
+  {
+    "slug": "light",
+    "title": { "en": "Light", "ru": "Свет" },
+    "description": {
+      "en": "Cause an item to brightly glow as a torch with radiant light for as long as you hold it.",
+      "ru": "Заставьте предмет ярко светиться, как факел, и излучать яркий свет до тех пор, пока вы его держите."
+    },
+    "origin": "utility_spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "beautify",
+    "title": { "en": "Beautify", "ru": "Украсить" },
+    "description": {
+      "en": "Clean stains or repair a small tear/break in a non-magical item, or conjure tiny beautiful things: flowers, butterflies, etc.",
+      "ru": "Очистить пятна или заделать небольшой разрыв/повреждение на немагическом предмете, или вызвать крошечные прекрасные вещи: цветы, бабочек и т. д."
+    },
+    "origin": "utility_spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "bond_of_peace",
+    "title": { "en": "Bond of Peace", "ru": "Узы мира" },
+    "description": {
+      "en": "**Bond.** Telepathically communicate simple thoughts or feelings with a friendly creature you can see. OR:\n\n**Peace:** Imbue your spoken words with calming magic, granting advantage on any check made to soothe anger or fear in creatures who can hear you.",
+      "ru": "**Связь.** Телепатически передайте простые мысли или чувства дружелюбному существу, которое вы можете видеть. ИЛИ:\n\n**Мир:** Наполните ваши произнесенные слова успокаивающей магией, предоставляя преимущество при любой проверке, совершаемой для успокоения гнева или страха у существ, которые могут вас слышать."
+    },
+    "origin": "utility_spell",
+    "origin_value": "radiant",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single",
+      "time": "1,a"
+    }
+  },
+  {
+    "slug": "entice",
+    "title": { "en": "Entice", "ru": "Соблазнить" },
+    "description": {
+      "en": "**Damage:** 1d4 (ignoring armor).\n\n**On hit**: target moves 2 spaces closer to you.\n\n**High Levels:** Increment the die size 1 step every 5 levels (d6 » d8 » d10 » d12).",
+      "ru": "**Урон:** 1d4 (игнорирование брони).\n\n**При попадании**: цель перемещается на 2 клетки ближе к вам.\n\n**Высокие уровни:** Размер кубика увеличивается на 1 шаг каждые 5 уровней (d6 » d8 » d10 » d12)."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "8",
+      "damage": "1d4"
+    }
+  },
+  {
+    "slug": "withering_touch",
+    "title": { "en": "Withering Touch", "ru": "Увядающее прикосновение" },
+    "description": {
+      "en": "**Damage:** 1d12+{{bonus|0}}.\n\n**On hit**: Target is considered undead for 1 round.",
+      "ru": "**Урон:** 1d12+{{bonus|0}}.\n\n**При попадании**: Цель считается нежитью на 1 раунд."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "1",
+      "damage": "1d12",
+      "damage_bonus": "ROUND(level / 5) * 6"
+    },
+    "description_eval_variables": {
+      "bonus": "ROUND(level / 5) * 6"
+    }
+  },
+  {
+    "slug": "shadow_trap",
+    "title": { "en": "Shadow Trap", "ru": "Теневая ловушка" },
+    "description": {
+      "en": "**Concentration:** Up to 1 minute.The next creature to move adjacent to you suffers 3d12 damage; if Small or Tiny, it is also Restrained by shadowy tendrils for as long as you maintain concentration or until they escape.\n\n**Upcast:** +1 size category, +1d12 damage when they escape.",
+      "ru": "**Концентрация:** До 1 минуты. Следующее существо, переместившееся рядом с вами, получает 3d12 урона; если оно маленькое или крошечное, оно также сдерживается теневыми щупальцами до тех пор, пока вы поддерживаете концентрацию, или пока оно не освободится.\n\n**Усиление**: +1 категория размера, +1d12 урона при освобождении."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 1,
+      "time": "2,a",
+      "target": "single",
+      "damage": "3d12"
+    }
+  },
+  {
+    "slug": "dread_visage",
+    "title": { "en": "Dread Visage", "ru": "Ужасное лицо" },
+    "description": {
+      "en": "**Reaction:** When attacked, Defend for free. Melee attackers are Frightened of you and suffer 1d12 damage if they attack you this round. Costs 2 mana less while dying.\n\n**Upcast:** +2 damage, +2 Armor.",
+      "ru": "**Реакция:** При атаке, *защищайтесь* бесплатно. Атакующие в ближнем бою пугаются вас и получают 1d12 урона, если атакуют вас в этом раунде. Стоимость уменьшается на 2 маны при смерти.\n\n**Усиление**: +2 урона, +2 брони."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 2,
+      "time": "1,a",
+      "target": "self",
+      "damage": "1d12"
+    }
+  },
+  {
+    "slug": "vampiric_greed",
+    "title": { "en": "Vampiric Greed", "ru": "Вампирская жадность" },
+    "description": {
+      "en": "Gain 1 Wound. 4d12 to all adjacent creatures, and heal HP equal to the damage done. Any surviving creatures make a STR save. Gain 1 additional Wound for each creature that saves.\n\n**Upcast:** +1 DC.",
+      "ru": "Получите 1 рану. 4d12 всем соседним существам, и восстановите ОЗ, равное нанесенному урону. Все выжившие существа совершают спасбросок Силы. Получите 1 дополнительную рану за каждое существо, совершившее спасбросок.\n\n**Усиление**: +1 к сложности."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 3,
+      "time": "2,a",
+      "target": "aoe",
+      "range": "8",
+      "damage": "4d12"
+    }
+  },
+  {
+    "slug": "greater_shadow",
+    "title": { "en": "Greater Shadow", "ru": "Большая тень" },
+    "description": {
+      "en": "Summon a 5d12 Greater Shadow minion (max 1) adjacent to you. When it dies, it explodes into 5 shadow minions (see Summon Shadow). Place them anywhere within 8 spaces.\n\n**Upcast:** +1d12 damage, +1 shadow minion on explosion.",
+      "ru": "Призовите 5d12 улучшенного теневого миньона (максимум 1) рядом с собой. Когда он погибает, он взрывается, превращаясь в 5 теневых миньонов (см. Призыв Тени). Разместите их в любом месте в пределах 8 квадратов.\n\n**Усиление**: +1d12 урона, +1 теневой миньон при взрыве."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 4,
+      "time": "2,a"
+    }
+  },
+  {
+    "slug": "gangrenous_burst",
+    "title": { "en": "Gangrenous Burst", "ru": "Гангренозный взрыв" },
+    "description": {
+      "en": "Other damaged creatures must make a STR save or take 3d20 damage (ignoring armor), half on save. The save is rolled with disadvantage while Bloodied.\n\n**Upcast:** +10 damage.",
+      "ru": "Другие поврежденные существа должны совершить спасбросок Силы, иначе получат 3d20 урона (игнорирование брони), половина урона при спасброске. Спасбросок совершается с помехой, пока существо *Ранено*.\n\n**Усиление**: +10 урона."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 5,
+      "time": "2,a",
+      "target": "aoe",
+      "range": "8",
+      "damage": "3d20"
+    }
+  },
+  {
+    "slug": "unspeakable_word",
+    "title": { "en": "Unspeakable Word", "ru": "Невыразимое слово" },
+    "description": {
+      "en": "**Damage:** d66 (with advantage, ignoring armor, does not miss or crit) on a failed INT save. Target rolls with disadvantage if Bloodied or Frightened. On a success, you both take half of this damage instead.\n\n**Upcast:** +1 DC, +10 damage.",
+      "ru": "**Урон:** d66 (с преимуществом, игнорирование брони, не промахивается и не наносит критических ударов) при неудачном броске на интеллект. Цель бросает с помехой, если находится под воздействием кровотечения или страха. При успехе вы оба получаете половину этого урона.\n\n**Усиление**: +1 к УС, +10 урона."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 6,
+      "time": "2,a",
+      "target": "special",
+      "range": "8",
+      "damage": "d66"
+    }
+  },
+  {
+    "slug": "creeping_death",
+    "title": { "en": "Creeping Death", "ru": "Ползучая смерть" },
+    "description": {
+      "en": "**Damage:** 4d20. If this kills the creature, it violently erupts and you MUST deal the same amount of damage to another creature within 8 spaces of it that has not yet been damaged by this effect. Repeat until a creature survives this damage or no other creatures are within Reach.\n\n**Upcast:** +1d20 damage.",
+      "ru": "**Урон:** 4d20. Если это убивает существо, оно яростно взрывается, и вы ОБЯЗАНЫ нанести такое же количество урона другому существу в радиусе 8 квадратов от него, которое еще не получило урона от этого эффекта. Повторяйте, пока существо не переживет этот урон или пока в пределах дальности не останется других существ.\n\n**Усиление**: +1d20 урона."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 7,
+      "time": "3,a",
+      "target": "aoe",
+      "range": "8",
+      "damage": "4d20"
+    }
+  },
+  {
+    "slug": "shadow_blast",
+    "title": { "en": "Shadow Blast", "ru": "Теневой взрыв" },
+    "description": {
+      "en": "**Damage:** {{dices|1}}d12+{{key|KEY}}. 1/round.",
+      "ru": "**Урон:** {{dices|1}}d12+{{key|KEY}}. 1 раз за раунд."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "origin_values": ["shadowmancer"],
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "8",
+      "damage": "1d12",
+      "damage_bonus": "key"
+    },
+    "description_eval_variables": {
+      "key": "key",
+      "dices": "ROUND(level / 5) + 1"
+    }
+  },
+  {
+    "slug": "summon_shadow",
+    "title": { "en": "Summon Shadow", "ru": "Призвать тень" },
+    "description": {
+      "en": "Summon a shadow minion within Reach 1 (you can summon a max of INT or LVL minions this way, whichever is lower). Your shadow minions follow the normal minion rules: they have 1 HP, no damage bonus, and do not crit. They abandon you immediately outside of combat.\n\n**Action:** (1/turn) you may command ALL of your minions to move up to 6 then attack (Reach 1, d12 each).\n\n**High Levels:** +1 Reach every 5 levels.",
+      "ru": "Призовите теневого миньона в пределах дальности 1 (таким образом можно призвать максимум миньонов с показателем интеллекта или уровня, в зависимости от того, какой из них ниже). Ваши теневые миньоны подчиняются обычным правилам для миньонов: у них 1 ОЗ, нет бонуса к урону и они не наносят критических ударов. Они немедленно покидают вас вне боя.\n\n**Действие:** (1 раз за ход) вы можете приказать ВСЕМ вашим миньонам переместиться на расстояние до 6, а затем атаковать (дальность 1, d12 каждый).\n\n**Высокие уровни:** +1 к дальности каждые 5 уровней."
+    },
+    "origin": "spell",
+    "origin_value": "necrotic",
+    "origin_values": ["shadowmancer"],
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,a",
+      "target": "single",
+      "range": "8",
+      "damage": "1d12",
+      "damage_bonus": "KEY"
+    }
+  },
+  {
+    "slug": "gravecraft",
+    "title": { "en": "Gravecraft", "ru": "Могильное ремесло" },
+    "description": {
+      "en": "**Gravemark.** Action: Soil a surface with blood, filth, or other disgusting things. OR:\n\n**Gravework:** Casting time 1 minute: Shape/move a body-sized plot of earth.",
+      "ru": "**Могила.** Действие: Запачкать поверхность кровью, грязью или другими отвратительными вещами. ИЛИ:\n\n**Могильная работа:** Время применения 1 минута: Сформировать/переместить участок земли размером с тело."
+    },
+    "origin": "utility_spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "target": "single"
+    }
+  },
+  {
+    "slug": "false_face",
+    "title": { "en": "False Face", "ru": "Фальшивое лицо" },
+    "description": {
+      "en": "Change your appearance to look like someone else for 10 minutes. Requires a piece of them.",
+      "ru": "Измените свою внешность и станьте похожим на другого человека на 10 минут. Для этого потребуется его часть."
+    },
+    "origin": "utility_spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "time": "1,m"
+    }
+  },
+  {
+    "slug": "thought_leech",
+    "title": { "en": "Thought Leech", "ru": "Мыслеед" },
+    "description": {
+      "en": "Read the surface thoughts of a creature within Reach. Creatures can sense you doing this and may not like it.",
+      "ru": "Прочтите поверхностные мысли существа в пределах дальности. Существа могут чувствовать, что вы это делаете, и им это может не понравиться."
+    },
+    "origin": "utility_spell",
+    "origin_value": "necrotic",
+    "kind": "static",
+    "info": {
+      "level": 0,
+      "range": "6",
+      "time": "1,a"
     }
   }
 ]

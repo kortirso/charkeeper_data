@@ -7,7 +7,7 @@
     },
     "description": {
       "en": "**Action**: Heal or Inflict grievous injuries: Heal {{amount|WIL }}d8 HP to a Dying creature within Reach 6, OR Inflict {{amount|WIL }}d8 radiant damage to an undead or *Bloodied* enemy within Reach 6.",
-      "ru": "**Действие**: Исцелить или нанести тяжелые ранения: В пределах досягаемости 6 вы можете восстановить {{amount|WIL }}d8 ОЗ *умирающему* существу или нанести {{amount|WIL }}d8 урона излучением нежити или *окровавленному* врагу."
+      "ru": "**Действие**: Исцелить или нанести тяжелые ранения: в пределах дальности 6 вы можете восстановить {{amount|WIL }}d8 ОЗ *умирающему* существу или нанести {{amount|WIL }}d8 урона излучением нежити или *окровавленному* врагу."
     },
     "origin": "class",
     "origin_value": "shepherd",
@@ -299,7 +299,7 @@
     },
     "description": {
       "en": "When you use **Searing Light** to harm an enemy, make a 2nd enemy within range take the same amount of damage (ignoring armor).",
-      "ru": "При использовании **Пылающего света** для нанесения урона врагу, второй враг в пределах досягаемости получит такое же количество урона (игнорируя броню)."
+      "ru": "При использовании **Пылающего света** для нанесения урона врагу, второй враг в пределах дальности получит такое же количество урона (игнорируя броню)."
     },
     "origin": "subclass",
     "origin_value": "malice",
