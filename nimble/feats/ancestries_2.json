@@ -1,0 +1,283 @@
+[
+  {
+    "slug": "bunny_legs",
+    "title": {
+      "en": "Bunny Legs",
+      "ru": "Кроличьи ноги"
+    },
+    "description": {
+      "en": "Before Interposing or after Defending (after damage), hop up to your Speed in any direction for free.",
+      "ru": "Перед вступлением в бой или после защиты (после получения урона) вы можете бесплатно увеличить свою скорость в любом направлении."
+    },
+    "origin": "ancestry",
+    "origin_value": "bunbun",
+    "kind": "static",
+    "limit_refresh": "combat_rest",
+    "info": { "limit": 1 }
+  },
+  {
+    "slug": "draconic_heritage",
+    "title": {
+      "en": "Draconic Heritage",
+      "ru": "Драконье наследие"
+    },
+    "description": {
+      "en": "+1 Armor. When you attack: deal an additional {{amount|LVL+KEY}} damage (ignoring armor) divided as you choose among any of your targets; recharges whenever you Safe Rest or gain a Wound. You know Draconic if your INT is not negative.",
+      "ru": "+1 Броня. Когда вы атакуете, нанесите ещё {{amount|LVL+KEY}} урона (игнорирование брони) распределив его между любым числом целей. Восстанавливается на безопасном отдыхе или когда вы получаете рану. При ИНТ ≥ 0 вы знаете Драконий."
+    },
+    "origin": "ancestry",
+    "origin_value": "dragonborn",
+    "kind": "static",
+    "modifiers": { "armor": { "type": "add", "value": 1 } },
+    "description_eval_variables": {
+      "amount": "level + key"
+    },
+    "limit_refresh": "safe_rest",
+    "info": { "limit": 1 }
+  },
+  {
+    "slug": "flameborn",
+    "title": {
+      "en": "Flameborn",
+      "ru": "Рождённый в пламени"
+    },
+    "description": {
+      "en": "1 of your neutral saves is advantaged instead. You know Infernal if your INT is not negative.",
+      "ru": "Один из ваших нейтральных спасов получает преимущество. При ИНТ ≥ 0 вы знаете Инфернальный."
+    },
+    "origin": "ancestry",
+    "origin_value": "fiendkin",
+    "kind": "static"
+  },
+  {
+    "slug": "skedaddle",
+    "title": {
+      "en": "Skedaddle",
+      "ru": "Улепётывание"
+    },
+    "description": {
+      "en": "Can move 2 spaces for free after you become the target of an attack or negative effect (after damage, ignoring difficult terrain). You know Goblin if your INT is not negative.",
+      "ru": "Когда вы становитесь целью атаки или негативного эффекта, после получения урона вы можете бесплатно переместиться на 2 квадрата, игнорируя труднопроходимую местность. При ИНТ ≥ 0 вы знаете Гоблинский."
+    },
+    "origin": "ancestry",
+    "origin_value": "goblin",
+    "kind": "static"
+  },
+  {
+    "slug": "wily",
+    "title": {
+      "en": "Wily",
+      "ru": "Проныра"
+    },
+    "description": {
+      "en": "Force an enemy to reroll a non-critical attack against you. +3 to Influence friendly characters. Advantage on skill checks related to dragons. You know Draconic if your INT is not negative.",
+      "ru": "Заставьте врага перебросить атаку по вам кроме крита. +3 к Влиянию на дружественных персонажей. Преимущество на проверки, связанные с драконами. При ИНТ ≥ 0 вы знаете Драконий."
+    },
+    "origin": "ancestry",
+    "origin_value": "kobold",
+    "kind": "static",
+    "limit_refresh": "combat_rest",
+    "info": { "limit": 1 }
+  },
+  {
+    "slug": "relentless",
+    "title": {
+      "en": "Relentless",
+      "ru": "Неудержимый"
+    },
+    "description": {
+      "en": "When you would drop to 0 HP, you may set your HP to LVL instead. +1 Might. You know Goblin if your INT is not negative (but you call it Orcish, of course).",
+      "ru": "Когда ваши ОЗ должны были бы упасть до 0, вы можете вместо этого сделать их равными УР. +1 Мощь. При ИНТ ≥ 0 вы знаете Гоблинский (но, конечно, называете его Орочьим)."
+    },
+    "origin": "ancestry",
+    "origin_value": "orc",
+    "kind": "static",
+    "limit_refresh": "safe_rest",
+    "info": { "limit": 1 }
+  },
+  {
+    "slug": "hollow_bones",
+    "title": {
+      "en": "Hollow Bones",
+      "ru": "Полые кости"
+    },
+    "description": {
+      "en": "You have a fly Speed as long as you are wearing armor no heavier than Leather. Crits against you are Vicious (the attacker rolls 1 additional die). Forced movement moves you twice as far.",
+      "ru": "Вы получаете скорость полёта, пока не носите броню тяжелее Кожи. Криты по вам *Свирепые* (атакующий бросает +1 кость). Вынужденное движение передвигает вас вдвое дальше."
+    },
+    "origin": "ancestry",
+    "origin_value": "birdfolk",
+    "kind": "static"
+  },
+  {
+    "slug": "highborn",
+    "title": {
+      "en": "Highborn",
+      "ru": "Высшее происхождение"
+    },
+    "description": {
+      "en": "Your disadvantaged save is Neutral instead. You know Celestial if your INT isn't negative.",
+      "ru": "Ваш спас с помехой становится нейтральным. При ИНТ ≥ 0 вы знаете Небесный."
+    },
+    "origin": "ancestry",
+    "origin_value": "celestial",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "reflective_aura",
+    "title": {
+      "en": "Reflective Aura",
+      "ru": "Отражающая аура"
+    },
+    "description": {
+      "en": "When you Defend, gain KEY armor and deal KEY damage back to the attacker.",
+      "ru": "При Защите получите КЛЮЧ Брони и нанесите КЛЮЧ урона атакующему в ответ."
+    },
+    "origin": "ancestry",
+    "origin_value": "crystalborn",
+    "kind": "static",
+    "limit_refresh": "combat_rest",
+    "info": { "limit": 1 },
+    "modifiers": { }
+  },
+  {
+    "slug": "danger_pollen_spores",
+    "title": {
+      "en": "Danger Pollen/Spores",
+      "ru": "Опасная пыльца/Споры"
+    },
+    "description": {
+      "en": "Whenever an enemy causes you one or more Wounds, you excrete soporific spores: all adjacent enemies are Dazed. You know Elvish if your INT is not negative.",
+      "ru": "Когда враг наносит вам 1 или более Ран, вы выпускаете усыпляющие споры: все соседние враги Оглушены. При ИНТ ≥ 0 вы знаете Эльфийский."
+    },
+    "origin": "ancestry",
+    "origin_value": "dryad_shroomling",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "strength_of_stone",
+    "title": {
+      "en": "Strength of Stone",
+      "ru": "Сила камня"
+    },
+    "description": {
+      "en": "Force an enemy to reroll a crit against you. +2 Might. You know Dwarvish if your INT is not negative.",
+      "ru": "Заставьте врага перебросить крит по вам. +2 Мощь. При ИНТ ≥ 0 вы знаете Дварфский."
+    },
+    "origin": "ancestry",
+    "origin_value": "half_giant",
+    "kind": "static",
+    "limit_refresh": "combat_rest",
+    "info": { "limit": 1 },
+    "modifiers": { }
+  },
+  {
+    "slug": "charge",
+    "title": {
+      "en": "Charge",
+      "ru": "Разбег"
+    },
+    "description": {
+      "en": "Once per turn, when you move at least 4 spaces, you can push a creature in your path. Medium: 1 space; Small/Tiny: up to 2 spaces.",
+      "ru": "Один раз за ход, переместившись хотя бы на 4 клетки, вы можете толкнуть существо на своём пути. Среднее: на 1 клетку; маленькое/крошечное: до 2 клеток."
+    },
+    "origin": "ancestry",
+    "origin_value": "minotaur_beastfolk",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "odd_constitution",
+    "title": {
+      "en": "Odd Constitution",
+      "ru": "Странное телосложение"
+    },
+    "description": {
+      "en": "Increment your Hit Dice one step (d6 » d8 » d10 » d12 » d20); they always heal you for the maximum amount. Magical healing always heals you for the minimum amount.",
+      "ru": "Поднимите свою Кость Хитов на 1 шаг (d6 > d8 > d10 > d12 > d20). Кости Хитов всегда лечат вас на максимум. Магическое лечение всегда лечит вас на минимум."
+    },
+    "origin": "ancestry",
+    "origin_value": "oozeling_construct",
+    "kind": "update_result",
+    "modifiers": { }
+  },
+  {
+    "slug": "planeshift",
+    "title": {
+      "en": "Planeshift",
+      "ru": "Сдвиг плана"
+    },
+    "description": {
+      "en": "Whenever you Defend, you can gain 1 Wound to temporarily phase out of the material plane and ignore the damage. –2 max Wounds.",
+      "ru": "При Защите вы можете получить 1 Рану, чтобы временно выйти из материального плана и проигнорировать урон. -2 макс. Раны."
+    },
+    "origin": "ancestry",
+    "origin_value": "planarbeing",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "scurry",
+    "title": {
+      "en": "Scurry",
+      "ru": "Шмыг"
+    },
+    "description": {
+      "en": "Gain +2 armor if you moved on your last turn.",
+      "ru": "Получите +2 Брони, если вы двигались на своём прошлом ходу."
+    },
+    "origin": "ancestry",
+    "origin_value": "ratfolk",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "small_but_ferocious",
+    "title": {
+      "en": "Small But Ferocious",
+      "ru": "Мал да удал"
+    },
+    "description": {
+      "en": "Whenever you make a single-target attack against a creature larger than you, roll 1 additional d6 for each size category it is larger. They do the same.",
+      "ru": "Когда вы совершаете атаку по одной цели крупнее себя, бросьте +d6 за каждую категорию размера, на которую оно больше. Они делают то же самое."
+    },
+    "origin": "ancestry",
+    "origin_value": "stoatling",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "slow_and_steady",
+    "title": {
+      "en": "Slow & Steady",
+      "ru": "Медленный и верный"
+    },
+    "description": {
+      "en": "+4 Armor, –2 speed.",
+      "ru": "+4 Брони, -2 Скорости."
+    },
+    "origin": "ancestry",
+    "origin_value": "turtlefolk",
+    "kind": "static",
+    "modifiers": { }
+  },
+  {
+    "slug": "chaotic_surge",
+    "title": {
+      "en": "Chaotic Surge",
+      "ru": "Хаотический всплеск"
+    },
+    "description": {
+      "en": "Whenever you or a willing ally within Reach 6 casts a tiered spell, you may allow them to roll on the Chaos Table.",
+      "ru": "Когда вы или согласный союзник в Досягаемости 6 творите ранговое заклинание, можете бросить по Таблице Хаоса. "
+    },
+    "origin": "ancestry",
+    "origin_value": "wyrdling",
+    "kind": "static",
+    "limit_refresh": "combat_rest",
+    "info": { "limit": 1 },
+    "modifiers": { }
+  },
+]
