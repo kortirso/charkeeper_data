@@ -6,8 +6,8 @@
       "ru": "Кроличьи ноги"
     },
     "description": {
-      "en": "Before Interposing or after Defending (after damage), hop up to your Speed in any direction for free.",
-      "ru": "Перед вступлением в бой или после защиты (после получения урона) вы можете бесплатно увеличить свою скорость в любом направлении."
+      "en": "Before Interposing or after *Defending* (after damage), hop up to your Speed in any direction for free.",
+      "ru": "Перед вступлением в бой или после *защиты* (после получения урона) вы можете бесплатно увеличить свою скорость в любом направлении."
     },
     "origin": "ancestry",
     "origin_value": "bunbun",
@@ -47,7 +47,7 @@
     },
     "origin": "ancestry",
     "origin_value": "fiendkin",
-    "kind": "static"
+    "kind": "text"
   },
   {
     "slug": "skedaddle",
@@ -93,7 +93,8 @@
     "origin_value": "orc",
     "kind": "static",
     "limit_refresh": "safe_rest",
-    "info": { "limit": 1 }
+    "info": { "limit": 1 },
+    "modifiers": { "skills-might": { "type": "add", "value": 1 } }
   },
   {
     "slug": "hollow_bones",
@@ -103,7 +104,7 @@
     },
     "description": {
       "en": "You have a fly Speed as long as you are wearing armor no heavier than Leather. Crits against you are Vicious (the attacker rolls 1 additional die). Forced movement moves you twice as far.",
-      "ru": "Вы получаете скорость полёта, пока не носите броню тяжелее Кожи. Криты по вам *Свирепые* (атакующий бросает +1 кость). Вынужденное движение передвигает вас вдвое дальше."
+      "ru": "Вы получаете скорость полёта, пока не носите броню тяжелее кожаной. Криты по вам *Свирепые* (атакующий бросает +1 кость). Вынужденное движение передвигает вас вдвое дальше."
     },
     "origin": "ancestry",
     "origin_value": "birdfolk",
@@ -131,30 +132,45 @@
       "ru": "Отражающая аура"
     },
     "description": {
-      "en": "When you Defend, gain KEY armor and deal KEY damage back to the attacker.",
-      "ru": "При Защите получите КЛЮЧ Брони и нанесите КЛЮЧ урона атакующему в ответ."
+      "en": "When you *Defend*, gain {{key|KEY}} armor and deal {{key|KEY}} damage back to the attacker.",
+      "ru": "Когда вы *защищаетесь* получите {{key|KEY}} Брони и нанесите {{key|KEY}} урона атакующему в ответ."
     },
     "origin": "ancestry",
     "origin_value": "crystalborn",
     "kind": "static",
     "limit_refresh": "combat_rest",
     "info": { "limit": 1 },
-    "modifiers": { }
+    "description_eval_variables": {
+      "key": "key"
+    }
   },
   {
-    "slug": "danger_pollen_spores",
+    "slug": "danger_pollen",
     "title": {
-      "en": "Danger Pollen/Spores",
-      "ru": "Опасная пыльца/Споры"
+      "en": "Danger Pollen",
+      "ru": "Опасная пыльца"
     },
     "description": {
-      "en": "Whenever an enemy causes you one or more Wounds, you excrete soporific spores: all adjacent enemies are Dazed. You know Elvish if your INT is not negative.",
-      "ru": "Когда враг наносит вам 1 или более Ран, вы выпускаете усыпляющие споры: все соседние враги Оглушены. При ИНТ ≥ 0 вы знаете Эльфийский."
+      "en": "Whenever an enemy causes you one or more Wounds, you excrete soporific spores: all adjacent enemies are *Dazed*. You know Elvish if your INT is not negative.",
+      "ru": "Когда враг наносит вам 1 или более ран, вы выпускаете усыпляющие споры: все соседние враги *Оглушены*. При ИНТ ≥ 0 вы знаете Эльфийский."
     },
     "origin": "ancestry",
-    "origin_value": "dryad_shroomling",
-    "kind": "static",
-    "modifiers": { }
+    "origin_value": "dryad",
+    "kind": "static"
+  },
+  {
+    "slug": "spores",
+    "title": {
+      "en": "Spores",
+      "ru": "Споры"
+    },
+    "description": {
+      "en": "Whenever an enemy causes you one or more Wounds, you excrete soporific spores: all adjacent enemies are *Dazed*. You know Elvish if your INT is not negative.",
+      "ru": "Когда враг наносит вам 1 или более ран, вы выпускаете усыпляющие споры: все соседние враги *Оглушены*. При ИНТ ≥ 0 вы знаете Эльфийский."
+    },
+    "origin": "ancestry",
+    "origin_value": "shroomling",
+    "kind": "static"
   },
   {
     "slug": "strength_of_stone",
@@ -171,25 +187,38 @@
     "kind": "static",
     "limit_refresh": "combat_rest",
     "info": { "limit": 1 },
-    "modifiers": { }
+    "modifiers": { "skills-might": { "type": "add", "value": 2 } }
   },
   {
-    "slug": "charge",
+    "slug": "minotaur_charge",
     "title": {
       "en": "Charge",
       "ru": "Разбег"
     },
     "description": {
       "en": "Once per turn, when you move at least 4 spaces, you can push a creature in your path. Medium: 1 space; Small/Tiny: up to 2 spaces.",
-      "ru": "Один раз за ход, переместившись хотя бы на 4 клетки, вы можете толкнуть существо на своём пути. Среднее: на 1 клетку; маленькое/крошечное: до 2 клеток."
+      "ru": "Один раз за ход, переместившись хотя бы на 4 квадрата, вы можете толкнуть существо на своём пути. Среднее: на 1 клетку; маленькое/крошечное: до 2 клеток."
     },
     "origin": "ancestry",
-    "origin_value": "minotaur_beastfolk",
-    "kind": "static",
-    "modifiers": { }
+    "origin_value": "minotaur",
+    "kind": "static"
   },
   {
-    "slug": "odd_constitution",
+    "slug": "beastfolk_charge",
+    "title": {
+      "en": "Charge",
+      "ru": "Разбег"
+    },
+    "description": {
+      "en": "Once per turn, when you move at least 4 spaces, you can push a creature in your path. Medium: 1 space; Small/Tiny: up to 2 spaces.",
+      "ru": "Один раз за ход, переместившись хотя бы на 4 квадрата, вы можете толкнуть существо на своём пути. Среднее: на 1 клетку; маленькое/крошечное: до 2 клеток."
+    },
+    "origin": "ancestry",
+    "origin_value": "beastfolk",
+    "kind": "static"
+  },
+  {
+    "slug": "oozeling_odd_constitution",
     "title": {
       "en": "Odd Constitution",
       "ru": "Странное телосложение"
@@ -199,9 +228,24 @@
       "ru": "Поднимите свою Кость Хитов на 1 шаг (d6 > d8 > d10 > d12 > d20). Кости Хитов всегда лечат вас на максимум. Магическое лечение всегда лечит вас на минимум."
     },
     "origin": "ancestry",
-    "origin_value": "oozeling_construct",
-    "kind": "update_result",
-    "modifiers": { }
+    "origin_value": "oozeling",
+    "kind": "static",
+    "modifiers": { "hit_die": { "type": "add", "value": "if (hit_die >= 12, 8, 2)" } }
+  },
+  {
+    "slug": "construct_odd_constitution",
+    "title": {
+      "en": "Odd Constitution",
+      "ru": "Странное телосложение"
+    },
+    "description": {
+      "en": "Increment your Hit Dice one step (d6 » d8 » d10 » d12 » d20); they always heal you for the maximum amount. Magical healing always heals you for the minimum amount.",
+      "ru": "Поднимите свою Кость Хитов на 1 шаг (d6 > d8 > d10 > d12 > d20). Кости Хитов всегда лечат вас на максимум. Магическое лечение всегда лечит вас на минимум."
+    },
+    "origin": "ancestry",
+    "origin_value": "construct",
+    "kind": "static",
+    "modifiers": { "hit_die": { "type": "add", "value": "if (hit_die >= 12, 8, 2)" } }
   },
   {
     "slug": "planeshift",
@@ -210,13 +254,13 @@
       "ru": "Сдвиг плана"
     },
     "description": {
-      "en": "Whenever you Defend, you can gain 1 Wound to temporarily phase out of the material plane and ignore the damage. –2 max Wounds.",
-      "ru": "При Защите вы можете получить 1 Рану, чтобы временно выйти из материального плана и проигнорировать урон. -2 макс. Раны."
+      "en": "Whenever you *Defend*, you can gain 1 Wound to temporarily phase out of the material plane and ignore the damage. –2 max Wounds.",
+      "ru": "При *защите* вы можете получить 1 рану, чтобы временно выйти из материального плана и проигнорировать урон. -2 макс. Раны."
     },
     "origin": "ancestry",
     "origin_value": "planarbeing",
     "kind": "static",
-    "modifiers": { }
+    "modifiers": { "wounds_max": { "type": "add", "value": -2 } }
   },
   {
     "slug": "scurry",
@@ -230,8 +274,7 @@
     },
     "origin": "ancestry",
     "origin_value": "ratfolk",
-    "kind": "static",
-    "modifiers": { }
+    "kind": "static"
   },
   {
     "slug": "small_but_ferocious",
@@ -245,8 +288,7 @@
     },
     "origin": "ancestry",
     "origin_value": "stoatling",
-    "kind": "static",
-    "modifiers": { }
+    "kind": "static"
   },
   {
     "slug": "slow_and_steady",
@@ -256,12 +298,12 @@
     },
     "description": {
       "en": "+4 Armor, –2 speed.",
-      "ru": "+4 Брони, -2 Скорости."
+      "ru": "+4 брони, -2 скорости."
     },
     "origin": "ancestry",
     "origin_value": "turtlefolk",
     "kind": "static",
-    "modifiers": { }
+    "modifiers": { "armor": { "type": "add", "value": 4 }, "speed": { "type": "add", "value": -2 } }
   },
   {
     "slug": "chaotic_surge",
@@ -271,13 +313,12 @@
     },
     "description": {
       "en": "Whenever you or a willing ally within Reach 6 casts a tiered spell, you may allow them to roll on the Chaos Table.",
-      "ru": "Когда вы или согласный союзник в Досягаемости 6 творите ранговое заклинание, можете бросить по Таблице Хаоса. "
+      "ru": "Когда вы или согласный союзник в досягаемости 6 творите ранговое заклинание, можете бросить по Таблице Хаоса. "
     },
     "origin": "ancestry",
     "origin_value": "wyrdling",
     "kind": "static",
     "limit_refresh": "combat_rest",
-    "info": { "limit": 1 },
-    "modifiers": { }
-  },
+    "info": { "limit": 1 }
+  }
 ]
