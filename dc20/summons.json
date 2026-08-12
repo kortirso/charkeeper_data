@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "summon_size",
+    "title": {
+      "en": "Size",
+      "ru": "Размер"
+    },
+    "description": {
+      "en": "Your summon is a Small or Medium sized creature.",
+      "ru": "Существо маленького или среднего размера."
+    },
+    "origin": "summon",
+    "origin_value": "general",
+    "kind": "one_from_list",
+    "options": {
+      "small": { "en": "Small", "ru": "Маленький" },
+      "medium": { "en": "Medium", "ru": "Средний" }
+    }
+  },
+  {
+    "slug": "summon_undead_natural_weapon",
+    "title": {
+      "en": "Natural Weapon",
+      "ru": "Естественное оружие"
+    },
+    "description": {
+      "en": "Choose Psychic or Cold damage.",
+      "ru": "Выберите психический или морозный урон."
+    },
+    "origin": "summon",
+    "origin_value": "undead",
+    "kind": "one_from_list",
+    "options": {
+      "psychic": { "en": "Psychic", "ru": "Психический" },
+      "cold": { "en": "Cold", "ru": "Морозный" }
+    }
+  },
+  {
+    "slug": "summon_undead_aberration",
+    "title": {
+      "en": "Aberration",
+      "ru": "Аберрация"
+    },
+    "description": {
+      "en": "The creature has Psychic Resistance (Half), Telepathy 10 Spaces, and ADV on Intelligence Saves.",
+      "ru": "Существо получает ФСУ, телепатию 10, преимущество на спасы интеллекта."
+    },
+    "origin": "summon",
+    "origin_value": "undead",
+    "kind": "static",
+    "modifiers": {
+      "damages": { "type": "concat", "value": ["physical", "resist", "half"] }
+    }
+  },
+  {
+    "slug": "summon_undead_psychic_immunity",
+    "title": {
+      "en": "Psychic Immunity",
+      "ru": "Иммунитет физическому урону"
+    },
+    "description": {
+      "en": "The creature gains Immunity to Psychic Damage.",
+      "ru": "Существо получает иммунитет к физическому урону."
+    },
+    "origin": "summon",
+    "origin_value": "undead",
+    "kind": "static",
+    "modifiers": {
+      "damages": { "type": "concat", "value": ["physical", "immune"] }
+    },
+    "info": { "price": 2 }
+  },
+  {
+    "slug": "summon_awareness_mastery",
+    "title": {
+      "en": "Awareness Mastery",
+      "ru": "Отличная бдительность"
+    },
+    "description": {
+      "en": "The creature adds your Combat Mastery to its Awareness Checks.",
+      "ru": "Существо получает бонус к проверкам Бдительности, равный вашему Боевому мастерству."
+    },
+    "origin": "summon",
+    "origin_value": "general",
+    "kind": "static",
+    "info": { "price": 1 }
+  },
+  {
+    "slug": "summon_health",
+    "title": {
+      "en": "Health",
+      "ru": "Здоровье"
+    },
+    "description": {
+      "en": "The creature's HP is increased by 1.",
+      "ru": "Существо получает бонус +1 к ОЗ."
+    },
+    "origin": "summon",
+    "origin_value": "general",
+    "kind": "static",
+    "info": { "price": 1, "multiple": true },
+    "modifiers": {
+      "max_health": { "type": "add", "value": 1 }
+    }
+  }
+]
