@@ -11,5 +11,31 @@
     "info": {
       "consume": [{ "formula": "2 * d(4) + 4", "attribute": "health" }]
     }
+  },
+  {
+    "slug": "greater_healing_potion",
+    "kind": "consumables",
+    "name": { "en": "Greater Healing Potion", "ru": "Великое зелье лечения" },
+    "description": {
+      "en": "Heal 3d6+6 HP.",
+      "ru": "Лечит 3d6+6 ОЗ."
+    },
+    "data": { "price": 150 },
+    "info": {
+      "consume": [{ "formula": "3 * d(6) + 6", "attribute": "health" }]
+    }
+  },
+  {
+    "slug": "healing_potion",
+    "kind": "consumables",
+    "name": { "en": "Supreme Healing Potion", "ru": "Высшее зелье лечения" },
+    "description": {
+      "en": "Heal 4d8+8 HP.",
+      "ru": "Лечит 4d8+8 ОЗ."
+    },
+    "data": { "price": 450 },
+    "info": {
+      "consume": [{ "formula": "4 * d(8) + 8", "attribute": "health" }]
+    }
   }
 ]

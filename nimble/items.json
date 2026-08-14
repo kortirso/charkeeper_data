@@ -9,5 +9,313 @@
     },
     "data": { "price": 10 },
     "info": {}
+  },
+  {
+    "slug": "torch",
+    "kind": "item",
+    "name": { "en": "Torch (stack of 2)", "ru": "Факел (стопка из 2 шт.)" },
+    "description": {
+      "en": "For when it's dark. 1 use each.",
+      "ru": "Для использования в темное время суток. Каждый можно использовать по одному разу."
+    },
+    "data": { "price": 0.5 },
+    "info": {}
+  },
+  {
+    "slug": "lantern_and_oil",
+    "kind": "item",
+    "name": { "en": "Lantern & Oil", "ru": "Фонарь и масло" },
+    "description": {
+      "en": "Like a torch, but not as cool (refill: 1 gp).",
+      "ru": "Как фонарик, но не такой крутой (заправка: 1 зм)."
+    },
+    "data": { "price": 10 },
+    "info": {}
+  },
+  {
+    "slug": "vial_of_pitch",
+    "kind": "item",
+    "name": { "en": "Vial of Pitch", "ru": "Флакон смолы" },
+    "description": {
+      "en": "Sticky, and VERY flammable.",
+      "ru": "Липкий и ОЧЕНЬ легковоспламеняющийся."
+    },
+    "data": { "price": 2 },
+    "info": {}
+  },
+  {
+    "slug": "chain",
+    "kind": "item",
+    "name": { "en": "Chain (10 ft.)", "ru": "Цепь (3 метра)" },
+    "description": {
+      "en": "Like rope, but stronger (and heavy).",
+      "ru": "Как веревка, но прочнее (и тяжелее)."
+    },
+    "data": { "price": 50 },
+    "info": {}
+  },
+  {
+    "slug": "bucket",
+    "kind": "item",
+    "name": { "en": "Bucket", "ru": "Ведро" },
+    "description": {
+      "en": "Also works as a hat in a pinch!",
+      "ru": "В крайнем случае, можно использовать и как шапку!"
+    },
+    "data": { "price": 1 },
+    "info": {}
+  },
+  {
+    "slug": "padlock_and_key",
+    "kind": "item",
+    "name": { "en": "Padlock & Key", "ru": "Навесной замок и ключ" },
+    "description": {
+      "en": "Lock it or lose it.",
+      "ru": "Закрой или потеряешь."
+    },
+    "data": { "price": 3 },
+    "info": {}
+  },
+  {
+    "slug": "mirror",
+    "kind": "item",
+    "name": { "en": "Mirror", "ru": "Зеркало" },
+    "description": {
+      "en": "For medusas AND spinach teeth.",
+      "ru": "Для медуз и шпинатных зубов"
+    },
+    "data": { "price": 4 },
+    "info": {}
+  },
+  {
+    "slug": "telescope",
+    "kind": "item",
+    "name": { "en": "Telescope", "ru": "Телескоп" },
+    "description": {
+      "en": "Arrr.",
+      "ru": "Аррр."
+    },
+    "data": { "price": 10 },
+    "info": {}
+  },
+  {
+    "slug": "magnifying_glass",
+    "kind": "item",
+    "name": { "en": "Magnifying Glass", "ru": "Увеличительное стекло" },
+    "description": {
+      "en": "Make the small, big.",
+      "ru": "Сделайте маленькое большим."
+    },
+    "data": { "price": 5 },
+    "info": {}
+  },
+  {
+    "slug": "chalk",
+    "kind": "item",
+    "name": { "en": "Chalk", "ru": "Мел" },
+    "description": {
+      "en": "Not JUST for kids.",
+      "ru": "Не только для детей."
+    },
+    "data": { "price": 0.1 },
+    "info": {}
+  },
+  {
+    "slug": "shovel",
+    "kind": "item",
+    "name": { "en": "Shovel", "ru": "Лопата" },
+    "description": {
+      "en": "Sometimes you need a hole dug.",
+      "ru": "Иногда нужно выкопать яму."
+    },
+    "data": { "price": 3 },
+    "info": {}
+  },
+  {
+    "slug": "pulley",
+    "kind": "item",
+    "name": { "en": "Pulley", "ru": "Шкив" },
+    "description": {
+      "en": "Pull down, go up.",
+      "ru": "Потяните вниз, поднимитесь вверх."
+    },
+    "data": { "price": 3 },
+    "info": {}
+  },
+  {
+    "slug": "grappling_hook",
+    "kind": "item",
+    "name": { "en": "Grappling Hook", "ru": "Абордажный крюк" },
+    "description": {
+      "en": "For climbing or catching BIG fish.",
+      "ru": "Для скалолазания или ловли крупной рыбы."
+    },
+    "data": { "price": 4 },
+    "info": {}
+  },
+  {
+    "slug": "quiver_and_ammo",
+    "kind": "item",
+    "name": { "en": "Quiver & Ammo", "ru": "Колчан и боеприпасы" },
+    "description": {
+      "en": "Don't leave home without it.",
+      "ru": "Не выходите из дома без него."
+    },
+    "data": { "price": 10 },
+    "info": {}
+  },
+  {
+    "slug": "saw",
+    "kind": "item",
+    "name": { "en": "Saw", "ru": "Пила" },
+    "description": {
+      "en": "For cutting lumber.",
+      "ru": "Для распила древесины."
+    },
+    "data": { "price": 4 },
+    "info": {}
+  },
+  {
+    "slug": "soap",
+    "kind": "item",
+    "name": { "en": "Soap", "ru": "Мыло" },
+    "description": {
+      "en": "Useless.",
+      "ru": "Бесполезный."
+    },
+    "data": { "price": 0.1 },
+    "info": {}
+  },
+  {
+    "slug": "strange_plant",
+    "kind": "item",
+    "name": { "en": "Strange Plant", "ru": "Странное растение" },
+    "description": {
+      "en": "Who knows?",
+      "ru": "Кто знает?"
+    },
+    "data": { "price": 0.5 },
+    "info": {}
+  },
+  {
+    "slug": "shiny_object",
+    "kind": "item",
+    "name": { "en": "Shiny Object", "ru": "Блестящий объект" },
+    "description": {
+      "en": "Worthless, but VERY pretty.",
+      "ru": "Бесполезная, но ОЧЕНЬ красивая."
+    },
+    "data": { "price": 0.1 },
+    "info": {}
+  },
+  {
+    "slug": "lock_pick",
+    "kind": "item",
+    "name": { "en": "Lock Pick", "ru": "Взлом замка" },
+    "description": {
+      "en": "It's not mine, honest!",
+      "ru": "Это не моё, честно!"
+    },
+    "data": { "price": 5 },
+    "info": {}
+  },
+  {
+    "slug": "bell",
+    "kind": "item",
+    "name": { "en": "Bell", "ru": "Колокол" },
+    "description": {
+      "en": "For service.",
+      "ru": "Для обслуживания."
+    },
+    "data": { "price": 2 },
+    "info": {}
+  },
+  {
+    "slug": "dice",
+    "kind": "item",
+    "name": { "en": "Dice", "ru": "Кубики" },
+    "description": {
+      "en": "LOTS of fun.",
+      "ru": "Очень весело."
+    },
+    "data": { "price": 0.5 },
+    "info": {}
+  },
+  {
+    "slug": "blanket",
+    "kind": "item",
+    "name": { "en": "Blanket", "ru": "Одеяло" },
+    "description": {
+      "en": "Warm & fuzzy.",
+      "ru": "Тепло и уютно."
+    },
+    "data": { "price": 1 },
+    "info": {}
+  },
+  {
+    "slug": "hunting_trap",
+    "kind": "item",
+    "name": { "en": "Hunting Trap", "ru": "Охотничья ловушка" },
+    "description": {
+      "en": "Snap snap, don't lose a finger!",
+      "ru": "Щелк-щелк, только не потеряй палец!"
+    },
+    "data": { "price": 10 },
+    "info": {}
+  },
+  {
+    "slug": "camping_supplies",
+    "kind": "item",
+    "name": { "en": "Camping Supplies", "ru": "Товары для кемпинга" },
+    "description": {
+      "en": "Bedroll, rations, simple tent.",
+      "ru": "Спальный мешок, провизия, простая палатка."
+    },
+    "data": { "price": 5 },
+    "info": {}
+  },
+  {
+    "slug": "crowbar",
+    "kind": "item",
+    "name": { "en": "Crowbar", "ru": "Лом" },
+    "description": {
+      "en": "It's LiKE a key.",
+      "ru": "Это как ключ."
+    },
+    "data": { "price": 2 },
+    "info": {}
+  },
+  {
+    "slug": "pitons",
+    "kind": "item",
+    "name": { "en": "Pitons", "ru": "Крючья" },
+    "description": {
+      "en": "Metal spikes, for sealing doors.",
+      "ru": "Металлические шипы для герметизации дверей."
+    },
+    "data": { "price": 5 },
+    "info": {}
+  },
+  {
+    "slug": "manacles",
+    "kind": "item",
+    "name": { "en": "Manacles", "ru": "Наручники" },
+    "description": {
+      "en": "For when someone has been bad.",
+      "ru": "Когда кто-то плохо себя вёл."
+    },
+    "data": { "price": 3 },
+    "info": {}
+  },
+  {
+    "slug": "large_sack",
+    "kind": "item",
+    "name": { "en": "Large Sack", "ru": "Большой мешок" },
+    "description": {
+      "en": "Like a BIG pocket.",
+      "ru": "Как большой карман."
+    },
+    "data": { "price": 0.5 },
+    "info": {}
   }
 ]
