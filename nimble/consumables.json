@@ -26,7 +26,7 @@
     }
   },
   {
-    "slug": "healing_potion",
+    "slug": "supreme_healing_potion",
     "kind": "consumables",
     "name": { "en": "Supreme Healing Potion", "ru": "Высшее зелье лечения" },
     "description": {
