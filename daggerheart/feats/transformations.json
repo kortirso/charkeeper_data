@@ -1,0 +1,1273 @@
+[
+  {
+    "slug": "6e852056-a802-40a6-8907-05ad42c14387",
+    "title": {
+      "en": "Gifted",
+      "ru": "Одарённый"
+    },
+    "description": {
+      "en": "You gain a +1 bonus to action, reaction, and damage rolls.",
+      "ru": "Вы получаете бонус +1 к броскам действия, реакционным броскам и броскам урона."
+    },
+    "origin_value": "e25fd8dc-a90e-40ed-8f0b-927d932b4f68",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0f346431-70f9-4adf-9e0a-056bb2effdbf",
+    "title": {
+      "en": "Weight of Divinity",
+      "ru": "Бремя Божественности"
+    },
+    "description": {
+      "en": "When you fail a roll, you must **mark a Stress** or the GM gains a Fear.",
+      "ru": "Когда вы проваливаете бросок, вы должны **отметить Стресс**, иначе Мастер получает Страх."
+    },
+    "origin_value": "e25fd8dc-a90e-40ed-8f0b-927d932b4f68",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "72df2dfa-4fa4-41e2-b2f9-ae49178be99c",
+    "title": {
+      "en": "Unfinished Business",
+      "ru": "Незавершённые дела"
+    },
+    "description": {
+      "en": "Work with your GM to decide what purpose or desire keeps you bound to the Mortal Realm. When you fulfill it, you cross through the veil of death.",
+      "ru": "Вместе с Мастером решите, какая цель или желание удерживает вас в Смертном Мире. Когда вы её выполните, вы уйдёте за Завесу Смерти."
+    },
+    "origin_value": "3284e0cd-d112-43b8-96e7-1088db799237",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "02046fea-331d-4ad3-89db-2e3e31dadc05",
+    "title": {
+      "en": "Ephemeral",
+      "ru": "Бесплотность"
+    },
+    "description": {
+      "en": "Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage, and can **mark 2 Stress** to momentarily pass through a solid object.",
+      "ru": "Ваше тело колеблется между телесным и бесплотным. Вы устойчивы к физическому урону, получаете двойной магический урон и можете **отметить 2 Стресса**, чтобы на мгновение пройти сквозь твёрдый объект."
+    },
+    "origin_value": "3284e0cd-d112-43b8-96e7-1088db799237",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "19db87b6-dd04-410a-87f4-be897a767906",
+    "title": {
+      "en": "Corpse",
+      "ru": "Труп"
+    },
+    "description": {
+      "en": "During a rest, you can clear Hit Points only if you have access to remains from a recently deceased creature. Describe how you use these materials to maintain your body.",
+      "ru": "Во время отдыха вы можете снимать Раны только при наличии доступа к останкам недавно умершего существа. Опишите, как вы используете эти материалы, чтобы поддерживать своё тело."
+    },
+    "origin_value": "58b40007-2676-4ee5-a70c-4911e83d4582",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "233fba87-200a-43db-bd6d-bb6adca8dc33",
+    "title": {
+      "en": "Won't Stay Dead",
+      "ru": "Не сдастся смерти"
+    },
+    "description": {
+      "en": "When you choose the Risk It All death move and fail, you can permanently mark a Hit Point to succeed instead. When you do, you still use the Hope Die's value to clear Hit Points and Stress. When you permanently mark your last Hit Point, you pass through the veil of death.",
+      "ru": "Когда вы выбираете ход «Ва-Банк» и проваливаете его, можно навсегда отметить Рану, чтобы вместо этого преуспеть. Если вы так делаете, значение Кости Надежды всё равно используется для снятия Ран и Стресса. Когда вы навсегда отмечаете последнюю Рану, вы уходите за Завесу Смерти."
+    },
+    "origin_value": "58b40007-2676-4ee5-a70c-4911e83d4582",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "434015c0-eed3-4e09-9c63-0a78038a4bae",
+    "title": {
+      "en": "Change Shape",
+      "ru": "Смена облика"
+    },
+    "description": {
+      "en": "During a rest, you can use a downtime move to swap your current ancestry with another. When you do, describe how your appearance changes.",
+      "ru": "Во время отдыха можно использовать ход привала, чтобы заменить текущую родословную другой. Опишите, как меняется ваш облик."
+    },
+    "origin_value": "7005a091-f0a9-45d5-943f-63e363727e40",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "4773ed13-b310-4b4b-9ffa-471e54c100e0",
+    "title": {
+      "en": "Only Skin Deep",
+      "ru": "Только внешне"
+    },
+    "description": {
+      "en": "You gain the benefit of only one of your chosen ancestry's features, which you select when you choose the ancestry. You can use a downtime move to choose a different feature of the same ancestry.",
+      "ru": "Вы получаете пользу лишь от одного свойства выбранной родословной, которое определяете при выборе родословной. Можно использовать ход привала, чтобы выбрать другое свойство той же родословной."
+    },
+    "origin_value": "7005a091-f0a9-45d5-943f-63e363727e40",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f63e88e6-2ee8-4c54-aff8-b3e45231df96",
+    "title": {
+      "en": "Fangs",
+      "ru": "Клыки"
+    },
+    "description": {
+      "en": "Make an attack using a trait of your choice to bite a target within Melee range. On a success, deal d6 physical damage using your Proficiency.",
+      "ru": "Совершите атаку, используя атрибут по вашему выбору, чтобы укусить цель Вплотную. При успехе нанесите d6 физического урона с использованием Мастерства."
+    },
+    "origin_value": "36f31fae-fc03-47d9-aa36-7eefce76dc87",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "77760350-7e80-43e4-8d5b-dfb9df61d313",
+    "title": {
+      "en": "Feed",
+      "ru": "Насыщение"
+    },
+    "description": {
+      "en": "On a successful **Fangs** attack against a creature that can bleed, you can mark a Stress to feed. Place a number of tokens on this card equal to the number of Hit Points the target marks. You can hold up to 6 tokens at a time. Before you make an action roll, you can spend a token to make your Fear Die a d20. When you take a long rest, remove a token. While there are no tokens on this card, you make action and reaction rolls with disadvantage.",
+      "ru": "При успешной атаке **Клыки** против существа, способного истекать кровью, можно отметить Стресс, чтобы насытиться. Поместите на эту карту количество жетонов, равное количеству Ран, отмеченных целью (не более 6). Перед броском действия можно потратить жетон, чтобы Кость Страха стала d20. При долгом отдыхе удаляется один жетон. Пока на карте нет жетонов, все броски действия и реакционные броски совершаются с помехой."
+    },
+    "origin_value": "36f31fae-fc03-47d9-aa36-7eefce76dc87",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "6",
+      "reset": "1",
+      "reset_at": "long"
+    },
+    "dices": null
+  },
+  {
+    "slug": "cdc35eed-79b2-4216-8e4f-fdace702fdca",
+    "title": {
+      "en": "Wolf Form",
+      "ru": "Волчий облик"
+    },
+    "description": {
+      "en": "When you mark 1 or more Hit Points, you can mark a Stress to enter your **Wolf Form**. While in this form, you gain a 1d10 bonus to attack and damage rolls. When you gain a Hope while in **Wolf Form**, you must also mark a Stress. Your **Wolf Form** lasts until you go into your **Howling Rampage** or you take a rest.",
+      "ru": "Когда вы отмечаете 1 или более Ран, можно отметить Стресс, чтобы войти в **Волчий облик**. В этой форме вы получаете бонус +1d10 к броскам атаки и урона. Когда вы получаете Надежду, находясь в Волчьем Облике, вы также должны отметить Стресс. **Волчий облик** длится до **Воющей ярости** или до отдыха."
+    },
+    "origin_value": "a59c3d69-a52e-4ee5-ad93-2e207219159c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b3adec71-d738-4ef4-9936-2e1c2916764c",
+    "title": {
+      "en": "Howling Rampage",
+      "ru": "Воющая ярость"
+    },
+    "description": {
+      "en": "When you mark your last Stress while in **Wolf Form**, you go into a rampage. Roll a number of d20s equal to your tier and deal that much physical damage to all creatures within Very Close range. Then you drop out of **Wolf Form**.",
+      "ru": "Когда вы отмечаете последний Стресс в **Волчьем облике**, вас охватывает ярость. Бросьте количество d20, равное вашему рангу, и нанесите столько физического урона всем существам в пределах Ближней дистанции. После этого вы выходите из **Волчьего облика**."
+    },
+    "origin_value": "a59c3d69-a52e-4ee5-ad93-2e207219159c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8fbb8c3c-145c-4979-8c86-e9faec1a2b00",
+    "title": {
+      "en": "Gifted",
+      "ru": "Одарённый"
+    },
+    "description": {
+      "en": "You gain a +1 bonus to action, reaction, and damage rolls.",
+      "ru": "Вы получаете бонус +1 к броскам действия, реакционным броскам и броскам урона."
+    },
+    "origin_value": "f264e930-362f-4acb-9c7b-dda760a20a59",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "4f05db3f-e9cc-448c-b419-eeae657277a0",
+    "title": {
+      "en": "Weight of Divinity",
+      "ru": "Бремя Божественности"
+    },
+    "description": {
+      "en": "When you fail a roll, you must **mark a Stress** or the GM gains a Fear.",
+      "ru": "Когда вы проваливаете бросок, вы должны **отметить Стресс**, иначе Мастер получает Страх."
+    },
+    "origin_value": "f264e930-362f-4acb-9c7b-dda760a20a59",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "330ccaa9-b4db-48b9-9623-6c315526981a",
+    "title": {
+      "en": "Unfinished Business",
+      "ru": "Незавершённые дела"
+    },
+    "description": {
+      "en": "Work with your GM to decide what purpose or desire keeps you bound to the Mortal Realm. When you fulfill it, you cross through the veil of death.",
+      "ru": "Вместе с Мастером решите, какая цель или желание удерживает вас в Смертном Мире. Когда вы её выполните, вы уйдёте за Завесу Смерти."
+    },
+    "origin_value": "5ed55432-0b37-44bb-9fea-8b7ac0cf0aea",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "69191878-4257-45f4-b0f0-2d982cb50567",
+    "title": {
+      "en": "Ephemeral",
+      "ru": "Бесплотность"
+    },
+    "description": {
+      "en": "Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage, and can **mark 2 Stress** to momentarily pass through a solid object.",
+      "ru": "Ваше тело колеблется между телесным и бесплотным. Вы устойчивы к физическому урону, получаете двойной магический урон и можете **отметить 2 Стресса**, чтобы на мгновение пройти сквозь твёрдый объект."
+    },
+    "origin_value": "5ed55432-0b37-44bb-9fea-8b7ac0cf0aea",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d4c9fcae-154d-49f3-81e1-cf5a9384c998",
+    "title": {
+      "en": "Corpse",
+      "ru": "Труп"
+    },
+    "description": {
+      "en": "During a rest, you can clear Hit Points only if you have access to remains from a recently deceased creature. Describe how you use these materials to maintain your body.",
+      "ru": "Во время отдыха вы можете снимать Раны только при наличии доступа к останкам недавно умершего существа. Опишите, как вы используете эти материалы, чтобы поддерживать своё тело."
+    },
+    "origin_value": "f2f7eb53-5ada-43a9-9a8d-e3f45a9c23fa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "19f46c01-5f1e-44bc-9fde-983d264eac9a",
+    "title": {
+      "en": "Won't Stay Dead",
+      "ru": "Не сдастся смерти"
+    },
+    "description": {
+      "en": "When you choose the Risk It All death move and fail, you can permanently mark a Hit Point to succeed instead. When you do, you still use the Hope Die's value to clear Hit Points and Stress. When you permanently mark your last Hit Point, you pass through the veil of death.",
+      "ru": "Когда вы выбираете ход «Ва-Банк» и проваливаете его, можно навсегда отметить Рану, чтобы вместо этого преуспеть. Если вы так делаете, значение Кости Надежды всё равно используется для снятия Ран и Стресса. Когда вы навсегда отмечаете последнюю Рану, вы уходите за Завесу Смерти."
+    },
+    "origin_value": "f2f7eb53-5ada-43a9-9a8d-e3f45a9c23fa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9b74d40b-a017-4e25-95c5-1ea65474453c",
+    "title": {
+      "en": "Change Shape",
+      "ru": "Смена облика"
+    },
+    "description": {
+      "en": "During a rest, you can use a downtime move to swap your current ancestry with another. When you do, describe how your appearance changes.",
+      "ru": "Во время отдыха можно использовать ход привала, чтобы заменить текущую родословную другой. Опишите, как меняется ваш облик."
+    },
+    "origin_value": "bde19f5c-3db8-49fa-ac2e-6ca05cdfd5cb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f9aa1fbe-3e8f-4671-92d7-77df001a6702",
+    "title": {
+      "en": "Only Skin Deep",
+      "ru": "Только внешне"
+    },
+    "description": {
+      "en": "You gain the benefit of only one of your chosen ancestry's features, which you select when you choose the ancestry. You can use a downtime move to choose a different feature of the same ancestry.",
+      "ru": "Вы получаете пользу лишь от одного свойства выбранной родословной, которое определяете при выборе родословной. Можно использовать ход привала, чтобы выбрать другое свойство той же родословной."
+    },
+    "origin_value": "bde19f5c-3db8-49fa-ac2e-6ca05cdfd5cb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3cd3d32f-053b-42ed-8320-840930c2f21b",
+    "title": {
+      "en": "Wolf Form",
+      "ru": "Волчий облик"
+    },
+    "description": {
+      "en": "When you mark 1 or more Hit Points, you can mark a Stress to enter your **Wolf Form**. While in this form, you gain a 1d10 bonus to attack and damage rolls. When you gain a Hope while in **Wolf Form**, you must also mark a Stress. Your **Wolf Form** lasts until you go into your **Howling Rampage** or you take a rest.",
+      "ru": "Когда вы отмечаете 1 или более Ран, можно отметить Стресс, чтобы войти в **Волчий облик**. В этой форме вы получаете бонус +1d10 к броскам атаки и урона. Когда вы получаете Надежду, находясь в Волчьем Облике, вы также должны отметить Стресс. **Волчий облик** длится до **Воющей ярости** или до отдыха."
+    },
+    "origin_value": "e8d17c47-3000-404b-88d8-f1f816f7a5a5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "5cc4abff-9bae-4814-8444-110dd3e3a8b3",
+    "title": {
+      "en": "Howling Rampage",
+      "ru": "Воющая ярость"
+    },
+    "description": {
+      "en": "When you mark your last Stress while in **Wolf Form**, you go into a rampage. Roll a number of d20s equal to your tier and deal that much physical damage to all creatures within Very Close range. Then you drop out of **Wolf Form**.",
+      "ru": "Когда вы отмечаете последний Стресс в **Волчьем облике**, вас охватывает ярость. Бросьте количество d20, равное вашему рангу, и нанесите столько физического урона всем существам в пределах Ближней дистанции. После этого вы выходите из **Волчьего облика**."
+    },
+    "origin_value": "e8d17c47-3000-404b-88d8-f1f816f7a5a5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c97d69ca-1ee5-4f49-b3fd-a6c8815f8a30",
+    "title": {
+      "en": "Gifted",
+      "ru": "Одарённый"
+    },
+    "description": {
+      "en": "You gain a +1 bonus to action, reaction, and damage rolls.",
+      "ru": "Вы получаете бонус +1 к броскам действия, реакционным броскам и броскам урона."
+    },
+    "origin_value": "c5200fa0-eef9-4e9b-aa9b-5cafd47b9273",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "219b2f52-ce34-46c1-8853-08b754a2dfed",
+    "title": {
+      "en": "Weight of Divinity",
+      "ru": "Бремя Божественности"
+    },
+    "description": {
+      "en": "When you fail a roll, you must **mark a Stress** or the GM gains a Fear.",
+      "ru": "Когда вы проваливаете бросок, вы должны **отметить Стресс**, иначе Мастер получает Страх."
+    },
+    "origin_value": "c5200fa0-eef9-4e9b-aa9b-5cafd47b9273",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "98eca0c8-bb2e-4b37-bb16-b1c47366506e",
+    "title": {
+      "en": "Unfinished Business",
+      "ru": "Незавершённые дела"
+    },
+    "description": {
+      "en": "Work with your GM to decide what purpose or desire keeps you bound to the Mortal Realm. When you fulfill it, you cross through the veil of death.",
+      "ru": "Вместе с Мастером решите, какая цель или желание удерживает вас в Смертном Мире. Когда вы её выполните, вы уйдёте за Завесу Смерти."
+    },
+    "origin_value": "8521e28b-bc8f-4178-96d0-5deee5fba000",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ca7d049b-706c-4dcf-b023-44af2a76b0fd",
+    "title": {
+      "en": "Ephemeral",
+      "ru": "Бесплотность"
+    },
+    "description": {
+      "en": "Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage, and can **mark 2 Stress** to momentarily pass through a solid object.",
+      "ru": "Ваше тело колеблется между телесным и бесплотным. Вы устойчивы к физическому урону, получаете двойной магический урон и можете **отметить 2 Стресса**, чтобы на мгновение пройти сквозь твёрдый объект."
+    },
+    "origin_value": "8521e28b-bc8f-4178-96d0-5deee5fba000",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3545e09b-281d-4e3e-a9d6-cbfe0373ea02",
+    "title": {
+      "en": "Corpse",
+      "ru": "Труп"
+    },
+    "description": {
+      "en": "During a rest, you can clear Hit Points only if you have access to remains from a recently deceased creature. Describe how you use these materials to maintain your body.",
+      "ru": "Во время отдыха вы можете снимать Раны только при наличии доступа к останкам недавно умершего существа. Опишите, как вы используете эти материалы, чтобы поддерживать своё тело."
+    },
+    "origin_value": "d2a82fad-2413-4db5-bb01-b6cdc56ee490",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e0945388-95a9-413a-b6f4-63f03dff213e",
+    "title": {
+      "en": "Won't Stay Dead",
+      "ru": "Не сдастся смерти"
+    },
+    "description": {
+      "en": "When you choose the Risk It All death move and fail, you can permanently mark a Hit Point to succeed instead. When you do, you still use the Hope Die's value to clear Hit Points and Stress. When you permanently mark your last Hit Point, you pass through the veil of death.",
+      "ru": "Когда вы выбираете ход «Ва-Банк» и проваливаете его, можно навсегда отметить Рану, чтобы вместо этого преуспеть. Если вы так делаете, значение Кости Надежды всё равно используется для снятия Ран и Стресса. Когда вы навсегда отмечаете последнюю Рану, вы уходите за Завесу Смерти."
+    },
+    "origin_value": "d2a82fad-2413-4db5-bb01-b6cdc56ee490",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "290cd060-4aa1-4119-91a2-7b4dda39954f",
+    "title": {
+      "en": "Change Shape",
+      "ru": "Смена облика"
+    },
+    "description": {
+      "en": "During a rest, you can use a downtime move to swap your current ancestry with another. When you do, describe how your appearance changes.",
+      "ru": "Во время отдыха можно использовать ход привала, чтобы заменить текущую родословную другой. Опишите, как меняется ваш облик."
+    },
+    "origin_value": "7de4dc2a-9c23-4fef-bcce-422732d3e8f9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f78e25fe-c2df-4884-b028-a6cc13c24904",
+    "title": {
+      "en": "Only Skin Deep",
+      "ru": "Только внешне"
+    },
+    "description": {
+      "en": "You gain the benefit of only one of your chosen ancestry's features, which you select when you choose the ancestry. You can use a downtime move to choose a different feature of the same ancestry.",
+      "ru": "Вы получаете пользу лишь от одного свойства выбранной родословной, которое определяете при выборе родословной. Можно использовать ход привала, чтобы выбрать другое свойство той же родословной."
+    },
+    "origin_value": "7de4dc2a-9c23-4fef-bcce-422732d3e8f9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "709c3551-78bd-4297-94c2-48ade245568c",
+    "title": {
+      "en": "Fangs",
+      "ru": "Клыки"
+    },
+    "description": {
+      "en": "Make an attack using a trait of your choice to bite a target within Melee range. On a success, deal d6 physical damage using your Proficiency.",
+      "ru": "Совершите атаку, используя атрибут по вашему выбору, чтобы укусить цель Вплотную. При успехе нанесите d6 физического урона с использованием Мастерства."
+    },
+    "origin_value": "c32454f2-344d-40e5-885a-376860a13b0c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "1310b33e-6624-4924-891b-98dc5d11c283",
+    "title": {
+      "en": "Feed",
+      "ru": "Насыщение"
+    },
+    "description": {
+      "en": "On a successful **Fangs** attack against a creature that can bleed, you can mark a Stress to feed. Place a number of tokens on this card equal to the number of Hit Points the target marks. You can hold up to 6 tokens at a time. Before you make an action roll, you can spend a token to make your Fear Die a d20. When you take a long rest, remove a token. While there are no tokens on this card, you make action and reaction rolls with disadvantage.",
+      "ru": "При успешной атаке **Клыки** против существа, способного истекать кровью, можно отметить Стресс, чтобы насытиться. Поместите на эту карту количество жетонов, равное количеству Ран, отмеченных целью (не более 6). Перед броском действия можно потратить жетон, чтобы Кость Страха стала d20. При долгом отдыхе удаляется один жетон. Пока на карте нет жетонов, все броски действия и реакционные броски совершаются с помехой."
+    },
+    "origin_value": "c32454f2-344d-40e5-885a-376860a13b0c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "6",
+      "reset": "1",
+      "reset_at": "long"
+    },
+    "dices": null
+  },
+  {
+    "slug": "7899827d-1e49-49a2-8a98-aa168ccf6775",
+    "title": {
+      "en": "Wolf Form",
+      "ru": "Волчий облик"
+    },
+    "description": {
+      "en": "When you mark 1 or more Hit Points, you can mark a Stress to enter your **Wolf Form**. While in this form, you gain a 1d10 bonus to attack and damage rolls. When you gain a Hope while in **Wolf Form**, you must also mark a Stress. Your **Wolf Form** lasts until you go into your **Howling Rampage** or you take a rest.",
+      "ru": "Когда вы отмечаете 1 или более Ран, можно отметить Стресс, чтобы войти в **Волчий облик**. В этой форме вы получаете бонус +1d10 к броскам атаки и урона. Когда вы получаете Надежду, находясь в Волчьем Облике, вы также должны отметить Стресс. **Волчий облик** длится до **Воющей ярости** или до отдыха."
+    },
+    "origin_value": "7d69a350-d3cc-4079-aca1-7ef78ca78592",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "345f88f8-0d0b-47e3-bede-53991a027b8f",
+    "title": {
+      "en": "Howling Rampage",
+      "ru": "Воющая ярость"
+    },
+    "description": {
+      "en": "When you mark your last Stress while in **Wolf Form**, you go into a rampage. Roll a number of d20s equal to your tier and deal that much physical damage to all creatures within Very Close range. Then you drop out of **Wolf Form**.",
+      "ru": "Когда вы отмечаете последний Стресс в **Волчьем облике**, вас охватывает ярость. Бросьте количество d20, равное вашему рангу, и нанесите столько физического урона всем существам в пределах Ближней дистанции. После этого вы выходите из **Волчьего облика**."
+    },
+    "origin_value": "7d69a350-d3cc-4079-aca1-7ef78ca78592",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "fangs",
+    "title": {
+      "en": "Fangs",
+      "ru": "Клыки"
+    },
+    "description": {
+      "en": "Bite a target with Fangs attack (available in Combat).",
+      "ru": "Укусите цель, используя атаку Клыками (доступно в Сражении)."
+    },
+    "origin_value": "fd28b16c-1a31-4334-8f36-61bdaab94f8a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "only_skin_deep",
+    "title": {
+      "en": "Only Skin Deep",
+      "ru": "Лишь кожа"
+    },
+    "description": {
+      "en": "When you Change Shape, you only gain the benefit of one of the ancestry's features, which you select when you choose the ancestry. You can spend a downtime move to switch which of your ancestry's features you gain the benefit of.",
+      "ru": "Меняя облик, вы перенимаете лишь одно свойство новой родословной, на ваш выбор. Вы также можете тратить ход отдыха чтобы сменить это свойство на другое свойство этой родословной."
+    },
+    "origin_value": "b3b9907c-38af-4271-82bd-ee56b3fa134c",
+    "kind": "text",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "wolf_form",
+    "title": {
+      "en": "Wolf Form",
+      "ru": "Облик волка"
+    },
+    "description": {
+      "en": "When you mark one or more Hit Points, you can also **mark a Stress** to enter your Wolf Form. While in this form, gain a d10 Wolf Die that you add to all attack and damage rolls. When you would gain a Hope while in Wolf Form, you mark a Stress instead.",
+      "ru": "Когда вы отмечаете одну или несколько ран, вы можете **отметить Стресс**, чтобы принять **Облик волка**. Находясь в этом облике, вы получаете d10 кость Волка, которая прибавляется ко всем броскам атак и урона. Когда вы получаете Надежду находясь в **Облике волка**, вместо этого вы отмечаете Стресс."
+    },
+    "origin_value": "525b7671-ef4e-42b8-a302-ff0280d716aa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "proficiency",
+      "reset": "limit",
+      "reset_at": "long"
+    },
+    "dices": null
+  },
+  {
+    "slug": "spirit_form",
+    "title": {
+      "en": "Spirit Form",
+      "ru": "Призрачная форма"
+    },
+    "description": {
+      "en": "Your physical form can shift between corporeal and incorporeal. **Mark a Stress** to transition into and out of your Spirit Form. While in Spirit Form, you can move through solid objects, are immune to physical damage, and take double magic damage. You can **spend 2 Hope** to attack or physically interact with the material world.",
+      "ru": "Ваша физическая оболочка может переходить из материального состояния в нематериальное. **Отметьте Стресс**, чтобы войти в или выйти из **Призрачной формы**. Пока вы в этом состоянии, вы можете проходить сквозь твёрдые объекты, а также становитесь иммунным к физическому урону, но получаете удвоенный магический урон. Чтобы атаковать или взаимодействовать с материальным миром, **потратьте 2 Надежды**."
+    },
+    "origin_value": "8649100b-9c67-4339-84c1-aa60141941ed",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "corpse",
+    "title": {
+      "en": "Corpse",
+      "ru": "Труп"
+    },
+    "description": {
+      "en": "When you Risk It All on a death move, if you fail, you can permanently mark a Hit Point to succeed instead. When you do, you still use the Hope Die's value to clear Hit Points and Stress.",
+      "ru": "Когда в качестве предсмертного хода вы выбираете “Рискнуть Всем” и терпите неудачу, вы можете вместо этого навсегда отметить Рану, чтобы добиться успеха. Когда вы это делаете, вы все равно используете значение кости Надежды, чтобы снять Раны и Стресс."
+    },
+    "origin_value": "f2a870b6-ed2b-471b-b778-1a0ea49765dd",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "weight_of_divinity",
+    "title": {
+      "en": "Weight of Divinity",
+      "ru": "Бремя божественности"
+    },
+    "description": {
+      "en": "When you roll a failure with Fear, you must **mark a Stress** or give the GM an additional Fear.",
+      "ru": "Когда вы проваливаете бросок со Страхом, вы должны **отметить Стресс** или дать Мастеру дополнительный Страх."
+    },
+    "origin_value": "a5529797-1863-4778-93e8-573909670d25",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ichor_of_the_gods",
+    "title": {
+      "en": "Ichor of the Gods",
+      "ru": "Ихор Богов"
+    },
+    "description": {
+      "en": "Your advantage die is always a d10 instead of a d6.",
+      "ru": "Ваша кость преимущества всегда равна d10 вместо d6."
+    },
+    "origin_value": "a5529797-1863-4778-93e8-573909670d25",
+    "kind": "update_result",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "advantage_dice": { "type": "set", "value": "d10" }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "change_shape",
+    "title": {
+      "en": "Change Shape",
+      "ru": "Изменение облика"
+    },
+    "description": {
+      "en": "During a long rest, you can spend a downtime move to swap your current ancestry with another. When you do, describe how your appearance changes.",
+      "ru": "Во время продолжительного отдыха вы можете потратить ход отдыха, чтобы заменить вашу текущую родословную на другую. При этом опишите, как изменился ваш внешний вид."
+    },
+    "origin_value": "b3b9907c-38af-4271-82bd-ee56b3fa134c",
+    "kind": "text",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "frenzy",
+    "title": {
+      "en": "Frenzy",
+      "ru": "Бешенство"
+    },
+    "description": {
+      "en": "When you mark your last Stress while in Wolf Form, you go into a Frenzy. Roll a number of d20s equal to your tier and automatically deal that much physical damage to all creatures within Very Close range. Then drop out of Wolf Form.",
+      "ru": "Когда вы отмечаете свой последний Стресс находясь в Облике Волка, вы впадаете в Бешенство. Бросьте количество d20, равное вашему рангу, и автоматически нанесите столько же физического урона всем существам в пределах Близкой дистанции. После этого покиньте Облик Волка."
+    },
+    "origin_value": "525b7671-ef4e-42b8-a302-ff0280d716aa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "10",
+      "reset": "2",
+      "reset_at": "short",
+      "reset_at_long": "4"
+    },
+    "dices": null
+  },
+  {
+    "slug": "ephemeral",
+    "title": {
+      "en": "Ephemeral",
+      "ru": "Эфемерный"
+    },
+    "description": {
+      "en": "You lost a Hit Point slot when you take this card and when you increase your tier. Hit Point slots amount decreased by your tier. When you mark your last Hit Point, you must choose Blaze of Glory as your death move.",
+      "ru": "Когда вы берёте эту карту — и каждый раз, когда повышаете ранг, — вы теряете одну Ячейку Ран. Если вы отмечаете последнюю Ячейку, вашим Предсмертным Ходом должен стать “Пламя Славы”."
+    },
+    "origin_value": "8649100b-9c67-4339-84c1-aa60141941ed",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "stitch_up",
+    "title": {
+      "en": "Stitch Up",
+      "ru": "Зашивание"
+    },
+    "description": {
+      "en": "During a rest, you can only clear Hit Points if you have access to remains from a recently deceased creature. Describe how using this material affects your appearance. You cannot clear Hit Points by any means except a downtime move or the Risk It All death move.",
+      "ru": "Во время отдыха вы можете очищать Раны только если у вас есть доступ к останкам недавно умершего существа. Опишите, как использование этого материала повлияло на ваш внешний вид. Вы не можете очищать Раны никаким образом, помимо ходов отдыха или предсмертного хода “Рискнуть Всем”."
+    },
+    "origin_value": "f2a870b6-ed2b-471b-b778-1a0ea49765dd",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "feed",
+    "title": {
+      "en": "Feed",
+      "ru": "Питание"
+    },
+    "description": {
+      "en": "On a successful Fangs attack against a living creature, you can **mark a Stress** to Feed. Place a number of tokens on this card equal to the number of Hit Points your target marks. You can hold up to 5 tokens at a time. Spend a token before an action roll to make your Fear Die a d20 instead. When you take a Long Rest, remove a token. If there are no tokens on this card, all your action and reaction rolls are made with disadvantage.",
+      "ru": "При успешной атаке Клыками против живого существа вы можете **отметить Стресс** для Питания. Поместите на эту карту количество жетонов, равное количеству Ран, которая отметила ваша цель. Вы можете держать до 5 жетонов одновременно. Потратьте жетон перед броском действия, чтобы ваша кость Страха стала d20. Когда вы делаете Продолжительный Отдых, снимите жетон. Если на этой карте нет жетонов, все ваши броски действия и реакции совершаются с помехой."
+    },
+    "origin_value": "fd28b16c-1a31-4334-8f36-61bdaab94f8a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "0"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {
+      "fear_dice": "D20"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  }
+]

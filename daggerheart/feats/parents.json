@@ -1,0 +1,1116 @@
+[
+  {
+    "slug": "book_of_tyfar_wild_flame",
+    "title": {
+      "en": "Wild Flame",
+      "ru": "Дикое пламя"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against up to three adversaries within Melee range. Targets you succeed against take **2d6** magic damage and must mark a Stress as flames erupt from your hand.",
+      "ru": "Совершите **бросок заклинания**, чтобы атаковать до трёх противников, находящихся вплотную. Цели, против которых вы преуспеваете, получают **2d6** магического урона и должны отметить Стресс, когда из вашей руки вырываются языки пламени.",
+      "ru-DHM": "Совершите **бросок заклинания** против трёх или менее целей, находящихся вплотную к вам. Цели, против которых вы преуспели, получают **2d6** магического урона и должны получить Стресс, когда из вашей руки вырывается пламя."
+    },
+    "origin_value": "book_of_tyfar",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_tyfar_mysterious_mist",
+    "title": {
+      "en": "Mysterious Mist",
+      "ru": "Мистический туман",
+      "ru-DHM": "Таинственный туман"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (13)** to cast a temporary thick fog that gathers in a stationary area within Very Close range. The fog heavily obscures this area and everything in it.",
+      "ru": "Совершите **бросок заклинания (13)**, чтобы создать временный густой туман, окружающий стационарную область в пределах близкой дистанции. Туман заслоняет обзор этой области и всего, что в ней находится.",
+      "ru-DHM": "Совершите **бросок заклинания (13)**, чтобы создать в неподвижной области в пределах ближней дистанции временный густой туман. Туман скрывает эту область и всё, что в ней находится."
+    },
+    "origin_value": "book_of_tyfar",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_illiat_slumber",
+    "title": {
+      "en": "Slumber",
+      "ru": "Дрёма"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against a target within Very Close range. On a success, they're *Asleep* until they take damage or the GM spends a Fear on their turn to clear this condition.",
+      "ru": "Совершите **бросок заклинания** против цели в пределах близкой дистанции. При успехе она *Засыпает*, до тех пор пока не получит урон или ведущий не потратит Страх в свой ход, чтобы закончить это состояние.",
+      "ru-DHM": "Совершите **бросок заклинания** против цели в пределах ближней дистанции. При успехе цель *засыпает* до тех пор, пока не получит урон или пока мастер в свой ход не потратит Страх, чтобы снять это состояние."
+    },
+    "origin_value": "book_of_illiat",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_sitil_adjust_appearance",
+    "title": {
+      "en": "Adjust Appearance",
+      "ru": "Смена обличья",
+      "ru-DHM": "Изменение внешности"
+    },
+    "description": {
+      "en": "You magically shift your appearance and clothing to avoid recognition.",
+      "ru": "Вы магическим образом меняете свою внешность и одежду, чтобы избежать узнавания.",
+      "ru-DHM": "Вы можете магически изменить свою внешность и одежду, чтобы избегать узнавания."
+    },
+    "origin_value": "book_of_sitil",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_vagras_reveal",
+    "title": {
+      "en": "Reveal",
+      "ru": "Раскрытие",
+      "ru-DHM": "Выявление"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll**. If there is anything magically hidden within Close range, it is revealed.",
+      "ru": "Совершите **бросок заклинания**. Если в пределах средней дистанции есть что-либо, скрытое магией, против чего этот бросок успешен, оно будет раскрыто.",
+      "ru-DHM": "Совершите **бросок заклинания**. Если в пределах средней дистанции есть что-то скрытое магией, оно становится явным."
+    },
+    "origin_value": "book_of_vagras",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-korvax_levitation",
+    "title": {
+      "en": "Levitation",
+      "ru": "Левитация"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** to temporarily lift a target you can see up into the air and move them within Close range of their original position.",
+      "ru": "Совершите **бросок заклинания**, чтобы временно поднять в воздух цель, которую вы видите, и переместить ее в пределах средней дистанции от ее исходного положения.",
+      "ru-DHM": "Совершите **бросок заклинания**, чтобы временно поднять в воздух цель, которую вы видите, и переместить её в пределах средней дистанции от её исходного положения."
+    },
+    "origin_value": "book-of-korvax",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-korvax_rune_circle",
+    "title": {
+      "en": "Rune Circle",
+      "ru": "Круг рун",
+      "ru-DHM": "Рунический круг"
+    },
+    "description": {
+      "en": "**Mark a Stress** to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take **2d12+4** magic damage and are knocked back to Very Close range.",
+      "ru": "**Отметьте Стресс** для создания временного магического круга на земле под вашими ногами. Все противники, находящиеся или подходящие к вам вплотную, получают **2d12+4** урона от магии и отбрасываются на близкую дистанцию.",
+      "ru-DHM": "**Получите Стресс**, чтобы создать временный магический круг на поверхности, где вы стоите. Все находящиеся вплотную к вам противники, а также те, кто подходят вплотную, получают **2d12+4** магического урона и отталкиваются на ближнюю дистанцию."
+    },
+    "origin_value": "book-of-korvax",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-exota_repudiate",
+    "title": {
+      "en": "Repudiate",
+      "ru": "Рассеивание",
+      "ru-DHM": "Развеивание"
+    },
+    "description": {
+      "en": "You can interrupt a magical effect taking place. Make a **Reaction Roll** using your Spellcast trait. Once per rest on a success, the effect stops and any consequences are avoided.",
+      "ru": "Вы можете прервать действующий магический эффект. Совершите **бросок реакции** с использованием вашей характеристики заклинателя. При успехе, один раз до следующего отдыха, эффект прекращается, а все последствия избегаются.",
+      "ru-DHM": "Вы можете прервать создание магического эффекта. Совершите **бросок реакции** (используя ваш атрибут магии). При успехе, один раз до конца следующего отдыха, эффект прекращается и все его последствия предотвращаются."
+    },
+    "origin_value": "book-of-exota",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-grynn_arcane_deflection",
+    "title": {
+      "en": "Arcane Deflection",
+      "ru": "Магическое отторжение",
+      "ru-DHM": "Магическое парирование"
+    },
+    "description": {
+      "en": "**Spend a Hope** to negate the damage of an attack targeting you or an ally within Very Close range.",
+      "ru": "**Потратьте Надежду**, чтобы отменить урон от атаки, нацеленной на вас или союзника в пределах близкой дистанции.",
+      "ru-DHM": "**Потратьте Hадежду**, чтобы полностью нейтрализовать урон от одной атаки, нацеленной на вас или союзника в пределах ближней дистанции."
+    },
+    "origin_value": "book-of-grynn",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-homet_pass_through",
+    "title": {
+      "en": "Pass Through",
+      "ru": "Хождение Насквозь",
+      "ru-DHM": "Магический проход"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (13)**. Once per rest on a success, you and all creatures touching you can pass through a wall or door within Close range. The effect ends once everyone is on the other side.",
+      "ru": "Совершите **бросок заклинания (13)**. При успехе, один раз до следующего отдыха, вы и все существа, касающиеся вас, можете пройти сквозь стену или дверь в пределах средней дистанции. Эффект заканчивается, когда все оказываются по другую сторону.",
+      "ru-DHM": "Совершите **бросок заклинания (13)**. При успехе, один раз до конца следующего отдыха, вы и все существа, касающиеся вас, можете пройти сквозь стену или дверь в пределах средней дистанции. Эффект заканчивается, когда все окажутся на другой стороне."
+    },
+    "origin_value": "book-of-homet",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-vyola_memory_delve",
+    "title": {
+      "en": "Memory Delve",
+      "ru": "Погружение в память"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.",
+      "ru": "Совершите **бросок заклинания** против цели в пределах далёкой дистанции. При успехе загляните в разум цели и задайте Мастеру вопрос. Мастер описывает любые воспоминания цели, имеющие отношение к ответу.",
+      "ru-DHM": "Совершите **бросок заклинания** против цели в пределах дальней дистанции. При успехе загляните в разум цели и задайте мастеру вопрос. Мастер описывает воспоминания цели, которые могут ответить на ваш вопрос."
+    },
+    "origin_value": "book-of-vyola",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-yarrow_magic_immunity",
+    "title": {
+      "en": "Magic Immunity",
+      "ru": "Магический иммунитет",
+      "ru-DHM": "Иммунитет к магии"
+    },
+    "description": {
+      "en": "**Spend 5 Hope** to become immune to magic damage until your next rest.",
+      "ru": "**Потратьте 5 Надежды**, чтобы стать невосприимчивым к магическому урону до следующего отдыха.",
+      "ru-DHM": "**Потратьте 5 Надежды**, чтобы получить иммунитет к магическому урону до конца следующего отдыха."
+    },
+    "origin_value": "book-of-yarrow",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 5
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "beetles_conjure_swarm",
+    "title": {
+      "en": "Tekaira Armored Beetles",
+      "ru": "Бронированные жуки Текайры"
+    },
+    "description": {
+      "en": "**Mark a Stress** to conjure armored beetles that encircle you. When you next take damage, reduce the severity by one threshold. You can **spend a Hope** to keep the beetles conjured after taking damage.",
+      "ru": "**Отметьте Стресс**, чтобы призвать бронированных жуков, которые окружат вас. Когда вы в следующий раз получите урон, уменьшите его тяжесть на один порог. Вы можете **потратить Надежду**, чтобы сохранить жуков после получения урона.",
+      "ru-DHM": "**Получите Стресс**, чтобы призвать бронированных жуков, которые окружают вас. В следующий раз когда вы получите урон, снизьте его на один порог. Вы можете **потратить Надежду**, чтобы жуки не исчезли после получения этого урона."
+    },
+    "origin_value": "conjure_swarm",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_ava_tava_armor",
+    "title": {
+      "en": "Tava's Armor",
+      "ru": "Доспехи Тавы",
+      "ru-DHM": "Броня Тавы"
+    },
+    "description": {
+      "en": "**Spend a Hope** to give a target you can touch a +1 bonus to their Armor Score until their next rest or you cast Tava's Armor again.",
+      "ru": "**Потратьте Надежду**, чтобы дать цели, до которой вы можете коснуться, +1 бонус к показателю брони до ее следующего отдыха или пока вы не наложите **Доспехи Тавы** снова.",
+      "ru-DHM": "**Потратьте Надежду,** чтобы коснуться цели и дать ей +1 к значению брони до конца её следующего отдыха, или пока вы повторно не примените **Броню Тавы**."
+    },
+    "origin_value": "book_of_ava",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_ava_power_push",
+    "title": {
+      "en": "Power Push",
+      "ru": "Силовой толчок",
+      "ru-DHM": "Отталкивающий импульс"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against a target within Melee range. On a success, they're knocked back to Far range and take **d10+2** magic damage using your Proficiency.",
+      "ru": "Совершите **бросок заклинания** против цели, находящейся вплотную. При успехе отбросьте цель на далёкую дистанцию и нанесите ей **d10+2** магического урона, используя ваше мастерство.",
+      "ru-DHM": "Совершите **бросок заклинания** против находящейся вплотную цели. При успехе цель отбрасывается на дальнюю дистанцию и получает **d10+2** магического урона (используя вашу сноровку)."
+    },
+    "origin_value": "book_of_ava",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-norai_mystic_tether",
+    "title": {
+      "en": "Mystic Tether",
+      "ru": "Мистическое опутывание",
+      "ru-DHM": "Мистические оковы"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against a target within Far range. On a success, they're temporarily *Restrained* and must mark a Stress. If you target a flying creature, this spell grounds and temporarily *Restrains* them.",
+      "ru": "Совершите **бросок заклинания** против цели в пределах далёкой дистанции. При успехе цель временно *Обездвижена* и должна отметить Стресс. Если вы целитесь в летающее существо, это заклинание приземляет и временно *Обездвиживает* его.",
+      "ru-DHM": "Совершите **бросок заклинания** против цели в пределах дальней дистанции. При успехе цель временно становится *скованной* и должна получить Стресс. Если вы выбираете целью летающее существо, это заклинание сначала заставляет его приземлиться."
+    },
+    "origin_value": "book-of-norai",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-exota_create_construct",
+    "title": {
+      "en": "Create Construct",
+      "ru": "Создание конструкта"
+    },
+    "description": {
+      "en": "**Spend a Hope** to choose a group of objects around you and create an animated construct from them that obeys basic commands. Make a **Spellcast Roll** to command them to take action. When necessary, they share your Evasion and traits and their attacks deal **2d10+3** physical damage. You can only maintain one construct at a time, and they fall apart when they take any amount of damage.",
+      "ru": "**Потратьте Надежду** и выберите группу объектов вокруг вас, чтобы создать из них оживший конструкт, который будет подчиняться простым командам. Совершите **бросок заклинания**, чтобы приказать ему действовать. При необходимости, он копирует ваше уклонение и черты, а его атаки наносят **2d10+3** физического урона. Вы можете поддерживать только одного конструкта за раз, и он распадается, когда получает любой урон.",
+      "ru-DHM": "**Потратьте Надежду**, чтобы выбрать группу объектов вокруг вас и создать из них анимированный конструкт, подчиняющийся простым командам. Совершите **бросок заклинания**, чтобы приказать ему действовать. При необходимости он использует ваши показатели уклонения и атрибутов, а его атаки наносят **2d10+3** физического урона. Вы можете поддерживать только одного конструкта единовременно, и он разваливается, когда получает любой урон."
+    },
+    "origin_value": "book-of-exota",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-homet_plane_gate",
+    "title": {
+      "en": "Plane Gate",
+      "ru": "Врата миров",
+      "ru-DHM": "Планарные врата"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (14)**. Once per long rest on a success, open a gateway to a location in another dimension or plane of existence you've been to before. This gateway lasts until your next rest.",
+      "ru": "Совершите **бросок заклинания (14)**. Один раз до следующего продолжительного отдыха, при успехе, откройте врата в место в другом измерении или плане существования, где вы уже бывали. Эти врата остаются открытыми до вашего следующего отдыха.",
+      "ru-DHM": "Совершите **бросок заклинания (14)**. При успехе, один раз до конца следующего долгого отдыха, откройте врата в место в другом измерении или плоскости существования, где вы уже были. Эти врата сохраняются до конца следующего отдыха."
+    },
+    "origin_value": "book-of-homet",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-ronin_transform",
+    "title": {
+      "en": "Transform",
+      "ru": "Превращение"
+    },
+    "description": {
+      "en": "Make a Spellcast Roll (15). On a success, transform into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.",
+      "ru": "Совершите **бросок заклинания (15)**. При успехе вы превращаетесь в неодушевленный объект, размер которого не превышает двойной размер вашего нормального тела. Вы можете оставаться в этом виде до тех пор, пока не получите урон.",
+      "ru-DHM": "Совершите **бросок заклинания (15)**. При успехе вы превращаетесь в неодушевленный предмет, размер которого не превышает двойного размера вашего обычного облика. Вы можете оставаться в этой форме до тех пор, пока не получите урон."
+    },
+    "origin_value": "book-of-ronin",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-grynn_time_lock",
+    "title": {
+      "en": "Time Lock",
+      "ru": "Временная печать",
+      "ru-DHM": "Фиксация во времени"
+    },
+    "description": {
+      "en": "Target an object within Far range. That object stops in time and space exactly where it is until your next rest. If a creature tries to move it, make a **Spellcast Roll** against them to maintain this spell.",
+      "ru": "Выберите объект в пределах далёкой дистанции. Этот объект останавливается во времени и пространстве точно в том месте, где он находится, до вашего следующего отдыха. Если существо попытается переместить объект, совершите **бросок заклинания** против него, чтобы сохранить действие заклинания.",
+      "ru-DHM": "Выберите целью объект в пределах дальней дистанции. Этот объект застывает во времени и пространстве до конца следующего отдыха. Если существо попытается сдвинуть его, совершите против него **бросок заклинания**, чтобы поддерживать это заклинание."
+    },
+    "origin_value": "book-of-grynn",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-vyola_shared_clarity",
+    "title": {
+      "en": "Shared Clarity",
+      "ru": "Разделённая ясность",
+      "ru-DHM": "Единение разумов"
+    },
+    "description": {
+      "en": "**Spend a Hope** to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.",
+      "ru": "**Потратьте Надежду**, чтобы выбрать двух согласных существ. Когда одно из них должно отметить Стресс, они могут выбрать, кто из них двух получит его. Это заклинание действует до следующего отдыха этих существ.",
+      "ru-DHM": "**Потратьте Надежду**, чтобы выбрать двух согласных существ. Когда одно из них должно получить Стресс, они могут выбрать, кто из них его получит. Эффект действует до конца их отдыха."
+    },
+    "origin_value": "book-of-vyola",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_sitil_illusion",
+    "title": {
+      "en": "Illusion",
+      "ru": "Мираж",
+      "ru-DHM": "Иллюзия"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (14)**. On a success, create a temporary visual illusion no larger than you within Close range that lasts for as long as you look at it. It holds up to scrutiny until an observer is within Melee range.",
+      "ru": "Совершите **бросок заклинания (14)**. При успехе создайте временную визуальную иллюзию размером не больше вас в пределах средней дистанции, которая будет длиться до тех пор, пока вы на нее смотрите. Она выдерживает пристальный взгляд, пока наблюдатель не окажется вплотную.",
+      "ru-DHM": "Совершите **бросок заклинания (14)**. При успехе создайте временную визуальную иллюзию размером не больше вас в пределах средней дистанции. Она существует, пока вы на нее смотрите, и выглядит убедительной, пока наблюдатель не приблизится к ней вплотную."
+    },
+    "origin_value": "book_of_sitil",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_ava_ice_spike",
+    "title": {
+      "en": "Ice Spike",
+      "ru": "Ледяной шип"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (12)** to summon a large ice spike within Far range. If you use it as a weapon, make the Spellcast Roll against the targetэs Difficulty instead. On a success, deal d6 physical damage using your Proficiency.",
+      "ru": "Совершите **бросок заклинания (12)**, чтобы призвать большой ледяной шип в пределах далёкой дистанции. Если вы используете шип в качестве оружия, вместо этого совершите бросок заклинания против сложности цели. При успехе нанесите d6 физического урона, используя ваше мастерство.",
+      "ru-DHM": "Совершите **бросок заклинания (12)**, чтобы призвать крупный ледяной шип в пределах дальней дистанции. При использовании его в качестве оружия совершите бросок заклинания против сложности цели. При успехе нанесите **d6** физического урона (используя вашу сноровку)."
+    },
+    "origin_value": "book_of_ava",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_illiat_arcane_barrage",
+    "title": {
+      "en": "Arcane Barrage",
+      "ru": "Шквал арканы",
+      "ru-DHM": "Магический залп"
+    },
+    "description": {
+      "en": "**Spend any number of Hope** and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of **d6s** equal to the Hope spent and deal that much magic damage to the target.",
+      "ru": "Вы можете **потратить любое количество Надежды** и выстрелить магическими снарядами, которые поражают цель по вашему выбору в пределах средней дистанции. Бросьте количество **d6**, равное потраченной Надежде, и нанесите цели столько же магического урона.",
+      "ru-DHM": "Вы можете **потратить любое количество Надежды** и выпустить магические снаряды по цели в пределах средней дистанции. Бросьте количество **d6**, равное количеству потраченной Надежды, и нанесите цели соответствующий магический урон."
+    },
+    "origin_value": "book_of_illiat",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-norai_fireball",
+    "title": {
+      "en": "Fireball",
+      "ru": "Огненный шар"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact. The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take **d20+5** magic damage using your Proficiency. Targets who succeed take half damage.",
+      "ru": "Совершите **бросок заклинания** против цели в пределах очень далёкой дистанции. При успехе, бросьте в неё огненный шар, который взрывается при ударе. Цель и все существа в пределах близкой дистанции от нее должны совершить бросок реакции (13). Цели, провалившие бросок, получают **d20+5** магического урона, используя ваше мастерство. Цели, которые преуспели, получают половину урона.",
+      "ru-DHM": "Совершите **бросок заклинания** против цели в пределах очень дальней дистанции. При успехе вы метаете в цель огненную сферу, которая взрывается при столкновении. Цель и все существа на близкой дистанции от неё должны совершить **бросок реакции (13)**. При провале они получают **d20+5** магического урона (используя вашу сноровку). При успехе они получают половину урона."
+    },
+    "origin_value": "book-of-norai",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_tyfar_magic_hand",
+    "title": {
+      "en": "Magic Hand",
+      "ru": "Магическая рука",
+      "ru-DHM": "Волшебная рука"
+    },
+    "description": {
+      "en": "You conjure a magical hand with the same size and strength as your own within Far range.",
+      "ru": "Вы создаете магическую руку такого же размера и силы, как ваша собственная, в пределах далёкой дистанции.",
+      "ru-DHM": "Создайте в пределах дальней дистанции магическую руку, размер и сила которой идентичны вашей собственной."
+    },
+    "origin_value": "book_of_tyfar",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-ronin_eternal_enervation",
+    "title": {
+      "en": "Eternal Enervation",
+      "ru": "Бесконечное истощение",
+      "ru-DHM": "Постоянная слабость"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against a target within Close range. On a success, they become permanently *Vulnerable*. They can't clear this condition by any means.",
+      "ru": "Совершите **бросок заклинания** против цели в пределах средней дистанции. При успехе цель становится навсегда *Уязвимой*. Она не может избавиться от этого состояния никаким способом.",
+      "ru-DHM": "Совершите **бросок заклинания** против цели в пределах средней дистанции. При успехе цель навсегда становится *Уязвимой*. Она не может снять это состояние никаким способом."
+    },
+    "origin_value": "book-of-ronin",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-korvax_recant",
+    "title": {
+      "en": "Recant",
+      "ru": "Забывчивость",
+      "ru-DHM": "Забвение"
+    },
+    "description": {
+      "en": "**Spend a Hope** to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.",
+      "ru": "**Потратьте Надежду**, чтобы заставить цель, находящуюся к вам вплотную совершить бросок реакции (15). При провале, цель забывает последнюю минуту вашего разговора.",
+      "ru-DHM": "**Потратьте Надежду**, чтобы заставить находящуюся вплотную цель совершить **бросок реакции (15)**. При провале она забывает последнюю минуту вашего разговора."
+    },
+    "origin_value": "book-of-korvax",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_illiat_telepathy",
+    "title": {
+      "en": "Telepathy",
+      "ru": "Телепатия"
+    },
+    "description": {
+      "en": "**Spend a Hope** to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast **Telepathy** again.",
+      "ru": "**Потратьте Надежду**, чтобы открыть канал мысленной связи с одной целью, которую можете видеть. Эта связь длится до следующего отдыха или пока вы не используете **Телепатию** снова.",
+      "ru-DHM": "**Потратьте Надежду**, чтобы установить ментальную связь с видимой целью. Cвязь сохраняется до конца следующего отдыха, или повторного применения **Телепатии**."
+    },
+    "origin_value": "book_of_illiat",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_vagras_runic_lock",
+    "title": {
+      "en": "Runic Lock",
+      "ru": "Руническая печать",
+      "ru-DHM": "Рунический замок"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (15)** on an object you're touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.",
+      "ru": "Совершите **бросок заклинания (15)** на объект, которого вы касаетесь и который можно закрыть (например, замок, сундук или ящик). При успехе один раз до следующего отдыха вы можете запереть объект так, что его смогут открыть только существа по вашему выбору. Кто-то, обладающий доступом к магии и имеющий час времени на изучение заклинания, может его разорвать.",
+      "ru-DHM": "Совершите **бросок заклинания (15)** на объект, к которому вы прикасаетесь и который может закрываться (например, замок, сундук или коробку). При успехе вы один раз до конца следующего отдыха запираете объект так, что открыть его могут только выбранные вами существа. Кто-либо, владеющий магией,  может снять это заклинание, потратив час на его изучение."
+    },
+    "origin_value": "book_of_vagras",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-grynn_wall_of_flame",
+    "title": {
+      "en": "Wall of Flame",
+      "ru": "Огненная стена",
+      "ru-DHM": "Стена пламени"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (15)**. On a success, create a temporary wall of magical flame between two points within Far range. All creatures in its path must choose a side to be on, and anything that subsequently passes through the wall takes **4d10+3** magic damage.",
+      "ru": "Совершите **бросок заклинания (15)**. При успехе создайте временную стену магического пламени между двумя точками в пределах далёкой дистанции. Все существа на пути стены должны выбрать, на какой стороне они будут находиться, и все, кто впоследствии пройдут через стену, получат **4d10+3** магического урона.",
+      "ru-DHM": "Совершите **бросок заклинания (15)**. При успехе создайте временную стену магического пламени между двумя точками в пределах дальней дистанции. Все существа на её пути должны выбрать с какой стороны они окажутся, и всё, что потом пройдет через стену, получает **4d10+3** магического урона."
+    },
+    "origin_value": "book-of-grynn",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_vagras_arcane_door",
+    "title": {
+      "en": "Arcane Door",
+      "ru": "Мистическая дверь",
+      "ru-DHM": "Арканная дверь"
+    },
+    "description": {
+      "en": "When you have no adversaries within Melee range, make a **Spellcast Roll (13)**. On a success, **spend a Hope** to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.",
+      "ru": "Когда вплотную к вам нет противников, совершите **бросок заклинания (13)**. При успехе **потратьте Надежду**, чтобы создать портал от вас до места в пределах далёкой дистанции, которое вы можете видеть. Портал закрывается, как только через него проходит существо.",
+      "ru-DHM": "Если вплотную к вам нет противников, совершите **бросок заклинания (13)**. При успехе потратьте **Надежду**, чтобы открыть портал из того места, где вы находитесь, в любую точку в пределах дальней дистанции, которую вы видите. Портал закрывается сразу после того, как через него проходит существо."
+    },
+    "origin_value": "book_of_vagras",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book-of-yarrow_timejammer",
+    "title": {
+      "en": "Timejammer",
+      "ru": "Искажение времени",
+      "ru-DHM": "Остановка времени"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (18)**. On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.",
+      "ru": "Совершите **бросок заклинания (18)**. При успехе время ненадолго останавливается для всех в пределах далёкой дистанции, кроме вас. Оно возобновляется, когда вы совершаете следующий бросок действия, целью которого является другое существо.",
+      "ru-DHM": "Совершите **бросок заклинания (18)**. При успехе время останавливается для всех в пределах дальней дистанции, кроме вас. Эффект заканчивается, когда вы совершаете бросок действия, направленный на другое существо."
+    },
+    "origin_value": "book-of-yarrow",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "fire_flies_conjure_swarm",
+    "title": {
+      "en": "Fire Flies",
+      "ru": "Светлячки",
+      "ru-DHM": "Огневички"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll** against all adversaries within Close range. **Spend a Hope** to deal **2d8+3** magic damage to targets you succeeded against.",
+      "ru": "Совершите **бросок заклинания** против всех противников в пределах средней дистанции. **Потратьте Надежду**, чтобы нанести **2d8+3** урона магией целям, против которых вы преуспели.",
+      "ru-DHM": "Совершите **бросок заклинания** против всех противников в пределах средней дистанции. **Потратьте Надежду**, чтобы нанести **2d8+3** магического урона целям, против которых бросок был успешен."
+    },
+    "origin_value": "conjure_swarm",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "book_of_sitil_parallela",
+    "title": {
+      "en": "Parallela",
+      "ru": "Параллель"
+    },
+    "description": {
+      "en": "**Spend 2 Hope** to cast this spell on yourself or an ally within Close range. The next time the target makes an attack, they can hit an additional target within range that their attack roll would succeed against. You can only hold this spell on one creature at a time.",
+      "ru": "**Потратьте 2 Надежды**, чтобы наложить это заклинание на себя или союзника в пределах средней дистанции. В следующий раз, когда цель совершит атаку, она сможет поразить дополнительную цель в пределах дистанции, против которой ее бросок атаки был бы успешным. Вы можете держать это заклинание только на одном существе за раз.",
+      "ru-DHM": "**Потратьте 2** **Надежды**, чтобы наложить это заклинание на себя или союзника в пределах средней дистанции. В следующий раз, когда цель заклинания совершит атаку, она может поразить ещё одну цель, по которой бросок атаки был успешен, в пределах дистанции атаки. Вы можете поддерживать действие этого заклинания только на одном существе одновременно."
+    },
+    "origin_value": "book_of_sitil",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 2
+    },
+    "info": {
+      "type": "spell"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  }
+]

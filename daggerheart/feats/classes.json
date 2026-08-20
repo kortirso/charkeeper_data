@@ -1,0 +1,1899 @@
+[
+  {
+    "slug": "f430216e-3bc2-4c83-b59c-446d9446e2ec",
+    "title": {
+      "en": "Red Mist",
+      "ru": "Красный туман"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to drink in the room's terror. Remove a Fear from the GM, place 1 Blood in your **Blood Forge**, and clear a Stress.",
+      "ru": "**Потратьте 3 Надежды**, чтобы впитать ужас, царящий в комнате. Удалите Страх из запаса Страха Мастера, добавьте 1 Кровь в свою **Кровавую Кузницу** и очистите Стресс."
+    },
+    "origin_value": "bc152e56-9975-48eb-a545-6b5fae2c43c1",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "685e6069-0ab8-413c-9550-e1e78b15d933",
+    "title": {
+      "en": "Blood Forge",
+      "ru": "Кровавая кузница"
+    },
+    "description": {
+      "en": "Start each scene with 1 Blood. You can place 1 Blood when any of the following happen:\n\n- You succeed with Fear on an action you make.\n\n- An adversary marks Stress within Close range.\n\n- The GM spends Fear to make a move or use a Fear Feature.\n\nYou can gain Blood from this list up to your Proficiency each scene. Max Blood equals your Proficiency.\n\nWhen you make a melee attack, before rolling damage you may spend Blood. On a success, apply one of the following:\n\n- Spend 1: Add 1d4 to the damage roll.\n\n- Spend 2: The target becomes temporarily *Vulnerable*.\n\n- Spend 3: Treat this attack as at least Major damage threshold.",
+      "ru": "Вы начинаете каждую сцену с 1 Кровью. Вы можете добавить 1 Кровь когда:\n\n- Когда вы преуспеваете со Страхом.\n\n- Противник в пределах средней дистанции отмечает Стресс.\n\n- Мастер тратит Страх, чтобы выполнить движение или использовать способность со Страхом.\n\nВ течение каждой сцены вы можете получить кол-во Крови, равное вашему мастерству. Лимит Крови равен вашему Мастерству.\n\nВо время атаки ближнего боя до броска урона вы можете потратить Кровь:\n\n- Потратить 1: добавьте 1d4 к броску урона.\n\n- Потратить 2: цель становится *Уязвимой*.\n\n- Потратить 3: эта атака причиняет как минимум ощутимые повреждения."
+    },
+    "origin_value": "bc152e56-9975-48eb-a545-6b5fae2c43c1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "none"
+    },
+    "dices": null
+  },
+  {
+    "slug": "2702f7f9-e149-4edc-bd36-4c006f00c17f",
+    "title": {
+      "en": "Bloody Momentum",
+      "ru": "Кровавый импульс"
+    },
+    "description": {
+      "en": "Once per scene, when you defeat a target within Melee, immediately move up to Close range and make a melee attack against a different target.",
+      "ru": "Один раз за сцену, когда вы побеждаете цель в ближнем бою, мгновенно переместитесь в пределах средней дистанции к другой цели и выполните против неё атаку ближнего боя."
+    },
+    "origin_value": "bc152e56-9975-48eb-a545-6b5fae2c43c1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8e82b174-0a53-427d-892a-c66a828b2f87",
+    "title": {
+      "en": "It's In The Clues",
+      "ru": "Ответ кроется в подсказках"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to recognize things in an adversary, allowing you to reduce their Damage Thresholds by 2. You cannot perform this on an adversary more than once.",
+      "ru": "**Потратьте 3 Надежды**, чтобы распознать особенности противника, что позволит вам снизить его пороги урона на 2. Вы не можете выполнить это действие на одном и том же противнике более одного раза."
+    },
+    "origin_value": "cfaca70f-f00c-462b-b181-e3a75db4781d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "657b0037-e771-4d17-857c-61c5d65ef97e",
+    "title": {
+      "en": "Myths",
+      "ru": "Мифы"
+    },
+    "description": {
+      "en": "You have advantage on Knowledge rolls to remember important historical or religious information.",
+      "ru": "Вы получаете преимущество к броскам Знаний, чтобы вспомнить важную историческую или религиозную информацию."
+    },
+    "origin_value": "cfaca70f-f00c-462b-b181-e3a75db4781d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "29bd9e94-3219-4c18-89a5-6bb86f3f720b",
+    "title": {
+      "en": "And Legends",
+      "ru": "И легенды"
+    },
+    "description": {
+      "en": "You can **mark a Stress** to increase or decrease a duality die by an amount equal to your Knowledge modifier. This cannot result in a critical success.",
+      "ru": "Вы можете **отметить Стресс**, чтобы изменить результат броска Кости Дуальности на число, равное вашему Знанию. Это не может привести к критическому успеху."
+    },
+    "origin_value": "cfaca70f-f00c-462b-b181-e3a75db4781d",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "46603fdd-f89a-4fa2-95c5-94186b2ab4d2",
+    "title": {
+      "en": "Revelation",
+      "ru": "Откровение"
+    },
+    "description": {
+      "en": "When you or an ally within Close range fails an Instinct or Presence roll, you can **spend 3 Hope** to reroll the Duality Dice.",
+      "ru": "Когда вы или ваш союзник в пределах средней дистанции проваливаете проверку Инстинкта или Влияния, то вы можете **потратить 3 Надежды**, чтобы перебросить Кости Дуальности."
+    },
+    "origin_value": "86700542-58be-4d01-993c-4d652f4b938e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "374c4919-7a4f-495b-9cf7-c879c8f4acb7",
+    "title": {
+      "en": "Genesis",
+      "ru": "Генезис"
+    },
+    "description": {
+      "en": "Whenever you roll a Critical Success, additionally clear a Hit Point.",
+      "ru": "После критического успеха при броске вы можете очистить рану."
+    },
+    "origin_value": "86700542-58be-4d01-993c-4d652f4b938e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7dd230e2-0901-4903-b6c5-e2fd1237945a",
+    "title": {
+      "en": "Oracular Font",
+      "ru": "Вещий текст"
+    },
+    "description": {
+      "en": "Determine the source of your power, known as your Oracular Font. Before you make an action or reaction roll related to your **Oracular Font**, you can **spend a Hope** to add a +2 modifier to the roll's result. Once per session, you can add this modifier to any Spellcast Roll you make.",
+      "ru": "Определите источник вашей силы, известный как Вещий текст. До броска действия или реакции, связанного с вашим **Вещим текстом**, вы можете **потратить Надежду**, чтобы добавить бонус +2 к результату броска. Один раз за сессию вы можете добавить этот бонус к любому броску заклинания."
+    },
+    "origin_value": "86700542-58be-4d01-993c-4d652f4b938e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "24e3fcb7-8aed-4b5b-8a05-10005f239742",
+    "title": {
+      "en": "Curse",
+      "ru": "Проклятье"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to force an adversary within Close range to mark a Stress.",
+      "ru": "**Потратьте 3 Надежды**, чтобы противник в пределах средней дистанции отметил Стресс."
+    },
+    "origin_value": "4d26e9b6-3ae1-4f5c-94cc-2541d2a0fcd0",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "381c886c-d80e-4784-b228-d88f6f99978f",
+    "title": {
+      "en": "Spirit Tether",
+      "ru": "Духовная связь"
+    },
+    "description": {
+      "en": "You can Tether a target within Close range, linking them to you until you fall unconscious or the scene ends. While Tethered, whenever you mark any number of Hit Points or Stress, you can **spend a Hope** to force them to mark one of the same.",
+      "ru": "Вы можете связать цель в пределах средней дистанции до конца сцены или пока вы не потеряете сознание. Когда вы отмечаете любое кол-во Ран или Стресса, то вы можете **потратить Надежду**, чтобы цель отметила 1 единицу аналогичного типа."
+    },
+    "origin_value": "4d26e9b6-3ae1-4f5c-94cc-2541d2a0fcd0",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "prayer_dice",
+    "title": {
+      "en": "Prayer Dice",
+      "ru": "Кости молитвы"
+    },
+    "description": {
+      "en": "At the beginning of each session, roll a number of d4s equal to your subclass's Spellcast trait. These are your Prayer Dice. You can spend any number of Prayer Dice to aid yourself or an ally within Far range. You can use a spent die's value to reduce incoming damage, add to a roll's result after the roll is made, or gain Hope equal to the result. At the end of each session, clear all unspent Prayer Dice.",
+      "ru": "В начале каждой сессии бросьте количество d4, равное вашей характеристике заклинателя, и поместите их на лист персонажа в отведенное для этого место. Это ваши Кости Молитвы. Вы можете потратить любое количество Костей Молитвы, чтобы помочь себе или союзнику в пределах далёкой дистанции. Вы можете использовать значение потраченной кости, чтобы уменьшить получаемый урон, добавить к результату броска после совершения броска или получить Надежду, равную результату. В конце каждой сессии снимите все неизрасходованные Кости Молитвы.",
+      "ru-DHM": "В начале сессии бросьте количество d4, равное значению атрибута магии вашего подкласса, и сохраните выпавшие значения в отведённой области на листе персонажа. Это ваши кости Молитвы. Вы можете потратить любое количество костей Молитвы на себя или союзника в пределах дальней дистанции, используя их значение чтобы:\n\n- снизить входящий урон;\n\n- добавить к результату любого броска после его совершения;\n\n- получить такое же количество Надежды.\n\nВ конце сессии сбросьте все непотраченные кости Молитвы."
+    },
+    "origin_value": "seraph",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "spellcast",
+      "reset": "limit",
+      "reset_at": "session"
+    },
+    "dices": null
+  },
+  {
+    "slug": "092825f9-3f4b-4359-b1ca-e13662d52187",
+    "title": {
+      "en": "Quick Fix (Hope Feature)",
+      "ru": "Быстрый Ремонт (Свойство Надежды)"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to clear 1 armor slot for 2 different targets within Close range.",
+      "ru": "**Потратьте 3 Надежды**, чтобы снять по 1 ячейке Брони у двух разных целей в пределах Средней дистанции."
+    },
+    "origin_value": "2578a3a5-1ca2-4c89-a7af-779b15743fb8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "make_a_scene",
+    "title": {
+      "en": "Make a Scene",
+      "ru": "Устроить сцену"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to temporarily Distract a target within Close range, giving them a -2 penalty to their Difficulty.",
+      "ru": "**Потратьте 3 Надежды**, чтобы временно отвлечь цель в пределах средней дистанции, наложив на неё штраф -2 к Сложности.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы временно отвлечь цель в пределах cредней дистанции, снижая её cложность на 2."
+    },
+    "origin_value": "bard",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "wildtouch",
+    "title": {
+      "en": "Wildtouch",
+      "ru": "Касание природы",
+      "ru-DHM": "Связь с природой"
+    },
+    "description": {
+      "en": "You can perform harmless, subtle effects that involve nature — such as causing a flower to rapidly grow, summoning a slight gust of wind, or starting a campfire — at will.",
+      "ru": "Вы способны по своему желанию вызывать незначительные и безвредные проявления природной магии. Это может быть стремительный рост цветка, лёгкий порыв ветра или самовоспламенение костра.",
+      "ru-DHM": "Вы можете творить простые безвредные природные эффекты в любое время. Например, вызвать стремительный рост цветка, легкий порыв ветра или разжечь костер."
+    },
+    "origin_value": "druid",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "rogue_dodge",
+    "title": {
+      "en": "Rogue's Dodge",
+      "ru": "Уклонение плута",
+      "ru-DHM": "Изворотливость плута"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to gain a +2 situative bonus to your Evasion until the next time an attack succeeds against you. Otherwise, this bonus lasts until your next rest.",
+      "ru": "**Потратьте 3 Надежды**, чтобы получить +2 ситуативный бонус к вашему уклонению до следующей успешной атаки по вам. В противном случае, этот бонус сохранится до конца вашего следующего отдыха.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы получить +2 к уклонению до конца следующего отдыха. Этот эффект заканчивается, если по вам попадают атакой."
+    },
+    "origin_value": "rogue",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "sneak_attack",
+    "title": {
+      "en": "Sneak Attack",
+      "ru": "Скрытая атака",
+      "ru-DHM": "Коварная атака"
+    },
+    "description": {
+      "en": "When you succeed on an attack while Cloaked or while an ally is within Melee range of your target, add a {{value|1}}d6 to your damage roll.",
+      "ru": "Когда вы успешно атакуете существо будучи *Замаскированным* или если союзник находится вплотную к цели, добавьте {{value|1}}d6 к Броску урона.",
+      "ru-DHM": "Если вы успешно атакуете, будучи *Под покровом*, или когда союзник находится вплотную к вашей цели, добавьте к броску урона {{value|1}}d6."
+    },
+    "origin_value": "rogue",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "value": "if (level >= 8, 4, if (level >= 5, 3, if (level >= 2, 2, 1)))"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "life_support",
+    "title": {
+      "en": "Life Support",
+      "ru": "Поддержание жизни"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to clear a Hit Point on an ally within Close range.",
+      "ru": "**Потратьте 3 Надежды**, чтобы очистить Рану союзнику в пределах средней дистанции.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы вылечить Рану союзнику в пределах средней дистанции."
+    },
+    "origin_value": "seraph",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "commune",
+    "title": {
+      "en": "Commune",
+      "ru": "Гадание"
+    },
+    "description": {
+      "en": "During a moment of calm, you can commune with an ancestor, deity, nature spirit, or otherworldly being. Ask them a question, then roll a number of d6s equal to your Spellcast trait.\n\nChoose one value from the rolled results and reference the chart below for the effect:\n\n- 1-3: You taste a flavor, smell a scent, or feel a sensation relevant to the answer.\n\n- 4-5: You hear sounds or see a vision relevant to the answer.\n\n- 6: You psychically experience a scene relevant to the answer as if you were there.",
+      "ru": "В момент спокойствия, вы можете установить контакт с предком, божеством, духом или потусторонним существом. Задайте им вопрос, после чего бросьте количество d6, равное вашей характеристике заклинателя.\n\nВыберите одно значение из полученных результатов и обратитесь к таблице ниже, чтобы узнать эффект:\n\n- 1-3: Вы ощущаете вкус, запах или физическое чувство, связанное с ответом.\n\n- 4-5: Вы слышите звуки или видите видение, связанное с ответом.\n\n- 6: Вы ментально проживаете сцену, связанную с ответом, как если бы вы были там."
+    },
+    "origin_value": "3faa2e12-e72d-4afc-a0b7-54a9bb317b86",
+    "kind": "text",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "hex",
+    "title": {
+      "en": "Hex",
+      "ru": "Сглаз"
+    },
+    "description": {
+      "en": "When a creature causes you or an ally within Close range to mark any number of Hit Points, you can **mark a Stress** to Hex them. Action and damage rolls against a Hexed creature gain a bonus equal to your tier.\n\nThis condition lasts until the GM spends a number of Fear equal to your Spellcast trait to remove it or you Hex another creature. Otherwise, remove it when the scene ends.",
+      "ru": "Когда существо заставляет вас или союзника в пределах средней дистанции отметить любое количество Ран, вы можете **отметить Стресс**, чтобы Сглазить его. Броски действий и урона против цели со Сглазом получают бонус, равный вашему рангу.\n\nЭто состояние действует до тех пор, пока Мастер не потратит количество Страха, равное вашей характеристике заклинателя, или пока вы не Сглазите другое существо. В противном случае, состояние заканчивается в конце сцены."
+    },
+    "origin_value": "3faa2e12-e72d-4afc-a0b7-54a9bb317b86",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "no_mercy",
+    "title": {
+      "en": "No Mercy",
+      "ru": "Беспощадный",
+      "ru-DHM": "Без пощады"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to gain a +1 calculated bonus to your attack rolls until your next rest.",
+      "ru": "**Потратьте 3 Надежды**, чтобы получить добавленный бонус +1 к вашим броскам атаки до вашего следующего отдыха.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы получить добавленный бонус +1 к вашим броскам атаки до конца следующего отдыха."
+    },
+    "origin_value": "warrior",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "none",
+      "reset": "zero",
+      "reset_at": "short"
+    },
+    "dices": null
+  },
+  {
+    "slug": "staggering_strike",
+    "title": {
+      "en": "Staggering Strike",
+      "ru": "Ошеломляющий удар"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** when you succeed on an attack to temporarily Stagger your target and force them to mark a Stress. While Staggered, they have disadvantage on attack rolls.",
+      "ru": "**Потратьте 3 Надежды**, когда вы преуспеете в атаке, чтобы временно Ошеломить цель и заставить ее отметить Стресс. Пока цель Ошеломлена, все ее броски атаки совершаются с помехой."
+    },
+    "origin_value": "8b6530fe-9c47-4c4c-b25f-46b905fcc854",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ranger_focus",
+    "title": {
+      "en": "Ranger's Focus",
+      "ru": "Метка следопыта"
+    },
+    "description": {
+      "en": "**Spend a Hope** and make an attack against a target. On a success, deal your attack's normal damage and temporarily make the attack's target your Focus. Until this feature ends or you make a different creature your Focus:\n\n- you know precisely what direction they are in,\n\n- when you deal damage to them, they must mark a Stress,\n\n- when you fail an attack against them, you can end your Ranger's Focus feature to reroll your Duality Dice.",
+      "ru": "**Потратьте Надежду** и совершите атаку против цели. При успехе нанесите обычный урон от вашей атаки и временно отметьте цель вашей атаки Меткой. Пока это свойство не закончится или вы не отметите другое существо вашей Меткой, вы получаете следующие преимущества против вашей цели с Меткой:\n\n- вы точно знаете, в каком направлении она находится,\n\n- когда вы наносите ей урон, она должна Отметить Стресс,\n\n- когда вы проваливаете атаку против неё, вы можете прекратить свойство Метки Следопыта, чтобы перебросить ваши Кости Дуальности.",
+      "ru-DHM": "**Потратьте Надежду** и атакуйте цель. При успехе нанесите обычный урон от атаки и поставьте временную Метку на цель атаки. Пока это свойство активно (или пока вы не поставите Метку на другую цель), вы получаете следующие усиления против отмеченной цели:\n\n- Вы точно знаете направление, в котором она находится.\n\n- Когда вы наносите ей урон, она должна получить Стресс.\n\n- При провале атаки по цели, вы можете снять с неё Метку, чтобы перебросить кости дуализма."
+    },
+    "origin_value": "ranger",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "combat_training",
+    "title": {
+      "en": "Combat Training",
+      "ru": "Боевая подготовка"
+    },
+    "description": {
+      "en": "You ignore burden when equipping weapons. You gain a situative bonus +{{value|level}} to your physical damage rolls.",
+      "ru": "Вы игнорируете хват при экипировке оружия. Когда вы наносите физический урон, вы получаете ситуативный бонус +{{value|level}}.",
+      "ru-DHM": "Игнорируйте хват при экипировке оружия. Когда вы наносите физический урон, вы добавляете к нему свой уровень."
+    },
+    "origin_value": "warrior",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "value": "level"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "not_this_time",
+    "title": {
+      "en": "Not This Time",
+      "ru": "Не сегодня",
+      "ru-DHM": "Не в этот раз"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to force an adversary within Far range to reroll an attack or damage roll.",
+      "ru": "**Потратьте 3 Надежды**, чтобы заставить противника в пределах далёкой дистанции перебросить Бросок Атаки или Бросок урона.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы заставить противника в пределах дальней дистанции перебросить бросок атаки или урона."
+    },
+    "origin_value": "wizard",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "crimson_rite",
+    "title": {
+      "en": "Crimson Rite",
+      "ru": "Багровый обряд"
+    },
+    "description": {
+      "en": "**Mark a Hit Point** to enchant one of your active weapons with bloodthirsty power until the end of your next rest or you use this feature again. When you succeed on an attack with the enchanted weapon, it deals an extra {{value|1}}d4 magic damage.",
+      "ru": "**Отметьте Рану**, чтобы зачаровать одно своё активное оружие. До завершения следующего отдыха или следующего использования этой способности это оружие будет наносить дополнительно {{value|1}}d4 магического урона."
+    },
+    "origin_value": "7806ca13-87ec-47f9-b9d7-275a4bad62be",
+    "kind": "text",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "value": "if (level >= 8, 4, if (level >= 5, 3, if (level >= 2, 2, 1)))"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "volatile_magic",
+    "title": {
+      "en": "Volatile Magic",
+      "ru": "Нестабильная магия"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to reroll any number of your damage dice on an attack that deals magic damage.",
+      "ru": "**Потратьте 3 Надежды**, чтобы перебросить любое количество Костей урона вашей атаки, наносящей магический урон.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы перебросить любое количество своих костей урона при атаке, причиняющей магический урон."
+    },
+    "origin_value": "sorcerer",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "beastform",
+    "title": {
+      "en": "Beastform",
+      "ru": "Звериная форма"
+    },
+    "description": {
+      "en": "**Mark a Stress** to magically transform into a creature of your tier or lower from the Beastform list. You can drop out of this form at any time.",
+      "ru": "**Отметьте Стресс**, чтобы магически превратиться в существо вашего ранга или ниже из списка звериных форм. Вы можете выйти из этой формы в любое время.",
+      "ru-DHM": "**Получите Стресс**, чтобы магически превратиться в существо из списка звериных форм вашего тира или ниже. Вы можете выйти из этой формы в любой момент."
+    },
+    "origin_value": "druid",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "unstoppable",
+    "title": {
+      "en": "Unstoppable",
+      "ru": "Неудержимый"
+    },
+    "description": {
+      "en": "You can become *Unstoppable*. You gain an Unstoppable Die - d{{value|4}}, starting with the 1 value facing up. After you make a damage roll that deals 1 or more Hit Points to a target, increase the Unstoppable Die value by one. When the die's value would exceed its maximum value or when the scene ends, remove the die and drop out of *Unstoppable*.\n\nWhile *Unstoppable*:\n\n- you reduce the severity of physical damage by one threshold,\n\n- you add d{{value|4}} to your damage roll,\n\n- you can't be *Restrained* or *Vulnerable*.",
+      "ru": "Вы можете стать *Неудержимым*. Вы получаете Кость Неудержимости - d{{value|4}}, начиная со значения 1 сверху. После совершения броска урона, который нанесет 1 или более Ран цели, увеличьте значение Кости Неудержимости на 1. Когда значение кости превысит максимальное значение или когда закончится сцена, снимите кость и завершите состояние *Неудержимости*.\n\nПока вы *Неудержимы*, вы получаете следующие преимущества:\n\n- вы уменьшаете тяжесть физического урона на один порог,\n\n- вы добавляете d{{value|4}} к своему броску урона,\n\n- вы не можете быть *Обездвижены* или *Уязвимы*.",
+      "ru-DHM": "Вы можете стать Неудержимым. Вы получаете кость Неудержимости d{{value|4}}. Разместите её в отведённом месте на листе персонажа, начав со значения 1. После успешной атаки, нанёсшей Рану, увеличьте значение на 1. Когда значение превысит максимум для кости или сцена завершится — вы теряете состояние Неудержимый и убираете кость.\n\nБудучи Неудержимым, вы:\n\n- Снижаете степень физического урона на один порог (с тяжелого до ощутимого, с ощутимого до легкого, с легкого — до нуля).\n\n- Добавляете текущее значение кости Неудержимости к своему броску урона.\n\n- Не можете быть Скованы или Уязвимы"
+    },
+    "origin_value": "guardian",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1",
+      "value": "if (level >= 5, 6, 4)"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "none",
+      "reset": "zero",
+      "reset_at": "long"
+    },
+    "dices": null
+  },
+  {
+    "slug": "14242efb-0775-4efc-917d-6b7a0c3530df",
+    "title": {
+      "en": "Quick Fix (Hope Feature)",
+      "ru": "Быстрый Ремонт (Свойство Надежды)"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to clear 1 armor slot for 2 different targets within Close range.",
+      "ru": "**Потратьте 3 Надежды**, чтобы снять по 1 ячейке Брони у двух разных целей в пределах Средней дистанции."
+    },
+    "origin_value": "7ea9f1f9-1837-44bc-9a71-3a5d83846b1f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "favor",
+    "title": {
+      "en": "Favor",
+      "ru": "Милость"
+    },
+    "description": {
+      "en": "Start with 3 Favor. During a rest, spend one of your downtime moves to tithe to your patron. When you do, gain Favor equal to your Presence. If you choose to forgo this offering, the GM instead gains a Fear.",
+      "ru": "Начните с 3 очками Милости. Во время отдыха, потратьте один из своих Ходов Отдыха в качестве дани вашему покровителю. Когда вы это сделаете, получите количество Милости, равное вашему Влиянию. Если вы решите воздержаться от этого подношения, Мастер получает Страх."
+    },
+    "origin_value": "5c857b3e-64bf-428a-959c-5f8904711c1d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "0"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ac80f50d-bb1f-4332-8640-f894edb0cabb",
+    "title": {
+      "en": "Always Busy",
+      "ru": "Всегда При Деле"
+    },
+    "description": {
+      "en": "Each time you rest, perform a short rest downtime move as a bonus. Additionally, Work on a Project is available to you as a short rest downtime move.\n\n*Tip: For one-shots that won't likely benefit from rests, consider compensating for Always Busy by starting the Artificer with 2 extra Hope, as though they Prepared with an ally.*",
+      "ru": "Каждый раз, когда вы отдыхаете, вы совершаете ход привала (короткого отдыха) бесплатно. Кроме того, «Работа над проектом» доступна вам как ход привала (короткого отдыха).\n\n*Совет: Для одиночных приключений без отдыхов компенсируйте это свойство, начав игру с 2 дополнительными Надеждами, как если бы Изобретатель Подготовился вместе с союзником.*"
+    },
+    "origin_value": "7ea9f1f9-1837-44bc-9a71-3a5d83846b1f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "minor_illusion",
+    "title": {
+      "en": "Minor Illusion",
+      "ru": "Малая иллюзия"
+    },
+    "description": {
+      "en": "**Make a Spellcast Roll (10)**. On a success, you create a minor visual illusion no larger than yourself within Close range. This illusion is convincing to anyone at Close range or farther.",
+      "ru": "Совершите **бросок заклинания (10)**. При успехе вы создаете малую визуальную иллюзию размером не больше себя в пределах средней дистанции. Эта иллюзия убедительна для любого на средней дистанции или дальше.",
+      "ru-DHM": "Совершите **бросок заклинания (10)**. При успехе вы создаёте небольшую визуальную иллюзию (не больше вас по размеру) в пределах средней дистанции. Иллюзия выглядит убедительно для всех, кто находится на средней дистанции или дальше."
+    },
+    "origin_value": "sorcerer",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "patron_boom",
+    "title": {
+      "en": "Patron's Boon",
+      "ru": "Дар покровителя"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to call out to your patron for help, gaining 1d4 Favor.",
+      "ru": "**Потратьте 3 Надежды**, чтобы попросить вашего покровителя о помощи и получите 1d4 Милости."
+    },
+    "origin_value": "5c857b3e-64bf-428a-959c-5f8904711c1d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "grim_resolve",
+    "title": {
+      "en": "Grim Resolve",
+      "ru": "Мрачная решимость"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to clear 2 Stress.",
+      "ru": "**Потратьте 3 Надежды**, чтобы очистить 2 Стресса."
+    },
+    "origin_value": "a6e5bb51-80d6-474b-9b23-44ab8a2ef554",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "frontline_tank",
+    "title": {
+      "en": "Frontline Tank",
+      "ru": "Щит передовой",
+      "ru-DHM": "Щит авангарда"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to clear 2 Armor Slots.",
+      "ru": "**Потратьте 3 Надежды**, чтобы очистить 2 Ячейки Брони.",
+      "ru-DHM": "Потратьте 3 Надежды, чтобы восстановить 2 ячейки Брони."
+    },
+    "origin_value": "guardian",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "rally",
+    "title": {
+      "en": "Rally",
+      "ru": "Сплочение"
+    },
+    "description": {
+      "en": "Describe how you rally the party and give yourself and each of your allies a Rally Die d{{value|6}}. A PC can spend their Rally Die to roll it, adding the result to their action roll, reaction roll, damage roll, or to clear a number of Stress equal to the result. At the end of each session, clear all unspent Rally Dice.",
+      "ru": "Опишите, как вы воодушевляете отряд — после этого вы и все союзники получают по Кости Сплочения d{{value|6}}. Игрок может потратить свою Кость Сплочения и бросить её, чтобы прибавить результат к броску действия, броску реакции, броску урона или снять количество Стресса, равное результату броска. В конце сессии снимите все неиспользованные Кости Сплочения.",
+      "ru-DHM": "Опишите, как вы вдохновляете отряд, и дайте себе и каждому из союзников по кости Сплочения d{{value|6}}. Персонаж игрока может потратить свою кость Сплочения, чтобы бросить её и добавить результат к своему броску действия, реакции или урона, либо снять количество Стресса, равное выпавшему значению. В конце каждой сессии все неиспользованные кости Сплочения сбрасываются."
+    },
+    "origin_value": "bard",
+    "kind": "static",
+    "limit_refresh": "session",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1",
+      "value": "if (level >= 5, 8, 6)"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "i_am_the_weapon",
+    "title": {
+      "en": "I am the Weapon",
+      "ru": "Я и есть оружие"
+    },
+    "description": {
+      "en": "While you don't have any equipped weapons you gain a +1 calculated bonus to Evasion.",
+      "ru": "Пока у вас не экипировано любое оружие вы получаете +1 добавленный бонус к уклонению."
+    },
+    "origin_value": "8b6530fe-9c47-4c4c-b25f-46b905fcc854",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "evasion": { "type": "add", "value": "if (no_weapon, 1, 0)" }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "marked_for_death",
+    "title": {
+      "en": "Marked for Death",
+      "ru": "Метка смерти"
+    },
+    "description": {
+      "en": "On a successful weapon attack, you can **mark a Stress** to make the target Marked for Death. Attacks you make against a target that's Marked for Death gain a situative bonus to damage +{{value|1}}d4.\n\nYou can only have one adversary Marked for Death at a time, and can't transfer or remove the condition except by defeating the target. The GM can spend a number of Fear equal to your Proficiency to remove the Marked for Death condition. Otherwise, it ends automatically when you take a rest.",
+      "ru": "При успешной атаке оружием вы можете **отметить Стресс**, чтобы дать цели Метку Смерти. Атаки, которые вы совершаете против цели с Меткой Смерти, получают ситуативный бонус к урону +{{value|1}}d4.\n\nУ вас может быть только один противник с Меткой Смерти, и вы не можете передавать или снимать это состояние, кроме как победив цель. Мастер может потратить количество Страха, равное вашему Мастерству, чтобы снять Метку Смерти. В противном случае она заканчивается автоматически, когда вы отдыхаете."
+    },
+    "origin_value": "a6e5bb51-80d6-474b-9b23-44ab8a2ef554",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "value": "tier"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "channel_raw_power",
+    "title": {
+      "en": "Channel Raw Power",
+      "ru": "Направление чистой энергии",
+      "ru-DHM": "Поток чистой силы"
+    },
+    "description": {
+      "en": "You can place a domain card from your loadout into your vault and choose to either:\n\n- gain Hope equal to the level of the card,\n\n- enhance a spell that deals damage, gaining a bonus to your damage roll equal to twice the level of the card.",
+      "ru": "Вы можете поместить карту домена из своего инвентаря в хранилище и выбрать одно из следующего:\n\n- получить количество Надежды, равное уровню карты,\n\n- усилить заклинание, наносящее урон, получив бонус к броску урона, равный удвоенному уровню карты.",
+      "ru-DHM": "Вы можете убрать карточку домена из руки в запас, чтобы выбрать одно из двух:\n\n- Получить количество Надежды, равное уровню карточки.\n\n- Усилить заклинание, добавив к его урону бонус, равный удвоенному уровню карточки. "
+    },
+    "origin_value": "sorcerer",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "blood_maledict",
+    "title": {
+      "en": "Blood Maledict",
+      "ru": "Кровавое проклятье"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** when an adversary succeeds on an attack roll within Close range to make them reroll with disadvantage.",
+      "ru": "Когда противник успешен при броске атаки в пределах средней дистанции, **потратьте 3 Надежды**, чтобы он перебросил бросок с помехой."
+    },
+    "origin_value": "7806ca13-87ec-47f9-b9d7-275a4bad62be",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "grim_psychometry",
+    "title": {
+      "en": "Grim Psychometry",
+      "ru": "Мрачная психометрия"
+    },
+    "description": {
+      "en": "Make a **Spellcast Roll (12)** to inspect a location within Very Close range. On a success, you have a vision of the last creature that committed violence there. Until you take a long rest or use this feature again, you have advantage on action rolls to track them or recall information about them.",
+      "ru": "Совершите **бросок заклинания (12)** для проверки области в пределах близкой дистанции. При успехе вы видите последнее существо, совершившее здесь насилие. До тех пор, пока вы не отдохнете или не воспользуетесь этой способностью снова, вы получаете преимущество при бросках действий, чтобы отследить его или вспомнить информацию о нем."
+    },
+    "origin_value": "7806ca13-87ec-47f9-b9d7-275a4bad62be",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8e06fa69-cd6a-40d0-b588-4b65c7338303",
+    "title": {
+      "en": "Aid of the Spirit",
+      "ru": "Помощь духа"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to conjure otherworldly aid. Distribute 2 Hope among one or more other PCs within Far range, and you clear a Stress.",
+      "ru": "**Потратьте 3 Надежды**, чтобы призвать помощь из другого мира. Распределите 2 Надежды между одним или несколькими другими персонажами в пределах досягаемости, и вы очищаете Стресс."
+    },
+    "origin_value": "18829572-596a-441a-9c3e-f76df681d92d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "58f53888-4ee6-4190-9f88-952d55a79649",
+    "title": {
+      "en": "Summon Entity",
+      "ru": "Призвать сущность"
+    },
+    "description": {
+      "en": "You can summon otherworldly Entities: Fate Spirits and other Entities from your subclass. Each Entity is associated with a summoning circle below. **Mark a Stress** to summon a number of your Entities equal to your tier, and add them to the appropriate circles. You can hold a total number of Entities equal to your level. Summoned Entities stay within Very Close range, can perform harmless tasks within that range, and cannot be targeted. If a task requires an action roll, make a Spellcast Roll to command the Entity.",
+      "ru": "Вы можете призывать потусторонних существ: духов судьбы и других существ из вашего подкласса. Каждое существо связано с кругом призыва, расположенным ниже. **Отметьте Стресс**, чтобы призвать количество ваших существ, равное вашему рангу, и добавьте их в соответствующие круги. Вы можете содержать общее количество существ, равное вашему уровню. Призванные существа остаются в пределах близкого расстояния, могут выполнять безвредные действия в этом диапазоне и не могут быть целью. Если для выполнения действия требуется бросок действия, совершите бросок заклинания, чтобы отдать приказ существу."
+    },
+    "origin_value": "18829572-596a-441a-9c3e-f76df681d92d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c9dd7318-aff0-4a4a-a855-81590fd65496",
+    "title": {
+      "en": "Valiant",
+      "ru": "Доблесть"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to remove a Fear from the GM's Fear Pool.",
+      "ru": "**Потратьте 3 Надежды**, чтобы удалить 3 Страха из запаса Страха Мастера."
+    },
+    "origin_value": "e869467b-3b94-4cd7-82e0-c26fbc683a4b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d49c1b6b-10a7-4949-8dc2-73fe9821bf71",
+    "title": {
+      "en": "Valiant",
+      "ru": "Хвастовство"
+    },
+    "description": {
+      "en": "You can **mark a Stress** to gain advantage on an action roll. If you make that roll with Hope, you gain an additional Hope, but if you make that roll with Fear, the GM gains an additional Fear.",
+      "ru": "Вы можете **отметить Стресс**, чтобы получить преимущество на бросок действия. Если результат броска с Надеждой, то вы получаете дополнительную Надежду, если со Страхом, то Мастер получает дополнительный страх в запас Страха Мастера."
+    },
+    "origin_value": "e869467b-3b94-4cd7-82e0-c26fbc683a4b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7fc32375-5af6-4f4b-a638-02ed2d952e9a",
+    "title": {
+      "en": "Save Face",
+      "ru": "Сохранить лицо"
+    },
+    "description": {
+      "en": "When you fail a Presence Roll, you can reroll it and use a d20 as your Hope die.",
+      "ru": "Когда вы проваливаете бросок Влияния, то вы можете перебросить его, используя d20 как кость Надежды."
+    },
+    "origin_value": "e869467b-3b94-4cd7-82e0-c26fbc683a4b",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "hold_them_off",
+    "title": {
+      "en": "Hold Them Off",
+      "ru": "Задержи их",
+      "ru-DHM": "Сдержать натиск"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** when you succeed on an attack with a weapon to use that same roll against two additional adversaries within range of the attack.",
+      "es": "**Gasta 3 Esperanzas** cuando atacas éxitosamente con un arma para usar el mismo resultado contra dos adversarios adicionales dentro del rango del ataque.",
+      "ru": "**Потратьте 3 Надежды** когда вы успешно атакуете оружием, чтобы использовать тот же бросок атаки против двух дополнительных противников в пределах досягаемости атаки.",
+      "ru-DHM": "**Потратьте 3 Надежды** при успешной атаке оружием, чтобы применить тот же бросок против двух дополнительных противников в пределах дистанции атаки."
+    },
+    "origin_value": "ranger",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "prestidigitation",
+    "title": {
+      "en": "Prestidigitation",
+      "ru": "Фокусы"
+    },
+    "description": {
+      "en": "You can perform harmless, subtle magical effects at will.",
+      "es": "Puedes realizar efectos mágicos sútiles e inofensios cuando quieras.",
+      "ru": "Вы можете создавать безобидные, незначительные магические эффекты по своему желанию.",
+      "ru-DHM": "Вы можете по своему желанию творить безвредные, едва заметные магические эффекты."
+    },
+    "origin_value": "wizard",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "arcane_sense",
+    "title": {
+      "en": "Arcane Sense",
+      "ru": "Магическое чутьё"
+    },
+    "description": {
+      "en": "You can sense the presence of magical people and objects within Close range.",
+      "ru": "Вы ощущаете присутствие магических существ и предметов в пределах средней дистанции.",
+      "ru-DHM": "Вы ощущаете присутствие магических существ и объектов в пределах средней дистанции."
+    },
+    "origin_value": "sorcerer",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c8f7d48b-6d6c-42e3-87c5-7d21b8feeba4",
+    "title": {
+      "en": "First Circle — Fate Spirit",
+      "ru": "Первый круг - Дух судьбы"
+    },
+    "description": {
+      "en": "After an adversary within Very Close range makes a successful attack roll, you can command a Fate Spirit to force the adversary to reroll the attack. The spirit then disappears.",
+      "ru": "Когда противник в пределах близкого расстояния проводит успешный бросок атаки, вы можете приказать **Духу судьбы** вынудить противника перебросить бросок атаки. После этого дух исчезает."
+    },
+    "origin_value": "18829572-596a-441a-9c3e-f76df681d92d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "tier"
+    },
+    "dices": null
+  },
+  {
+    "slug": "74c92673-99f4-4cb1-a28c-b0e8f8073a03",
+    "title": {
+      "en": "Know-how",
+      "ru": "Смекалка"
+    },
+    "description": {
+      "en": "When you inspect something mechanical or magical, you gain a surface-level understanding of how it works and what it can do.",
+      "ru": "Когда вы осматриваете что-то механическое или магическое, вы получаете поверхностное понимание того, как это работает и на что способно."
+    },
+    "origin_value": "7ea9f1f9-1837-44bc-9a71-3a5d83846b1f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "196ff5a8-2f07-4a84-9348-2e1484f62ca8",
+    "title": {
+      "en": "Know-how",
+      "ru": "Смекалка"
+    },
+    "description": {
+      "en": "When you inspect something mechanical or magical, you gain a surface-level understanding of how it works and what it can do.",
+      "ru": "Когда вы осматриваете что-то механическое или магическое, вы получаете поверхностное понимание того, как это работает и на что способно."
+    },
+    "origin_value": "2578a3a5-1ca2-4c89-a7af-779b15743fb8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "witch_charm",
+    "title": {
+      "en": "Witch's Charm",
+      "ru": "Очарование ведьмы"
+    },
+    "description": {
+      "en": "When you or an ally within Far range rolls a failure on an action roll, you can **spend 3 Hope** to change it into a success with Fear instead.",
+      "ru": "Когда вы или союзник в пределах далёкой дистанции проваливаете бросок действия, вы можете **потратить 3 Надежды**, чтобы превратить его в успех со Страхом."
+    },
+    "origin_value": "3faa2e12-e72d-4afc-a0b7-54a9bb317b86",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "attack_of_opportunity",
+    "title": {
+      "en": "Attack of Opportunity",
+      "ru": "Провоцированная атака",
+      "ru-DHM": "Атака по возможности"
+    },
+    "description": {
+      "en": "If an adversary within Melee range attempts to leave that range, **make a reaction roll** using a trait of your choice against their Difficulty. Choose one effect on a success, or two if you critically succeed:\n\n- they can't move from where they are,\n\n- you deal damage to them equal to your primary weapon's damage,\n\n- you move with them.",
+      "ru": "Если противник, находящийся вплотную к вам попытается выйти за пределы этой дистанции, совершите **бросок реакции**, используя Характеристику на ваш выбор против их Сложности. Выберите один эффект при успехе, или два при Критическом Успехе:\n\n- цель не может сдвинуться со своего места,\n\n- вы наносите ей урон, равный урону вашего основного оружия,\n\n- вы перемещаетесь вместе с целью.",
+      "ru-DHM": "Если находящийся вплотную противник пытается покинуть эту дистанцию, совершите бросок реакции (используя атрибут на свой выбор) против его Сложности. Выберите один эффект в случае успеха или два в случае критического успеха:\n\n- Цель остается на месте\n\n- Вы наносите цели урон, равный урону вашего основного оружия\n\n- Вы перемещаетесь вслед за целью"
+    },
+    "origin_value": "warrior",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "get_in_get_out",
+    "title": {
+      "en": "Get in & Get out",
+      "ru": "Вошёл — вышел"
+    },
+    "description": {
+      "en": "**Spend a Hope** to ask the GM for either a quick or inconspicuous way into or out of a building or structure you can see. The next roll you make that capitalizes on this information has advantage.",
+      "ru": "**Потратьте Надежду**, чтобы попросить Мастера указать либо быстрый, либо незаметный путь внутрь или наружу видимого вами здания или сооружения. Ваш следующий бросок, в котором вы используете эту информацию, совершается с преимуществом."
+    },
+    "origin_value": "a6e5bb51-80d6-474b-9b23-44ab8a2ef554",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "combo_strikes",
+    "title": {
+      "en": "Combo Strikes",
+      "ru": "Комбо удары"
+    },
+    "description": {
+      "en": "**Mark a Stress** to start a combo strike. Roll your Combo Die and note its value. Then, roll again. If the value of the second roll is equal to or greater than your first roll, continue rolling until the latest roll is less than the roll that preceeded it. Total all values and add that amount to your weapon's damage.\n\nYour Combo Die starts as a d4. When you level up, once per tier you may use one of your advancement options to increase your Combo Die instead.",
+      "ru": "После совершения броска урона оружием, имеющим дистанцию вплотную, но до нанесения урона цели, **отметьте Стресс**, чтобы начать комбо удар. Когда вы это сделаете, бросьте Кость Комбо и запишите ее значение. Затем бросьте еще одну Кость Комбо. Если результат второй кости равен или больше результата вашей первой Кости Комбо, продолжайте бросать дополнительные кости, пока результат последней Кости Комбо не станет меньше результата предыдущей. Сложите все значения костей и добавьте этот результат к урону вашего оружия. Эти значения не могут быть изменены свойствами, которые влияют на кости урона.\n\nВаша Кость Комбо начинается с d4. Когда вы получаете новый уровень, один раз за ранг вы можете использовать одну из ваших опций продвижения, чтобы увеличить вашу Кость Комбо на одну ступень."
+    },
+    "origin_value": "8b6530fe-9c47-4c4c-b25f-46b905fcc854",
+    "kind": "text",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "852fec07-7849-4c80-b591-e860768fa9ec",
+    "title": {
+      "en": "Always Busy",
+      "ru": "Всегда При Деле"
+    },
+    "description": {
+      "en": "Each time you rest, perform a short rest downtime move as a bonus. Additionally, Work on a Project is available to you as a short rest downtime move.\n\n*Tip: For one-shots that won't likely benefit from rests, consider compensating for Always Busy by starting the Artificer with 2 extra Hope, as though they Prepared with an ally.*",
+      "ru": "Каждый раз, когда вы отдыхаете, вы совершаете ход привала (короткого отдыха) бесплатно. Кроме того, «Работа над проектом» доступна вам как ход привала (короткого отдыха).\n\n*Совет: Для одиночных приключений без отдыхов компенсируйте это свойство, начав игру с 2 дополнительными Надеждами, как если бы Изобретатель Подготовился вместе с союзником.*"
+    },
+    "origin_value": "2578a3a5-1ca2-4c89-a7af-779b15743fb8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "warlock_patron",
+    "title": {
+      "en": "Warlock Patron",
+      "ru": "Покровитель чернокнижника"
+    },
+    "description": {
+      "en": "You have committed yourself to a patron in exchange for power.\n\nChoose their spheres of influence, at GM discretion, record them below, and set their values to +2. Anytime you increase your tier, these spheres of influence gain a permanent +1 bonus. Before making an action roll that relates to one of your patron's spheres of influence, you can spend a Favor to call on them and add its value to the roll.",
+      "ru": "Вы посвятили себя покровителю в обмен на силу.\n\nВыберите сферы его влияния, посоветовавшись с Мастером, запишите их ниже и выставите им значение +2. Каждый раз, когда вы повышаете свой ранг, эти сферы влияния также получают постоянный бонус +1. Перед тем, как совершить бросок действия, связанный с одной из сфер влияния вашего покровителя, вы можете потратить Милость, чтобы попросить его помощи и добавить его значение к броску."
+    },
+    "origin_value": "5c857b3e-64bf-428a-959c-5f8904711c1d",
+    "kind": "text",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "cloaked",
+    "title": {
+      "en": "Cloaked",
+      "ru": "Маскировка",
+      "ru-DHM": "Покров"
+    },
+    "description": {
+      "en": "Any time you would be Hidden, you are instead Cloaked. In addition to the benefits of the Hidden condition, while Cloaked you remain unseen if you are stationary when an adversary moves to where they would normally see you. After you make an attack or end a move within line of sight of an adversary, you are no longer Cloaked.",
+      "ru": "Всякий раз, когда вы *Скрыты*, вместо этого вы считаетесь *Замаскированным*. Помимо всех преимуществ *Скрытности*, пока вы *Замаскированны*, вы остаетесь незамеченными, если не двигаетесь, даже когда противник оказывается в месте, откуда обычно мог бы вас заметить. Вы теряете *Маскировку*, если совершаете атаку или завершаете перемещение в прямой видимости противника.",
+      "ru-DHM": "Вы всегда получаете состояние *Под покровом* вместо состояния *Скрытый*. *од покровом* вы не только получаете все эффекты состояния *Скрытый*, но и остаетесь незамеченным, если не двигаетесь, даже когда противник перемещается в область, откуда обычно мог бы вас увидеть. После того как вы совершаете атаку или заканчиваете ход на линии видимости противника, вы теряете состояние *Под покровом*."
+    },
+    "origin_value": "rogue",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "evolution",
+    "title": {
+      "en": "Evolution",
+      "ru": "Эволюция"
+    },
+    "description": {
+      "en": "**Spend 3 Hope** to transform into a Beastform without marking a Stress. When you do, choose one trait to get calculated bonus +1 until you drop out of that Beastform.",
+      "ru": "**Потратьте 3 Надежды**, чтобы обернуться в Звериную Форму, не отмечая Стресс. Когда вы это сделаете, выберите одну Характеристику и получите добавленный бонус +1, пока не выйдете из этой звериной формы.",
+      "ru-DHM": "**Потратьте 3 Надежды**, чтобы принять звериную форму, не получая Стресс. При этом выберите один атрибут, который получит добавленный бонус +1 до конца действия формы."
+    },
+    "origin_value": "druid",
+    "kind": "static_list",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {
+      "evolution_agi": {
+        "en": "Agility",
+        "ru": "Проворность"
+      },
+      "evolution_fin": {
+        "en": "Finesse",
+        "ru": "Искусность"
+      },
+      "evolution_ins": {
+        "en": "Instinct",
+        "ru": "Инстинкт"
+      },
+      "evolution_pre": {
+        "en": "Presence",
+        "ru": "Влияние"
+      },
+      "evolution_str": {
+        "en": "Strength",
+        "ru": "Сила"
+      },
+      "evolution_know": {
+        "en": "Knowledge",
+        "ru": "Знание"
+      }
+    },
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 3
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "evolution_agi",
+    "title": {},
+    "description": {},
+    "origin_value": "",
+    "kind": "hidden",
+    "conditions": { "selected_feature": "evolution_agi" },
+    "modifiers": { "agi": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "evolution_fin",
+    "title": {},
+    "description": {},
+    "origin_value": "",
+    "kind": "hidden",
+    "conditions": { "selected_feature": "evolution_fin" },
+    "modifiers": { "fin": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "evolution_str",
+    "title": {},
+    "description": {},
+    "origin_value": "",
+    "kind": "hidden",
+    "conditions": { "selected_feature": "evolution_str" },
+    "modifiers": { "str": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "evolution_ins",
+    "title": {},
+    "description": {},
+    "origin_value": "",
+    "kind": "hidden",
+    "conditions": { "selected_feature": "evolution_ins" },
+    "modifiers": { "ins": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "evolution_pre",
+    "title": {},
+    "description": {},
+    "origin_value": "",
+    "kind": "hidden",
+    "conditions": { "selected_feature": "evolution_pre" },
+    "modifiers": { "pre": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "evolution_know",
+    "title": {},
+    "description": {},
+    "origin_value": "",
+    "kind": "hidden",
+    "conditions": { "selected_feature": "evolution_know" },
+    "modifiers": { "know": { "type": "add", "value": 1 } }
+  },
+  {
+    "slug": "strange_patterns",
+    "title": {
+      "en": "Strange Patterns",
+      "ru": "Странные закономерности"
+    },
+    "description": {
+      "en": "Choose a number between 1 and 12. When you roll that number on a Duality Die, gain a Hope or clear a Stress. You can change this number when you take a long rest.",
+      "ru": "Выберите число от 1 до 12. Каждый раз, когда это число выпадает на ваших Костях Дуальности, вы получаете Надежду или снимаете Стресс. Вы можете изменить это число, после того как закончите Продолжительный Отдых.",
+      "ru-DHM": "Выберите число от 1 до 12. Каждый раз, когда это число выпадает на одной из ваших костей дуализма, получите Надежду или снимите Стресс. Вы можете изменить это число во время долгого отдыха."
+    },
+    "origin_value": "wizard",
+    "kind": "text",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  }
+]

@@ -1,0 +1,619 @@
+[
+  {
+    "slug": "privilege",
+    "title": {
+      "en": "Privilege",
+      "ru": "Привилегия",
+      "ru-DHM": "Привилегии"
+    },
+    "description": {
+      "en": "You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.",
+      "ru": "У вас есть преимущество при бросках, чтобы общаться с дворянами, торговаться или использовать свою репутацию, чтобы получить то, что вы хотите.",
+      "ru-DHM": "Вы получаете преимущество на броски, связанные с общением с аристократией, торгами или использованием своей репутации для достижения желаемого."
+    },
+    "origin_value": "highborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "763f0c0e-413d-47ec-a362-95370eb26042",
+    "title": {
+      "en": "Oasis",
+      "ru": "Оазис"
+    },
+    "description": {
+      "en": "During a short rest, you or an ally can reroll a die used for a downtime move and take the higher result.",
+      "ru": "Во время короткого отдыха вы или союзник можете перебросить кость, использованную для хода привала, и взять больший результат."
+    },
+    "origin_value": "3e6ac6e1-68d5-41cb-b05a-55f7dfb524dd",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "39d15df0-f4c7-4bc9-8d79-4a8b6cf1d5a5",
+    "title": {
+      "en": "Unbound",
+      "ru": "Неукротимые"
+    },
+    "description": {
+      "en": "When you roll with Fear, you can change it into a roll with Hope instead.",
+      "ru": "Когда вы бросаете со Страхом, можно превратить это в бросок с Надеждой."
+    },
+    "origin_value": "36be13d3-00b8-4b79-9f28-f084b8e474da",
+    "kind": "static",
+    "limit_refresh": "session",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "053ef2e6-0e39-41d6-9d51-843b15cb33ac",
+    "title": {
+      "en": "Hardy",
+      "ru": "Закалённые"
+    },
+    "description": {
+      "en": "When you take a rest, you **clear a Hit Point**.",
+      "ru": "Во время отдыха **снимите Рану**."
+    },
+    "origin_value": "2c33bf35-d6e7-48de-ba94-5b8b90273509",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8b513289-c95f-4b7b-943d-fe0cacd664bc",
+    "title": {
+      "en": "Close-Knit",
+      "ru": "Сплочённые"
+    },
+    "description": {
+      "en": "You can **spend any number of Hope** to grant an ally within Far range an equal number of Hope.",
+      "ru": "Можете **потратить любое количество Надежды**, чтобы дать союзнику в пределах далёкой дистанции такое же количество Надежды."
+    },
+    "origin_value": "26037ab7-162e-4bf0-92ee-73d0c558a1ed",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8852cb7a-449e-4588-8f5b-0c5b9376c8f0",
+    "title": {
+      "en": "Found Family",
+      "ru": "Обретённая семья"
+    },
+    "description": {
+      "en": "You can **spend a Hope** to use an ally's Experience as if it were your own. Describe how your time with that ally prepared you for this moment.\n\nWhen you join a new community or rediscover your old one, you can permanently trade this card for that one instead.",
+      "ru": "Вы можете **потратить Надежду**, чтобы использовать Опыт союзника, как если бы это был ваш Опыт. Когда вы это делаете, опишите, как время, проведенное с этим союзником, подготовило вас к этому моменту.\n\nКогда вы вступаете в новое сообщество или обнаруживаете своё прежнее, вы можете навсегда обменять эту карту на карту нового сообщества."
+    },
+    "origin_value": "9b2a2dba-c45f-44af-ba36-7ca059c13b79",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": { "hope": 1 },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0e27a591-bd1f-45e3-9015-741b3b2247a2",
+    "title": {
+      "en": "Brave Face",
+      "ru": "Крепкий духом"
+    },
+    "description": {
+      "en": "When you would be forced to mark a Stress, you can spend a Hope instead.",
+      "ru": "Когда вас вынуждают отметить Стресс, можно потратить вместо этого Надежду."
+    },
+    "origin_value": "3c5c1bc6-7fc5-4105-ab09-fd0a72685294",
+    "kind": "static",
+    "limit_refresh": "session",
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "lightfoot",
+    "title": {
+      "en": "Lightfoot",
+      "ru": "Лёгкая поступь",
+      "ru-DHM": "Лёгкая поступь"
+    },
+    "description": {
+      "en": "Your movement is naturally silent. You have advantage on rolls to move without being heard.",
+      "ru": "Ваше передвижение естественно бесшумно. У вас есть преимущество при бросках, чтобы передвигаться так, чтобы вас не было слышно.",
+      "ru-DHM": "Ваше передвижение от природы бесшумно. Вы получаете преимущество на броски для тихого перемещения."
+    },
+    "origin_value": "wildborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "well_read",
+    "title": {
+      "en": "Well-Read",
+      "ru": "Начитанность",
+      "ru-DHM": "Начитанность"
+    },
+    "description": {
+      "en": "You have advantage on rolls that involve the history, culture, or politics of a prominent person or place.",
+      "ru": "У вас есть преимущество при бросках, связанных с историей, культурой или политикой выдающегося человека или места.",
+      "ru-DHM": "Вы получаете преимущество на любые броски, связанные с историей, культурой или политикой значимых мест или личностей."
+    },
+    "origin_value": "loreborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "steady",
+    "title": {
+      "en": "Steady",
+      "ru": "Устойчивость",
+      "ru-DHM": "Устойчивость"
+    },
+    "description": {
+      "en": "You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.",
+      "ru": "У вас есть преимущество при бросках на преодоление опасных обрывов и уступов, навигацию в суровых условиях и использование своих знаний о выживании.",
+      "ru-DHM": "Вы получаете преимущество на броски, связанные с преодолением опасных утёсов и выступов, ориентированием в суровых природных условиях и использованием навыков выживания."
+    },
+    "origin_value": "ridgeborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "low_light_living",
+    "title": {
+      "en": "Low-Light Living",
+      "ru": "Жизнь при тусклом освещении",
+      "ru-DHM": "Жизнь в полумраке"
+    },
+    "description": {
+      "en": "When you're in an area with low light or heavy shadow, you have advantage on rolls to hide, investigate, or perceive details within that area.",
+      "ru": "Когда вы находитесь в области со слабым освещением или глубокой тени, вы имеете преимущество при бросках, чтобы спрятаться, расследовать, или обнаружить детали в этой области.",
+      "ru-DHM": "Находясь в зоне тусклого освещения или густой тени, вы получаете преимущество при бросках на скрытность, исследование или подмечание деталей в этой области."
+    },
+    "origin_value": "underborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "brave_face",
+    "title": {
+      "en": "Brave Face",
+      "ru": "Держать лицо"
+    },
+    "description": {
+      "en": "When an attack would cause you to mark a Stress, you can **spend a Hope** instead.",
+      "ru": "Когда атака заставляет вас отметить Стресс, вы можете **потратить Надежду** вместо этого."
+    },
+    "origin_value": "f537a957-cf72-4fe8-bb8a-a031779ad412",
+    "kind": "static",
+    "limit_refresh": "session",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": { "hope": 1 },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "hardy",
+    "title": {
+      "en": "Hardy",
+      "ru": "Закалённый"
+    },
+    "description": {
+      "en": "You can Help an Ally traverse difficult terrain without spending a Hope.",
+      "ru": "Вы можете помочь союзнику преодолеть труднопроходимую местность, не тратя Надежду."
+    },
+    "origin_value": "caa4a74e-e846-4caa-9149-68ae72f7f637",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "scoundrel",
+    "title": {
+      "en": "Scoundrel",
+      "ru": "Аферист",
+      "ru-DHM": "Пройдоха"
+    },
+    "description": {
+      "en": "You have advantage on rolls to negotiate with criminals, detect lies, or find a safe place to hide.",
+      "ru": "У вас есть преимущество при бросках на переговоры с преступниками, распознавание лжи или поиск безопасного места для укрытия.",
+      "ru-DHM": "Вы получаете преимущество на броски, связанные с переговорами с преступниками, распознаванием лжи или поиском безопасного укрытия."
+    },
+    "origin_value": "slyborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "unbound",
+    "title": {
+      "en": "Unbound",
+      "ru": "Неукротимость"
+    },
+    "description": {
+      "en": "When you make an action roll with Fear, you can instead change it to a roll with Hope instead.",
+      "ru": "Когда вы совершаете бросок действия со Страхом, вы можете заменить его на бросок с Надеждой."
+    },
+    "origin_value": "afda96de-34db-4377-b788-677ac4da7b48",
+    "kind": "static",
+    "limit_refresh": "session",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "close_knit",
+    "title": {
+      "en": "Close-Knit",
+      "ru": "Сплоченные"
+    },
+    "description": {
+      "en": "You can **spend any number of Hope** to give an ally the same number of Hope.",
+      "ru": "Вы можете **потратить любое количество Надежды**, чтобы дать союзнику такое же количество Надежды."
+    },
+    "origin_value": "f1572fe0-8e4d-4c9f-9e52-9ace4a8bfa48",
+    "kind": "static",
+    "limit_refresh": "long_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "oasis",
+    "title": {
+      "en": "Oasis",
+      "ru": "Оазис"
+    },
+    "description": {
+      "en": "During a short rest, you or an ally can reroll a die used for a downtime action.",
+      "ru": "Во время короткого отдыха вы или ваш союзник можете перебросить одну кость, использованную для хода привала."
+    },
+    "origin_value": "e35a4471-768b-49d8-a1ea-1bda2fa10750",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "dedicated",
+    "title": {
+      "en": "Dedicated",
+      "ru": "Приверженец",
+      "ru-DHM": "Преданность"
+    },
+    "description": {
+      "en": "Record three sayings or values your upbringing instilled in you. Once per rest, when you describe how you're embodying one of these principles through your current action, you can roll a d20 as your Hope Die.",
+      "ru": "Запишите три изречения или ценности, которые вам привили с воспитанием. Один раз до следующего отдыха, когда вы описываете, как воплощаете один из этих принципов в своём текущем действии, вы можете бросить d20 в качестве вашей Кости Надежды.",
+      "ru-DHM": "Запишите три идеала или заповеди, привитых вам в процессе воспитания. Один раз до конца следующего отдыха, когда вы своими действиями воплощаете один из этих принципов, вы можете использовать кость d20 вместо кости Надежды."
+    },
+    "origin_value": "orderborne",
+    "kind": "text",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {
+      "hope_dice": "D20"
+    },
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "found_family",
+    "title": {
+      "en": "Found Family",
+      "ru": "Найденная семья"
+    },
+    "description": {
+      "en": "You can **spend a Hope** to use an ally's community ability. When you do, your ally gains a Hope.\n\nAt any point, when you've discovered the community you were once a part of, or have joined a new community, you can permanently trade this community card for that one instead.",
+      "ru": "Вы можете **потратить Надежду**, чтобы использовать свойство сообщества союзника. Когда вы это делаете, союзник получает Надежду.\n\nВ любой момент, когда вы найдете сообщество, частью которого вы когда-то были, или присоединитесь к новому сообществу, вы можете навсегда обменять эту карту сообщества на новую."
+    },
+    "origin_value": "5448bb7d-1423-446f-ba05-303aee460dcb",
+    "kind": "text",
+    "limit_refresh": "session",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "know_the_tide",
+    "title": {
+      "en": "Know the Tide",
+      "ru": "Знание приливов",
+      "ru-DHM": "Чувство приливов"
+    },
+    "description": {
+      "en": "When you roll with Fear, place a token on your community card. You can hold a number of tokens equal to your level. Before you make an action roll, you can spend any number of these tokens to gain a +1 bonus to the roll for each token spent. At the end of each session, clear all unspent tokens.",
+      "ru": "Вы можете чувствовать прилив и отлив жизни. Когда вы бросаете со Страхом, положите жетон на эту карту. Вы можете держать на этой карте количество жетонов, равное вашему уровню. Перед броском действия, вы можете потратить один или несколько жетонов, чтобы добавить их в качестве модификатора +1 к вашему броску. В конце каждой сессии очистите все неизрасходованные жетоны.",
+      "ru-DHM": "Вы чувствуете приливы и отливы самой жизни. Когда вы совершаете бросок со Страхом, поместите жетон на эту карточку. Максимальное количество хранимых жетонов равно вашему уровню. Перед броском действия вы можете потратить любое количество жетонов, получая +1 к результату за каждый. Все оставшиеся жетоны сбрасываются в конце игровой сессии."
+    },
+    "origin_value": "seaborne",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": {
+      "limit": "level",
+      "reset": "session",
+      "reset_at": "long"
+    },
+    "dices": null
+  },
+  {
+    "slug": "nomadic_pack",
+    "title": {
+      "en": "Nomadic Pack",
+      "ru": "Сумка кочевника",
+      "ru-DHM": "Сумка кочевника"
+    },
+    "description": {
+      "en": "Add a Nomadic Pack to your inventory. Once per session, you can **spend a Hope** to reach into this pack and pull out a mundane item that's useful to your situation. Work with the GM to figure out what item you take out.",
+      "ru": "Добавьте в свой инвентарь Сумку Кочевника. Один раз за сессию вы можете **потратить Надежду**, чтобы порыться в этой сумке и достать оттуда обычный предмет, который будет полезен в данной ситуации. Обсудите с Мастером, какой предмет вы достанете.",
+      "ru-DHM": "Добавьте сумку кочевника в инвентарь. Один раз за сессию вы можете **потратить Надежду**, чтобы извлечь из сумки обычный предмет, полезный в текущей ситуации."
+    },
+    "origin_value": "wanderborne",
+    "kind": "static",
+    "limit_refresh": "session",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  }
+]

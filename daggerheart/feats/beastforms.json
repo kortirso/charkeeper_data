@@ -1,0 +1,1214 @@
+[
+  {
+    "slug": "great_carrier",
+    "title": {
+      "en": "Carrier",
+      "ru": "Перевозчик",
+      "ru-DHM": "Ездовое"
+    },
+    "description": {
+      "en": "You can carry up to two willing allies with you when you move.",
+      "ru": "Вы можете перевозить на себе до двух согласных союзников.",
+      "ru-DHM": "При движении вы можете переносить до двух согласных на это союзников."
+    },
+    "origin_value": "great_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "great_winged_beast_carrier",
+    "title": {
+      "en": "Carrier",
+      "ru": "Перевозчик"
+    },
+    "description": {
+      "en": "You can carry up to two willing allies with you when you move.",
+      "es": "Puedes cargar contigo hasta dos aliados que estén dispuestos cuando te muevas.",
+      "ru": "Вы можете перевозить на себе до двух согласных союзников."
+    },
+    "origin_value": "great_winged_beast",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "companion",
+    "title": {
+      "en": "Companion",
+      "ru": "Компаньон"
+    },
+    "description": {
+      "en": "When you Help an Ally, you can roll a d8 as your advantage die.",
+      "ru": "Когда вы помогаете союзнику, вы можете использовать d8 как кость преимущества."
+    },
+    "origin_value": "household_friend",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "fragile",
+    "title": {
+      "en": "Fragile",
+      "ru": "Хрупкость",
+      "ru-DHM": "Хрупкий"
+    },
+    "description": {
+      "en": "When you take Major or greater damage, you drop out of Beastform.",
+      "ru": "Когда вы получаете ощутимый урон или больше, вы теряете звериный облик.",
+      "ru-DHM": "При получении ощутимого урона или выше вы немедленно выходите из звериной формы."
+    },
+    "origin_value": "agile_scout",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "household_friend_fragile",
+    "title": {
+      "en": "Fragile",
+      "ru": "Хрупкость",
+      "ru-DHM": "Хрупкий"
+    },
+    "description": {
+      "en": "When you take Major or greater damage, you drop out of Beastform.",
+      "ru": "Когда вы получаете ощутимый урон или больше, вы теряете звериный облик.",
+      "ru-DHM": "При получении ощутимого урона или выше вы немедленно выходите из звериной формы."
+    },
+    "origin_value": "household_friend",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "carrier",
+    "title": {
+      "en": "Carrier",
+      "ru": "Перевозчик"
+    },
+    "description": {
+      "en": "You can carry up to two willing allies with you when you move.",
+      "ru": "Вы можете перевозить на себе до двух согласных союзников."
+    },
+    "origin_value": "mighty_strider",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "warning_hiss",
+    "title": {
+      "en": "Warning Hiss",
+      "ru": "Шипение"
+    },
+    "description": {
+      "en": "**Mark a Stress** to force any number of targets within Melee range to move back to Very Close range.",
+      "ru": "**Отметьте Стресс** чтобы заставить любое количество целей, находящихся вплотную к вам, отойти на близкую дистанцию."
+    },
+    "origin_value": "striking_serpent",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "hollow_bones",
+    "title": {
+      "en": "Hollow Bones",
+      "ru": "Полые кости"
+    },
+    "description": {
+      "en": "You gain a −2 calculated penalty to your damage thresholds.",
+      "ru": "Вы получаете добавленный штраф -2 к вашим порогам урона.",
+      "ru-DHM": "Ваши пороги урона уменьшаются на 2."
+    },
+    "origin_value": "winged_beast",
+    "kind": "update_result",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "damage_thresholds.major": {
+        "type": "add",
+        "value": -2
+      },
+      "damage_thresholds.severe": {
+        "type": "add",
+        "value": -2
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "takedown",
+    "title": {
+      "en": "Takedown",
+      "ru": "Наповал"
+    },
+    "description": {
+      "en": "**Mark a Stress** to move into Melee range of a target and make an attack roll against them. On a success, you gain a +2 situative bonus to your Proficiency for this attack and the target must mark a Stress.",
+      "ru": "**Отметьте Стресс**, чтобы передвинуться вплотную к цели и совершить бросок атаки против неё. При успехе, вы получаете ситуативный бонус +2 к вашему мастерству для этой атаки, а также цель должна отметить Стресс."
+    },
+    "origin_value": "pouncing_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "venomous_strike",
+    "title": {
+      "en": "Venomous Strike",
+      "ru": "Ядовитый укус"
+    },
+    "description": {
+      "en": "Make an attack against any number of targets within Very Close range. On a success, a target is temporarily *Poisoned*. A *Poisoned* creature takes **1d10** direct physical damage each time they act.",
+      "ru": "Совершите атаку против любого количества целей в пределах близкой дистанции. При успехе, цель становится временно *Отравлена*. *Отравленное существо* получает **1d10** прямого физического урона каждый раз, когда оно действует."
+    },
+    "origin_value": "striking_serpent",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "agile",
+    "title": {
+      "en": "Agile",
+      "ru": "Ловкость",
+      "ru-DHM": "Проворный"
+    },
+    "description": {
+      "en": "Your movement is silent, and you can **spend a Hope** to move up to Far range without rolling.",
+      "ru": "Ваше передвижение бесшумно, и вы можете **потратить Надежду** чтобы передвинуться вплоть до далёкой дистанции без броска.",
+      "ru-DHM": "Вы двигаетесь бесшумно и можете **потратить Надежду**, чтобы переместиться в любую точку в пределах дальней дистанции без броска."
+    },
+    "origin_value": "agile_scout",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "venomous_bite",
+    "title": {
+      "en": "Venomous Bite",
+      "ru": "Ядовитый укус"
+    },
+    "description": {
+      "en": "When you succeed on an attack against a target within Melee range, the target becomes temporarily *Poisoned*. A *Poisoned* creature takes **1d10** direct physical damage each time they act.",
+      "ru": "Когда вы успешно атакуете цель вплотную, она становится временно *Отравленной*. *Отравленное* существо получает **1d10** прямого физического урона каждый раз, когда оно действует."
+    },
+    "origin_value": "stalking_arachnid",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "snapping_strike",
+    "title": {
+      "en": "Snapping Strike",
+      "ru": "Мощный укус"
+    },
+    "description": {
+      "en": "When you succeed on an attack against a target within Melee range, you can **spend a Hope** to clamp that opponent in your jaws, making them temporarily *Restrained* and *Vulnerable*.",
+      "es": "Cuando atacas éxitosamente a un objetivo dentro de una distancia cuerpo a cuerpo, puedes **Gastar una Esperanza** para amordazar ese oponente en tu mandíbula, haciendo que estén *Restringidos* y *Vulnerables*.",
+      "ru": "Когда вы успешно атакуете цель, находящуюся вплотную к вам, вы можете **потратить Надежду**, чтобы захватить цель в вашей челюсти, сделав её временно *уязвимой* и *обездвиженной*."
+    },
+    "origin_value": "mighty_lizard",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "elusive_prey",
+    "title": {
+      "en": "Elusive Prey",
+      "ru": "Неуловимая добыча"
+    },
+    "description": {
+      "en": "When an attack roll against you would succeed, you can **mark a Stress** and roll a **d4**. Add the result to your Evasion against this attack.",
+      "ru": "Когда Бросок Атаки против вас успешен, вы можете **отметить Стресс** и бросить **d4**. Добавьте результат к вашему уклонению против этой атаки."
+    },
+    "origin_value": "nimble_grazer",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "rampage",
+    "title": {
+      "en": "Rampage",
+      "ru": "Буйство"
+    },
+    "description": {
+      "en": "When you roll a 1 on a damage die, you can roll a **d10** and add the result to the damage roll. Additionally, before you make an attack roll, you can **mark a Stress** to gain a +1 bonus to your Proficiency for that attack.",
+      "ru": "Когда вам выпадает 1 на кости урона, вы можете бросить **d10** и добавить результат броску урона. Также перед броском атаки вы можете **отметить Стресс** и получить бонус +1 к вашему Мастерству для этой атаки."
+    },
+    "origin_value": "powerful_beast",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "trample",
+    "title": {
+      "en": "Trample",
+      "ru": "Затоптать"
+    },
+    "description": {
+      "en": "**Mark a Stress** to move up to Close range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take **d8+1** physical damage using your Proficiency and are temporarily *Vulnerable*.",
+      "ru": "**Отметьте Стресс** чтобы передвинуться на расстояние в пределах средней дистанции по прямой линии и совершить атаку против всех целей, находящихся вплотную к этой линии. Успешно пораженные цели получают **d8+1** физического урона с использованием вашего Мастерства и становятся временно *Уязвимы*."
+    },
+    "origin_value": "mighty_strider",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "webslinger",
+    "title": {
+      "en": "Webslinger",
+      "ru": "Шелкопряд"
+    },
+    "description": {
+      "en": "You can create a strong web material useful for both adventuring and battle. The web is resilient enough to support one creature. You can temporarily *Restrain* a target within Close range by succeeding on a Finesse Roll against them.",
+      "ru": "Вы можете создать прочную нить паутины, полезную в походе и бою. Паутина достаточно крепка чтобы удержать одно существо. Вы можете временно *Обездвижить* цель в пределах средней дистанции, совершив против неё успешный бросок Искусности."
+    },
+    "origin_value": "stalking_arachnid",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "nimble_grazer_fragile",
+    "title": {
+      "en": "Fragile",
+      "ru": "Хрупкость",
+      "ru-DHM": "Хрупкий"
+    },
+    "description": {
+      "en": "When you take Major or greater damage, you drop out of Beastform.",
+      "es": "Cuando sufres daño Mayor o peor, tu Forma Bestial deshace.",
+      "ru": "Когда вы получаете ощутимый урон или больше, вы теряете звериный облик.",
+      "ru-DHM": "При получении ощутимого урона или выше вы немедленно выходите из звериной формы."
+    },
+    "origin_value": "nimble_grazer",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "aquatic_scout",
+    "title": {
+      "en": "Aquatic",
+      "ru": "Водное",
+      "ru-DHM": "Водный"
+    },
+    "description": {
+      "en": "You can breathe and move naturally underwater.",
+      "es": "Puedes respirar y moverte de manera natural bajo el agua.",
+      "ru": "Вы дышите и естественно передвигаетесь под водой.",
+      "ru-DHM": "Вы можете свободно передвигаться и дышать под водой."
+    },
+    "origin_value": "aquatic_scout",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "massive_stride",
+    "title": {
+      "en": "Massive Stride",
+      "ru": "Широкий шаг"
+    },
+    "description": {
+      "en": "You can move up to Far range without rolling. You ignore rough terrain (at the GM's discretion) due to your size.",
+      "es": "Puedes moverte hasta una distancia Lejanda sin hacer una tirada. Ignoras el terreno difícil (a discreción del GM) debido a tu tamaño.",
+      "ru": "Вы можете перемещаться вплоть до далёкой дистанции без бросков. Вы игнорируете труднопроходимую местность (с позволения Мастера) благодаря вашему размеру."
+    },
+    "origin_value": "terrible_lizard",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "mythic_aerial_hunter_carrier",
+    "title": {
+      "en": "Carrier",
+      "ru": "Перевозчик"
+    },
+    "description": {
+      "en": "You can carry up to three willing allies with you when you move.",
+      "es": "Puedes cargar contigo hasta tres aliados, que estén dispuestos, cuando te muevas.",
+      "ru": "Вы можете перевозить на себе до трёх согласных союзников."
+    },
+    "origin_value": "mythic_aerial_hunter",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "unyielding",
+    "title": {
+      "en": "Unyielding",
+      "ru": "Непоколебимый"
+    },
+    "description": {
+      "en": "When you would mark an Armor Slot, roll a **d6**. On a result of 5 or higher, reduce the severity by one threshold without marking an Armor Slot.",
+      "es": "Cuando fueras a marcar una Ranura de Armardura, tira un **d6**. Si obtienes un 5 o más, reduce la severidad en un Umbral sin marcar una Ranura de Armadura.",
+      "ru": "Когда вы собираетесь отметить ячейку брони, бросьте **d6**. Если выпадет 5 или больше, снизьте тяжесть урона на один порог не отмечая ячейку брони."
+    },
+    "origin_value": "epic_aquatic_beast",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "aquatic",
+    "title": {
+      "en": "Aquatic",
+      "ru": "Водное"
+    },
+    "description": {
+      "en": "You can breathe and move naturally underwater.",
+      "es": "Puedes respirar y moverte de manera natural bajo el agua.",
+      "ru": "Вы дышите и естественно передвигаетесь под водой."
+    },
+    "origin_value": "aquatic_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "vicious_maul",
+    "title": {
+      "en": "Vicious Maul",
+      "ru": "Свирепость"
+    },
+    "description": {
+      "en": "When you succeed on an attack against a target, you can **spend a Hope** to make them temporarily Vulnerable and gain a +1 situation bonus to your Proficiency for this attack.",
+      "es": "Cuanto atacas éxitosamentde a un obejtivo, puedes **Gasta una Esperanza** para hacer que sean Vulnerables temporalmente y ganar una bonificación situacional de +1 a tu Competencia para *este ataque*.",
+      "ru": "Когда вы успешно совершаете атаку по цели, вы можете **потратить Надежду** чтобы сделать её *Уязвимой* и получить ситуативный бонус +1 к вашему мастерству для этой атаки."
+    },
+    "origin_value": "great_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "undaunted",
+    "title": {
+      "en": "Undaunted",
+      "ru": "Непоколебимый"
+    },
+    "description": {
+      "en": "You gain a +2 calculated bonus to all your damage thresholds.",
+      "es": "Ganas una bonificación de +2 (ya calculada) a todos los Umbrales de daño",
+      "ru": "Вы получаете добавленный бонус +2 к вашим порогам урона."
+    },
+    "origin_value": "massive_behemoth",
+    "kind": "update_result",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "damage_thresholds.major": {
+        "type": "add",
+        "value": 2
+      },
+      "damage_thresholds.severe": {
+        "type": "add",
+        "value": 2
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "physical_defense",
+    "title": {
+      "en": "Physical Defense",
+      "ru": "Толстая чешуя"
+    },
+    "description": {
+      "en": "You gain a +3 calculated bonus to your damage thresholds.",
+      "es": "Ganas una bonificación de +3 (ya calculados) a tus Umbrales de daño.",
+      "ru": "Вы получаете добавленный бонус +3 к вашим порогам урона."
+    },
+    "origin_value": "mighty_lizard",
+    "kind": "update_result",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "damage_thresholds.major": {
+        "type": "add",
+        "value": 3
+      },
+      "damage_thresholds.severe": {
+        "type": "add",
+        "value": 3
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "thick_hide",
+    "title": {
+      "en": "Thick Hide",
+      "ru": "Толстая шкура"
+    },
+    "description": {
+      "en": "You gain a +2 calculated bonus to your damage thresholds.",
+      "ru": "Вы получаете добавленный бонус +2 к вашим порогам урона."
+    },
+    "origin_value": "powerful_beast",
+    "kind": "update_result",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "damage_thresholds.major": {
+        "type": "add",
+        "value": 2
+      },
+      "damage_thresholds.severe": {
+        "type": "add",
+        "value": 2
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "massive_behemoth_carrier",
+    "title": {
+      "en": "Carrier",
+      "ru": "Перевозчик"
+    },
+    "description": {
+      "en": "You can carry up to four willing allies with you when you move.",
+      "es": "Puedes cargar contigo hasta cuatro aliados, que estén dispuestos, cuando te muevas.",
+      "ru": "Вы можете перевозить на себе до четырёх согласных союзников."
+    },
+    "origin_value": "massive_behemoth",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "fleet",
+    "title": {
+      "en": "Fleet",
+      "ru": "Проворство"
+    },
+    "description": {
+      "en": "**Spend a Hope** to move up to Far range without rolling.",
+      "es": "**Gasta una Esperanza** para moverte hasta una distancia Lejana sin tirar",
+      "ru": "**Потратьте Надежду** чтобы передвинуться вплоть до далёкой дистанции не совершая бросок."
+    },
+    "origin_value": "pouncing_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "devastating_strikes",
+    "title": {
+      "en": "Devastating Strikes",
+      "ru": "Сокрушительный удар"
+    },
+    "description": {
+      "en": "When you deal Severe damage to a target within Melee range, you can **mark a Stress** to force them to mark an additional Hit Point.",
+      "es": "Cuando inflinges daño Severo a un objetivo a una distancia Cuerpo a cuerpo, puedes **Marca un Estrés** para forzarlos a marca un Punto de Vida adicional.",
+      "ru": "Когда вы наносите тяжёлый урон по цели, находящейся вплотную к вам, вы можете **отметить Стресс** чтобы заставить цель отметить дополнительную рану."
+    },
+    "origin_value": "terrible_lizard",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "aquatic_predator_vicious_maul",
+    "title": {
+      "en": "Vicious Maul",
+      "ru": "Свирепость"
+    },
+    "description": {
+      "en": "When you succeed on an attack against a target, you can **spend a Hope** to make them Vulnerable and gain a +1 situation bonus to your Proficiency for this attack.",
+      "es": "Cuanto atacas éxitosamentde a un obejtivo, puedes **Gasta una Esperanza** para hacer que sean Vulnerables temporalmente y ganar una bonificación situacional de +1 a tu Competencia para *este ataque*.",
+      "ru": "Когда вы успешно совершаете атаку по цели, вы можете **потратить Надежду** чтобы сделать её *Уязвимой* и получить ситуативный бонус +1 к вашему мастерству для этой атаки."
+    },
+    "origin_value": "aquatic_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ocean_master",
+    "title": {
+      "en": "Ocean Master",
+      "ru": "Повелитель морей"
+    },
+    "description": {
+      "en": "You can breathe and move naturally underwater. When you succeed on an attack against a target within Melee range, you can temporarily *Restrain* them.",
+      "ru": "Вы дышите и естественно передвигаетесь под водой. Когда вы успешно атакуете цель, находящуюся вплотную к вам, вы можете временно *Обездвижить* её."
+    },
+    "origin_value": "epic_aquatic_beast",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "armored_shell",
+    "title": {
+      "en": "Armored Shell",
+      "ru": "Крепкий панцирь",
+      "ru-DHM": "Бронированный панцирь"
+    },
+    "description": {
+      "en": "Your hardened exterior gives you resistance to physical damage. Additionally, **mark an Armor Slot** to retract into your shell. While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.",
+      "ru": "Ваш крепкий панцирь даёт вам сопротивление к физическому урону. Можете **отметить ячейку брони**, чтобы спрятаться в панцире. Пока спрятаны, физический урон снижен на значение, равное вашему показателю брони (после применения сопротивления), но вы не можете делать других действий, не покинув панцирь.",
+      "ru-DHM": "Вы получаете сопротивление физическому урону. Также вы можете **потратить Ячейку Брони**, чтобы спрятаться в панцирь. Пока вы в панцире, физический урон снижается на ваше значение брони (после применения сопротивления), но невозможно совершать другие действия."
+    },
+    "origin_value": "armored_sentry",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": { "armor": 1 },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "pack_hunting",
+    "title": {
+      "en": "Pack Hunting",
+      "ru": "Стайная охота",
+      "ru-DHM": "Охота в стае"
+    },
+    "description": {
+      "en": "When you succeed on an attack against the same target as an ally who acts immediately before you, add a **d8** to your damage roll.",
+      "ru": "Когда вы успешно атакуете ту же цель, что и союзник, действовавший прямо до вас, добавьте **d8** к вашему броску урона.",
+      "ru-DHM": "Если вы атакуете ту же цель, что и союзник, действовавший непосредственно перед вами, добавьте d8 к броску урона."
+    },
+    "origin_value": "pack_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "aquatic_scout_fragile",
+    "title": {
+      "en": "Fragile",
+      "ru": "Хрупкость",
+      "ru-DHM": "Хрупкий"
+    },
+    "description": {
+      "en": "When you take Major or greater damage, you drop out of Beastform.",
+      "ru": "Когда вы получаете ощутимый урон или больше, вы теряете звериный облик.",
+      "ru-DHM": "При получении ощутимого урона или выше вы немедленно выходите из звериной формы."
+    },
+    "origin_value": "aquatic_scout",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "great_bird_eye_view",
+    "title": {
+      "en": "Bird's-Eye View",
+      "ru": "Высота птичьего полёта",
+      "ru-DHM": "Птичья зоркость"
+    },
+    "description": {
+      "en": "You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.",
+      "ru": "Вы можете летать. Один раз за отдых, пока летите, вы можете задать Мастеру вопрос о виде под вами без необходимости броска. В первый раз, когда персонаж совершает какое-либо действие на основе этой информации, он получает Преимущество.",
+      "ru-DHM": "В этой форме вы можете свободно летать. Один раз до конца отдыха, находясь в воздухе, вы можете задать мастеру вопрос о происходящем внизу без необходимости совершать бросок. Первый персонаж, действующий на основе полученной информации, получает преимущество на свой бросок."
+    },
+    "origin_value": "great_winged_beast",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "bird_eye_view",
+    "title": {
+      "en": "Bird's-Eye View",
+      "ru": "Высота птичьего полёта"
+    },
+    "description": {
+      "en": "You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.",
+      "ru": "Вы можете летать. Один раз за отдых, пока летите, вы можете задать Мастеру вопрос о виде под вами без необходимости броска. В первый раз, когда персонаж совершает какое-либо действие на основе этой информации, он получает Преимущество."
+    },
+    "origin_value": "winged_beast",
+    "kind": "static",
+    "limit_refresh": "short_rest",
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {
+      "limit": "1"
+    },
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "deadly_raptor",
+    "title": {
+      "en": "Deadly Raptor",
+      "ru": "Смертоносные когти"
+    },
+    "description": {
+      "en": "You can fly at will and move up to Far range as part of your action. When you move in a straight line into Melee range of a target from at least Close range and make an attack against that target in the same action, you can reroll all damage dice that rolled a result lower than your Proficiency.",
+      "es": "Puedes volar y moverte hasta distancia Lejana como parte de  tu acción. Cuando te mueves en una línea recta hasta estar Cuerpo a cuerpo de un objetivo que estuviera al menos a una distancia Cercana y haces un ataque contra ese objetivo en la misma acción, puedes volver a tirar todos los dados de daño que tuvieran un resultado menor a tu competencia.",
+      "ru": "Вы можете летать и передвигаться вплоть до далёкой дистанции как часть вашего действия. Когда вы перемещаетесь вплотную к цели по прямой линии со средней дистанции или дальше и совершаете по ней атаку частью этого же действия, вы можете перебросить все кости урона, результат которых ниже вашего мастерства."
+    },
+    "origin_value": "mythic_aerial_hunter",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "hobbling_strike",
+    "title": {
+      "en": "Hobbling Strike",
+      "ru": "Калечащий удар"
+    },
+    "description": {
+      "en": "When you succeed on an attack against a target within Melee range, you can **mark a Stress** to make the target temporarily *Vulnerable*.",
+      "es": "Cuando tienes éxito en un ataque cuerpo a cuerpo, puedes **Marcar un estrés** para hacer que el objetivo sea **Vulnerable** temporalmente.",
+      "ru": "Когда вы успешно атакуете цель вплотную, вы можете **отметить Стресс**, чтобы сделать цель временно *Уязвимой*."
+    },
+    "origin_value": "pack_predator",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "cannonball",
+    "title": {
+      "en": "Cannonball",
+      "ru": "Пушечное ядро"
+    },
+    "description": {
+      "en": "**Mark a Stress** to allow an ally to throw or launch you at an adversary. To do so, the ally makes an attack roll using Agility or Strength (their choice) against a target within Close range. On a success, the adversary takes **d12+2** physical damage using the thrower's Proficiency. You can **spend a Hope** to target an additional adversary within Very Close range of the first. The second target takes half the damage dealt to the first target.",
+      "ru": "**Отметьте Стресс** чтобы позволить союзнику бросить или выстрелить вами в противника. Чтобы это сделать, союзник совершает бросок атаки используя проворность или силу (на их выбор) против цели в пределах средней дистанции. При успехе, противник получает **d12+2** физического урона, используя мастерство бросающего. Вы можете **потратить Надежду** чтобы отскочить в ещё одного противника в пределах близкой дистанции от первой цели. Вторая цель получает половину урона, нанесенного первой цели."
+    },
+    "origin_value": "armored_sentry",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "stress": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "demolish",
+    "title": {
+      "en": "Demolish",
+      "ru": "Снос"
+    },
+    "description": {
+      "en": "**Spend a Hope** to move up to Far range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take **d8+10** physical damage using your Proficiency and are temporarily *Vulnerable*.",
+      "es": "**Gasta una Esperanza** para moverte hasta una distancia Lejana en una línea recta y hacer un ataqued contra todos los objetivos que estuvieran cuerpo a cuerpo durante el recorrido. Objetivos contra los qu tengas éxito sufren **d8+10** de daño físico usando tu Competencia y son *Vulnerables* Temporalmente.",
+      "ru": "**Потратьте Надежду**, чтобы передвинуться вплоть до далёкой дистанции по прямой линии и совершить атаку против всех целей вплотную на вашем пути. Успешно пораженные цели получают **d8+10** физического урона с использованием вашего мастерства и становятся временно *уязвимы*."
+    },
+    "origin_value": "massive_behemoth",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": [],
+    "options": {},
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": {},
+    "price": {
+      "hope": 1
+    },
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  }
+]

@@ -1,0 +1,6416 @@
+[
+  {
+    "slug": "5476b246-e86a-43dc-8373-8b7128b0cc58",
+    "title": {},
+    "description": {},
+    "origin_value": "8e44d44e-c71b-4df7-aad2-7a076b6cd113",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "evasion": {
+        "type": "add",
+        "value": -1
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e456f92a-2f63-423d-b638-58b0341f8416",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "1846832f-1b04-4c45-b4c5-1c41fc44fca5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "182a2881-64e8-4053-b82a-45938afa9aa6",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "f4ddd579-ff9c-45fd-b9c5-9c23891dec66",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d85cfe1d-dbad-422c-b481-1536949e58da",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily *Vulnerable*.",
+      "ru": "Противник, ранивший вас, временно становится *Уязвимым*."
+    },
+    "origin_value": "11ea6886-a28e-4f1e-8c8b-7350bd6b8ad9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "64b8e732-f1ec-43f9-87e5-29d0e186ae88",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become *Cloaked*.",
+      "ru": "Вы и каждый союзник в пределах средней дистанции можете переместиться в любую точку в пределах дальней дистанции и стать *Незримыми*."
+    },
+    "origin_value": "0283ada7-dc4e-464a-a0d9-dbdad1964d87",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "387c6442-fe48-49ab-bf04-a821cd8bf138",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "d998893f-23dc-45d8-915f-45c8664a7ec9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0005f7a8-3181-4acd-b2a3-7b2b1ce3b788",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "67acf666-55e1-4fb1-9b42-01fade95c271",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "750379b3-2937-4d98-8b4f-a736125c0586",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "47c0e2f5-86f4-4cf1-81dc-a5c3adeb3c78",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "fd77cfd6-de41-4dfb-88c2-63b0f15567cf",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "c8ca9489-6717-4a17-a724-d31dff4fa587",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c57d96e2-d792-46b0-95df-d8005afa816e",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily *Vulnerable*.",
+      "ru": "Противник, ранивший вас, временно становится *Уязвимым*."
+    },
+    "origin_value": "c7dd91c7-febd-4005-baf2-6eb9a7009df1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6ef9dc53-88d7-4872-81e0-c10834d558eb",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become *Cloaked*.",
+      "ru": "Вы и каждый союзник в пределах средней дистанции можете переместиться в любую точку в пределах дальней дистанции и стать *Незримыми*."
+    },
+    "origin_value": "c10da8ad-743c-4c9d-86a8-95865e0cc7cb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "826ad056-261b-4e5e-ba6f-2ebbe0adc886",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "daea3312-6722-4955-85ea-39bc4b6bb479",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e163ae40-24f9-4987-967d-1c5e8e719a86",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "542192dd-a51c-4dce-8878-54728287054a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "498fd7d3-5c82-4e0e-8de6-e5d0af1500d4",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "1e2662a9-323e-4c19-b1f5-06672d5dd875",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "68707500-7a5e-4b9b-845d-2aa3811c1484",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "1818ed39-f5c3-42ab-834d-0e42753215ba",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "742539f0-ad9f-4c44-ba00-0a626b35176f",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily *Vulnerable*.",
+      "ru": "Противник, ранивший вас, временно становится *Уязвимым*."
+    },
+    "origin_value": "d6ef491e-4189-4281-9aea-6e23e29135a7",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "43978109-3e79-4fff-b349-fc4b8e871413",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах средней дистанции можете переместиться в любую точку в пределах дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "082f6a9a-a5f9-4466-87ef-5e6c6c7e8fd1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "986ed7a2-782e-437e-8345-121c5a4e667b",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "0ba52192-cedf-4496-8018-530953009699",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "27e52305-793b-4273-b67f-9ebee3a7b8da",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "298ce7db-bb16-4bc9-a5ce-ec2b8b60aed4",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "565eafd0-53b6-4f6f-a1b5-a274053bc3ba",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily *Restrained*.",
+      "ru": "Противник, ранивший вас, временно становится *Обездвиженным*."
+    },
+    "origin_value": "bee67316-dd92-4936-830b-4f70c30a1f78",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e097524b-3550-4cfa-913e-700381466965",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "765070be-a029-41ba-a819-759f9b465183",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "98583185-571b-43da-9c6d-5497e8f39a49",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "4a77ab96-6674-49c8-925d-9e905d126657",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "157e6eb0-8b63-429e-9ce0-cc8dc7d0c718",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "72c515b2-8278-4cd2-99d3-4d6d20ad173a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d3956f13-f15f-4220-9b4f-202a69c79e0f",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "f15421dc-10ea-4e28-98ec-87150dde7696",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b3fb1083-a736-472e-9b4e-1c9d8052ce4d",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "80d04528-6eec-4f44-94d0-e6e4a3cd7801",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "35aae703-f7e4-4acd-a3b3-f09a90830582",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "ad43aeb9-98a5-4e52-ac02-e23dfcb5dcb6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "1846314c-d671-4308-8ff3-c827da5ae302",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "58da3edc-5757-4e93-bf05-98fc75ed3bf1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "19105b57-5631-45fd-9548-b07eef43bbbd",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "9044cf5f-8a63-4dfa-995d-3cad698450a4",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6dd3f13a-4c36-4a25-aa6d-67a9774a4497",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "4c1c5936-898c-4932-a145-7692360f28c8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "16155d90-3480-4c5b-98bc-c81b65c970fc",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "0363a7b4-643b-446f-b42e-0eb70a133710",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b2013009-2693-4260-a66e-a1f7e02c20c2",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "06651e60-e5e6-455a-b61a-a095b4046c74",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6d1d6835-e585-4baa-815e-0a31e34b2cf2",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "40163f3f-a412-435c-a6b6-c48173389c46",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "06104089-b7fe-4202-8493-2b11a4731d81",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "ef96d2e1-ef18-4e2f-bed8-8e728eea89ec",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "32fe4ae4-ad44-45b3-990f-59a6eb812f27",
+    "title": {},
+    "description": {},
+    "origin_value": "a780802c-f373-4e01-a03d-74cd15c24b94",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "attack": {
+        "type": "add",
+        "value": 1
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "945516a8-a5d5-4d38-b6b6-615460a12add",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "7a5cde93-5f96-4989-b6ff-ebf4e3cc6c55",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7a89bcf8-2d0a-41fd-949d-b7767f6b58a0",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "7c4efa62-0bc7-4c05-b688-04ecb5a59825",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9b698b91-2b73-41fd-a9a6-731a7542ccb9",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "4fc277e0-8392-48eb-bf2b-a29bc2ac4826",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "1ca08e41-3909-4439-b8be-a9cc854b3ecd",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "f68e34ed-3f3a-4394-896b-b32c5a363acf",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f57b2c52-d23f-4396-944e-bd95c934f1b1",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "10d54e8d-0e2b-40ad-a4ec-89b912252f15",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "86a75784-f795-493a-bdb8-42c8e4ded684",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "699ce50e-1e40-44ef-ba4f-ab8da092455e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "263fac39-4cf6-4bfc-95f4-f276ae51a291",
+    "title": {},
+    "description": {},
+    "origin_value": "e10226a3-831a-4479-83f8-22d78c1e1092",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "major": {
+        "type": "add",
+        "value": 2
+      },
+      "severe": {
+        "type": "add",
+        "value": 2
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b5cb67c5-c5e8-40aa-bba0-a16e448cff92",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "98347329-c442-4f19-934d-feb68a0ed8c9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "169424d2-ae7d-46ce-91f1-0747dd9edeca",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "eac1c9f3-f5a2-413e-bc3f-3417e76237e6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6ae6ed6f-e89c-4a27-82ae-8281ac55be35",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "bb47fbde-da68-4639-96d0-c3f07185513a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6aa8a7b1-09e2-4e0b-8755-fa5a2577a99e",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "a40e8605-67aa-4675-b02a-0cc9639ad417",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "782f60b2-c6e3-4964-8d25-4a97133ddeb5",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "8db2a1fd-e584-4a54-86eb-c382aea21c6e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "268500c1-8c94-4940-b41f-eb413799b747",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "52cfc6a2-edfe-41b3-9279-26963a0974c6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8ac7eaf5-57a0-4df3-a859-51249acd907f",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "537778af-f75f-4845-8ad7-ed5678178dd2",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "82600fea-ca37-4f17-a8ae-5d0e6ef5f9ea",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "f88247c2-e5c5-4d8c-869d-1b1d032ec495",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "17bdeb93-0972-4f63-9f44-14a6e169562d",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "ad02a6f3-0565-4052-9c5c-ed84971f356f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a8008682-cfb6-4271-ad2b-2c012b76408d",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "4e06b41e-f9fe-4bb4-8d15-6327bc2024aa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3efe93f4-0169-49f1-b1c4-a51af8d20b4b",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "811d2960-5381-4ecf-8332-56ed93e214aa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7aada493-44a1-4cd2-9c0d-0da7a7fe3263",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "3a7eb983-aec1-40d8-a1dd-b4f943d81feb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9c18ff0e-86b1-4f13-b1ff-5161c35b873d",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "fe65f8ec-8c54-4541-8128-b930c31ea4b8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "eee15efd-58ee-462b-a631-852e09fdeeaa",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "bce524ba-ee5f-49c3-b84b-b87ef150f99b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a2bbefd4-c2a2-475e-9877-e934a1d44f53",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "6b666e01-d9b3-4b7b-a45f-52b9d0e72297",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b829d586-be02-4fbf-9140-e795414ba10e",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "dd945979-dff3-4c14-a2f3-d8f69a43b76e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b194860a-a9f1-40ae-8ae0-fd41f17e78d2",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "8ae616f1-275b-4aab-a4ec-da3b28d988a4",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a41c1881-1605-42de-b4dd-ca010b7634c8",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "c082439b-a2d9-4fde-a989-90170c31c861",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "910f23f9-cf23-4ad7-b575-c9b0616de7b4",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "c89ae77d-76e2-4e7a-8341-c87dcdf14acb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "1d234b23-963a-4516-a3b4-2ca4ee934731",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "958b930f-e39b-40ba-b7c7-ee0a4aa3b342",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "930b5462-14a1-470d-b4e7-4e4f654f7e49",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "f984f7d0-ac90-4d77-8075-0a98b3e7459b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0ada6811-2233-4bbb-97a4-6dcdcade03fd",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "21564aa9-6785-4862-a19a-9c75fd84f7e5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "2cea9b44-ae92-4447-9d15-2a5eea7c91eb",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "4af3421d-7e8c-4f38-945d-429fa5232dd9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "59552f6e-901b-47a0-9d06-4cdf3b555086",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "91b548ff-fceb-44f1-a711-58fcaf539340",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "50c18e04-0636-4b55-993c-be1ff2892798",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "70749201-affc-431a-9123-f999dbdba3ef",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "75cf3252-e34e-4e6f-a78d-c1be59b32bcb",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "ede4c10d-9990-491a-898a-43ff09fb2e10",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "53837763-bc1a-4dac-94a3-6a949f7da369",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "9f68ba9d-7ab1-4615-9cc3-bea523995a22",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "61afcfbb-452a-4db7-b2e8-44500d74a19d",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "c0768fa1-1d43-459d-b3df-60e61081f980",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "dd99c7e6-99e7-44a0-9ba4-e77fac61b4d7",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "27cdee72-b4bf-49e2-9bd1-5b137a0417af",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ba27f5f0-d482-4b52-81b4-2efaff4622d9",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "e51eab36-ca31-4b54-83a2-9e1a3ef54f0b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e877c21f-7aae-49f8-922b-514d1dcdf082",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "4c7da610-19f7-4a94-a12d-37bf95350a30",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "61bc5903-ea6f-41e5-84c8-6438197df9a8",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "ef5046a2-cafc-47d5-a332-d5da87798be5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "796ae145-44b5-46c2-818a-52fe157e9ba5",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "346b990f-eea5-4e67-a90b-59fde8f103be",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0bf04721-e77f-4f1f-ae89-99df5e0b48fe",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "40d3b21c-bc95-4788-87ce-6ef97c1f52ef",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8e065444-5e0f-4496-a98e-f5930de992e2",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "edf10fbe-f620-4515-9d98-b482c4aa0fc1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "2018a3ab-9720-4a5a-8a64-8cf007870189",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "ed410ddd-0f16-4be8-8f98-20d03b41e090",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "bdb41e64-99e6-43f4-9b52-b5637f220c9f",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "429993b3-107c-4d25-a80f-ed995bf3a876",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a57979d7-c0a8-40cf-bf6c-fb82d082f0d8",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "e0484431-19cb-4abf-81ac-123c894ccab9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "cf111da0-92ee-444e-894f-778b8ee602fb",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "8704dcf7-ea40-4726-995e-5ca19c7ba4c8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0ad9b478-4266-4e92-9ee1-caae543cab7c",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "902a9c7a-6d51-4ab3-9913-9db0e6ab77e5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b8aba8a4-6dbc-4969-a7e0-893251ab7ecb",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "f2ffb17e-2499-4755-9771-f221c07ad4bd",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0124625e-6c54-4d9b-8fad-79efcf1238d7",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "94ba17a2-f4a8-442c-887f-6185a75288b4",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "176c22b9-9253-431d-bc18-51cd1b03bfff",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "907bcb56-ecc0-41f7-90d7-0bd57b5e16a7",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c35c4d6d-05cf-40b2-a8a5-db4d608853fd",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "27ddad5b-a24c-4726-911d-15fe00886ad5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e6ebed29-310d-411d-ba76-6063faf164f7",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "e8617d17-7be1-48d4-87d6-e0f0ee0db9f8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "27836cf9-cb1a-4416-a04a-c8bf8fb524c3",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "06e11271-e316-446b-8311-4544082d1096",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c0c0e489-94e2-49fe-a6b0-f65929b31537",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "08e6a4f7-60c3-413c-b32f-d72b75a58377",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7fd4cf2b-0349-4840-9fa2-767c7afffe39",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "e725a565-cf30-436a-8432-7849f7207c62",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "425788cf-bc26-4eee-b62c-3a92337a23ba",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "f95b4ddb-8603-4ccc-a76a-46a723437981",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "93bab4e2-8c2d-4b46-b908-a700420ff038",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "ee1336c3-d90d-428e-84cb-9e5d64a05000",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7b6a5bdb-eb9d-4bff-a0b9-f5b5ac82f452",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "36dea5e8-a5f5-4b90-ba23-9771ccde3b3f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b2377ddf-bb5a-42c4-87ac-279f1363c493",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "3d59502a-a3fb-46b8-9309-53038c797ed0",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "719c212b-758c-4e9f-9206-f5eb9e78547e",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "b334e85d-a8d0-419d-91d6-b36713dd8a9f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7c077fc8-f09f-4231-891d-74f16dcce994",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "d5f9487d-a146-463e-8941-f238078a493f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9a1aa0ae-1068-45df-b7cb-2c01a0353a5f",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "b45e9596-4f70-4bae-a7ee-ae39ad8a9b65",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ac69f499-a209-4326-88e0-c0e58a9a688c",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "645c00ce-22b3-494a-a026-5e9ac5ce74b0",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "84ba104e-d5b4-4df7-8fdc-1833d40b101e",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "d714099f-4833-47be-9518-484a9191cf83",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d4513eb5-99f2-4be0-b000-14f5ea3a2150",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "bc8f39af-e874-4d1b-9670-100efb5f76f9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9946d544-3ae5-47e2-b2ee-e9e6d3a6be42",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "27e3f4cc-e3e8-4b0c-8188-2344d4aa3ff9",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "82318385-79b1-4871-9367-9e10b4b239bf",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "7f9befae-f93f-4ed1-b713-7357dc47dc46",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "947d78c0-aa98-452c-9faa-abf0bd0b9617",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "df1623c1-0fc6-4f98-9db9-a2053e2e77fa",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "5054d2a8-5084-444d-9ff4-ba5eaff631ce",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "76c9958a-be75-40eb-9cba-7c3da0b4ec83",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "76520dfb-ed6a-40db-89f3-37e444f114d9",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "1ac5d4fa-84bc-455b-826f-ee05728bb052",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d4f01e7c-b8da-47e9-acf7-93e27213f11e",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "367ae5dc-be81-46dd-aff0-343ee6cc0bb0",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c66e6644-cde7-4edf-876e-4f986351afbe",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "fa7c273c-9d82-46d8-aa7c-62521581a29f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8029273d-2f94-4555-8d2d-a23ff0b165f3",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "17b28985-d319-4f63-83f3-f649fa88b4dc",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e2bd8858-33e1-47ab-b2bb-9d9556cecf46",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "e3987d57-8169-413a-b741-9e4453f40f4d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c2201ba3-94d4-449d-8af4-9d523e739edf",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "c552f72f-c1b3-45ab-82b9-086f05b2e7a6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3a99884d-ad2b-480a-bd0e-29cb5aeeb65e",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "cd3414e4-7d89-43fd-8378-0be4d57ccb43",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ee576f3a-6f82-41f2-8e60-2e2417ae8dab",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "a8d95010-68c3-4696-aa19-c572695cf77d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "234bcb4c-0234-4097-a440-9df8bdbfc733",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "2d91a3e6-5e82-49f3-816a-f73e2828805a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e7e5d9fa-c3ad-4826-8823-3717cdc2698f",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "27bf002d-4491-4df2-9c56-6253830fda6c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6b330a67-2e3d-452f-8a84-4b54315c1633",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "b349ab39-09ca-4ccc-9f7c-21cea2bba82f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "81244f16-d254-4815-8bfb-6ae2fa792a20",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "8c366632-7a8f-4fa5-b9c5-4fe8dfb80cfe",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "59107562-77fd-43f3-b0f6-5bad0dad86fa",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "3b33f8a0-6d25-4910-906a-4a7d573d194d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9568da33-f248-408f-8c78-0bd8711017c3",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "5ec74ec4-61ba-4dae-92d1-20a5ec915116",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "59139247-30d3-4041-a000-52dd8fcba991",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "e4a4c9f8-65dd-4506-921d-b00c195ada99",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "847a1de0-9664-47ff-bcc7-33032c8123f8",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "89e4f58e-b698-42bf-84af-764cefc27f42",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b4fff9b0-48f6-4b12-a9ad-d504ff3a2c8a",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "86d1feb2-ced9-46b2-9b0d-62d1571d592e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "4d4fdb62-3d4f-4251-87c4-3ec3448f05d9",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "7151b696-7758-4102-9a85-ebc4e340e914",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "2b476878-ad3b-44de-9e64-8c4af94588d8",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "fae18c31-0282-4fbc-8b20-2201dd4f4847",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b5f91e8f-2c08-4cdd-a4fe-edaa2afb249c",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "57f64cf8-6570-4127-818c-ada9284d6d52",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "67493734-f3f1-4b16-bfde-97b343107652",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "837280e9-afe7-40a3-af3b-b73d87290b33",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "cd88ceea-12b0-4a04-b4a4-4ec42abd1469",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "760d417f-562a-40ff-8e16-4e6403723d4c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d6ef5936-ac6d-4fbd-8125-094645136f3a",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "c81fa62b-87cc-4f2e-897a-f0ae5b80f106",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "66aa22dc-f9a6-4e16-b285-c6d22e2b7fd8",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "95215ba2-5621-44f5-9636-c86c7dcbc59f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b896d975-db9d-4b42-91b9-c297a12110f6",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "7751a369-277a-4303-89f0-cb736174feb4",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7da5d991-2b08-43b1-a3eb-cb2c2d4804ad",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "83cb1ef2-9ebc-48c1-ae04-8c8df02f19af",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f5e66d0a-a980-417e-82d9-186ed1381290",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "23e6e48d-025f-4fc0-b970-7f1f33b97ab8",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9ef9e4b3-40ac-4ecc-9f58-3e5e6f2f2dcc",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "96b996ba-625f-4fdc-b085-8ae3770e4d8f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "75147968-e2c1-4048-912d-070bda41d27d",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "f4decfa8-6248-4c40-8340-6fb8031cb525",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6852351d-1ca3-4aed-8333-b2ab1551705c",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "d793d8be-e285-4d5a-b669-b6d27a7f7c0e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a52c8d7a-7cf1-44ef-acfb-28523a4debd8",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "a712463b-8d46-4b1f-8054-067fb6fbcd0f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c7fe0aaf-c91e-4757-8146-e5d3fd5a2362",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "7f44e15b-a4d8-469c-b946-894a7fffbea3",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c17bf814-ea90-4dc1-9fb6-c8e4f24f2bc9",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "a13fda21-55f0-444b-9ab7-3e7083245551",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c67d0965-0182-4f18-a18e-641fa170dab3",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "6d4260e5-eb33-4543-a38a-d699f39fcae3",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "499f43e5-1d53-414f-a6c8-9703f42f7a41",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "e747ed5f-b726-407d-aca2-1d55f03f17d5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "23682877-48b8-450d-8fe8-659b92970532",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "cf625937-d5db-4b85-8a46-34da9752adc5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "24ba0888-d43b-4925-902e-153813bba5ab",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "d161b4ca-c8b9-44ed-86a1-a43c593c2899",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "746f8555-15f1-4fbd-a8c1-633cd0caf891",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "dd2ad051-a6e2-449f-b8d1-7008990e0d3d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7683b8c3-0489-4e8b-9b29-860158cfaaa3",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "99cf479c-a271-4806-8387-3b46721b9402",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "5389f673-c106-4cd5-9543-2c71dcb01532",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "b1c3da12-4ccc-45c2-b5a6-0f9a70476f3b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "69404c25-eba5-4172-9a42-5cb97ed7788b",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "3cd513fb-89b7-4465-b2b7-9d19e3cb5143",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "138325bc-1def-4e87-8d8d-b822b25f2311",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "de3b3fee-2eb8-4c4f-a7d3-cdcb0e2568bb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "2ba4157c-43cf-4766-8f2d-342172477c9e",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "da4ccc56-3b71-4398-b3b0-c2f4353aedad",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "4d831600-9c61-48e4-903d-e6b9ea0208bd",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "99ebe9bc-1857-4753-a311-eac0de238162",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7d759a48-21b0-42b6-98c8-2bfc1bb1eedb",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "0683529b-04a6-4c51-831b-d6b3ce310b07",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "05fe4e4c-b46a-46fd-a9e1-f060b1ed3ff8",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "68af5e4e-8f30-46d0-b66b-6e0f87374b6d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "49abf7d3-4cc5-412a-a196-d7591e534271",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "db88f844-8d17-4b62-ab6a-58384edd8104",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "4031319c-2980-49c5-964f-abd11b4956ad",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "2a46cb58-c880-42c2-8252-273ae370a94e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "88ce6c14-1040-44d6-bcef-e4e690b5084e",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "fe49e759-ff19-4583-9c97-e336f8f0056e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "663da6f3-351d-4948-9697-2c112a2ca0df",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "a356587c-3df8-4805-985d-08ebba3c806e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "de832759-a74e-4c3f-9bee-9c10c889b081",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "6f9ab8b8-d5bb-4d9e-97d4-31bb5d1f752b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "84c124e8-c4f5-4a46-8164-0c2f33748a8c",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "9b162678-5cce-4007-a007-5d50f96b36f5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ac99c6e4-74e4-4bc7-9ea1-e853d897538a",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "e838a3da-7763-473d-b9c3-c7e20e04d2c3",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7abd6b91-91d8-4150-a5a4-25380975b59a",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "a7248279-d1f6-45ff-950d-1df3357d0fb2",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "bae516e1-50a7-4311-bec6-5e60de8af036",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "f8edc60a-a8fd-4e57-9811-f4c04729d634",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "452df3f3-ea44-4dc4-8f6d-787b726cb41b",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "322d797d-66ca-4459-93b1-f1131f66a25f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9739cd11-d2d2-4c54-9755-1ea0a8e87bb4",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "7f8ad39b-a716-461e-971d-441b2f1be6a2",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "156b0958-5365-4a27-9d22-83941dff600a",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "c253cd48-8d46-4598-94c4-27b2bca074e3",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d31ed42a-4f3c-436e-b84b-a3ba4343991a",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "172783dd-17bf-4711-81f3-0256a0632357",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e99aff10-6c38-4bfb-a5a5-27f870ecf367",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "af2c13b6-b381-4bdc-91d1-e55656c0ec5f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "816ae135-f336-48d2-8450-75e607a0f920",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "95ae6c7f-6ab6-45e6-8a01-58f1fa3014b7",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "18b053c4-c555-4a77-990d-60ecfcdb88c7",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "696aab23-b28b-4276-8ab8-adfe3fc7a7dc",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "97ff5232-2eed-433d-ac01-f78a449cf36d",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "1b107cc4-1fba-4a69-9a8a-53ed020b26ee",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "132ec2eb-3bcd-41e3-8a19-c1607fdbc0f9",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "cffd628d-8358-4c0b-b6aa-1bfa4e3c6341",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ada7a40d-a737-4b98-bf84-4fa1b60e286f",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "ba22a98b-e581-48f5-b093-b51962f935f1",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "674c727c-bb36-43b9-b4e2-0dd72a932d6b",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "ca81e1da-18a4-4774-99a7-04bb5f90e7f3",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c95ccd3a-fc02-4171-bbd9-a101ee1f81b4",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "a9fbfd75-0121-4c09-a828-e256c985a20b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "32d13889-4f7a-4392-bf8d-96c10c651809",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "549b6dff-7652-4b38-826b-268b4fc7ac33",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "2c247adf-4361-4c27-986f-21c784a86d8b",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "ab99a909-486f-4acc-a666-cd8331a94796",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d3252e25-be88-4350-9404-c6501e2c2af8",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "21e7356b-cbd4-411e-a5a1-f8656effd069",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "33c76853-90de-4ebb-84e4-7f8ba328961d",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "8eb66017-4f3e-43c1-8d32-0543f0efb2af",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "bac4cf21-ed14-4f15-950e-b5d560d91cb5",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "a10e8aa3-e08f-45c6-8a14-5ab116ead9ec",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "bd0c335c-e4ee-4d19-95e4-c02593547fcc",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "18655534-124c-4b29-8f94-a851e620160d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "26d2062e-065a-41ac-be00-f2137dd27f09",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "221d9e6b-abb3-4eee-95d6-f201000fac3f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ba1dfe7c-69ae-4160-929b-071b7b955d8d",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "86f02112-c6d8-4c5b-a417-7d74e72e1127",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "81bd9f40-0e52-4e71-9a8d-88ab0f16b3b0",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "6a17bdf8-61a9-4181-9224-d0203163ea28",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "30779f0f-bfc6-4a5d-afc6-8998ba37987e",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "9227a5ba-0b19-414c-b7a5-9d104ffd2f17",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9b24d3de-b883-4ec2-86f4-88ba5884c7f2",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "33e2669f-2d25-4952-a7e3-901ccf696f59",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d6f8f7aa-f784-4d61-a02c-b14e9af7bb77",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "1dc064df-54ed-4c88-8757-52251597d7b7",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a0ab4532-9294-41d8-bd40-2f7cc88075a2",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "791a92a3-2b1f-46ef-9e24-9c937e290444",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "0c9846a4-9e60-4dc0-ac53-ab9df1890ddb",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "3e00972a-d7a0-49ae-a831-5aac888578a6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6cdbf51b-6bd4-45dc-93a6-4226c9a0ffb1",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "170004d6-94be-4109-b2f6-95485b4a516c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "28973a0c-acbe-4e4b-bdce-b49f1e70c088",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "ba274785-225c-462f-992d-11c589766e90",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "ef41d0b8-4587-493d-a8d2-ff256ecacf6f",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "ce87ea00-72d8-4094-9a93-2079d9442889",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "4fb1c629-e550-439d-b193-e16d329c823b",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "af9087ec-ce2a-413a-a812-3f9996b2c272",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "12596e03-c124-4b64-b249-1af543d5cf56",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "76202ead-0328-480d-8d68-63f91285cb8b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "03556021-c10a-45d8-8d86-a36ce3fc38ad",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "6a66f872-7be8-4208-9a50-0c3f6818ae5e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "405e4b78-8d48-4a4f-94e9-6812ae0d56de",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "c8f7bb26-2db9-46d7-8bdf-d548171ec9e6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "8a13f851-925e-4806-a24e-10c680b6821d",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "8f3f52e8-c534-478e-a480-e00909da8680",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "573a0142-f58b-4492-b5ef-19a0b2a73732",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "7d74c187-53a6-4483-9278-2e2aeae47fc7",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e739506d-bf63-4c3f-b976-0a45ed6176b6",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "804f677b-23f2-4e80-a868-1a04933295df",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7128c177-bfe5-43b5-bd2b-fe932badaf70",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "21da97ef-76ec-407c-b0a3-4389ef644c7f",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3681beb0-60f2-4053-8f71-2088750e21ac",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "44defe94-d176-4332-b765-d73f3063fe1e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f05af900-6a38-4f5b-9697-bfc946ce145e",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "24bdad25-7953-4d34-b9b3-4a27dd572d07",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e4d36cf3-8239-4e48-946c-bddfa9cfc999",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "f3671a69-47fc-4153-b04d-52e6996a02ab",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "cd795638-59fc-4ee7-b5ff-2bf71c00dbc6",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "d6e737bd-e059-4459-a7d1-6eeae9e8c84b",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "eff4fb68-7f63-476f-ad6a-7818575a9688",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "dbdb836e-a7bd-4633-82d9-ef14d9a45737",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f44d75c1-e8de-4891-8374-31155044330e",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "dd12651b-6ff7-4c8b-8dd8-45368c36ab84",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f3c3a0ef-44d2-4082-b8ef-406199676cd1",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "a0481606-0c4e-487a-aeb7-d593db6bee60",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3bb5306c-2788-4add-87b1-12284d25c417",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "691d5385-daa8-437c-9e28-6943856dcbbf",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3ab7f3f0-0f2e-4ec8-be3d-baa3030720a4",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "0292e981-c6a2-4451-856d-b24be93c8c93",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e3248b36-8b78-435f-b11c-a25fb4238e0e",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "92d89494-dccb-4248-b62e-7f84f5bd1a4e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "5ef488f1-6219-4efb-85eb-5783b7c49562",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "2811f88b-fe0c-4cd5-9b9f-622fb2a9e05a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e01c8e31-007c-44c8-944d-9ac24817e295",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "e9db90c6-506a-42a4-a1c2-c64d23fee29d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "c183143d-3e45-487e-9a22-e57dc595611b",
+    "title": {
+      "en": "Divine Light",
+      "ru": "Божественный Свет"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you gain a Hope.",
+      "ru": "Вы и все союзники в пределах Средней дистанции получаете по 1 Надежде."
+    },
+    "origin_value": "ccddae39-aa76-4dd6-ad9a-a635dfeebf87",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "d7a0f700-7857-48a5-b0e6-8b50315e0907",
+    "title": {
+      "en": "Floral Aroma",
+      "ru": "Цветочный Аромат"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear a Stress.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Стрессу."
+    },
+    "origin_value": "21356e17-c74a-4ba6-93b0-6cadaaf18b1d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "711b2eaf-45ec-4d9c-9f5d-9ad49c7bfeeb",
+    "title": {
+      "en": "Poisonous Burst",
+      "ru": "Ядовитый Выброс"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Vulnerable.",
+      "ru": "Противник, ранивший вас, временно становится Уязвимым."
+    },
+    "origin_value": "7a3f1d38-cb59-48ce-a2ea-bee5e89dfb4d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "63136fc4-9883-4325-a77d-97d767065ece",
+    "title": {
+      "en": "Shadowblink",
+      "ru": "Теневой Прыжок"
+    },
+    "description": {
+      "en": "You and each ally in Close range can choose to move to a spot within Far range and become Cloaked.",
+      "ru": "Вы и каждый союзник в пределах Средней дистанции можете переместиться в любую точку в пределах Дальней дистанции и стать Незримыми."
+    },
+    "origin_value": "d70f80ac-f562-4ba7-92f8-e92371527438",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "326e3982-6b9b-46cb-a3e1-771fc2f4afa6",
+    "title": {
+      "en": "A Single Horseshoe",
+      "ru": "Одинокая Подкова"
+    },
+    "description": {
+      "en": "Remove a Fear from the Fear pool.",
+      "ru": "Уберите 1 Страх из запаса Страха."
+    },
+    "origin_value": "3e5c94be-fba4-4b00-9eea-dcb3ee3d4c1c",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "68428355-6f69-4838-abf5-d4181dac1b02",
+    "title": {
+      "en": "Sudden Muscle",
+      "ru": "Прилив Сил"
+    },
+    "description": {
+      "en": "Choose an ally. The next attack they make has +2 to its attack roll and +3 to its damage roll.",
+      "ru": "Выберите союзника. Его следующая атака получает бонус +2 к броску атаки и +3 к броску урона."
+    },
+    "origin_value": "588198dc-cd27-42a6-93fc-64e414739a3a",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7943efe9-69f8-4f1e-8272-6553139cd4b4",
+    "title": {
+      "en": "Lashing Chains",
+      "ru": "Хлещущие Цепи"
+    },
+    "description": {
+      "en": "The adversary that damaged you becomes temporarily Restrained.",
+      "ru": "Противник, ранивший вас, временно становится Схваченным."
+    },
+    "origin_value": "e9ade6f9-3710-4108-8d51-a34b90138f47",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6a92fed0-a449-4898-a1e7-6956587f8495",
+    "title": {
+      "en": "Skin of Wood",
+      "ru": "Древесная Кожа"
+    },
+    "description": {
+      "en": "Temporarily reduce all damage you and your allies take by an amount equal to your Proficiency.",
+      "ru": "Временно уменьшите весь получаемый вами и союзниками урон на величину вашего Мастерства."
+    },
+    "origin_value": "272940d3-7481-48c3-aa17-c34b23c56efb",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "babaf6e3-d0bf-4677-9082-8ee165bcbfe6",
+    "title": {
+      "en": "Din of Cicadas",
+      "ru": "Стрекот Цикад"
+    },
+    "description": {
+      "en": "All adversaries within Far range mark a Stress.",
+      "ru": "Все противники в пределах Дальней дистанции получают по 1 Стрессу."
+    },
+    "origin_value": "d6683181-afbe-42ea-bb42-2047f23eda69",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "33b2a6c4-840f-41df-ae65-efeba4fd735f",
+    "title": {
+      "en": "Fire Eruption",
+      "ru": "Огненное Извержение"
+    },
+    "description": {
+      "en": "Deal d10 magic damage using your Proficiency to all adversaries within Close range.",
+      "ru": "Нанесите d10 магического урона, используя ваше Мастерство, всем противникам в пределах Средней дистанции."
+    },
+    "origin_value": "68d954db-d23a-4d65-b18c-a0a21aa9cd6e",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "3d7a5a80-7d89-4691-8703-96c757ba9262",
+    "title": {
+      "en": "Gentle Faeries",
+      "ru": "Добрые Феи"
+    },
+    "description": {
+      "en": "You and all allies within Close range of you clear 1 Hit Point.",
+      "ru": "Вы и все союзники в пределах Средней дистанции снимают по 1 Ране."
+    },
+    "origin_value": "1495e83b-0958-4ed9-987d-9e3b540f97e5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f01bb580-fe6e-4be6-babf-880e9e36df31",
+    "title": {
+      "en": "Red Thread",
+      "ru": "Алая Нить"
+    },
+    "description": {
+      "en": "Choose an ally. You immediately make a Tag Team roll with that ally, without spending Hope. This doesn't count toward the Once per Session limit on initiating Tag Team rolls.",
+      "ru": "Выберите союзника. Вы немедленно совершаете Совместный бросок с этим союзником без траты Надежды. Это не засчитывается в ограничение «один раз за сессию» на инициирование Совместных бросков."
+    },
+    "origin_value": "77eae07d-ecb3-4f9b-83cb-81b4ca4d4173",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "60f60bdd-de4d-44bc-8356-fc1bfd7098d8",
+    "title": {
+      "en": "Wings",
+      "ru": "Крылья"
+    },
+    "description": {
+      "en": "You temporarily gain the gift of flight, and are strong enough to carry one ally while flying.",
+      "ru": "Вы временно обретаете дар полёта и достаточно сильны, чтобы нести одного союзника в воздухе."
+    },
+    "origin_value": "c8279dda-aefd-4386-a130-2ed454daa6ed",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "362dfd1e-f85d-45c3-a7d5-495861c686fc",
+    "title": {
+      "en": "Iron Skin",
+      "ru": "Железная Кожа"
+    },
+    "description": {
+      "en": "Until danger passes, you are immune to physical damage.",
+      "ru": "До конца текущей опасности вы невосприимчивы к физическому урону."
+    },
+    "origin_value": "9dd9fb03-677e-46db-ac3e-6ee0c70e7576",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "e2201820-3791-4c73-9f00-6a320805354a",
+    "title": {
+      "en": "Holiday",
+      "ru": "Отпуск"
+    },
+    "description": {
+      "en": "You are teleported to the most relaxing place you can think of. You return once danger has passed, and gain 3 Hope.",
+      "ru": "Вас телепортирует в самое спокойное место, которое вы можете представить. Вы возвращаетесь после окончания опасности и получаете 3 Надежды."
+    },
+    "origin_value": "9560a723-75dc-4332-ac6b-b36091826c90",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "a3761b34-3a6b-45c6-9d5b-268fb116ee32",
+    "title": {
+      "en": "Badass Weapon",
+      "ru": "Грозное Оружие"
+    },
+    "description": {
+      "en": "You gain 3 Slayer Dice, each a d6. When making an attack or damage roll, you can roll any number of Slayer Dice and add them to the result.",
+      "ru": "Вы получаете 3 Кости Убийцы, каждая d6. При броске атаки или урона вы можете бросить любое количество Костей Убийцы и добавить результат к итогу."
+    },
+    "origin_value": "9b74d87b-1964-4674-bfe8-6d77596e8b8d",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "235d78d5-bb76-4cb8-83a9-2536478355a7",
+    "title": {
+      "en": "Missile",
+      "ru": "Снаряд"
+    },
+    "description": {
+      "en": "Mark 1d4 HP on an adversary within Far range. If they're resistant to physical damage, they mark half as many HP.",
+      "ru": "Отметьте 1d4 Ран у противника в пределах Дальней дистанции. Если он устойчив к физическому урону, он получает вдвое меньше Ран."
+    },
+    "origin_value": "c5e86274-e18c-4ede-833f-c3a0b5c50d71",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "28db5051-3d82-4119-9fce-4db58c773fee",
+    "title": {
+      "en": "Beast Within",
+      "ru": "Внутренний Зверь"
+    },
+    "description": {
+      "en": "You and all allies within Close range gain the claws and fangs of a predator, increasing your Evasion by 1 and increasing all of your damage dice to d12s.",
+      "ru": "Вы и все союзники в пределах Средней дистанции обретают когти и клыки хищника: Уклонение увеличивается на 1, а все кости урона становятся d12."
+    },
+    "origin_value": "0ad0c6a6-f596-4cb6-a533-73b27662ad73",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "927209eb-1e0d-41ad-9c70-22748e8c7746",
+    "title": {
+      "en": "Covered in Bees",
+      "ru": "Налёт Пчёл"
+    },
+    "description": {
+      "en": "Choose an adversary within Far range and roll a d6. They mark that much Stress.",
+      "ru": "Выберите противника в пределах Дальней дистанции и бросьте d6. Он получает столько Стресса."
+    },
+    "origin_value": "4521bd5e-d773-4ad3-ac19-1b2ee5674ba0",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9ba05d62-e3c6-4ca2-9744-cb0f8bf5b95a",
+    "title": {
+      "en": "Conscious Swap",
+      "ru": "Обмен Телами"
+    },
+    "description": {
+      "en": "You and a willing player temporarily trade characters and each clear 2 Stress.",
+      "ru": "Вы и согласный игрок временно меняетесь персонажами, и оба снимают по 2 Стресса."
+    },
+    "origin_value": "ee93974e-0df8-4cb9-a851-6f59408a3f40",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7b6a11b8-4a1c-4e96-a10c-ee6429439377",
+    "title": {
+      "en": "Goblin Cheer Squad",
+      "ru": "Гоблинская Группа Поддержки"
+    },
+    "description": {
+      "en": "You and each ally roll a d6, which can be added to your next action roll, or used to clear that much Stress. When danger passes, the Goblins demand payment.",
+      "ru": "Вы и каждый союзник бросаете d6. Результат можно добавить к следующему броску действия или снять столько же Стресса. По окончании опасности гоблины потребуют вознаграждения."
+    },
+    "origin_value": "64db2d58-66fc-4f2f-b1c5-8b4c332b6ca5",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "65f3dfba-a68d-4fd1-b1f7-4fcfcfd0971d",
+    "title": {
+      "en": "Curtain Call",
+      "ru": "Прощальный Монолог"
+    },
+    "description": {
+      "en": "Roll your weapon's damage against an adversary. If this marks their last HP, they deliver a biographical monologue about their unfortunate life and death.",
+      "ru": "Бросьте урон своего оружия против противника. Если это отмечает его последнюю Рану, он произносит автобиографический монолог о своей несчастной жизни и смерти."
+    },
+    "origin_value": "52c818bd-10cc-4a86-a387-260a5315bb18",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "9ab66744-091a-4931-a951-660b04324715",
+    "title": {
+      "en": "Hamsterfication",
+      "ru": "Хомячизация"
+    },
+    "description": {
+      "en": "You temporarily turn into a tiny fluffy creature incapable of dealing damage. You can freely run around on adversaries: while you do, that adversary is Vulnerable.",
+      "ru": "Вы временно превращаетесь в маленькое пушистое существо, неспособное наносить урон. Вы можете свободно бегать по противникам: пока вы это делаете, этот противник является Уязвимым."
+    },
+    "origin_value": "13c4a577-3c82-4061-a306-172addf18353",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "da4bcecf-e8fe-420d-b3a2-6395ef38d172",
+    "title": {
+      "en": "Revival",
+      "ru": "Воскрешение"
+    },
+    "description": {
+      "en": "Somewhere, a person of the GM's choosing is brought back to life. Once this effect has been activated, rolling this effect again makes them die again.",
+      "ru": "Где-то по выбору Мастера один человек возвращается к жизни. После первой активации этого эффекта повторное выпадение этого результата убивает воскрешённого снова."
+    },
+    "origin_value": "3ddd55a0-d755-487f-af0a-857aacb1acd6",
+    "kind": "static",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {},
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "b13559dd-62e7-4fb9-b012-3abe11c47cf4",
+    "title": {
+      "en": "Reliable"
+    },
+    "description": {
+      "en": "Gain a +1 bonus to your attack rolls."
+    },
+    "origin_value": "d45890e5-331b-4d8a-ad71-e8954aa2a0aa",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "attack": {
+        "type": "add",
+        "value": 1
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "6835d039-8667-4224-bf8d-b408abc4a0b4",
+    "title": {
+      "en": "Aggressive"
+    },
+    "description": {
+      "en": "Gain a -1 penalty to your Evasion. When you deal damage on a successful attack, roll an additional damage die and drop the lowest."
+    },
+    "origin_value": "10705f1e-205f-442a-aefe-3371013565dd",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "evasion": {
+        "type": "add",
+        "value": -1
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "af1c748d-d2e9-47d1-84f1-c90737685df0",
+    "title": {
+      "en": "Anchored"
+    },
+    "description": {
+      "en": "Gain a +2 bonus to your damage thresholds and you cannot be moved unwillingly."
+    },
+    "origin_value": "933e6bf8-9e1d-497d-b647-38eb1ee3690f",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "major": {
+        "type": "add",
+        "value": 2
+      },
+      "severe": {
+        "type": "add",
+        "value": 2
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "7934400c-6fe2-4589-96b3-cdd1497905d3",
+    "title": {},
+    "description": {},
+    "origin_value": "40db4f30-e649-4460-83b1-196646daa0a7",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "attack": {
+        "type": "add",
+        "value": 1
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "f3839ba4-2ffd-421c-a5bc-bfd34f27e124",
+    "title": {},
+    "description": {},
+    "origin_value": "4398b539-3cda-4250-a018-57a663e9e8c7",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "evasion": {
+        "type": "add",
+        "value": -1
+      }
+    },
+    "tokens": null,
+    "dices": null
+  },
+  {
+    "slug": "02fbe427-80b9-442d-8764-361d50c21c85",
+    "title": {},
+    "description": {},
+    "origin_value": "852434cf-cd51-444f-9253-bd6e785d4d08",
+    "kind": "hidden",
+    "limit_refresh": null,
+    "exclude": null,
+    "options": null,
+    "conditions": {},
+    "description_eval_variables": {},
+    "eval_variables": {},
+    "continious": false,
+    "bonus_eval_variables": null,
+    "price": {},
+    "info": {},
+    "reset_on_rest": null,
+    "modifiers": {
+      "major": {
+        "type": "add",
+        "value": 2
+      },
+      "severe": {
+        "type": "add",
+        "value": 2
+      }
+    },
+    "tokens": null,
+    "dices": null
+  }
+]
