@@ -1,55 +1,5 @@
 [
   {
-    "slug": "7d81a391-c3c1-4ce5-8d72-b34189ce291e",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "b5018dea-b995-4188-8a46-e545a07093da",
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": true,
-    "bonus_eval_variables": null,
-    "price": {
-      "hope": 1
-    },
-    "info": {
-      "type": "spell",
-      "recall": 1,
-      "fear_dice": "D12",
-      "hope_dice": "D20"
-    },
-    "reset_on_rest": null,
-    "modifiers": {
-      "severe": {
-        "type": "add",
-        "value": "tier"
-      },
-      "spell_bonus": {
-        "type": "add",
-        "value": 2
-      }
-    },
-    "tokens": {
-      "limit": "proficiency",
-      "reset": "limit",
-      "reset_at": "long",
-      "reset_at_long": "limit"
-    },
-    "dices": null
-  },
-  {
     "slug": "book_of_ava",
     "title": {
       "en": "Book of Ava",
@@ -692,11 +642,11 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "health": {
+      "health_max": {
         "type": "add",
         "value": 1
       },
-      "stress": {
+      "stress_max": {
         "type": "add",
         "value": 1
       }
@@ -4297,11 +4247,11 @@
     },
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": "if (no_armor, 0, 2)"
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": "if (no_armor, 0, 2)"
       }
@@ -4602,15 +4552,15 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": 2
       },
-      "health": {
+      "health_max": {
         "type": "add",
         "value": 1
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 2
       }
@@ -4646,15 +4596,15 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": 2
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 2
       },
-      "stress": {
+      "stress_max": {
         "type": "add",
         "value": 1
       }
@@ -4957,7 +4907,7 @@
     },
     "reset_on_rest": null,
     "modifiers": {
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": "proficiency"
       }
@@ -5071,11 +5021,7 @@
     },
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
-        "type": "add",
-        "value": 3
-      },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 3
       }
@@ -5127,234 +5073,6 @@
     "dices": null
   },
   {
-    "slug": "17ad4426-b75b-434a-a118-9b479154d867",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "6e86e6fc-3664-46b0-ab8c-82d9a117f592",
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": true,
-    "bonus_eval_variables": null,
-    "price": {
-      "hope": 1
-    },
-    "info": {
-      "type": "spell",
-      "recall": 1,
-      "fear_dice": "D12",
-      "hope_dice": "D20"
-    },
-    "reset_on_rest": null,
-    "modifiers": {
-      "severe": {
-        "type": "add",
-        "value": "tier"
-      },
-      "spell_bonus": {
-        "type": "add",
-        "value": 2
-      }
-    },
-    "tokens": {
-      "limit": "proficiency",
-      "reset": "limit",
-      "reset_at": "long",
-      "reset_at_long": "limit"
-    },
-    "dices": null
-  },
-  {
-    "slug": "06860b88-ae62-4369-9240-b42536efb95f",
-    "title": {
-      "en": "Feature with option's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "6e86e6fc-3664-46b0-ab8c-82d9a117f592",
-    "kind": "static_list",
-    "limit_refresh": null,
-    "exclude": null,
-    "options": {
-      "ffec5221-576c-4f8b-b164-77ddf6504807": {
-        "en": "Feature with option's title"
-      }
-    },
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {},
-    "eval_variables": {},
-    "continious": false,
-    "bonus_eval_variables": null,
-    "price": {},
-    "info": {
-      "type": "spell",
-      "recall": 1
-    },
-    "reset_on_rest": null,
-    "modifiers": {},
-    "tokens": null,
-    "dices": null
-  },
-  {
-    "slug": "e584dbe1-cb52-47d3-9a34-fc8b2e108af2",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": null,
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1,
-      "selected_feature": "ffec5221-576c-4f8b-b164-77ddf6504807"
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": false,
-    "bonus_eval_variables": null,
-    "price": {},
-    "info": {},
-    "reset_on_rest": null,
-    "modifiers": {},
-    "tokens": null,
-    "dices": null
-  },
-  {
-    "slug": "49ea340f-75ae-4d63-bc6f-7e4e934a322e",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "889e0f2f-3209-4e9b-af67-35514bef68ff",
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": true,
-    "bonus_eval_variables": null,
-    "price": {
-      "hope": 1
-    },
-    "info": {
-      "type": "spell",
-      "recall": 1,
-      "fear_dice": "D12",
-      "hope_dice": "D20"
-    },
-    "reset_on_rest": null,
-    "modifiers": {
-      "severe": {
-        "type": "add",
-        "value": "tier"
-      },
-      "spell_bonus": {
-        "type": "add",
-        "value": 2
-      }
-    },
-    "tokens": {
-      "limit": "proficiency",
-      "reset": "limit",
-      "reset_at": "long",
-      "reset_at_long": "limit"
-    },
-    "dices": null
-  },
-  {
-    "slug": "08e1dfb7-eb69-4f62-95d2-37dcb7d534ef",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": null,
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1,
-      "selected_feature": "9799c644-690a-4413-98ea-8c5e33420ade"
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": false,
-    "bonus_eval_variables": null,
-    "price": {},
-    "info": {},
-    "reset_on_rest": null,
-    "modifiers": {},
-    "tokens": null,
-    "dices": null
-  },
-  {
-    "slug": "1bbdb918-1709-4713-8bcf-d7c500286fc3",
-    "title": {
-      "en": "Feature with option's title 1"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "889e0f2f-3209-4e9b-af67-35514bef68ff",
-    "kind": "static_list",
-    "limit_refresh": null,
-    "exclude": null,
-    "options": {
-      "67ddeac7-d5eb-4b98-be8f-0af4c145eb3d": {
-        "en": "Feature with option's title 2"
-      }
-    },
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {},
-    "eval_variables": {},
-    "continious": false,
-    "bonus_eval_variables": null,
-    "price": {},
-    "info": {
-      "type": "spell",
-      "recall": 1
-    },
-    "reset_on_rest": null,
-    "modifiers": {},
-    "tokens": null,
-    "dices": null
-  },
-  {
     "slug": "overwhelming-aura",
     "title": {
       "en": "Overwhelming Aura",
@@ -5385,120 +5103,6 @@
       "type": "spell",
       "recall": 2
     },
-    "reset_on_rest": null,
-    "modifiers": {},
-    "tokens": null,
-    "dices": null
-  },
-  {
-    "slug": "f3b3afd2-4791-4c36-84ff-9517f3bf6ce1",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "74f49b3f-d641-43c8-80ce-6a346aadb496",
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": true,
-    "bonus_eval_variables": null,
-    "price": {
-      "hope": 1
-    },
-    "info": {
-      "type": "spell",
-      "recall": 1,
-      "fear_dice": "D12",
-      "hope_dice": "D20"
-    },
-    "reset_on_rest": null,
-    "modifiers": {
-      "severe": {
-        "type": "add",
-        "value": "tier"
-      },
-      "spell_bonus": {
-        "type": "add",
-        "value": 2
-      }
-    },
-    "tokens": {
-      "limit": "proficiency",
-      "reset": "limit",
-      "reset_at": "long",
-      "reset_at_long": "limit"
-    },
-    "dices": null
-  },
-  {
-    "slug": "0c6d769a-7d81-469e-ac5f-6df6255845c2",
-    "title": {
-      "en": "Feature with option's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": "74f49b3f-d641-43c8-80ce-6a346aadb496",
-    "kind": "static_list",
-    "limit_refresh": null,
-    "exclude": null,
-    "options": {
-      "94e6f739-09eb-4628-8418-507737d64738": {
-        "en": "Feature with option's title"
-      }
-    },
-    "conditions": {
-      "level": 1
-    },
-    "description_eval_variables": {},
-    "eval_variables": {},
-    "continious": false,
-    "bonus_eval_variables": null,
-    "price": {},
-    "info": {
-      "type": "spell",
-      "recall": 1
-    },
-    "reset_on_rest": null,
-    "modifiers": {},
-    "tokens": null,
-    "dices": null
-  },
-  {
-    "slug": "94e6f739-09eb-4628-8418-507737d64738",
-    "title": {
-      "en": "Feature's title"
-    },
-    "description": {
-      "en": "Feature's description, **Markdown is available** for editing."
-    },
-    "origin_value": null,
-    "kind": "static",
-    "limit_refresh": "short_rest",
-    "exclude": null,
-    "options": null,
-    "conditions": {
-      "level": 1,
-      "selected_feature": "94e6f739-09eb-4628-8418-507737d64738"
-    },
-    "description_eval_variables": {
-      "limit": "1"
-    },
-    "eval_variables": {},
-    "continious": false,
-    "bonus_eval_variables": null,
-    "price": {},
-    "info": {},
     "reset_on_rest": null,
     "modifiers": {},
     "tokens": null,
@@ -7441,11 +7045,11 @@
     },
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": "stress_marked"
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": "stress_marked"
       }

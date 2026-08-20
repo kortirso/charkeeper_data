@@ -3357,11 +3357,11 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": "proficiency"
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": "proficiency"
       }
@@ -3587,7 +3587,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": "proficiency"
       }
@@ -3929,7 +3929,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "stress": {
+      "stress_max": {
         "type": "add",
         "value": 1
       }
@@ -4405,7 +4405,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": "proficiency"
       }
@@ -5296,7 +5296,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "stress": {
+      "stress_max": {
         "type": "add",
         "value": 1
       }
@@ -5524,7 +5524,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 4
       }
@@ -5559,7 +5559,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 4
       }
@@ -5661,7 +5661,7 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "health": {
+      "health_max": {
         "type": "add",
         "value": 1
       }

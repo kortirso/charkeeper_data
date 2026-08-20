@@ -1095,11 +1095,11 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": 2
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 2
       }
@@ -6319,11 +6319,11 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": 2
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 2
       }
@@ -6401,11 +6401,11 @@
     "info": {},
     "reset_on_rest": null,
     "modifiers": {
-      "major": {
+      "damage_thresholds.major": {
         "type": "add",
         "value": 2
       },
-      "severe": {
+      "damage_thresholds.severe": {
         "type": "add",
         "value": 2
       }
