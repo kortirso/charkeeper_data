@@ -6131,9 +6131,9 @@
       "ru": "Ничего лишнего"
     },
     "description": {
-      "en": "When you choose not to equip armor, you have a base Armor Score of {{armor_score|3+Str}} and base damage thresholds {{major}}/{{severe}} (tier-based).",
-      "ru": "Пока на вас не экипирована броня, ваш базовый Показатель брони равен {{armor_score|3+Сила}}, а ваши базовые пороги урона {{major}}/{{severe}} (в зависимости от ранга).",
-      "ru-DHM": "Если вы решаете не экипировать броню, ваше базовое значение брони становится равным {{armor_score|3+Сила}}, а ваши базовые пороги урона {{major}}/{{severe}} (в зависимости от ранга)."
+      "en": "When you choose not to equip armor, you have a base Armor Score of {{armor_score|3+Str}} and base damage thresholds {{major|9}}/{{severe|19}} (tier-based).",
+      "ru": "Пока на вас не экипирована броня, ваш базовый Показатель брони равен {{armor_score|3+Сила}}, а ваши базовые пороги урона {{major|9}}/{{severe|19}} (в зависимости от ранга).",
+      "ru-DHM": "Если вы решаете не экипировать броню, ваше базовое значение брони становится равным {{armor_score|3+Сила}}, а ваши базовые пороги урона {{major|9}}/{{severe|19}} (в зависимости от ранга)."
     },
     "origin_value": "valor",
     "kind": "update_result",
