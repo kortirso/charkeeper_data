@@ -183,7 +183,8 @@
       "damage": "1d12",
       "damage_type": "bludge",
       "burden": 2,
-      "tooltips": []
+      "tooltips": [],
+      "req": { "str": 2 }
     }
   },
   {
@@ -197,7 +198,8 @@
       "damage": "2d6",
       "damage_type": "slash",
       "burden": 2,
-      "tooltips": []
+      "tooltips": [],
+      "req": { "str": 2 }
     }
   },
   {
@@ -211,7 +213,8 @@
       "damage": "3d4",
       "damage_type": "slash/pierce",
       "burden": 2,
-      "tooltips": []
+      "tooltips": [],
+      "req": { "str": 2 }
     }
   },
   {
@@ -286,7 +289,8 @@
       "damage_type": "pierce",
       "burden": 2,
       "tooltips": [],
-      "range": 16
+      "range": 16,
+      "req": { "str": 1 }
     }
   },
   {
@@ -318,7 +322,8 @@
       "burden": 2,
       "tooltips": [],
       "range": 8,
-      "load": 2
+      "load": 2,
+      "req": { "str": 2 }
     }
   }
 ]

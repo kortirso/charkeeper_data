@@ -1,0 +1,2091 @@
+[
+  {
+    "name": {
+      "en": "Katana",
+      "ru": "Катана"
+    },
+    "description": {
+      "en": "When you make an attack, you can mark a Stress to target another creature within range.",
+      "ru": "При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 1,
+      "trait": "agi",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Quick**: When you make an attack, you can **mark a Stress** to target another creature within range.",
+          "ru": "**Быстрое**: При атаке можно **отметить Стресс**, чтобы нацелиться на ещё одно существо в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Brass Knuckles",
+      "ru": "Кастет"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 1
+    }
+  },
+  {
+    "name": {
+      "en": "Scimitar",
+      "ru": "Ятаган"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 1
+    }
+  },
+  {
+    "name": {
+      "en": "Twisted Dagger",
+      "ru": "Витой кинжал"
+    },
+    "description": {
+      "en": "Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+      "ru": "Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "know",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 0,
+      "features": [
+        {
+          "en": "**Piercing**: Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+          "ru": "**Пронизывающее**: Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Whipsword",
+      "ru": "Меч-хлыст"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "fin",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 0,
+      "versatile": {
+        "trait": "fin",
+        "range": "melee",
+        "damage": "d10",
+        "damage_bonus": 0
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Rope Dart",
+      "ru": "Верёвочный дротик"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 1,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 1
+    }
+  },
+  {
+    "name": {
+      "en": "Brightsword",
+      "ru": "Сияющий клинок"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 1,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 3
+    }
+  },
+  {
+    "name": {
+      "en": "Shadowblade",
+      "ru": "Теневой клинок"
+    },
+    "description": {
+      "en": "On a successful attack, you can deal physical or magic damage.",
+      "ru": "При успешной атаке можно нанести физический или магический урон."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 0,
+      "features": [
+        {
+          "en": "**Otherworldly**: On a successful attack, you can deal physical or magic damage.",
+          "ru": "**Потустороннее**: При успешной атаке можно нанести физический или магический урон."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Enchanted Chakram",
+      "ru": "Зачарованная чакра"
+    },
+    "description": {
+      "en": "When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+      "ru": "При броске оружие возвращается в руку. При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "fin",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 1,
+      "features": [
+        {
+          "en": "**Ricochet**: When you throw this weapon, it returns to your hand. When you make an attack, you can **mark a Stress** to target another creature within Very Close range of the first target with that attack.",
+          "ru": "**Рикошет**: При броске оружие возвращается в руку. При атаке можно **отметить Стресс**, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Casting Dagger",
+      "ru": "Заклинательный кинжал"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 0,
+      "versatile": {
+        "trait": "ins",
+        "range": "melee",
+        "damage": "d8",
+        "damage_bonus": 0
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Runelock Pistol",
+      "ru": "Рунический пистолет"
+    },
+    "description": {
+      "en": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+      "ru": "После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 1,
+      "trait": "know",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Reloading**: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+          "ru": "**Перезарядка**: После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Arcane Rifle",
+      "ru": "Арканное ружьё"
+    },
+    "description": {
+      "en": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+      "ru": "Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать это штраф."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 1,
+      "trait": "agi",
+      "range": "very far",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Aimed**: Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+          "ru": "**Прицельное**: Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать это штраф."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Katana",
+      "ru": "Улучшенная катана"
+    },
+    "description": {
+      "en": "When you make an attack, you can mark a Stress to target another creature within range.",
+      "ru": "При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "agi",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Quick**: When you make an attack, you can **mark a Stress** to target another creature within range.",
+          "ru": "**Быстрое**: При атаке можно **отметить Стресс**, чтобы нацелиться на ещё одно существо в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Brass Knuckles",
+      "ru": "Улучшенный кастет"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 4
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Scimitar",
+      "ru": "Улучшенный ятаган"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 4
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Twisted Dagger",
+      "ru": "Улучшенный витой кинжал"
+    },
+    "description": {
+      "en": "Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+      "ru": "Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "know",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Piercing**: Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+          "ru": "**Пронизывающее**: Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Whipsword",
+      "ru": "Улучшенный меч-хлыст"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "fin",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "versatile": {
+        "trait": "fin",
+        "range": "melee",
+        "damage": "d10",
+        "damage_bonus": 3
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Rope Dart",
+      "ru": "Улучшенный верёвочный дротик"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 4
+    }
+  },
+  {
+    "name": {
+      "en": "War Pick",
+      "ru": "Боевая кирка"
+    },
+    "description": {
+      "en": "When you deal Severe damage, the target must mark an additional HP.",
+      "ru": "При нанесении тяжёлого урона цель должна отметить дополнительную Рану."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Deadly**: When you deal Severe damage, the target must mark an additional HP.",
+          "ru": "**Смертоносное**: При нанесении тяжёлого урона цель должна отметить дополнительную Рану."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cane Sword",
+      "ru": "Трость-клинок"
+    },
+    "description": {
+      "en": "The blade can be hidden in the cane to avoid detection.",
+      "ru": "Клинок можно спрятать в трость, чтобы избежать обнаружения."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "fin",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 4,
+      "features": [
+        {
+          "en": "**Retractable**: The blade can be hidden in the cane to avoid detection.",
+          "ru": "**Убирающееся**: Клинок можно спрятать в трость, чтобы избежать обнаружения."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Bladed Fan",
+      "ru": "Веер-клинок"
+    },
+    "description": {
+      "en": "When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.",
+      "ru": "Когда вас атакуют, бросьте кости урона этого оружия. Если какая-либо кость атакующего совпала с вашей, совпавшие результаты вычитаются из суммарного урона атакующего."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Parry**: When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.",
+          "ru": "**Парирование**: Когда вас атакуют, бросьте кости урона этого оружия. Если какая-либо кость атакующего совпала с вашей, совпавшие результаты вычитаются из суммарного урона атакующего."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Cyrurgien's Scalpel",
+      "ru": "Скальпель цирюльника"
+    },
+    "description": {
+      "en": "On a successful attack, the target must mark a Stress.",
+      "ru": "При успешной атаке цель должна отметить Стресс."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "know",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Scary**: On a successful attack, the target must mark a Stress.",
+          "ru": "**Пугающее**: При успешной атаке цель должна отметить Стресс."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lance",
+      "ru": "Длинное копьё"
+    },
+    "description": {
+      "en": "−1 to Finesse",
+      "ru": "−1 к Искусности."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "ins",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 5
+    },
+    "modifiers": {
+      "fin": { "type": "add", "value": -1 }
+    }
+  },
+  {
+    "name": {
+      "en": "Javelins",
+      "ru": "Метательное копьё"
+    },
+    "description": {
+      "en": "You can throw this weapon at a target within Far range by making an attack roll using Agility without having to retrieve it, as you always have another one on hand.",
+      "ru": "Можно метать на далёкую дистанцию броском Проворности без необходимости подбирать, так как всегда есть запас."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "agi",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Stockpiled**: You can throw this weapon at a target within Far range by making an attack roll using Agility without having to retrieve it, as you always have another one on hand.",
+          "ru": "**Запасное**: Можно метать на далёкую дистанцию броском Проворности без необходимости подбирать, так как всегда есть запас."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Brightsword",
+      "ru": "Улучшенный сияющий клинок"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 6
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Shadowblade",
+      "ru": "Улучшенный теневой клинок"
+    },
+    "description": {
+      "en": "On a successful attack, you can deal physical or magic damage.",
+      "ru": "При успешной атаке можно нанести физический или магический урон."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Otherworldly**: On a successful attack, you can deal physical or magic damage.",
+          "ru": "**Потустороннее**: При успешной атаке можно нанести физический или магический урон."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Enchanted Chakram",
+      "ru": "Улучшенная зачарованная чакра"
+    },
+    "description": {
+      "en": "When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+      "ru": "При броске оружие возвращается в руку. При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "fin",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 4,
+      "features": [
+        {
+          "en": "**Ricochet**: When you throw this weapon, it returns to your hand. When you make an attack, you can **mark a Stress** to target another creature within Very Close range of the first target with that attack.",
+          "ru": "**Рикошет**: При броске оружие возвращается в руку. При атаке можно **отметить Стресс**, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Casting Dagger",
+      "ru": "Улучшенный заклинательный кинжал"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 3,
+      "versatile": {
+        "trait": "ins",
+        "range": "melee",
+        "damage": "d8",
+        "damage_bonus": 3
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Runelock Pistol",
+      "ru": "Улучшенный рунический пистолет"
+    },
+    "description": {
+      "en": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+      "ru": "После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "know",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Reloading**: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+          "ru": "**Перезарядка**: После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Improved Arcane Rifle",
+      "ru": "Улучшенное арканное ружьё"
+    },
+    "description": {
+      "en": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+      "ru": "Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать этот штраф."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "agi",
+      "range": "very far",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Aimed**: Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+          "ru": "**Прицельное**: Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать этот штраф."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Enchanted Shillelagh",
+      "ru": "Зачарованная дубина"
+    },
+    "description": {
+      "en": "+1 to your Armor Score",
+      "ru": "+1 к Броне."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 3
+    },
+    "modifiers": {
+      "armor_score": { "type": "add", "value": 1 }
+    }
+  },
+  {
+    "name": {
+      "en": "Displacement Razor",
+      "ru": "Смещающая бритва"
+    },
+    "description": {
+      "en": "You can make attacks against targets within Very Far range, but must do so with disadvantage.",
+      "ru": "Можно атаковать цели в пределах очень далёкой дистанции, но с помехой."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "fin",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Omnipresent**: You can make attacks against targets within Very Far range, but must do so with disadvantage.",
+          "ru": "**Вездесущее**: Можно атаковать цели в пределах очень далёкой дистанции, но с помехой."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Spellbound Bangles",
+      "ru": "Зачарованные браслеты"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "know",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 6
+    }
+  },
+  {
+    "name": {
+      "en": "Fury Gem",
+      "ru": "Самоцвет ярости"
+    },
+    "description": {
+      "en": "When you roll the maximum result on a damage die, the target must mark a Stress.",
+      "ru": "Когда на кости урона выпадает максимальное значение, цель должна отметить Стресс."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 2,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "Burning: When you roll the maximum result on a damage die, the target must mark a Stress.",
+          "ru": "Жгучее: Когда на кости урона выпадает максимальное значение, цель должна отметить Стресс."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Enchanted Lute",
+      "ru": "Зачарованная лютня"
+    },
+    "description": {
+      "en": "On a successful attack, roll a d4. On a result of 4, clear a Stress.",
+      "ru": "При успешной атаке бросьте d4. При результате 4 снимите Стресс."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "pre",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 3,
+      "features": [
+        {
+          "en": "**Invigorating**: On a successful attack, roll a d4. On a result of 4, clear a Stress.",
+          "ru": "**Воодушевляющее**: При успешной атаке бросьте d4. При результате 4 снимите Стресс."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Splintershaft Bow",
+      "ru": "Залповый лук"
+    },
+    "description": {
+      "en": "Spend a Hope to target a group of creatures within range. Targets you succeed against take half damage.",
+      "ru": "Потратьте Надежду, чтобы нацелиться на группу существ в пределах дистанции. Цели, против которых вы преуспели, получают половину урона."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 2,
+      "trait": "agi",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Volleyed**: **Spend a Hope** to target a group of creatures within range. Targets you succeed against take half damage.",
+          "ru": "**Залповое**: **Потратьте Надежду**, чтобы нацелиться на группу существ в пределах дистанции. Цели, против которых вы преуспели, получают половину урона."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Katana",
+      "ru": "Продвинутая катана"
+    },
+    "description": {
+      "en": "When you make an attack, you can mark a Stress to target another creature within range.",
+      "ru": "При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "agi",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Quick**: When you make an attack, you can mark a Stress to target another creature within range.",
+          "ru": "**Быстрое**: При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Brass Knuckles",
+      "ru": "Продвинутый кастет"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 7
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Scimitar",
+      "ru": "Продвинутый ятаган"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 7
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Twisted Dagger",
+      "ru": "Продвинутый витой кинжал"
+    },
+    "description": {
+      "en": "Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+      "ru": "Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "know",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Piercing**: Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+          "ru": "**Пронизывающее**: Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Whipsword",
+      "ru": "Продвинутый меч-хлыст"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "fin",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 6,
+      "versatile": {
+        "trait": "fin",
+        "range": "melee",
+        "damage": "d10",
+        "damage_bonus": 6
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Rope Dart",
+      "ru": "Продвинутый верёвочный дротик"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 7
+    }
+  },
+  {
+    "name": {
+      "en": "Blitz Hammer",
+      "ru": "Молот-таран"
+    },
+    "description": {
+      "en": "Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack.",
+      "ru": "Один раз за сцену отметьте Стресс, чтобы переместиться на далёкую дистанцию и совершить атаку с +1 к Мастерству."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 7,
+      "features": [
+        {
+          "en": "**Accelerator**: Once per scene, **mark a Stress** to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack.",
+          "ru": "**Ускоритель**: Один раз за сцену **отметьте Стресс**, чтобы переместиться на далёкую дистанцию и совершить атаку с +1 к Мастерству."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Platinum Estoc",
+      "ru": "Платиновый эсток"
+    },
+    "description": {
+      "en": "Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+      "ru": "Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "fin",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 7,
+      "features": [
+        {
+          "en": "**Piercing**: Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+          "ru": "**Пронизывающее**: Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Soldier's Pike",
+      "ru": "Солдатская Пика"
+    },
+    "description": {
+      "en": "When an adversary within this weapon's range deals damage to you, you can mark 2 Stress to force them to mark a Hit Point.",
+      "ru": "Когда противник в пределах дистанции оружия наносит вам урон, можно отметить 2 Стресса, чтобы заставить его отметить Рану."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "agi",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 5,
+      "features": [
+        {
+          "en": "**Braced**: When an adversary within this weapon's range deals damage to you, you can **mark 2 Stress** to force them to mark a Hit Point.",
+          "ru": "**Упорное**: Когда противник в пределах дистанции оружия наносит вам урон, можно **отметить 2 Стресса**, чтобы заставить его отметить Рану."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Chained Scythe",
+      "ru": "Коса на цепи"
+    },
+    "description": {
+      "en": "When you make an attack, you can mark a Stress to target another creature within range.",
+      "ru": "При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "ins",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 5,
+      "features": [
+        {
+          "en": "**Quick**: When you make an attack, you can **mark a Stress** to target another creature within range.",
+          "ru": "**Быстрое**: При атаке можно **отметить Стресс**, чтобы нацелиться на ещё одно существо в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Singing Sword",
+      "ru": "Поющий клинок"
+    },
+    "description": {
+      "en": "When you critically succeed on an attack, all PCs within Close range gain a Hope.",
+      "ru": "При критическом успехе на атаке все персонажи в пределах средней дистанции получают Надежду."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "pre",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 5,
+      "features": [
+        {
+          "en": "**Bolstering**: When you critically succeed on an attack, all PCs within Close range gain a Hope.",
+          "ru": "**Укрепляющее**: При критическом успехе на атаке все персонажи в пределах средней дистанции получают Надежду."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Bladed Star",
+      "ru": "Метательная звезда"
+    },
+    "description": {
+      "en": "When you throw this weapon, it returns to your hand. On a failed attack, you can reroll your attack with disadvantage.",
+      "ru": "При броске оружие возвращается в руку. При провале атаки можно перебросить атаку с помехой."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "know",
+      "range": "close",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 7,
+      "features": [
+        {
+          "en": "**Rebounding**: When you throw this weapon, it returns to your hand. On a failed attack, you can reroll your attack with disadvantage.",
+          "ru": "**Рикошетное**: При броске оружие возвращается в руку. При провале атаки можно перебросить атаку с помехой."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Brightsword",
+      "ru": "Продвинутый сияющий клинок"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 9
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Shadowblade",
+      "ru": "Продвинутый теневой клинок"
+    },
+    "description": {
+      "en": "On a successful attack, you can deal physical or magic damage.",
+      "ru": "При успешной атаке можно нанести физический или магический урон."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Otherworldly**: On a successful attack, you can deal physical or magic damage.",
+          "ru": "**Потустороннее**: При успешной атаке можно нанести физический или магический урон."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Enchanted Chakram",
+      "ru": "Продвинутая зачарованная чакра"
+    },
+    "description": {
+      "en": "When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+      "ru": "При броске оружие возвращается в руку. При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "fin",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 7,
+      "features": [
+        {
+          "en": "**Ricochet**: When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+          "ru": "**Рикошет**: При броске оружие возвращается в руку. При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Casting Dagger",
+      "ru": "Продвинутый заклинательный кинжал"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 6,
+      "versatile": {
+        "trait": "ins",
+        "range": "melee",
+        "damage": "d8",
+        "damage_bonus": 6
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Runelock Pistol",
+      "ru": "Продвинутый рунический пистолет"
+    },
+    "description": {
+      "en": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+      "ru": "После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "know",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Reloading**: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+          "ru": "**Перезарядка**: После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Advanced Arcane Rifle",
+      "ru": "Продвинутое арканное ружьё"
+    },
+    "description": {
+      "en": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+      "ru": "Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать этот штраф."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "agi",
+      "range": "very far",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Aimed**: Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+          "ru": "**Прицельное**: Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать этот штраф."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Rocket Maul",
+      "ru": "Реактивный молот"
+    },
+    "description": {
+      "en": "On a successful attack, you can spend a Hope to knock the target back to Far range.",
+      "ru": "При успешной атаке можно потратить Надежду, чтобы отбросить цель на далёкую дистанцию."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 3,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 7,
+      "features": [
+        {
+          "en": "**Concussive**: On a successful attack, you can **spend a Hope** to knock the target back to Far range.",
+          "ru": "**Контузящее**: При успешной атаке можно **потратить Надежду**, чтобы отбросить цель на далёкую дистанцию."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Crystal Spear",
+      "ru": "Кристальное копьё"
+    },
+    "description": {
+      "en": "Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+      "ru": "Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "fin",
+      "range": "very close",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Piercing**: Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+          "ru": "**Пронизывающее**: Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Arc Wand",
+      "ru": "Дуговой жезл"
+    },
+    "description": {
+      "en": "Mark any number of Stress to target that many additional creatures in range of the attack.",
+      "ru": "Отметьте любое количество Стресса, чтобы нацелиться на столько же дополнительных существ в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "pre",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Bouncing**: Mark any number of Stress to target that many additional creatures in range of the attack.",
+          "ru": "**Прыгающее**: Отметьте любое количество Стресса, чтобы нацелиться на столько же дополнительных существ в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Rime Scepter",
+      "ru": "Скипетр изморози"
+    },
+    "description": {
+      "en": "When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily Restrained.",
+      "ru": "Если атака этим оружием заставляет цель отметить 2+ Раны, та временно становится *Схваченной*."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "know",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Freezing**: When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily *Restrained*.",
+          "ru": "**Замораживающее**: Если атака этим оружием заставляет цель отметить 2+ Раны, та временно становится *Схваченной*."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Gunblade",
+      "ru": "Пистолет-клинок"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "agi",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 6,
+      "versatile": {
+        "trait": "agi",
+        "range": "melee",
+        "damage": "d8",
+        "damage_bonus": 6,
+        "damage_type": "physical"
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Staff of Augma",
+      "ru": "Посох усиления"
+    },
+    "description": {
+      "en": "On a successful attack, you can mark a Stress to give an ally within Close range a +3 bonus to their next attack roll.",
+      "ru": "При успешной атаке можно отметить Стресс, чтобы дать союзнику в пределах средней дистанции +3 к следующему броску атаки."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 3,
+      "trait": "ins",
+      "range": "far",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 7,
+      "features": [
+        {
+          "en": "**Catalytic**: On a successful attack, you can **mark a Stress** to give an ally within Close range a +3 bonus to their next attack roll.",
+          "ru": "**Каталитическое**: При успешной атаке можно **отметить Стресс**, чтобы дать союзнику в пределах средней дистанции +3 к следующему броску атаки."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Katana",
+      "ru": "Легендарная катана"
+    },
+    "description": {
+      "en": "When you make an attack, you can mark a Stress to target another creature within range.",
+      "ru": "При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "agi",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 12,
+      "features": [
+        {
+          "en": "**Quick**: When you make an attack, you can mark a Stress to target another creature within range.",
+          "ru": "**Быстрое**: При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Brass Knuckles",
+      "ru": "Легендарный кастет"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 10
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Scimitar",
+      "ru": "Легендарный ятаган"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 10
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Twisted Dagger",
+      "ru": "Легендарный витой кинжал"
+    },
+    "description": {
+      "en": "Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+      "ru": "Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "know",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Piercing**: Damage dealt with this weapon treats the target's Major threshold as having a −2 penalty.",
+          "ru": "**Пронизывающее**: Урон от этого оружия считается с −2 к порогу ощутимого урона цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Whipsword",
+      "ru": "Легендарный Меч-Хлыст"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "fin",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 9,
+      "versatile": {
+        "trait": "fin",
+        "range": "melee",
+        "damage": "d10",
+        "damage_bonus": 9
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Rope Dart",
+      "ru": "Легендарный верёвочный дротик"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 10
+    }
+  },
+  {
+    "name": {
+      "en": "Severed Dragon Claw",
+      "ru": "Отрубленный драконий коготь"
+    },
+    "description": {
+      "en": "−1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress.",
+      "ru": "−1 к Проворности; при успешной атаке все противники в пределах близкой дистанции должны отметить Стресс."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "ins",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 11,
+      "features": [
+        {
+          "en": "**Destructive**: on a successful attack, all adversaries within Very Close range must mark a Stress.",
+          "ru": "**Разрушительное**: при успешной атаке все противники в пределах близкой дистанции должны отметить Стресс."
+        }
+      ]
+    },
+    "modifiers": {
+      "agi": { "type": "add", "value": -1 }
+    }
+  },
+  {
+    "name": {
+      "en": "Infinite Staff",
+      "ru": "Бесконечный посох"
+    },
+    "description": {
+      "en": "You can increase the range of this weapon up to Very Far. You gain a −1 penalty to attack rolls for each step you increase the range by (such as Melee to Very Close, Very Close to Close, or Close to Far).",
+      "ru": "Можно увеличивать дистанцию до очень далёкой с −1 к броскам атаки за каждую ступень увеличения."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Extending**: You can increase the range of this weapon up to Very Far. You gain a −1 penalty to attack rolls for each step you increase the range by (such as Melee to Very Close, Very Close to Close, or Close to Far).",
+          "ru": "**Удлиняющееся**: Можно увеличивать дистанцию до очень далёкой с −1 к броскам атаки за каждую ступень увеличения."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Bec de Corbin",
+      "ru": "Бек-де-Корбэн"
+    },
+    "description": {
+      "en": "Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.",
+      "ru": "Перед броском атаки можно отметить Стресс, чтобы использовать d20 как кость урона."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "agi",
+      "range": "very close",
+      "damage_type": "physical",
+      "damage": "d10",
+      "damage_bonus": 9,
+      "versatile": {
+        "trait": "agi",
+        "range": "very close",
+        "damage": "d20",
+        "damage_bonus": 9
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Black Powder Serpentine",
+      "ru": "Чёрнопороховой мушкет"
+    },
+    "description": {
+      "en": "−1 to Agility; on a successful attack, all creatures within Very Close range of the target must mark a Hit Point.",
+      "ru": "−1 к Проворности; при успешной атаке все существа в пределах близкой дистанции от цели должны отметить Рану."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "str",
+      "range": "far",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 12,
+      "features": [
+        {
+          "en": "**Incendiary**: on a successful attack, all creatures within Very Close range of the target must mark a Hit Point.",
+          "ru": "**Зажигательное**: при успешной атаке все существа в пределах близкой дистанции от цели должны отметить Рану."
+        }
+      ]
+    },
+    "modifiers": {
+      "agi": { "type": "add", "value": -1 }
+    }
+  },
+  {
+    "name": {
+      "en": "Clockwork Crossbow",
+      "ru": "Механический арбалет"
+    },
+    "description": {
+      "en": "When you make an attack, you can mark a Stress to target another creature within range.",
+      "ru": "При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "fin",
+      "range": "far",
+      "damage_type": "physical",
+      "damage": "d6",
+      "damage_bonus": 11,
+      "features": [
+        {
+          "en": "**Quick**: When you make an attack, you can **mark a Stress** to target another creature within range.",
+          "ru": "**Быстрое**: При атаке можно **отметить Стресс**, чтобы нацелиться на ещё одно существо в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Arquebus",
+      "ru": "Аркебуза"
+    },
+    "description": {
+      "en": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+      "ru": "После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "know",
+      "range": "far",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 10,
+      "features": [
+        {
+          "en": "**Reloading**: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+          "ru": "**Перезарядка**: После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Brightsword",
+      "ru": "Легендарный сияющий клинок"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "str",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 12
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Shadowblade",
+      "ru": "Легендарный теневой клинок"
+    },
+    "description": {
+      "en": "On a successful attack, you can deal physical or magic damage.",
+      "ru": "При успешной атаке можно нанести физический или магический урон."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "physical",
+      "damage": "d8",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Otherworldly**: On a successful attack, you can deal physical or magic damage.",
+          "ru": "**Потустороннее**: При успешной атаке можно нанести физический или магический урон."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Enchanted Chakram",
+      "ru": "Легендарная зачарованная чакра"
+    },
+    "description": {
+      "en": "When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+      "ru": "При броске оружие возвращается в руку. При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "fin",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 10,
+      "features": [
+        {
+          "en": "**Ricochet**: When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+          "ru": "**Рикошет**: При броске оружие возвращается в руку. При атаке можно отметить Стресс, чтобы нацелиться на ещё одно существо в пределах близкой дистанции от первой цели."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Casting Dagger",
+      "ru": "Легендарный заклинательный кинжал"
+    },
+    "description": {},
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "ins",
+      "range": "close",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 9,
+      "versatile": {
+        "trait": "ins",
+        "range": "melee",
+        "damage": "d8",
+        "damage_bonus": 9
+      }
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Runelock Pistol",
+      "ru": "Легендарный рунический пистолет"
+    },
+    "description": {
+      "en": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+      "ru": "После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "know",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d6",
+      "damage_bonus": 12,
+      "features": [
+        {
+          "en": "**Reloading**: After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+          "ru": "**Перезарядка**: После атаки бросьте d6. При результате 1 необходимо отметить Стресс для перезарядки перед следующим выстрелом."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Legendary Arcane Rifle",
+      "ru": "Легендарное арканное ружьё"
+    },
+    "description": {
+      "en": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+      "ru": "Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать этот штраф."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "agi",
+      "range": "very far",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 12,
+      "features": [
+        {
+          "en": "**Aimed**: Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+          "ru": "**Прицельное**: Атака совершается с помехой, если цель в пределах близкой дистанции от вас или вплотную от одного из союзников. Можно отметить Стресс, чтобы игнорировать этот штраф."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Starmetal Blade",
+      "ru": "Клинок звёздного металла"
+    },
+    "description": {
+      "en": "When you roll a 1 on a damage die, it deals 8 damage instead.",
+      "ru": "Когда на кости урона выпадает 1, она наносит 8 урона."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "agi",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 10,
+      "features": [
+        {
+          "en": "**Serrated**: When you roll a 1 on a damage die, it deals 8 damage instead.",
+          "ru": "**Зазубренное**: Когда на кости урона выпадает 1, она наносит 8 урона."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Adder's Fang",
+      "ru": "Клык гадюки"
+    },
+    "description": {
+      "en": "When you deal Major or greater damage with this weapon, the target becomes temporarily Vulnerable.",
+      "ru": "При нанесении ощутимого или большего урона цель временно становится *Уязвимой*."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "fin",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Venomous**: When you deal Major or greater damage with this weapon, the target becomes temporarily *Vulnerable*.",
+          "ru": "**Ядоносное**: При нанесении ощутимого или большего урона цель временно становится *Уязвимой*."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Demon's Edge",
+      "ru": "Клинок демона"
+    },
+    "description": {
+      "en": "When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress.",
+      "ru": "При уничтожении существа этим оружием все противники в пределах средней дистанции должны отметить Стресс."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 1,
+      "tier": 4,
+      "trait": "pre",
+      "range": "melee",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 10,
+      "features": [
+        {
+          "en": "**Disturbing**: When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress.",
+          "ru": "**Тревожное**: При уничтожении существа этим оружием все противники в пределах средней дистанции должны отметить Стресс."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Storm God's Greataxe",
+      "ru": "Великая секира Бога Бури"
+    },
+    "description": {
+      "en": "Mark any number of Stress to target that many additional creatures in range of the attack.",
+      "ru": "Отметьте любое количество Стресса, чтобы нацелиться на столько же дополнительных существ в пределах дистанции."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "str",
+      "range": "very close",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Bouncing**: Mark any number of Stress to target that many additional creatures in range of the attack.",
+          "ru": "**Прыгающее**: Отметьте любое количество Стресса, чтобы нацелиться на столько же дополнительных существ в пределах дистанции."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Ethereal Zweihänder",
+      "ru": "Эфирный цвайхандер"
+    },
+    "description": {
+      "en": "You must mark a Stress to conjure this weapon. It lasts until the end of the scene.",
+      "ru": "Необходимо отметить Стресс, чтобы вызвать оружие. Оно существует до конца сцены."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "ins",
+      "range": "very close",
+      "damage_type": "magic",
+      "damage": "d10",
+      "damage_bonus": 9,
+      "features": [
+        {
+          "en": "**Ethereal**: You must **mark a Stress** to conjure this weapon. It lasts until the end of the scene.",
+          "ru": "**Эфирное**: Необходимо **отметить Стресс**, чтобы вызвать оружие. Оно существует до конца сцены."
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Gravity Arbalest",
+      "ru": "Гравитационный арбалет"
+    },
+    "description": {
+      "en": "When you make an attack with this weapon, you can spend a Hope to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Creatures who fail must mark a Stress and are pulled into Melee range of the target.",
+      "ru": "При атаке этим оружием можно потратить Надежду, чтобы все противники в пределах близкой дистанции от цели совершили реакционный бросок (16). При провале они отмечают Стресс и оказываются вплотную от цели."
+    },
+    "kind": "primary weapon",
+    "public": true,
+    "info": {
+      "burden": 2,
+      "tier": 4,
+      "trait": "know",
+      "range": "far",
+      "damage_type": "magic",
+      "damage": "d8",
+      "damage_bonus": 6,
+      "features": [
+        {
+          "en": "**Magnetic**: On an attack, **spend a Hope** to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Those who fail mark a Stress and are pulled into Melee range of the target.",
+          "ru": "**Магнитное**: При атаке **потратьте Надежду** - все противники в близкой дистанции от цели совершают бросок реакции (16). При провале отмечают Стресс и притягиваются вплотную к цели."
+        }
+      ]
+    }
+  }
+]

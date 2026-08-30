@@ -1,0 +1,1509 @@
+[
+  {
+    "slug": "adventurer's_pack",
+    "kind": "item",
+    "name": {
+      "en": "Adventurer's Pack",
+      "ru": "Комплект искателя приключений"
+    },
+    "description": {
+      "en": "This item is the starter kit for an adventurer, containing the essential items for exploration and survival. The Bulk value is for the entire pack together, but see the descriptions of individual items as necessary.\n\nThe pack contains the following items: a backpack, a bedroll, 10 pieces of chalk, flint and steel, 50 feet of rope, 2 weeks' rations, soap, 5 torches, and a waterskin.",
+      "ru": "В этом комплекте есть все необходимые для исследований и выживания предметы. Вес указан для всего набора, вес отдельных вещей смотрите в их описании.\n\nВ набор входят: рюкзак, спальный мешок, 10 кусков мела, огниво, 50-футовая верёвка, сухой паёк на 2 недели, мыло, 5 факел, и бурдюк."
+    },
+    "data": {
+      "weight": 1,
+      "price": 150
+    }
+  },
+  {
+    "slug": "alchemist's_lab",
+    "kind": "item",
+    "name": {
+      "en": "Alchemist's Lab",
+      "ru": "Алхимическая лаборатория"
+    },
+    "description": {
+      "en": "You need an alchemist's lab to Craft alchemical items during downtime.",
+      "ru": "Необходима для создания алхимических предметов в свободное время."
+    },
+    "data": {
+      "weight": 6,
+      "price": 500
+    }
+  },
+  {
+    "slug": "expanded_alchemist's_lab",
+    "kind": "item",
+    "name": {
+      "en": "Alchemist's Lab (Expanded)",
+      "ru": "Алхимическая лаборатория (Расширенная)"
+    },
+    "description": {
+      "en": "You need an alchemist's lab to Craft alchemical items during downtime.\n\nAn expanded alchemist's lab gives a +1 item bonus to Crafting checks to create alchemical items.",
+      "ru": "Необходима для создания алхимических предметов в свободное время.\n\nРасширенная алхимическая лаборатория даёт бонус предмета +1 к проверкам Ремесла для создания алхимических предметов."
+    },
+    "data": {
+      "weight": 6,
+      "price": 5500
+    }
+  },
+  {
+    "slug": "alchemist's_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Alchemist's Toolkit",
+      "ru": "Инструменты алхимика"
+    },
+    "description": {
+      "en": "This mobile collection of vials and chemicals can be used for simple alchemical tasks. If you wear your alchemist's toolkit, you can draw and replace them as part of the action that uses them.",
+      "ru": "Компактный набор пузырьков и химикатов, которые можно использовать для простых алхимических задач. Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует."
+    },
+    "data": {
+      "weight": 1,
+      "price": 300
+    }
+  },
+  {
+    "slug": "artisan's_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Artisan's Toolkit",
+      "ru": "Инструменты ремесленника"
+    },
+    "description": {
+      "en": "You need this toolkit to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.",
+      "ru": "Эти инструменты требуются для Создания предмета из сырья и материалов при помощи Ремесла. Для разных ремёсел требуются разные инструменты по усмотрению ведущего (так, инструменты кузнеца существенно отличаются от инструментов столяра). Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует."
+    },
+    "data": {
+      "weight": 2,
+      "price": 400
+    }
+  },
+  {
+    "slug": "sterling_artisan's_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Artisan's Toolkit (Sterling)",
+      "ru": "Инструменты ремесленника (Первоклассные)"
+    },
+    "description": {
+      "en": "You need this toolkit to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.\n\nA sterling artisan's toolkit gives you a +1 item bonus to the check.",
+      "ru": "Эти инструменты требуются для Создания предмета из сырья и материалов при помощи Ремесла. Для разных ремёсел требуются разные инструменты по усмотрению ведущего (так, инструменты кузнеца существенно отличаются от инструментов столяра). Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует.\n\nПервоклассные инструменты ремесленника дают бонус предмета +1 к проверке."
+    },
+    "data": {
+      "weight": 2,
+      "price": 5000
+    }
+  },
+  {
+    "slug": "backpack",
+    "kind": "item",
+    "name": {
+      "en": "Backpack",
+      "ru": "Рюкзак"
+    },
+    "description": {
+      "en": "A backpack holds up to 4 Bulk of items, and the first 2 Bulk of these items don't count against your Bulk limits. If you're carrying or stowing the pack rather than wearing it on your back, its Bulk is light instead of negligible.",
+      "ru": "В рюкзак можно сложить предметы общим весом до 4; при этом первые 2 единицы веса положенных внутрь предметов не учитываются при определении предельного веса. Если вы не носите рюкзак на спине, а переносите его как-то ещё или убрали, его вес считается лёгким, а не незначительным."
+    },
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "basic_crafter's_book",
+    "kind": "item",
+    "name": {
+      "en": "Basic Crafter's Book",
+      "ru": "Простое руководство ремесленника"
+    },
+    "description": {
+      "en": "This book contains formulas for Crafting the 0-level common items in this chapter.",
+      "ru": "Эта книга содержит формулы для создания всех обычных предметов 0 уровня, описанных в этой главе."
+    },
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "bedroll",
+    "kind": "item",
+    "name": {
+      "en": "Bedroll",
+      "ru": "Спальный мешок"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 2
+    }
+  },
+  {
+    "slug": "brass_ear",
+    "kind": "item",
+    "name": {
+      "en": "Brass Ear",
+      "ru": "Латунное ухо"
+    },
+    "description": {
+      "en": "A brass ear is a short, flared tube with one end narrow enough to comfortably fit against the ear canal. When using it to listen through a door, window, thin wall, or similar barrier, if the barrier would normally increase the DC of your Perception check to hear sounds on the other side, the DC increases by only half as much as normal. It's not suitable for improving your hearing in general, a role better served by a hearing aids.",
+      "ru": "Короткая коническая трубка, узкий конец которой можно вставить в ухо. Если вы используете латунное ухо, чтобы услышать звуки происходящего за дверью, окном, тонкой стенкой или аналогичной преградой, и эта преграда увеличивает СЛ проверки Внимания, чтобы услышать звуки с другой стороны, то это увеличение уменьшается вдвое. В остальном устройство не помогает лучше слышать (для этого пригодится слуховой аппарат)."
+    },
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "caltrops",
+    "kind": "item",
+    "name": {
+      "en": "Caltrops",
+      "ru": "Чеснок"
+    },
+    "description": {
+      "en": "<b>Price</b> 3 sp<br><b>Hands</b> 1; <b>Bulk</b> L<hr>These four-pronged metal spikes can damage a creature's feet. You can scatter caltrops in an empty square adjacent to you with an Interact action. The first creature that moves into that square must succeed at a DC 14 Acrobatics check or take 1d4 piercing damage and 1 persistent bleed damage. A creature taking persistent bleed damage from caltrops takes a –5-foot penalty to its Speed. Spending an Interact action to pluck the caltrops free reduces the DC to stop the bleeding. Once a creature takes damage from caltrops, enough are ruined that other creatures moving into the square are safe. Deployed caltrops can be salvaged and reused if no creatures took damage from them. Otherwise, enough are ruined that they can't be salvaged.",
+      "ru": "Четырёхзубые металлические шипы, наносящие урон тем, кто на них наступит. Совершив Взаимодействие, вы можете рассыпать чеснок на пустую клетку рядом с вами. Первое существо, переместившееся в эту клетку, должно совершить проверку Акробатики со СЛ 14 и при провале получает 1d4 колющего урона и 1 продолжительный урон от кровотечения. Существо, которому чеснок наносит продолжительный урон от кровотечения, получает штраф -5 футов к скорости. Жертва может совершить Взаимодействие, чтобы вытащить чеснок и снизить СЛ остановки кровотечения. Как только существо получает урон от чеснока, шипы считаются испорченными и другие существа, перемещающиеся в эту клетку, урона не получают. Рассыпанный чеснок можно собрать и использовать повторно, если никто не получил от него урона, в противном случае шипы становятся бесполезными и их нельзя собрать."
+    },
+    "data": {
+      "weight": 0,
+      "price": 30
+    }
+  },
+  {
+    "slug": "candle",
+    "kind": "item",
+    "name": {
+      "en": "Candle",
+      "ru": "Свеча"
+    },
+    "description": {
+      "en": "A lit candle sheds dim light in a 10-foot radius for 8 hours.",
+      "ru": "Зажжённая свеча даёт тусклый свет в радиусе 10 футов в течение 8 часов."
+    },
+    "data": {
+      "weight": 0,
+      "price": 1
+    },
+    "charges": 10
+  },
+  {
+    "slug": "chain",
+    "kind": "item",
+    "name": {
+      "en": "Chain",
+      "ru": "Цепь"
+    },
+    "description": {},
+    "data": {
+      "weight": 1,
+      "price": 4
+    }
+  },
+  {
+    "slug": "chalk",
+    "kind": "item",
+    "name": {
+      "en": "Chalk",
+      "ru": "Мел"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 1
+    },
+    "charges": 10
+  },
+  {
+    "slug": "chest",
+    "kind": "item",
+    "name": {
+      "en": "Chest",
+      "ru": "Сундук"
+    },
+    "description": {
+      "en": "A wooden chest can hold up to 8 Bulk of items.",
+      "ru": "В деревянный сундук можно сложить предметы общим весом до 8."
+    },
+    "data": {
+      "weight": 2,
+      "price": 60
+    }
+  },
+  {
+    "slug": "climbing_kit",
+    "kind": "item",
+    "name": {
+      "en": "Climbing Kit",
+      "ru": "Набор верхолаза"
+    },
+    "description": {
+      "en": "This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you're Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a DC 5 flat check whenever you critically fail to prevent a fall. A single kit has only enough materials for one climber; each climber needs their own kit. If you wear your climbing kit, you can access it as part of a Climb action.",
+      "ru": "В этой наплечной сумке собраны 50-футовая верёвка, блоки, дюжина колышков, молоток, крюк-кошка и один комплект шипов для обуви. Набор верхолаза позволяет вам закрепиться на стене при Лазании: при этом вы перемещаетесь вдвое медленнее обычного (но не медленнее 5 футов), но при критическом провале получаете возможность дополнительно пройти чистую проверку со СЛ 5, чтобы не упасть. Один набор рассчитан на одно существо, у каждого верхолаза должен быть свой. Если вы носите набор верхолаза, вы можете пользоваться им в качестве части действия Лазание."
+    },
+    "data": {
+      "weight": 1,
+      "price": 50
+    }
+  },
+  {
+    "slug": "extreme_climbing_kit",
+    "kind": "item",
+    "name": {
+      "en": "Climbing Kit (Extreme)",
+      "ru": "Набор верхолаза (Улучшенный)"
+    },
+    "description": {
+      "en": "This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you're Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a DC 5 flat check whenever you critically fail to prevent a fall. A single kit has only enough materials for one climber; each climber needs their own kit. If you wear your climbing kit, you can access it as part of a Climb action.\n\nYou gain a +1 item bonus to Athletics checks to Climb while using an extreme climbing kit. ",
+      "ru": "В этой наплечной сумке собраны 50-футовая верёвка, блоки, дюжина колышков, молоток, крюк-кошка и один комплект шипов для обуви. Набор верхолаза позволяет вам закрепиться на стене при Лазании: при этом вы перемещаетесь вдвое медленнее обычного (но не медленнее 5 футов), но при критическом провале получаете возможность дополнительно пройти чистую проверку со СЛ 5, чтобы не упасть. Один набор рассчитан на одно существо, у каждого верхолаза должен быть свой. Если вы носите набор верхолаза, вы можете пользоваться им в качестве части действия Лазание.\n\nУлучшенный набор верхолаза даёт бонус предмета +1 к проверкам Атлетики для Лазания при применении."
+    },
+    "data": {
+      "weight": 1,
+      "price": 4000
+    }
+  },
+  {
+    "slug": "concealed_sheath",
+    "kind": "item",
+    "name": {
+      "en": "Concealed Sheath",
+      "ru": "Скрытые ножны"
+    },
+    "description": {
+      "en": "This leather sheath is large enough to hold an item of up to light Bulk and is typically used for daggers, wands, thieves' toolkits, and similar objects. You can affix it to the inside of a boot, under a bracer or sleeve, or in other inconspicuous locations to gain a +1 item bonus to Stealth checks and DCs to hide or conceal the item within.",
+      "ru": "Кожаный чехол для предмета с весом не больше лёгкого, обычно используемый для кинжалов, жезлов, инструментов вора и иных подобных предметов. Вы можете закрепить его в сапоге, рукаве, под наручем или в других неочевидных местах, чтобы получить бонус предмета +1 к проверкам Скрытности и СЛ Скрытности при попытках спрятать или укрыть хранящийся внутри предмет."
+    },
+    "data": {
+      "weight": 0,
+      "price": 2500
+    }
+  },
+  {
+    "slug": "clothing",
+    "kind": "item",
+    "name": {
+      "en": "Clothing (Ordinary)",
+      "ru": "Одежда (Обычная)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "explorer_clothing",
+    "kind": "item",
+    "name": {
+      "en": "Clothing (Explorer's)",
+      "ru": "Одежда (Исследователя)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "fine_clothing",
+    "kind": "item",
+    "name": {
+      "en": "Clothing (Fine)",
+      "ru": "Одежда (Парадная)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 200
+    }
+  },
+  {
+    "slug": "winter_clothing",
+    "kind": "item",
+    "name": {
+      "en": "Clothing (Winter)",
+      "ru": "Одежда (Зимняя)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 40
+    }
+  },
+  {
+    "slug": "fashion_clothing",
+    "kind": "item",
+    "name": {
+      "en": "Clothing (High-Fashion Fine)",
+      "ru": "Одежда (Модная парадная)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 5500
+    }
+  },
+  {
+    "slug": "compass",
+    "kind": "item",
+    "name": {
+      "en": "Compass",
+      "ru": "Компас"
+    },
+    "description": {
+      "en": "A compass helps you Sense Direction or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a –2 item penalty to these checks (similar to using a shoddy item).",
+      "ru": "Помогает при Ориентировании или навигации, если в месте, где вы находитесь, есть упорядоченные магнитные поля. Без компаса вы получаете к этим проверкам штраф предмета -2, как если бы пользовались никудышным предметом."
+    },
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "compass",
+    "kind": "item",
+    "name": {
+      "en": "Compass (Lensatic)",
+      "ru": "Компас (Линзовый)"
+    },
+    "description": {
+      "en": "A compass helps you Sense Direction or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a –2 item penalty to these checks (similar to using a shoddy item).\n\nA lensatic compass gives you a +1 item bonus to these checks.",
+      "ru": "Помогает при Ориентировании или навигации, если в месте, где вы находитесь, есть упорядоченные магнитные поля. Без компаса вы получаете к этим проверкам штраф предмета -2, как если бы пользовались никудышным предметом.\n\nЛинзовый компас даёт бонус предмета +1 к этим проверкам."
+    },
+    "data": {
+      "weight": 0,
+      "price": 2000
+    }
+  },
+  {
+    "slug": "cookware",
+    "kind": "item",
+    "name": {
+      "en": "Cookware",
+      "ru": "Кухонные принадлежности"
+    },
+    "description": {},
+    "data": {
+      "weight": 2,
+      "price": 100
+    }
+  },
+  {
+    "slug": "crowbar",
+    "kind": "item",
+    "name": {
+      "en": "Crowbar",
+      "ru": "Ломик"
+    },
+    "description": {
+      "en": "When Forcing Open an object that doesn't have an easy grip, a crowbar makes it easier to gain the necessary leverage. Without a crowbar, prying something open takes a –2 item penalty to the Athletics check to Force Open.",
+      "ru": "Облегчает Ломание объектов, за которые просто так не уцепиться, позволяя получить выигрыш в силе за счёт рычага. Без ломика проверки Атлетики для Ломания получают штраф предмета -2."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "levered_crowbar",
+    "kind": "item",
+    "name": {
+      "en": "Crowbar (Levered)",
+      "ru": "Ломик (Рычажный)"
+    },
+    "description": {
+      "en": "When Forcing Open an object that doesn't have an easy grip, a crowbar makes it easier to gain the necessary leverage. Without a crowbar, prying something open takes a –2 item penalty to the Athletics check to Force Open.\n\nA levered crowbar grants you a +1 item bonus to Athletics checks to Force Open anything that can be pried open.",
+      "ru": "Облегчает Ломание объектов, за которые просто так не уцепиться, позволяя получить выигрыш в силе за счёт рычага. Без ломика проверки Атлетики для Ломания получают штраф предмета -2.\n\nРычажный ломик даёт бонус предмета +1 к проверкам Атлетики для Ломания того, что можно вскрыть силой."
+    },
+    "data": {
+      "weight": 0,
+      "price": 2000
+    }
+  },
+  {
+    "slug": "detective's_kit",
+    "kind": "item",
+    "name": {
+      "en": "Detective's Kit",
+      "ru": "Набор детектива"
+    },
+    "description": {
+      "en": "This leather satchel contains empty vials, a pair of tweezers, a supply of small linen cloths, a set of brass calipers and a knotted string for measuring distances, several pieces of chalk, a pen, and a blank notebook for keeping notes. Every component of a detective's kit is of exceeding quality, and thus a detective's kit adds a +1 item bonus to checks to investigate a crime scene, a clue, or similar details. Like other tool kits, a detective's kit uses one hand if wearing the kit and two hands otherwise.",
+      "ru": "В этой кожаной сумке хранятся пустые пузырьки, пинцет, льняные тряпочки, латунный кронциркуль и верёвка с узелками для измерения расстояний, несколько кусков мела, чернильная ручка и чистый блокнот для записей. Все предметы в наборе высококачественные, поэтому он даёт бонус предмета +1 к проверкам при осмотре места преступления, улик и аналогичных зацепок. Аналогично прочим наборам инструментов, если вы носите его, то для его использования требуется одна рука (а если не носите — то две)."
+    },
+    "data": {
+      "weight": 1,
+      "price": 2500
+    }
+  },
+  {
+    "slug": "disguise_kit",
+    "kind": "item",
+    "name": {
+      "en": "Disguise Kit",
+      "ru": "Маскировочный набор"
+    },
+    "description": {
+      "en": "This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. If you've crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit. You can draw and replace a worn disguise kit as part of the action that uses it.",
+      "ru": "В этой небольшой деревянной коробочке есть косметика, накладные усы и бороды, гримировальный лак и несколько простых париков. Как правило, маскировочный набор нужен при использовании Обмана для Маскировки под кого-то другого. Если вы многократно маскировались, то можете восполнить запасы косметики, купив соответствующее типу набора пополнение. Если вы носите набор, вы можете выхватить и вернуть его на место в качестве части действия, которое его использует."
+    },
+    "data": {
+      "weight": 0,
+      "price": 200
+    }
+  },
+  {
+    "slug": "elite_disguise_kit",
+    "kind": "item",
+    "name": {
+      "en": "Disguise Kit (Elite)",
+      "ru": "Маскировочный набор (Элитный)"
+    },
+    "description": {
+      "en": "This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. If you've crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit. You can draw and replace a worn disguise kit as part of the action that uses it.\n\nAn elite disguise kit adds a +1 item bonus to relevant checks.",
+      "ru": "В этой небольшой деревянной коробочке есть косметика, накладные усы и бороды, гримировальный лак и несколько простых париков. Как правило, маскировочный набор нужен при использовании Обмана для Маскировки под кого-то другого. Если вы многократно маскировались, то можете восполнить запасы косметики, купив соответствующее типу набора пополнение. Если вы носите набор, вы можете выхватить и вернуть его на место в качестве части действия, которое его использует.\n\nЭлитный маскировочный набор даёт бонус предмета +1 к соответствующим проверкам."
+    },
+    "data": {
+      "weight": 0,
+      "price": 4000
+    }
+  },
+  {
+    "slug": "dueling_cape",
+    "kind": "item",
+    "name": {
+      "en": "Dueling Cape",
+      "ru": "Дуэльный плащ"
+    },
+    "description": {
+      "en": "You can pull a dueling cape you're wearing from your shoulder and wrap it around your arm with an Interact action. While wielding the dueling cape this way, the cape uses that arm and hand, and you can't hold anything else in that hand. While you do so, you can spend an action to hold it in a protective position, giving you a +1 circumstance bonus to AC and to Deception checks to Feint until the start of your next turn.",
+      "ru": "Вы можете стянуть с плеча дуэльный плащ, который носите, чтобы в качестве Взаимодействия намотать его на руку. При использовании плаща подобным образом рука, на которую он намотан, оказывается занята и ничего держать в ней нельзя, но вы можете потратить одиночное действие, чтобы подготовить руку с плащом для защиты и получить ситуативный бонус +1 к КБ и проверкам Обмана для Финта до начала своего следующего хода."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "fishing_tackle",
+    "kind": "item",
+    "name": {
+      "en": "Fishing Tackle",
+      "ru": "Рыболовные снасти"
+    },
+    "description": {
+      "en": "This kit include a collapsible fishing pole, fishhooks, line, lures, and a fishing net.",
+      "ru": "В этот набор входят складная удочка, крючки, лески, приманки и рыболовная сеть."
+    },
+    "data": {
+      "weight": 1,
+      "price": 80
+    }
+  },
+  {
+    "slug": "professional_fishing_tackle",
+    "kind": "item",
+    "name": {
+      "en": "Fishing Tackle (Professional)",
+      "ru": "Рыболовные снасти (Профессиональные)"
+    },
+    "description": {
+      "en": "This kit include a collapsible fishing pole, fishhooks, line, lures, and a fishing net.\n\nProfessional fishing tackle grants a +1 item bonus to checks to fish.",
+      "ru": "В этот набор входят складная удочка, крючки, лески, приманки и рыболовная сеть.\n\nПрофессиональные рыболовные снасти дают бонус предмета +1 к проверкам для ловли рыбы."
+    },
+    "data": {
+      "weight": 1,
+      "price": 2000
+    }
+  },
+  {
+    "slug": "flint_and_steel",
+    "kind": "item",
+    "name": {
+      "en": "Flint and Steel",
+      "ru": "Огниво"
+    },
+    "description": {
+      "en": "Flint and steel are useful in creating a fire if you have the time to catch a spark, though using them is typically too time-consuming to be practical during an encounter. Even in ideal conditions, using flint and steel to light a flame requires using at least 3 actions, and often significantly longer.",
+      "ru": "Поможет развести огонь, если у вас достаточно времени, поэтому во время сцены его применять нецелесообразно. Даже в идеальных условиях на разведение огня при помощи огнива уйдёт не менее 3 действий, а зачастую и гораздо больше."
+    },
+    "data": {
+      "weight": 0,
+      "price": 5
+    }
+  },
+  {
+    "slug": "formula_book_blank",
+    "kind": "item",
+    "name": {
+      "en": "Formula Book (Blank)",
+      "ru": "Книга формул (пустая)"
+    },
+    "description": {
+      "en": "A formula book holds the formulas necessary to make items other than the common equipment from this chapter; characters of the alchemist class typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there's no need for you to copy them into a specific book as long as you can keep them on hand to reference them.",
+      "ru": "В эту книгу записываются формулы для создания различных предметов, помимо обычных предметов из этой главы. Как правило, алхимики получают такую книгу бесплатно. В каждую книгу можно записать формулы до 100 разных предметов. Формулы могут быть записаны на листах пергамента, табличках и других материалах. Копировать их в определённую книгу необязательно — главное, чтобы при необходимости они были под рукой."
+    },
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "grappling_hook",
+    "kind": "item",
+    "name": {
+      "en": "Grappling Hook",
+      "ru": "Крюк-кошка"
+    },
+    "description": {
+      "en": "You can throw a grappling hook with a rope tied to it to make a climb easier. To anchor a grappling hook, make a ranged attack roll using your simple weapon proficiency against a DC depending on the target, typically at least DC 20. This attack has the secret trait. On a success, your hook has a firm hold, but on a critical failure, the hook seems like it will hold but actually falls when you're partway up.",
+      "ru": "Вы можете метнуть крюк с привязанной к нему верёвкой, чтобы облегчить лазание. Чтобы закрепить крюк, нужно пройти проверку дистанционной атаки с дескриптором «тайна» против СЛ, которая зависит от цели (обычно не менее СЛ 20). Атака использует умение в простом оружии. При успехе крюк прочно закрепляется на цели, а при критическом провале вам кажется, что крюк надёжно закреплён, но во время подъёма он срывается."
+    },
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "hammer",
+    "kind": "item",
+    "name": {
+      "en": "Hammer",
+      "ru": "Молоток"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "healer's_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Healer's Toolkit",
+      "ru": "Инструменты лекаря"
+    },
+    "description": {
+      "en": "This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. If you wear your healer's toolkit, you can draw and replace them as part of the action that uses them.",
+      "ru": "Комплект перевязочных материалов, трав и шовных материалов, необходимых для проверок Медицины для Лечения болезни, Лечения отравления, Лечения ранений и Первой помощи. Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует."
+    },
+    "data": {
+      "weight": 1,
+      "price": 500
+    }
+  },
+  {
+    "slug": "expanded_healer's_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Healer's Toolkit (Expanded)",
+      "ru": "Инструменты лекаря (Расширенные)"
+    },
+    "description": {
+      "en": "This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. If you wear your healer's toolkit, you can draw and replace them as part of the action that uses them.\n\nExpanded healer's toolkits provide a +1 item bonus to such checks.",
+      "ru": "Комплект перевязочных материалов, трав и шовных материалов, необходимых для проверок Медицины для Лечения болезни, Лечения отравления, Лечения ранений и Первой помощи. Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует.\n\nРасширенные инструменты лекаря дают бонус предмета +1 к таким проверкам."
+    },
+    "data": {
+      "weight": 1,
+      "price": 5000
+    }
+  },
+  {
+    "slug": "hourglass",
+    "kind": "item",
+    "name": {
+      "en": "Hourglass",
+      "ru": "Песочные часы"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 300
+    }
+  },
+  {
+    "slug": "ladder_(10_ft.)",
+    "kind": "item",
+    "name": {
+      "en": "Ladder (10 ft.)",
+      "ru": "Лестница (10 фт.)"
+    },
+    "description": {},
+    "data": {
+      "weight": 3,
+      "price": 3
+    }
+  },
+  {
+    "slug": "lantern",
+    "kind": "item",
+    "name": {
+      "en": "Lantern",
+      "ru": "Фонарь"
+    },
+    "description": {
+      "en": "A lantern sheds bright light and requires 1 pint of oil to function for 6 hours.\n\nA hooded lantern sheds light in a 30-foot radius (and dim light in the next 30 feet) and is equipped with shutters, which you can close to block the light. Closing or opening the shutters takes an Interact action.",
+      "ru": "Даёт яркий свет, причём одной пинты масла хватает на 6 часов.\n\nОбычный фонарь испускает свет в радиусе 30 футов (и тусклый свет ещё на 30 футов) и оснащён шторкой, закрыв которую, можно скрыть его свет. Для закрытия или открытия шторки требуется Взаимодействие."
+    },
+    "data": {
+      "weight": 1,
+      "price": 70
+    }
+  },
+  {
+    "slug": "eye_lantern",
+    "kind": "item",
+    "name": {
+      "en": "Lantern (Bull's-Eye)",
+      "ru": "Фонарь (Потайной)"
+    },
+    "description": {
+      "en": "A lantern sheds bright light and requires 1 pint of oil to function for 6 hours.\n\nA bull's-eye lantern emits its light in a 60-foot cone (and dim light in the next 60 feet).",
+      "ru": "Даёт яркий свет, причём одной пинты масла хватает на 6 часов.\n\nПотайной фонарь испускает свет в виде 60-футового конуса (и даёт тусклый свет ещё на 60 футов)."
+    },
+    "data": {
+      "weight": 1,
+      "price": 100
+    }
+  },
+  {
+    "slug": "lock",
+    "kind": "item",
+    "name": {
+      "en": "Lock (Poor)",
+      "ru": "Замок (Дешёвый)"
+    },
+    "description": {
+      "en": "Picking a poor lock requires 2 successful DC 15 Thievery checks.",
+      "ru": "Для взлома дешёвого замка требуется 2 успешные проверки Воровства со СЛ 15."
+    },
+    "data": {
+      "weight": 0,
+      "price": 20
+    }
+  },
+  {
+    "slug": "simple_lock",
+    "kind": "item",
+    "name": {
+      "en": "Lock (Simple)",
+      "ru": "Замок (Простой)"
+    },
+    "description": {
+      "en": "Picking a poor lock requires 3 successful DC 20 Thievery checks.",
+      "ru": "Для взлома простого замка требуется 3 успешные проверки Воровства со СЛ 20."
+    },
+    "data": {
+      "weight": 0,
+      "price": 200
+    }
+  },
+  {
+    "slug": "average_lock",
+    "kind": "item",
+    "name": {
+      "en": "Lock (Average)",
+      "ru": "Замок (Средний)"
+    },
+    "description": {
+      "en": "Picking a average lock requires 4 successful DC 25 Thievery checks.",
+      "ru": "Для взлома среднего замка требуется 4 успешные проверки Воровства со СЛ 25."
+    },
+    "data": {
+      "weight": 0,
+      "price": 1500
+    }
+  },
+  {
+    "slug": "good_lock",
+    "kind": "item",
+    "name": {
+      "en": "Lock (Good)",
+      "ru": "Замок (Надёжный)"
+    },
+    "description": {
+      "en": "Picking a good lock requires 5 successful DC 30 Thievery checks.",
+      "ru": "Для взлома надёжного замка требуется 5 успешные проверки Воровства со СЛ 30."
+    },
+    "data": {
+      "weight": 0,
+      "price": 20000
+    }
+  },
+  {
+    "slug": "superior_lock",
+    "kind": "item",
+    "name": {
+      "en": "Lock (Superior)",
+      "ru": "Замок (Превосходный)"
+    },
+    "description": {
+      "en": "Picking a superior lock requires 6 successful DC 40 Thievery checks.",
+      "ru": "Для взлома превосходного замка требуется 6 успешные проверки Воровства со СЛ 40."
+    },
+    "data": {
+      "weight": 0,
+      "price": 450000
+    }
+  },
+  {
+    "slug": "magnifying_glass",
+    "kind": "item",
+    "name": {
+      "en": "Magnifying Glass",
+      "ru": "Увеличительное стекло"
+    },
+    "description": {
+      "en": "This quality handheld lens gives you a +1 item bonus to Perception checks to notice minute details of documents, fabric, and the like.",
+      "ru": "Качественная ручная лупа, которая даёт бонус предмета +1 к проверкам Внимания, чтобы заметить мелкие детали документов, тканей и тому подобного."
+    },
+    "data": {
+      "weight": 0,
+      "price": 4000
+    }
+  },
+  {
+    "slug": "manacles",
+    "kind": "item",
+    "name": {
+      "en": "Manacles",
+      "ru": "Кандалы"
+    },
+    "description": {
+      "en": "A two-legged creature with its legs bound takes a –15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any.\n\nFreeing a creature from manacles requires 2 successful DC 17 Thievery checks.",
+      "ru": "Двуногое существо с кандалами на ногах получает ситуативный штраф -15 футов к своим скоростям. Двурукое существо с кандалами на руках должно успешно проходить чистую проверку со СЛ 5 всякий раз, когда совершает действие с дескриптором «манипуляция», иначе оно тратится впустую. СЛ может быть и выше в зависимости от того, насколько сильно кандалы ограничивают движения рук. Существо, прикованное к стационарному объекту, считается неподвижным. Если у существа больше или меньше конечностей, ведущий решает, насколько эффективно применение кандалов.\n\nЧтобы освободить существо от кандалов, требуются 2 успешные проверки Воровства со СЛ 17."
+    },
+    "data": {
+      "weight": 0,
+      "price": 30
+    }
+  },
+  {
+    "slug": "simple_manacles",
+    "kind": "item",
+    "name": {
+      "en": "Manacles (Simple)",
+      "ru": "Кандалы (Простые)"
+    },
+    "description": {
+      "en": "A two-legged creature with its legs bound takes a –15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any.\n\nFreeing a creature from manacles requires 3 successful DC 22 Thievery checks.",
+      "ru": "Двуногое существо с кандалами на ногах получает ситуативный штраф -15 футов к своим скоростям. Двурукое существо с кандалами на руках должно успешно проходить чистую проверку со СЛ 5 всякий раз, когда совершает действие с дескриптором «манипуляция», иначе оно тратится впустую. СЛ может быть и выше в зависимости от того, насколько сильно кандалы ограничивают движения рук. Существо, прикованное к стационарному объекту, считается неподвижным. Если у существа больше или меньше конечностей, ведущий решает, насколько эффективно применение кандалов.\n\nЧтобы освободить существо от кандалов, требуются 3 успешные проверки Воровства со СЛ 22."
+    },
+    "data": {
+      "weight": 0,
+      "price": 300
+    }
+  },
+  {
+    "slug": "average_manacles",
+    "kind": "item",
+    "name": {
+      "en": "Manacles (Average)",
+      "ru": "Кандалы (Средние)"
+    },
+    "description": {
+      "en": "A two-legged creature with its legs bound takes a –15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any.\n\nFreeing a creature from manacles requires 4 successful DC 27 Thievery checks.",
+      "ru": "Двуногое существо с кандалами на ногах получает ситуативный штраф -15 футов к своим скоростям. Двурукое существо с кандалами на руках должно успешно проходить чистую проверку со СЛ 5 всякий раз, когда совершает действие с дескриптором «манипуляция», иначе оно тратится впустую. СЛ может быть и выше в зависимости от того, насколько сильно кандалы ограничивают движения рук. Существо, прикованное к стационарному объекту, считается неподвижным. Если у существа больше или меньше конечностей, ведущий решает, насколько эффективно применение кандалов.\n\nЧтобы освободить существо от кандалов, требуются 4 успешные проверки Воровства со СЛ 27."
+    },
+    "data": {
+      "weight": 0,
+      "price": 2000
+    }
+  },
+  {
+    "slug": "good_manacles",
+    "kind": "item",
+    "name": {
+      "en": "Manacles (Good)",
+      "ru": "Кандалы (Надёжные)"
+    },
+    "description": {
+      "en": "A two-legged creature with its legs bound takes a –15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any.\n\nFreeing a creature from manacles requires 5 successful DC 32 Thievery checks.",
+      "ru": "Двуногое существо с кандалами на ногах получает ситуативный штраф -15 футов к своим скоростям. Двурукое существо с кандалами на руках должно успешно проходить чистую проверку со СЛ 5 всякий раз, когда совершает действие с дескриптором «манипуляция», иначе оно тратится впустую. СЛ может быть и выше в зависимости от того, насколько сильно кандалы ограничивают движения рук. Существо, прикованное к стационарному объекту, считается неподвижным. Если у существа больше или меньше конечностей, ведущий решает, насколько эффективно применение кандалов.\n\nЧтобы освободить существо от кандалов, требуются 5 успешных проверок Воровства со СЛ 32."
+    },
+    "data": {
+      "weight": 0,
+      "price": 25000
+    }
+  },
+  {
+    "slug": "superior_manacles",
+    "kind": "item",
+    "name": {
+      "en": "Manacles (Superior)",
+      "ru": "Кандалы (Превосходные)"
+    },
+    "description": {
+      "en": "A two-legged creature with its legs bound takes a –15-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any.\n\nFreeing a creature from manacles requires 6 successful DC 42 Thievery checks.",
+      "ru": "Двуногое существо с кандалами на ногах получает ситуативный штраф -15 футов к своим скоростям. Двурукое существо с кандалами на руках должно успешно проходить чистую проверку со СЛ 5 всякий раз, когда совершает действие с дескриптором «манипуляция», иначе оно тратится впустую. СЛ может быть и выше в зависимости от того, насколько сильно кандалы ограничивают движения рук. Существо, прикованное к стационарному объекту, считается неподвижным. Если у существа больше или меньше конечностей, ведущий решает, насколько эффективно применение кандалов.\n\nЧтобы освободить существо от кандалов, требуются 6 успешных проверок Воровства со СЛ 42."
+    },
+    "data": {
+      "weight": 0,
+      "price": 500000
+    }
+  },
+  {
+    "slug": "merchant's_scale",
+    "kind": "item",
+    "name": {
+      "en": "Merchant's Scale",
+      "ru": "Торговые весы"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 20
+    }
+  },
+  {
+    "slug": "mirror",
+    "kind": "item",
+    "name": {
+      "en": "Mirror",
+      "ru": "Зеркальце"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "mug",
+    "kind": "item",
+    "name": {
+      "en": "Mug",
+      "ru": "Кружка"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 1
+    }
+  },
+  {
+    "slug": "musical_instrument",
+    "kind": "item",
+    "name": {
+      "en": "Musical Instrument (Handheld)",
+      "ru": "Музыкальный инструмент (Ручной)"
+    },
+    "description": {
+      "en": "Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments.",
+      "ru": "К ручным инструментам относятся волынки, колокольчики, небольшие барабаны, скрипки и виолы, флейты и блокфлейты, небольшие арфы, лютни, трубы и другие инструменты похожего размера."
+    },
+    "data": {
+      "weight": 1,
+      "price": 80
+    }
+  },
+  {
+    "slug": "virtuoso_musical_instrument",
+    "kind": "item",
+    "name": {
+      "en": "Musical Instrument (Virtuoso Handheld)",
+      "ru": "Музыкальный инструмент (Ручной, Искусно сделанный)"
+    },
+    "description": {
+      "en": "Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments.\n\nA virtuoso instrument is more finely made and gives a +1 item bonus to Performance checks using that instrument.",
+      "ru": "К ручным инструментам относятся волынки, колокольчики, небольшие барабаны, скрипки и виолы, флейты и блокфлейты, небольшие арфы, лютни, трубы и другие инструменты похожего размера.\n\nИскусно сделанный инструмент даёт бонус предмета +1 к проверкам Исполнения с его использованием."
+    },
+    "data": {
+      "weight": 1,
+      "price": 5000
+    }
+  },
+  {
+    "slug": "heavy_musical_instrument",
+    "kind": "item",
+    "name": {
+      "en": "Musical Instrument (Heavy)",
+      "ru": "Музыкальный инструмент (Тяжёлый)"
+    },
+    "description": {
+      "en": "Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while being played.",
+      "ru": "Тяжёлые инструменты (большие барабаны, колокола, а также клавишные инструменты) сложно переносить и нельзя использовать для игры на ходу."
+    },
+    "data": {
+      "weight": 16,
+      "price": 200
+    }
+  },
+  {
+    "slug": "heavy_virtuoso_musical_instrument",
+    "kind": "item",
+    "name": {
+      "en": "Musical Instrument (Virtuoso Heavy)",
+      "ru": "Музыкальный инструмент (Тяжёлый, Искусно сделанный)"
+    },
+    "description": {
+      "en": "Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while being played.\n\nA virtuoso instrument is more finely made and gives a +1 item bonus to Performance checks using that instrument.",
+      "ru": "Тяжёлые инструменты (большие барабаны, колокола, а также клавишные инструменты) сложно переносить и нельзя использовать для игры на ходу.\n\nИскусно сделанный инструмент даёт бонус предмета +1 к проверкам Исполнения с его использованием."
+    },
+    "data": {
+      "weight": 16,
+      "price": 10000
+    }
+  },
+  {
+    "slug": "net",
+    "kind": "item",
+    "name": {
+      "en": "Net",
+      "ru": "Сеть"
+    },
+    "description": {
+      "en": "You can use a net either on its own or attached to a rope. When attached to a rope, you can use the net to Grapple a Medium or smaller creature up to 10 feet away (instead of only adjacent creatures). You can continue to Grapple to keep your hold on the target so long as the target remains within 10 feet and you continue to hold the net. The grabbed creature gains a +2 circumstance bonus to Escape unless you are adjacent to them, and it can attempt a DC 16 Athletics check to Force Open the net entirely. Once the target is no longer grabbed, the net is unwieldy until refolded with an Interact action with the concentrate trait that requires two hands; if used without being refolded, Grapple checks made with the net take a –2 penalty.<br> When the net is unattached, you can attempt a ranged attack roll using your simple weapon proficiency against a Medium or smaller creature within 20 feet. On a hit, the target is off-guard and takes a –10-foot circumstance penalty to its Speeds until it Escapes, and on a critical hit, it's also immobilized until it Escapes. The Escape DC is 16. A creature adjacent to the target can Interact to remove the net.",
+      "ru": "Сеть можно как стянуть верёвкой, так и использовать саму по себе. Сеть с верёвкой можно использовать для Захвата существа среднего или меньшего размера в пределах 10 футов от вас (а не рядом с вами, как обычно). Вы можете удерживать Захват, если цель остаётся в пределах 10 футов и вы продолжаете держать сеть. Существо в захвате получает ситуативный бонус +2 к попыткам Освобождения, если вы не рядом с ним, и может попытаться пройти проверку Атлетики со СЛ 16 для Ломания, чтобы разорвать сеть. После того как цель перестаёт быть в захвате, сеть неудобно использовать, пока её не сложат (требующее двух рук Взаимодействие с дескриптором «концентрация»). Если сеть не складывать, дальнейшие проверки Захвата с её использованием совершаются со штрафом -2."
+    },
+    "data": {
+      "weight": 1,
+      "price": 100
+    }
+  },
+  {
+    "slug": "oil",
+    "kind": "item",
+    "name": {
+      "en": "Oil",
+      "ru": "Масло"
+    },
+    "description": {
+      "en": "You can use oil to fuel lanterns, but you can also set a pint of oil aflame and throw it. You must first spend an Interact action preparing the oil, then throw it with another action as a ranged attack. If you hit, it splatters on the creature or in a single 5-foot square you target. You must succeed at a DC 10 flat check for the oil to ignite successfully when it hits. If the oil ignites, the target takes 1d6 fire damage.",
+      "ru": "Маслом можно заправить фонарь, а можно взять пинту масла, поджечь её и метнуть. Для этого нужно совершить Взаимодействие, чтобы подготовить масло, а затем потратить действие, чтобы метнуть его в качестве дистанционной атаки. При попадании масло покрывает существо или одну 5-футовую клетку, в которую вы целились, и вам нужно пройти чистую проверку со СЛ 10, чтобы масло загорелось. Если оно загорелось, цель получает 1d6 урона огнём."
+    },
+    "data": {
+      "weight": 0,
+      "price": 1
+    }
+  },
+  {
+    "slug": "parrying_scabbard",
+    "kind": "item",
+    "name": {
+      "en": "Parrying Scabbard",
+      "ru": "Парирующие ножны"
+    },
+    "description": {
+      "en": "You can draw this reinforced sheath during the same Interact action you use to draw the weapon it holds, wielding the weapon in one hand and the scabbard in your other. A parrying scabbard can be used for your defense much like a weapon with the parry trait: you can spend an action to position it defensively, gaining a +1 circumstance bonus to AC until the start of your next turn. Parrying scabbards are available for any sword that can be wielded in one hand.",
+      "ru": "Вы можете выхватить эти укреплённые ножны в ходе того же Взаимодействия, которым выхватываете вложенное в них оружие. В этом случае вы будете использовать оружие одной рукой, а ножны — другой. Ножнами можно защищаться аналогично оружию с дескриптором «парирующее»: вы можете использовать одиночное действие, чтобы подготовиться к отражению атак и получить ситуативный бонус +1 к КБ до начала своего следующего хода. Парирующие ножны можно приобрести для любого меча, который можно использовать одной рукой."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "periscope",
+    "kind": "item",
+    "name": {
+      "en": "Periscope",
+      "ru": "Перископ"
+    },
+    "description": {
+      "en": "This is a 2-foot-long tube with two angled mirrors, one at each end. When the mirrors are aligned correctly, you can look around obstacles while remaining behind cover. This doesn't provide a sufficient line of effect to target creatures around corners.",
+      "ru": "Изогнутая труба длиной 2 фута с двумя закреплёнными под углом зеркалами внутри. Если зеркала установлены под нужным углом, перископ можно использовать, чтобы выглядывать из-за препятствия, оставаясь в укрытии. В этом случае у вас нет линии досягаемости и вы не можете выбрать целью существ за углом."
+    },
+    "data": {
+      "weight": 0,
+      "price": 2500
+    }
+  },
+  {
+    "slug": "piton",
+    "kind": "item",
+    "name": {
+      "en": "Piton",
+      "ru": "Колышек"
+    },
+    "description": {
+      "en": "These small spikes can be used as anchors to make climbing easier. To affix a piton, you must hold it in one hand and use a hammer to drive it in with your other hand. You can attach a rope to the hammered piton so that you don't fall all the way to the ground on a critical failure while Climbing.",
+      "ru": "Небольшие колышки можно использовать в качестве упоров при лазании. Чтобы закрепить колышек, его нужно держать в одной руке и при помощи второй руки вбить его молотком. На вбитом колышке можно закрепить верёвку, чтобы в случае критического провала при Лазании не упасть."
+    },
+    "data": {
+      "weight": 0,
+      "price": 1
+    }
+  },
+  {
+    "slug": "primal_symbol",
+    "kind": "item",
+    "name": {
+      "en": "Primal Symbol",
+      "ru": "Первобытный символ"
+    },
+    "description": {
+      "en": "Primal spellcasters, especially druids, often wear adornments of natural materials to symbolize their connection to nature, such as rings of woven plants, tokens made from animal parts, or other symbols related to a druidic order or nature philosophy.",
+      "ru": "Первобытные заклинатели, например друиды, применяют украшения из естественных материалов, которые олицетворяют их связь с природой, такие как кольца из побегов растений, тотемы из частей тел животных или иные символы, связанные с друидическими орденами или философскими учениями."
+    },
+    "data": {
+      "weight": 0,
+      "price": 0
+    }
+  },
+  {
+    "slug": "rations",
+    "kind": "item",
+    "name": {
+      "en": "Rations (1 week)",
+      "ru": "Сухой паёк (1 week)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 40
+    }
+  },
+  {
+    "slug": "religious_symbol",
+    "kind": "item",
+    "name": {
+      "en": "Religious Symbol (Wooden)",
+      "ru": "Символ религии (Деревянный)"
+    },
+    "description": {
+      "en": "Some divine spellcasters, such as clerics, can use a religious symbol to use certain abilities.",
+      "ru": "Некоторые сакральные заклинатели, например жрецы, применяют символ религии своего божества при использовании некоторых способностей."
+    },
+    "data": {
+      "weight": 0,
+      "price": 10
+    }
+  },
+  {
+    "slug": "silver_religious_symbol",
+    "kind": "item",
+    "name": {
+      "en": "Religious Symbol (Silver)",
+      "ru": "Символ религии (Серебряный)"
+    },
+    "description": {
+      "en": "Some divine spellcasters, such as clerics, can use a religious symbol to use certain abilities.",
+      "ru": "Некоторые сакральные заклинатели, например жрецы, применяют символ религии своего божества при использовании некоторых способностей."
+    },
+    "data": {
+      "weight": 0,
+      "price": 200
+    }
+  },
+  {
+    "slug": "religious_text",
+    "kind": "item",
+    "name": {
+      "en": "Religious Text",
+      "ru": "Религиозный текст"
+    },
+    "description": {
+      "en": "This manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain abilities. A religious text must be held in one hand to use it.",
+      "ru": "Священное писание одной из религий. Некоторые сакральные заклинатели, например жрецы, применяют религиозный текст при использовании некоторых способностей и заклинаний. Для применения религиозный текст нужно держать в одной руке."
+    },
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "repair_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Repair Toolkit",
+      "ru": "Ремонтный набор"
+    },
+    "description": {
+      "en": "A repair toolkit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.",
+      "ru": "Позволяет проводить несложный ремонт во время путешествий. В него входит маленькая наковальня, щипцы, столярные инструменты, точильный камень и масла для пропитки кожи и дерева. Вы можете использовать ремонтный набор для Починки предмета при помощи Ремесла. Если вы носите набор, вы можете выхватить и вернуть его на место в качестве части действия, которое его использует."
+    },
+    "data": {
+      "weight": 1,
+      "price": 200
+    }
+  },
+  {
+    "slug": "superb_repair_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Repair Toolkit (Superb)",
+      "ru": "Ремонтный набор (Превосходный)"
+    },
+    "description": {
+      "en": "A repair toolkit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.\n\nA superb repair kit gives you a +1 item bonus to the check.",
+      "ru": "Позволяет проводить несложный ремонт во время путешествий. В него входит маленькая наковальня, щипцы, столярные инструменты, точильный камень и масла для пропитки кожи и дерева. Вы можете использовать ремонтный набор для Починки предмета при помощи Ремесла. Если вы носите набор, вы можете выхватить и вернуть его на место в качестве части действия, которое его использует.\n\nПревосходный ремонтный набор даёт вам бонус предмета + 1 к такой проверке."
+    },
+    "data": {
+      "weight": 1,
+      "price": 2500
+    }
+  },
+  {
+    "slug": "rope",
+    "kind": "item",
+    "name": {
+      "en": "Rope (50 ft.)",
+      "ru": "Верёвка (50 футов)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "sack",
+    "kind": "item",
+    "name": {
+      "en": "Sack",
+      "ru": "Мешок"
+    },
+    "description": {
+      "en": "A sack can hold up to 8 Bulk worth of items. A sack containing 2 Bulk or less can be worn on the body, usually tucked into a belt. You can carry a sack with one hand, but must use two hands to transfer items in and out.",
+      "ru": "В мешок можно сложить предметы общим весом до 8. Если общий вес предметов в мешке 2 или меньше, его можно носить на теле — например, заткнув за пояс. Мешок можно переносить одной рукой, но чтобы что-то в него положить или достать из него, потребуются две руки."
+    },
+    "data": {
+      "weight": 0,
+      "price": 1
+    }
+  },
+  {
+    "slug": "saddlebags",
+    "kind": "item",
+    "name": {
+      "en": "Saddlebags",
+      "ru": "Перемётные сумы"
+    },
+    "description": {
+      "en": "Saddlebags come in a pair. Each can hold up to 3 Bulk of items, and the first 1 Bulk of items in each doesn't count against your mount's Bulk limit. The Bulk value given is for saddlebags worn by a mount. If you are carrying or stowing saddlebags, they count as 1 Bulk instead of light Bulk.",
+      "ru": "Перемётные сумы продаются парами. В каждую суму можно сложить предметы общим весом до 3, при этом первая единица веса положенных в каждую суму предметов не учитывается при определении предельного веса для вашего скакуна. В таблице указан вес перемётных сум, когда их носит скакун. Если вы переносите сумы как-то ещё или убрали, их вес считается равным 1, а не лёгким."
+    },
+    "data": {
+      "weight": 0,
+      "price": 20
+    }
+  },
+  {
+    "slug": "signal_whistle",
+    "kind": "item",
+    "name": {
+      "en": "Signal Whistle",
+      "ru": "Сигнальный свисток"
+    },
+    "description": {
+      "en": "When sounded, a signal whistle can be heard clearly up to half a mile away across open terrain.",
+      "ru": "Звук сигнального свистка на открытой местности ясно слышен на расстоянии до полумили."
+    },
+    "data": {
+      "weight": 0,
+      "price": 8
+    }
+  },
+  {
+    "slug": "soap",
+    "kind": "item",
+    "name": {
+      "en": "Soap",
+      "ru": "Мыло"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 2
+    }
+  },
+  {
+    "slug": "spellbook_blank",
+    "kind": "item",
+    "name": {
+      "en": "Spellbook (Blank)",
+      "ru": "Книга заклинаний (пустая)"
+    },
+    "description": {
+      "en": "A spellbook holds the written knowledge necessary to learn and prepare various spells, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional spells. Each spellbook can hold up to 100 spells. The Price listed is for a blank spellbook.",
+      "ru": "В книге заклинаний записано всё необходимое для изучения и подготовки определённых заклинаний. Волшебникам она необходима (поэтому они обычно получают одну бесплатно), а другим заклинателям бывает полезна для изучения дополнительных заклинаний. В книгу можно записать до 100 заклинаний. Цена в таблице указана за пустую книгу заклинаний."
+    },
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "spyglass",
+    "kind": "item",
+    "name": {
+      "en": "Spyglass",
+      "ru": "Подзорная труба"
+    },
+    "description": {
+      "en": "A typical spyglass lets you see eight times farther than normal.",
+      "ru": "Позволяет вам видеть в восемь раз дальше, чем обычно."
+    },
+    "data": {
+      "weight": 0,
+      "price": 2000
+    }
+  },
+  {
+    "slug": "fine_spyglass",
+    "kind": "item",
+    "name": {
+      "en": "Spyglass (Fine)",
+      "ru": "Подзорная труба (Качественная)"
+    },
+    "description": {
+      "en": "A typical spyglass lets you see eight times farther than normal.\n\nA fine spyglass adds a +1 item bonus to Perception checks to notice details at a distance.",
+      "ru": "Позволяет вам видеть в восемь раз дальше, чем обычно.\n\nКачественная подзорная труба даёт вам бонус предмета +1 к проверкам Внимания, чтобы заметить детали на расстоянии."
+    },
+    "data": {
+      "weight": 0,
+      "price": 8000
+    }
+  },
+  {
+    "slug": "tack",
+    "kind": "item",
+    "name": {
+      "en": "Tack",
+      "ru": "Сбруя"
+    },
+    "description": {
+      "en": "Tack includes all the gear required to outfit a riding animal, including a saddle, bit and bridle, and stirrups if necessary. Especially large or oddly shaped animals might require specialty saddles. These can be more expensive or hard to find, as determined by the GM. The Bulk value given is for tack worn by a creature. If carried, the Bulk increases to 2.",
+      "ru": "Всё необходимое для верхового животного, включая седло, узду и, если нужно, стремена. Для особенно больших или необычных скакунов может потребоваться специальное седло. Такое седло может быть дороже, и его может быть сложно найти (по усмотрению ведущего). Вес указан для сбруи, носимой существом. При переноске иным образом вес сбруи увеличивается до 2."
+    },
+    "data": {
+      "weight": 1,
+      "price": 400
+    }
+  },
+  {
+    "slug": "ten_foot_pole",
+    "kind": "item",
+    "name": {
+      "en": "Ten-Foot Pole",
+      "ru": "Шест (10 футов)"
+    },
+    "description": {
+      "en": "When wielding this long pole, you can use Seek to search a square up to 10 feet away. The pole is not sturdy enough to use as a weapon.",
+      "ru": "Когда вы используете этот длинный шест, вы можете совершать Поиск в клетках на расстоянии до 10 футов от вас. Шест недостаточно прочен, чтобы служить оружием."
+    },
+    "data": {
+      "weight": 1,
+      "price": 1
+    }
+  },
+  {
+    "slug": "tent",
+    "kind": "item",
+    "name": {
+      "en": "Tent (Pup)",
+      "ru": "Палатка (Походная)"
+    },
+    "description": {},
+    "data": {
+      "weight": 0,
+      "price": 80
+    }
+  },
+  {
+    "slug": "four_tent",
+    "kind": "item",
+    "name": {
+      "en": "Tent (Four-Person)",
+      "ru": "Палатка (Четырёхместная)"
+    },
+    "description": {},
+    "data": {
+      "weight": 1,
+      "price": 500
+    }
+  },
+  {
+    "slug": "pavilion",
+    "kind": "item",
+    "name": {
+      "en": "Tent (Pavilion)",
+      "ru": "Палатка (Шатёр)"
+    },
+    "description": {},
+    "data": {
+      "weight": 12,
+      "price": 4000
+    }
+  },
+  {
+    "slug": "thieves'_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Thieves' Toolkit",
+      "ru": "Инструменты вора"
+    },
+    "description": {
+      "en": "You need a thieves' toolkit to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' toolkit is broken, you can repair it by replacing the lock picks with replacement picks appropriate to your toolkit; this doesn't require using the Repair action. If you wear your thieves' toolkit, you can draw and replace it as part of the action that uses it.",
+      "ru": "Всё необходимое для применения Воровства для Взлома замка и Отключения устройства (определённых типов). Если вы сломали инструменты вора, их можно починить, купив запасные отмычки, соответствующие типу, — в этом случае Починка предмета не требуется. Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует."
+    },
+    "data": {
+      "weight": 0,
+      "price": 300
+    }
+  },
+  {
+    "slug": "infiltrator_thieves'_toolkit",
+    "kind": "item",
+    "name": {
+      "en": "Thieves' Toolkit (Infiltrator)",
+      "ru": "Инструменты вора (Улучшенные)"
+    },
+    "description": {
+      "en": "You need a thieves' toolkit to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' toolkit is broken, you can repair it by replacing the lock picks with replacement picks appropriate to your toolkit; this doesn't require using the Repair action. If you wear your thieves' toolkit, you can draw and replace it as part of the action that uses it.\n\nAn infiltrator thieves' toolkit adds a +1 item bonus to checks to Pick Locks and Disable Devices.",
+      "ru": "Всё необходимое для применения Воровства для Взлома замка и Отключения устройства (определённых типов). Если вы сломали инструменты вора, их можно починить, купив запасные отмычки, соответствующие типу, — в этом случае Починка предмета не требуется. Если вы носите эти инструменты, вы можете выхватить и вернуть их на место в качестве части действия, которое их использует.\n\nУлучшенные инструменты вора дают бонус предмета +1 к проверкам для Взлома замка и Отключения устройства."
+    },
+    "data": {
+      "weight": 0,
+      "price": 5000
+    }
+  },
+  {
+    "slug": "short_tool",
+    "kind": "item",
+    "name": {
+      "en": "Tool (Short)",
+      "ru": "Инструмент (Короткий)"
+    },
+    "description": {
+      "en": "This entry is a catchall for basic hand tools that don't have a specific adventuring purpose. A hand drill, ice hook, or trowel is a short tool. A tool can usually be used as an improvised weapon, dealing 1d4 damage for a short tool. The GM determines the damage type that's appropriate or adjusts the damage if needed.",
+      "ru": "Это все простые ручные инструменты, не предназначенные специально для искателей приключений. К коротким относятся буравчики, крюки для льда и мастерки. Зачастую инструмент можно использовать как импровизированное оружие: короткие инструменты наносят 1d4 урона. Ведущий определяет тип урона и при необходимости изменяет его величину."
+    },
+    "data": {
+      "weight": 0,
+      "price": 40
+    }
+  },
+  {
+    "slug": "long_tool",
+    "kind": "item",
+    "name": {
+      "en": "Tool (Long)",
+      "ru": "Инструмент (Длинный)"
+    },
+    "description": {
+      "en": "This entry is a catchall for basic hand tools that don't have a specific adventuring purpose. A hoe, shovel, or sledgehammer is a long tool. A tool can usually be used as an improvised weapon, dealing 1d6 for a long tool. The GM determines the damage type that's appropriate or adjusts the damage if needed.",
+      "ru": "Это все простые ручные инструменты, не предназначенные специально для искателей приключений. К длинным инструментам относятся, например, мотыги, лопаты и кувалды. Зачастую инструмент можно использовать как импровизированное оружие:  длинные инструменты наносят 1d6. Ведущий определяет тип урона и при необходимости изменяет его величину."
+    },
+    "data": {
+      "weight": 1,
+      "price": 100
+    }
+  },
+  {
+    "slug": "torch",
+    "kind": "item",
+    "name": {
+      "en": "Torch",
+      "ru": "Факел"
+    },
+    "description": {
+      "en": "A torch sheds bright light in a 20-foot radius (and dim light to the next 20 feet) for 1 hour. It can be used as an improvised weapon that deals 1d4 bludgeoning damage plus 1 fire damage.",
+      "ru": "Факел даёт яркий свет в радиусе 20 футов (и тусклый свет ещё на 20 футов) в течение 1 часа. Его можно использовать как импровизированное оружие, наносящее 1d4 дробящего урона и 1 урон огнём."
+    },
+    "data": {
+      "weight": 0,
+      "price": 1
+    }
+  },
+  {
+    "slug": "waterskin",
+    "kind": "item",
+    "name": {
+      "en": "Waterskin",
+      "ru": "Бурдюк"
+    },
+    "description": {
+      "en": "When it's full, a waterskin contains roughly 1 day's worth of water for a Small or Medium creature.",
+      "ru": "Вмещает в себя воды примерно на день для существа среднего или небольшого размера. Его вес не зависит от того, пустой он или полный."
+    },
+    "data": {
+      "weight": 0,
+      "price": 5
+    }
+  },
+  {
+    "slug": "writing_set",
+    "kind": "item",
+    "name": {
+      "en": "Writing Set",
+      "ru": "Письменные принадлежности"
+    },
+    "description": {
+      "en": "Using a writing set, you can draft correspondence and scribe scrolls. A set includes stationery, including a variety of paper and parchment, as well as ink, a quill or ink pen, sealing wax, and a simple seal. If you've written a large amount, you can refill your kit with extra ink and paper.",
+      "ru": "Всё необходимое для написания писем и свитков. В набор входят канцелярские принадлежности, в том числе разнообразная бумага и пергамент, а также чернила, перо или чернильная ручка, сургуч и простая печать. Если вы много пишете, то можете восполнить запасы, купив дополнительные чернила и бумагу."
+    },
+    "data": {
+      "weight": 0,
+      "price": 100
+    }
+  },
+  {
+    "slug": "cane",
+    "kind": "item",
+    "name": {
+      "en": "Cane",
+      "ru": "Трость"
+    },
+    "description": {
+      "en": "A cane is a straight length of wood with a curved handle, shaped like the tip of a hook. Its simple design helps with balance and only slightly assists with taking weight off the affected opposite leg. The cane is typically 2 to 3 feet long but can be lengthened or shortened as needed.",
+      "ru": "Это прямая обработанная деревянная палка с закруглённой ручкой. Её простота помогает держать равновесие и слегка снимать нагрузку с увечной противоположной ноги. Обычно трости делают длиной от 2 до 3 футов, но при желании их можно укоротить или удлинить."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "corrective_lenses",
+    "kind": "item",
+    "name": {
+      "en": "Corrective Lenses",
+      "ru": "Корректирующие линзы"
+    },
+    "description": {
+      "en": "A set of corrective lenses might take the form of eyeglasses or specialized goggles worn over the eyes. You can don or remove your corrective lenses as an Interact action.",
+      "ru": "Это могут быть обычные очки или специальные гогглы. Вы можете надеть или снять свои корректирующие линзы в качестве Взаимодействия."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "crutch",
+    "kind": "item",
+    "name": {
+      "en": "Crutch",
+      "ru": "Костыль"
+    },
+    "description": {
+      "en": "Crutches come as singles or as a pair depending on how much support you need while walking. A crutch fits under your armpit, and you use your hand and the swing of your arm to move with them.",
+      "ru": "В зависимости от того, насколько сильная поддержка требуется при ходьбе, костыль может быть один или два. Вы держите его под мышкой и используете руку, чтобы отталкиваться от земли и таким образом передвигаться."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  },
+  {
+    "slug": "prosthesis",
+    "kind": "item",
+    "name": {
+      "en": "Prosthesis",
+      "ru": "Протез"
+    },
+    "description": {
+      "en": "A prosthesis replaces a missing or damaged body part. Typical prostheses include artificial feet, eyes, hands, and limbs, though a basic prosthesis can be designed as a replacement for any body part. Advancements in the prosthetic field mean that even the most basic of prostheses can provide the full range of functionality for a missing body part.<br> A prosthesis has a number of belts or cuffs that keep it attached to your body. You can attach or remove a prosthesis as an Interact action.",
+      "ru": "Протез заменяет потерянную часть тела или дополняет увечную. Обычно ими заменяют ступни, глаза, кисти рук и конечности, хотя простые протезы можно сделать для любой части тела. Развитое искусство создания протезов позволяет любому, даже самому простому протезу иметь функциональность потерянной части тела.\n\nУ протеза есть ремни или манжеты, благодаря которым он прикреплён к вашему телу. Вы можете прикрепить или отсоединить протез в качестве Взаимодействия."
+    },
+    "data": {
+      "weight": 0,
+      "price": 50
+    }
+  }
+]
