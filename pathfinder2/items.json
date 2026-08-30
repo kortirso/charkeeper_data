@@ -362,7 +362,7 @@
     }
   },
   {
-    "slug": "compass",
+    "slug": "lensatic_compass",
     "kind": "item",
     "name": {
       "en": "Compass (Lensatic)",
