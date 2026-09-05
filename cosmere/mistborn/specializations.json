@@ -7,7 +7,7 @@
       "en": "Rebels embody the people's discontent, fighting for reform and buoying hope."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "origin_class": "agent",
     "initial_talents": ["True Grit", "Defiant Glare"],
     "features": [
@@ -98,7 +98,7 @@
       "en": "Untethered by standard moral codes, Grifters know the best lies have truth to them."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "origin_class": "envoy",
     "initial_talents": ["False Flattery", "This One's on Me"],
     "features": [
@@ -192,7 +192,7 @@
       "en": "Trained and outfitted specifically to combat enemy Allomancers."
     },
     "public": true,
-    "only": [1],
+    "only": ["scan_1"],
     "origin_class": "hunter",
     "initial_talents": ["Seek Allomancer", "Hazekiller Weaponry"],
     "features": [
@@ -289,7 +289,7 @@
       "en": "Sharpshooter offers their allies invaluable support in nearly any conflict—albeit from a cautious distance."
     },
     "public": true,
-    "only": [2],
+    "only": ["scan_2"],
     "origin_class": "hunter",
     "initial_talents": ["Sharp Eye", "Fire Discipline"],
     "features": [
@@ -385,7 +385,7 @@
       "en": "Masterminds use their knack for strategy and planning to enable their team to accomplish great things."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "origin_class": "leader",
     "initial_talents": ["Master Plan", "Composed"],
     "features": [
@@ -482,7 +482,7 @@
       "en": "Inventors take pride in optimizing and embellishing their creations."
     },
     "public": true,
-    "only": [2],
+    "only": ["scan_2"],
     "origin_class": "scholar",
     "initial_talents": ["Proficient Operator", "Hasty Adjustment"],
     "features": [
@@ -577,7 +577,7 @@
       "en": "Brawlers relish the challenge of being outnumbered."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "origin_class": "warrior",
     "initial_talents": ["Grappler's Stance", "Surefooted"],
     "features": [
@@ -675,7 +675,7 @@
       "en": "Gunslingers figure that two guns are better than one."
     },
     "public": true,
-    "only": [2],
+    "only": ["scan_2"],
     "origin_class": "warrior",
     "initial_talents": ["Trick Shooting", "Fire Discipline"],
     "features": [

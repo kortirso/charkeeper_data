@@ -7,7 +7,7 @@
       "en": "Combining science, engineering, and artistry, Artifabrians use polestones and metal casings to construct fabrials that perform precise functions."
     },
     "public": true,
-    "only": [0],
+    "only": ["roshar_id"],
     "origin_class": "scholar",
     "initial_talents": ["Efficient Engineer", "Prized Acquisition"],
     "features": [
@@ -285,7 +285,7 @@
       "en": "In the inner circles of the elite, skilled Duelists contend for glory and political sway, wielding their weapons with brutal grace."
     },
     "public": true,
-    "only": [0],
+    "only": ["roshar_id"],
     "origin_class": "warrior",
     "initial_talents": ["Practiced Kata", "Flamestance"],
     "features": [
@@ -382,7 +382,7 @@
       "en": "Warriors fortunate enough to own Shardblades and Shardplate serve as Shardbearers. "
     },
     "public": true,
-    "only": [0],
+    "only": ["roshar_id"],
     "origin_class": "warrior",
     "initial_talents": ["Shard Training", "Stonestance"],
     "features": [

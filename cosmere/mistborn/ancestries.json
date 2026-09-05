@@ -7,7 +7,7 @@
       "en": "Created as immortal spies by the Lord Ruler, kandra are mistwraiths who were granted sapience via two Hemalurgic spikes called Blessings."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "attribute_points": 6,
     "initial_talents": ["Kandra Blessings", "Natural Form"],
     "features": [
@@ -187,7 +187,7 @@
       "en": "The koloss-blooded people are descended from the koloss of the Final Empire."
     },
     "public": true,
-    "only": [2],
+    "only": ["scan_2"],
     "initial_talents": ["Koloss Stamina"],
     "features": [
       {

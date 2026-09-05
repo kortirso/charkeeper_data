@@ -7,7 +7,7 @@
       "en": "Iron Allomancy allows you to see blue lines extending from your center of mass to that of nearby metal objects."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "features": [
       {
         "required_for": [],

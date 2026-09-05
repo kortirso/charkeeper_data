@@ -7,7 +7,7 @@
       "en": "Mistings are by far the most common type of Metalborn across both eras."
     },
     "public": true,
-    "only": [1, 2],
+    "only": ["scan_1", "scan_2"],
     "initial_talents": ["Misting Snap"],
     "features": [
       {
@@ -80,7 +80,7 @@
       "en": "Mistborn are the most iconic and legendary Metalborn of Scadrial."
     },
     "public": true,
-    "only": [1],
+    "only": ["scan_1"],
     "initial_talents": ["Mistborn Snap"],
     "features": [
       {
@@ -163,7 +163,7 @@
       "en": "Full Feruchemists can use the metalminds of every Feruchemical metal, storing many of their traits in preparation for tapping them later."
     },
     "public": true,
-    "only": [1],
+    "only": ["scan_1"],
     "initial_talents": ["Feruchemist Heritage"],
     "features": [
       {
@@ -244,7 +244,7 @@
       "en": "After the Catacendre, a new type of Metalborn began to appear: Ferrings, who can use only one Feruchemical power."
     },
     "public": true, 
-    "only": [2],
+    "only": ["scan_2"],
     "initial_talents": ["Ferring Heritage"],
     "features": [
       {
@@ -315,7 +315,7 @@
       "en": "The Twinborn of Era 2 have both Allomantic and Feruchemical heritage, allowing them to wield both an Allomantic power and a Feruchemical power."
     },
     "public": true, 
-    "only": [2],
+    "only": ["scan_2"],
     "initial_talents": ["Twinborn Heritage"],
     "features": [
       {

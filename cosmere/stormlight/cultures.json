@@ -4,7 +4,7 @@
       "en": "Alethi",
       "ru": "Алети"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -12,7 +12,7 @@
       "en": "Azish",
       "ru": "Азиш"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -20,7 +20,7 @@
       "en": "Herdazian",
       "ru": "Гердазиец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -28,7 +28,7 @@
       "en": "Iriali",
       "ru": "Ириали"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -36,7 +36,7 @@
       "en": "Kharbranthian",
       "ru": "Харбрантиец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -44,7 +44,7 @@
       "en": "Listener",
       "ru": "Слушатель"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -52,7 +52,7 @@
       "en": "Natan",
       "ru": "Натанец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -60,7 +60,7 @@
       "en": "Reshi",
       "ru": "Реши"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -68,7 +68,7 @@
       "en": "Shin",
       "ru": "Шинец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -76,7 +76,7 @@
       "en": "Thaylen",
       "ru": "Тайленец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -84,7 +84,7 @@
       "en": "Unkalaki",
       "ru": "Ункалаки"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -92,7 +92,7 @@
       "en": "Veden",
       "ru": "Веденец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   },
   {
@@ -100,7 +100,7 @@
       "en": "Wayfarer",
       "ru": "Скиталец"
     },
-    "only": [0],
+    "only": ["roshar_id"],
     "public": true
   }
 ]
