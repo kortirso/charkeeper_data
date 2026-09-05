@@ -56,7 +56,7 @@
           "en": "Defiant Glare"
         },
         "description": {
-          "en": "Prerequisite: Insight 2+ Spend 2 focus to test Insight vs. Spiritual to make the target *Exhausted [−2]*."
+          "en": "**Prerequisite** Insight 2+.\n\n**Spend 2 focus** to test Insight vs. Spiritual to make the target *Exhausted [−2]*."
         },
         "kind": "static"
       },
@@ -148,7 +148,7 @@
           "en": "Insult to Injury"
         },
         "description": {
-          "en": "Prerequisite: Discipline 3+.\n\n**Spend Complication** from **False Flattery** to make the target suffer an injury."
+          "en": "**Prerequisite** Discipline 3+.\n\n**Spend Complication** from **False Flattery** to make the target suffer an injury."
         },
         "kind": "static"
       },
@@ -685,7 +685,7 @@
           "en": "Trick Shooting"
         },
         "description": {
-          "en": "Prerequisite: Agility 1+ After you Gain Advantage using Agility or Perception, your one-handed ranged weapons gain the Indirect trait."
+          "en": "**Prerequisite** Agility 1+.\n\nAfter you Gain Advantage using Agility or Perception, your one-handed ranged weapons gain the Indirect trait."
         },
         "kind": "static"
       },
@@ -695,7 +695,7 @@
           "en": "Twin Weapon Stance"
         },
         "description": {
-          "en": "Prerequisite: Agility 2+ Enter Twin Weapon Stance: Gain an advantage on Agility tests. Your Opportunity range increases by 2 with one-handed ranged weapons. Choose a one-handed weapon to gain the Offhand trait."
+          "en": "**Prerequisite** Agility 2+.\n\nEnter Twin Weapon Stance: Gain an advantage on Agility tests. Your Opportunity range increases by 2 with one-handed ranged weapons. Choose a one-handed weapon to gain the Offhand trait."
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -705,7 +705,7 @@
           "en": "Fast Hands"
         },
         "description": {
-          "en": "Prerequisite: Agility 3+ Spend 2 focus to gain 2 actions for drawing or reloading a weapon. That weapon gains an advantage against targets who haven't taken their turn."
+          "en": "**Prerequisite** Agility 3+.\n\n**Spend 2 focus** to gain 2 actions for drawing or reloading a weapon. That weapon gains an advantage against targets who haven't taken their turn."
         },
         "kind": "static"
       },
@@ -726,7 +726,7 @@
           "en": "Terrifying Jolt"
         },
         "description": {
-          "en": "Prerequisite: Athletics 2+ After you graze with keen damage, the target loses 1 focus. If their focus drops to 0, they become Surprised."
+          "en": "**Prerequisite** Athletics 2+.\n\nAfter you graze with keen damage, the target loses 1 focus. If their focus drops to 0, they become Surprised."
         },
         "kind": "static"
       },
@@ -735,13 +735,13 @@
           "en": "Collateral Damage"
         },
         "description": {
-          "en": "Prerequisite: Athletics 3+ When you make a ranged attack that deals keen damage, also graze another target within 5 feet."
+          "en": "**Prerequisite** Athletics 3+.\n\nWhen you make a ranged attack that deals keen damage, also graze another target within 5 feet."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Out of a Jam"
+          "en": "Mighty"
         },
         "description": {
           "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier."
@@ -754,7 +754,7 @@
           "en": "Fanning"
         },
         "description": {
-          "en": "Prerequisite: Agility 3+ Use a Loaded [2+] weapon to attack targets within 15 feet of each other. On success, hit one target and graze the rest."
+          "en": "**Prerequisite** Agility 3+.\n\nUse a Loaded [2+] weapon to attack targets within 15 feet of each other. On success, hit one target and graze the rest."
         },
         "kind": "static"
       }

@@ -1,0 +1,571 @@
+[
+  {
+    "title": {
+      "en": "Artifabrian"
+    },
+    "description": {
+      "en": "Combining science, engineering, and artistry, Artifabrians use polestones and metal casings to construct fabrials that perform precise functions."
+    },
+    "public": true,
+    "only": [0],
+    "origin_class": "scholar",
+    "initial_talents": ["Efficient Engineer", "Prized Acquisition"],
+    "features": [
+      {
+        "required_for": ["Deep Study", "Fine Handiwork"],
+        "title": {
+          "en": "Efficient Engineer"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 1+.\n\nGain expertise in Armor Crafting, Equipment Crafting, or Weapon Crafting, and gain a fabrial. When crafting, your Opportunity range expands by 2 and your material cost is halved."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Deep Study"
+        },
+        "description": {
+          "en": "Erudition grants you an additional cultural or utility expertise and two additional non-surge cognitive skills."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Experimental Tinkering"],
+        "title": {
+          "en": "Fine Handiwork"
+        },
+        "description": {
+          "en": "When crafting, advanced features cost one upgrade instead of two."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Overwhelm with Details"],
+        "title": {
+          "en": "Experimental Tinkering"
+        },
+        "description": {
+          "en": "When crafting, your Opportunity range expands by 1 and your crafting time is halved. During a long rest, you can reconfigure your Prized Acquisition fabrial to a different fabrial."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Inventive Design", "Overcharge"],
+        "title": {
+          "en": "Prized Acquisition"
+        },
+        "description": {
+          "en": "Gain Fabrial Crafting expertise. Gain a special gem you can immediately use to craft a fabrial of your tier. You can reuse this gem for new fabrials."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Inventive Design"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 2+.\n\nYour Prized Acquisition fabrial can have an effect 1 tier higher than the tier you're currently crafting."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Overcharge"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 3+.\n\nOnce per turn, you can raise the stakes on a fabrial attack, then spend Opportunity to Strike with that fabrial as free action."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Overwhelm with Details"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 3+.\n\n**Spend 2 focus** to use your Lore modifier on another cognitive or spiritual test."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Strategist"
+    },
+    "description": {
+      "en": "Always three steps ahead, Strategists know timing is everything and make it work to their benefit."
+    },
+    "public": true,
+    "only": [],
+    "origin_class": "scholar",
+    "initial_talents": ["Strategize", "Mind and Body"],
+    "features": [
+      {
+        "required_for": ["Composed"],
+        "title": {
+          "en": "Strategize"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 1+.\n\nAfter you Gain Advantage using an Erudition skill, grant that advantage to an ally instead. You can spend 2 focus to also prevent the target from using reactions against that ally."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Deep Contemplation", "Contingency"],
+        "title": {
+          "en": "Composed"
+        },
+        "description": {
+          "en": "Increase your max and current focus by your tier."
+        },
+        "kind": "update_result",
+        "modifiers": { "focus_max": { "type": "add", "value": "tier" } },
+        "double_slug": "composed"
+      },
+      {
+        "required_for": ["Keen Insight"],
+        "title": {
+          "en": "Deep Contemplation"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 2+.\n\nReassign up to 2 skills and expertises from Erudition."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      },
+      {
+        "required_for": ["Turning Point"],
+        "title": {
+          "en": "Contingency"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 3+.\n\nSpend 2 focus to remove Opportunity from the test of an ally within 20 feet."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Know Your Moment"],
+        "title": {
+          "en": "Mind and Body"
+        },
+        "description": {
+          "en": "Gain a weapon expertise. Gain an additional skill from Erudition. You can now choose physical skills with Erudition."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Know Your Moment"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 2+.\n\nYour defenses increase by 2 from the start of each round until you take your turn."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Keen Insight"
+        },
+        "description": {
+          "en": "After you Gain Advantage, the target must resist your influence or gain a disadvantage on their next test."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Turning Point"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 3+.\n\nSpend 2 focus to test Deduction vs. Cognitive of the enemy leader, gaining an advantage if you took a slow turn. On success, you and your allies gain on your next turns."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Surgeon"
+    },
+    "description": {
+      "en": "Qualified Surgeons apply their knowledge and empathy to heal the unwell and save lives."
+    },
+    "public": true,
+    "only": [],
+    "origin_class": "scholar",
+    "initial_talents": ["Field Medicine", "Emotional Intelligence"],
+    "features": [
+      {
+        "required_for": ["Anatomical Insight", "Swift Healer"],
+        "title": {
+          "en": "Field Medicine"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 1+.\n\n**Spend 1 focus** and test Medicine (DC 15) to heal a conscious character. On success, add your ranks in Medicine to their recovery die."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Leverage Dissent"],
+        "title": {
+          "en": "Anatomical Insight"
+        },
+        "description": {
+          "en": "When you hit with an unarmed attack, spend 1 focus or Opportunity to make the target Exhausted [− half your ranks in Medicine]."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Ongoing Care", "Resuscitation"],
+        "title": {
+          "en": "Swift Healer"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 2+.\n\nUse **Field Medicine** as free action. Your healing abilities restore additional health equal to your ranks in Medicine."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Ongoing Care"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 3+.\n\nGain **Mental Health Care** expertise. During a rest, test Medicine (DC 10) to treat an ally, removing one condition caused by their injury."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Resuscitation"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 3+.\n\n**Spend 3 focus** when using **Field Medicine** to revive an *Unconscious* character or one who died recently."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Collected"],
+        "title": {
+          "en": "Emotional Intelligence"
+        },
+        "description": {
+          "en": "Gain Diagnosis expertise. Gain an additional skill from Erudition. You can now choose spiritual skills with Erudition."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Applied Medicine"],
+        "title": {
+          "en": "Collected"
+        },
+        "description": {
+          "en": "Increase your Cognitive and Spiritual defenses by 2."
+        },
+        "kind": "update_result",
+        "modifiers": { "defense.cognitive": { "type": "add", "value": 2 }, "defense.spiritual": { "type": "add", "value": 2 } },
+        "double_slug": "collected"
+      },
+      {
+        "title": {
+          "en": "Applied Medicine"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 2+.\n\nYour healing abilities restore additional health equal to your ranks in Lore."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Duelist"
+    },
+    "description": {
+      "en": "In the inner circles of the elite, skilled Duelists contend for glory and political sway, wielding their weapons with brutal grace."
+    },
+    "public": true,
+    "only": [0],
+    "origin_class": "warrior",
+    "initial_talents": ["Practiced Kata", "Flamestance"],
+    "features": [
+      {
+        "required_for": ["Ironstance"],
+        "title": {
+          "en": "Practiced Kata"
+        },
+        "description": {
+          "en": "You can now use stances in conversations and endeavors, and unless Surprised, you can start each scene in Vigilant Stance. Spend 1 focus to enter a stance mid-conversation or mid-endeavor."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Surefooted"],
+        "title": {
+          "en": "Ironstance"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+.\n\nEnter Ironstance: You gain an advantage on Insight, and when you're grazed or missed, you can make a Reactive Strike against your attacker."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Surefooted"
+        },
+        "description": {
+          "en": "Your movement increases by 10. Reduce damage from falling and dangerous terrain by twice your tier."
+        },
+        "kind": "static",
+        "double_slug": "surefooted",
+        "modifiers": { "movement": { "type": "add", "value": 10 } }
+      },
+      {
+        "required_for": ["Signature Weapon", "Feinting Strike"],
+        "title": {
+          "en": "Flamestance"
+        },
+        "description": {
+          "en": "**Prerequisite** Intimidation 1+.\n\nEnter Flamestance: You gain an advantage on Intimidation, and when only one enemy is in reach and no allies are, gain action to attack or Gain Advantage."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Signature Weapon"
+        },
+        "description": {
+          "en": "Gain a weapon expertise. Choose one of your weapon expertises, expanding its Opportunity range by 1."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Vinestance", "Wit's End"],
+        "title": {
+          "en": "Feinting Strike"
+        },
+        "description": {
+          "en": "**Prerequisite** Intimidation 2+.\n\n**Spend 2 focus** to make a melee weapon attack vs. Cognitive. On a hit, your target loses reaction and loses focus equal to your ranks in Intimidation. On a graze, they lose half as much focus."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Vinestance"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 3+.\n\nEnter Vinestance: Your Physical and Cognitive defenses increase by 1. After you're hit or grazed in melee, spend to test Athletics vs. Cognitive to make attacker lose 1d4 focus and be pushed."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Wit's End"
+        },
+        "description": {
+          "en": "**Prerequisite** Intimidation 3+.\n\n**Spend 1 focus** to move half your movement then make a melee weapon attack vs. Cognitive of a target who has 0 focus. This attack ignores deflect, deals an extra 4d6 damage, and can't graze."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Shardbearer"
+    },
+    "description": {
+      "en": "Warriors fortunate enough to own Shardblades and Shardplate serve as Shardbearers. "
+    },
+    "public": true,
+    "only": [0],
+    "origin_class": "warrior",
+    "initial_talents": ["Shard Training", "Stonestance"],
+    "features": [
+      {
+        "required_for": ["Windstance", "Bloodstance"],
+        "title": {
+          "en": "Shard Training"
+        },
+        "description": {
+          "en": "Gain Shardplate expertise, and gain either Grandbow, Shardblade, or Warhammer expertise. Your Shardplate has 2 additional charges. Your Shardblade Strikes graze additional targets up to your ranks in the skill used."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Shattering Blow"],
+        "title": {
+          "en": "Windstance"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 1+.\n\nEnter Windstance: Gain an advantage on Agility. While you can reach multiple enemies, use free action to gain action to Disengage or attack."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Precise Parry"],
+        "title": {
+          "en": "Shattering Blow"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 2+.\n\nWhen you hit with a melee attack, spend 2 focus to deplete 1 charge from their armor, and each target you damage is pushed 5 feet."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Precise Parry"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 3+.\n\nBefore being hit in melee, spend 1 focus to attempt to turn it into a graze. If unarmed, test Athletics vs. triggering attack, gaining a disadvantage unless attacked by a Shardblade. If armed, test Light/Heavy Weaponry vs. triggering attack."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Mighty"],
+        "title": {
+          "en": "Stonestance"
+        },
+        "description": {
+          "en": "Enter Stonestance: Your deflect increases by 1, and enemies within your reach must spend an additional action to attack your allies who aren't in Stonestance."
+        },
+        "kind": "static",
+        "modifiers": {
+          "deflect": { "type": "add", "value": 1 }
+        },
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Bloodstance"],
+        "title": {
+          "en": "Mighty"
+        },
+        "description": {
+          "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier."
+        },
+        "kind": "static",
+        "double_slug": "mighty"
+      },
+      {
+        "required_for": ["Meteoric Leap"],
+        "title": {
+          "en": "Bloodstance"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+.\n\nEnter Bloodstance: Your Opportunity range for attacks and physical tests expands by 2, but your Physical, Cognitive, and Spiritual defenses decrease by 2."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Meteoric Leap"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 3+.\n\n**Spend 2 focus** to leap a quarter of your movement and make unarmed attack vs. Physical of multiple targets, doubling damage and knocking weaker targets Prone. Gain an advantage in Shardplate."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Soldier"
+    },
+    "description": {
+      "en": "The most common of fighting forces, Soldiers form the bulk of Roshar's massive armies."
+    },
+    "public": true,
+    "only": [],
+    "origin_class": "warrior",
+    "initial_talents": ["Cautious Advance", "Combat Training"],
+    "features": [
+      {
+        "required_for": ["Defensive Position"],
+        "title": {
+          "en": "Cautious Advance"
+        },
+        "description": {
+          "en": "**Prerequisite** Discipline 1+.\n\nMove up to half your movement, ignoring difficult terrain, then gain 2 actions to Brace or Gain Advantage."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Formation Drills", "Wary"],
+        "title": {
+          "en": "Defensive Position"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+.\n\nThe Brace action adds two disadvantages to attacks against you, instead of one, and allies can Brace behind your shield."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Formation Drills"
+        },
+        "description": {
+          "en": "**Prerequisite** Discipline 2+.\n\nAllies within 10 feet who Brace gain the benefits of your Defensive Position."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Wary"
+        },
+        "description": {
+          "en": "**Prerequisite** Discipline 3+.\n\nYou can't be Surprised while you have focus. When you lose focus involuntarily, reduce the amount lost by your ranks in Discipline."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Devastating Blow", "Hardy"],
+        "title": {
+          "en": "Combat Training"
+        },
+        "description": {
+          "en": "Gain expertise in a weapon, armor, and Military Life. Once per round, graze without spending focus."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Devastating Blow"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 3+.\n\nMake a melee weapon attack vs. Physical, rolling an extra 2d8 damage."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Swift Strikes"],
+        "title": {
+          "en": "Hardy"
+        },
+        "description": {
+          "en": "You gain calculated bonus (equal to {{value}}<<your level>>) to your maximum health.",
+          "ru": "Приобретая этот талант, ваше максимальное и текущее здоровье увеличивается на {{value}}<<1 за каждый уровень>>."
+        },
+        "kind": "update_result",
+        "double_slug": "hardy",
+        "modifiers": { "health_max": { "type": "add", "value": "level" } }
+      },
+      {
+        "title": {
+          "en": "Swift Strikes"
+        },
+        "description": {
+          "en": "**Spend 1 focus** to make a second Strike with the same weapon."
+        },
+        "kind": "static"
+      }
+    ]
+  }
+]
