@@ -14,76 +14,92 @@
       {
         "required_for": ["Deep Study", "Fine Handiwork"],
         "title": {
-          "en": "Efficient Engineer"
+          "en": "Efficient Engineer",
+          "ru": "Эффективный инженер"
         },
         "description": {
-          "en": "**Prerequisite** Crafting 1+.\n\nGain expertise in Armor Crafting, Equipment Crafting, or Weapon Crafting, and gain a fabrial. When crafting, your Opportunity range expands by 2 and your material cost is halved."
+          "en": "**Prerequisite** Crafting 1+.\n\nGain expertise in Armor Crafting, Equipment Crafting, or Weapon Crafting, and gain a fabrial. When crafting, your Opportunity range expands by 2 and your material cost is halved.",
+          "ru": "**Требование** Ремесло 1+.\n\nВы получаете фабриаль и одну из следующих компетенции: Создание брони, Создание оружия, Создание снаряжения. При создании ваш диапазон Возможности расширяется на 2, а стоимость материалов уменьшается вдвое."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Deep Study"
+          "en": "Deep Study",
+          "ru": "Глубокое изучение"
         },
         "description": {
-          "en": "Erudition grants you an additional cultural or utility expertise and two additional non-surge cognitive skills."
+          "en": "Erudition grants you an additional cultural or utility expertise and two additional non-surge cognitive skills.",
+          "ru": "В вашем таланте Эрудиция, вы можете выбрать еще одну дополнительную культурную или утилитарную компетенцию, а также два когнитивных навыка, которые не являются навыками потоков."
         },
         "kind": "static"
       },
       {
         "required_for": ["Experimental Tinkering"],
         "title": {
-          "en": "Fine Handiwork"
+          "en": "Fine Handiwork",
+          "ru": "Искусная ручная работа"
         },
         "description": {
-          "en": "When crafting, advanced features cost one upgrade instead of two."
+          "en": "When crafting, advanced features cost one upgrade instead of two.",
+          "ru": "При создании продвинутые функции требуют одно улучшение вместо двух."
         },
         "kind": "static"
       },
       {
         "required_for": ["Overwhelm with Details"],
         "title": {
-          "en": "Experimental Tinkering"
+          "en": "Experimental Tinkering",
+          "ru": "Экспериментальные работы"
         },
         "description": {
-          "en": "When crafting, your Opportunity range expands by 1 and your crafting time is halved. During a long rest, you can reconfigure your Prized Acquisition fabrial to a different fabrial."
+          "en": "When crafting, your Opportunity range expands by 1 and your crafting time is halved. During a long rest, you can reconfigure your Prized Acquisition fabrial to a different fabrial.",
+          "ru": "При создании ваш диапазон Возможности увеличивается на 1, а время создания сокращается вдвое. Во время продолжительного отдыха вы можете пересобрать фабриаль, использующий особый самосвет из Ценного приобретения, превратив его в другой фабриаль."
         },
         "kind": "static"
       },
       {
         "required_for": ["Inventive Design", "Overcharge"],
         "title": {
-          "en": "Prized Acquisition"
+          "en": "Prized Acquisition",
+          "ru": "Ценное приобретение"
         },
         "description": {
-          "en": "Gain Fabrial Crafting expertise. Gain a special gem you can immediately use to craft a fabrial of your tier. You can reuse this gem for new fabrials."
+          "en": "Gain Fabrial Crafting expertise. Gain a special gem you can immediately use to craft a fabrial of your tier. You can reuse this gem for new fabrials.",
+          "ru": "Вы получаете компетенцию Создание фабриалей и особый самосвет, позволяющий немедленно создать фабриаль вашего тира. Вы можете повторно использовать этот самосвет для создание другого фабриаля."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Inventive Design"
+          "en": "Inventive Design",
+          "ru": "Изобретательный дизайн"
         },
         "description": {
-          "en": "**Prerequisite** Crafting 2+.\n\nYour Prized Acquisition fabrial can have an effect 1 tier higher than the tier you're currently crafting."
+          "en": "**Prerequisite** Crafting 2+.\n\nYour Prized Acquisition fabrial can have an effect 1 tier higher than the tier you're currently crafting.",
+          "ru": "**Требование** Ремесло 2+.\n\nПри создании фабриаля с особым самосветом из Ценного приобретения его эффект может быть на 1 тир выше вашего текущего тира."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Overcharge"
+          "en": "Overcharge",
+          "ru": "Перегрузка"
         },
         "description": {
-          "en": "**Prerequisite** Crafting 3+.\n\nOnce per turn, you can raise the stakes on a fabrial attack, then spend Opportunity to Strike with that fabrial as free action."
+          "en": "**Prerequisite** Crafting 3+.\n\nOnce per turn, you can raise the stakes on a fabrial attack, then spend Opportunity to Strike with that fabrial as free action.",
+          "ru": "**Требование** Ремесло 3+.\n\nРаз в ход вы можете повысить ставки при атаке фабриалем, а затем потратить Возможность, чтобы совершить Удар этим фабриалем как свободное действие."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Overwhelm with Details"
+          "en": "Overwhelm with Details",
+          "ru": "Подавляющий знаниями"
         },
         "description": {
-          "en": "**Prerequisite** Lore 3+.\n\n**Spend 2 focus** to use your Lore modifier on another cognitive or spiritual test."
+          "en": "**Prerequisite** Lore 3+.\n\n**Spend 2 focus** to use your Lore modifier on another cognitive or spiritual test.",
+          "ru": "**Требование** Знания 3+.\n\nЗа 2 фокуса используйте свой модификатор Знаний вместо модификатора другого когнитивного или духовного навыка при проверке."
         },
         "kind": "static"
       }
@@ -103,20 +119,24 @@
       {
         "required_for": ["Composed"],
         "title": {
-          "en": "Strategize"
+          "en": "Strategize",
+          "ru": "Планирование"
         },
         "description": {
-          "en": "**Prerequisite** Deduction 1+.\n\nAfter you Gain Advantage using an Erudition skill, grant that advantage to an ally instead. You can spend 2 focus to also prevent the target from using reactions against that ally."
+          "en": "**Prerequisite** Deduction 1+.\n\nAfter you Gain Advantage using an Erudition skill, grant that advantage to an ally instead. You can spend 2 focus to also prevent the target from using reactions against that ally.",
+          "ru": "**Требование** Дедукция 1+.\n\nПосле того как вы Получаете преимущество с помощью навыка, выбранного в Эрудиции, вы можете передать его союзнику. За 2 фокуса, вы также можете запретить цели использовать реакции против этого союзника."
         },
         "kind": "static"
       },
       {
         "required_for": ["Deep Contemplation", "Contingency"],
         "title": {
-          "en": "Composed"
+          "en": "Composed",
+          "ru": "Собранность"
         },
         "description": {
-          "en": "Increase your max and current focus by your tier."
+          "en": "Increase your max and current focus by your tier.",
+          "ru": "Приобретая этот талант, ваш максимальный и текущий фокус увеличивается на значение, равное вашему тиpу."
         },
         "kind": "update_result",
         "modifiers": { "focus_max": { "type": "add", "value": "tier" } },
@@ -125,10 +145,12 @@
       {
         "required_for": ["Keen Insight"],
         "title": {
-          "en": "Deep Contemplation"
+          "en": "Deep Contemplation",
+          "ru": "Глубокое размышление"
         },
         "description": {
-          "en": "**Prerequisite** Lore 2+.\n\nReassign up to 2 skills and expertises from Erudition."
+          "en": "**Prerequisite** Lore 2+.\n\nReassign up to 2 skills and expertises from Erudition.",
+          "ru": "**Требование** Знания 2+.\n\nПереназначьте до двух навыков и компетенций, выбранных в Эрудиции."
         },
         "kind": "static",
         "price": { "a": 2 }
@@ -136,10 +158,12 @@
       {
         "required_for": ["Turning Point"],
         "title": {
-          "en": "Contingency"
+          "en": "Contingency",
+          "ru": "Непредвиденные обстоятельства"
         },
         "description": {
-          "en": "**Prerequisite** Lore 3+.\n\nSpend 2 focus to remove Opportunity from the test of an ally within 20 feet."
+          "en": "**Prerequisite** Lore 3+.\n\nSpend 2 focus to remove Opportunity from the test of an ally within 20 feet.",
+          "ru": "**Требование** Знания 3+.\n\nЗа 2 фокуса устраните 1 из проверки союзника который находится в пределах 20 футов."
         },
         "kind": "static",
         "price": { "r": 1 }
@@ -147,37 +171,45 @@
       {
         "required_for": ["Know Your Moment"],
         "title": {
-          "en": "Mind and Body"
+          "en": "Mind and Body",
+          "ru": "Тело и разум"
         },
         "description": {
-          "en": "Gain a weapon expertise. Gain an additional skill from Erudition. You can now choose physical skills with Erudition."
+          "en": "Gain a weapon expertise. Gain an additional skill from Erudition. You can now choose physical skills with Erudition.",
+          "ru": "Вы получаете оружейную компетенцию, выбор еще одного навыка в Эрудиции и возможность выбирать в Эрудиции физические навыки."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Know Your Moment"
+          "en": "Know Your Moment",
+          "ru": "Знай свой момент"
         },
         "description": {
-          "en": "**Prerequisite** Deduction 2+.\n\nYour defenses increase by 2 from the start of each round until you take your turn."
+          "en": "**Prerequisite** Deduction 2+.\n\nYour defenses increase by 2 from the start of each round until you take your turn.",
+          "ru": "**Требование** Дедукция +2.\n\nВ начале каждого раунда все ваши показатели защиты увеличиваются на 2, до начала вашего хода."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Keen Insight"
+          "en": "Keen Insight",
+          "ru": "Проницательный взгляд"
         },
         "description": {
-          "en": "After you Gain Advantage, the target must resist your influence or gain a disadvantage on their next test."
+          "en": "After you Gain Advantage, the target must resist your influence or gain a disadvantage on their next test.",
+          "ru": "После того как вы Получаете Переназначьте до двух навыков и компетенций, выбранных в Эрудиции. преимущество, цель должна сопротивляться вашему влиянию или получить помеху к своей следующей проверке."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Turning Point"
+          "en": "Turning Point",
+          "ru": "Переломный момент"
         },
         "description": {
-          "en": "**Prerequisite** Deduction 3+.\n\nSpend 2 focus to test Deduction vs. Cognitive of the enemy leader, gaining an advantage if you took a slow turn. On success, you and your allies gain on your next turns."
+          "en": "**Prerequisite** Deduction 3+.\n\nSpend 2 focus to test Deduction vs. Cognitive of the enemy leader, gaining an advantage if you took a slow turn. On success, you and your allies gain on your next turns.",
+          "ru": "**Требование** Дедукция 3+.\n\nЗа 2 фокуса совершите проверку Дедукции против Когнитивной защиты вражеского лидера, получая преимущество, если это медленный ход. При успехе, вы и ваши союзники получаете доп. действие на своем следующем ходу."
         },
         "kind": "static"
       }
@@ -197,68 +229,82 @@
       {
         "required_for": ["Anatomical Insight", "Swift Healer"],
         "title": {
-          "en": "Field Medicine"
+          "en": "Field Medicine",
+          "ru": "Полевая медицина"
         },
         "description": {
-          "en": "**Prerequisite** Medicine 1+.\n\n**Spend 1 focus** and test Medicine (DC 15) to heal a conscious character. On success, add your ranks in Medicine to their recovery die."
+          "en": "**Prerequisite** Medicine 1+.\n\n**Spend 1 focus** and test Medicine (DC 15) to heal a conscious character. On success, add your ranks in Medicine to their recovery die.",
+          "ru": "**Требование** Медицина 1+.\n\nЗа 1 фокус совершите проверку Медицины со Сл 15 чтобы полечить персонажа в сознание. При успехе, добавьте ранг Медицины к броску кости восстановления."
         },
         "kind": "static"
       },
       {
         "required_for": ["Leverage Dissent"],
         "title": {
-          "en": "Anatomical Insight"
+          "en": "Anatomical Insight",
+          "ru": "Знание анатомии"
         },
         "description": {
-          "en": "When you hit with an unarmed attack, spend 1 focus or Opportunity to make the target Exhausted [− half your ranks in Medicine]."
+          "en": "When you hit with an unarmed attack, spend 1 focus or Opportunity to make the target Exhausted [− half your ranks in Medicine].",
+          "ru": "При попадание безоружной атакой вы можете за 1 фокус или Возможность, наложить на цель Истощение [− половина вашего ранга в Медицине]."
         },
         "kind": "static"
       },
       {
         "required_for": ["Ongoing Care", "Resuscitation"],
         "title": {
-          "en": "Swift Healer"
+          "en": "Swift Healer",
+          "ru": "Быстрая первая помощь"
         },
         "description": {
-          "en": "**Prerequisite** Medicine 2+.\n\nUse **Field Medicine** as free action. Your healing abilities restore additional health equal to your ranks in Medicine."
+          "en": "**Prerequisite** Medicine 2+.\n\nUse **Field Medicine** as free action. Your healing abilities restore additional health equal to your ranks in Medicine.",
+          "ru": "**Требование** Медицина 2+.\n\nВы можете использовать Полевую медицину как свободноей действие. Ваши лечащие способности восстанавливают доп. здоровье равное вашему рангу в Медицине."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Ongoing Care"
+          "en": "Ongoing Care",
+          "ru": "Непрерывный уход"
         },
         "description": {
-          "en": "**Prerequisite** Lore 3+.\n\nGain **Mental Health Care** expertise. During a rest, test Medicine (DC 10) to treat an ally, removing one condition caused by their injury."
+          "en": "**Prerequisite** Lore 3+.\n\nGain **Mental Health Care** expertise. During a rest, test Medicine (DC 10) to treat an ally, removing one condition caused by their injury.",
+          "ru": "**Требование** Знания 3+.\n\nВы получаете компетенцию Уход за псих. здоровьем. Во время отдыха, совершите проверку Медицины со Сл 10 оказывая уход союзнику, и снимая с него одно состояние, вызванное травмой."
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Resuscitation"
+          "en": "Resuscitation",
+          "ru": "Реанимация"
         },
         "description": {
-          "en": "**Prerequisite** Medicine 3+.\n\n**Spend 3 focus** when using **Field Medicine** to revive an *Unconscious* character or one who died recently."
+          "en": "**Prerequisite** Medicine 3+.\n\n**Spend 3 focus** when using **Field Medicine** to revive an *Unconscious* character or one who died recently.",
+          "ru": "**Требование** Медицина 3+.\n\nПотратьте 3 фокуса при использовании Полевой медицины, чтобы оживить персонажа, находящегося без сознания, или недавно умершего."
         },
         "kind": "static"
       },
       {
         "required_for": ["Collected"],
         "title": {
-          "en": "Emotional Intelligence"
+          "en": "Emotional Intelligence",
+          "ru": "Эмоциональный интеллект"
         },
         "description": {
-          "en": "Gain Diagnosis expertise. Gain an additional skill from Erudition. You can now choose spiritual skills with Erudition."
+          "en": "Gain Diagnosis expertise. Gain an additional skill from Erudition. You can now choose spiritual skills with Erudition.",
+          "ru": "Вы получаете компетенцию Диагноз, выбор еще одного навыка в Эрудиции и возможность выбирать в Эрудиции духовные навыки."
         },
         "kind": "static"
       },
       {
         "required_for": ["Applied Medicine"],
         "title": {
-          "en": "Collected"
+          "en": "Collected",
+          "ru": "Самообладание"
         },
         "description": {
-          "en": "Increase your Cognitive and Spiritual defenses by 2."
+          "en": "Increase your Cognitive and Spiritual defenses by 2.",
+          "ru": "Ваша Когнитивная и Духовная защита увеличивается на 2."
         },
         "kind": "update_result",
         "modifiers": { "defense.cognitive": { "type": "add", "value": 2 }, "defense.spiritual": { "type": "add", "value": 2 } },
@@ -266,10 +312,12 @@
       },
       {
         "title": {
-          "en": "Applied Medicine"
+          "en": "Applied Medicine",
+          "ru": "Знание медицины"
         },
         "description": {
-          "en": "**Prerequisite** Lore 2+.\n\nYour healing abilities restore additional health equal to your ranks in Lore."
+          "en": "**Prerequisite** Lore 2+.\n\nYour healing abilities restore additional health equal to your ranks in Lore.",
+          "ru": "**Требование** Знания 2+.\n\nВаши лечащие способности восстанавливают доп. здоровье равное вашему рангу в Знаниях."
         },
         "kind": "static"
       }
@@ -290,30 +338,36 @@
       {
         "required_for": ["Ironstance"],
         "title": {
-          "en": "Practiced Kata"
+          "en": "Practiced Kata",
+          "ru": ""
         },
         "description": {
-          "en": "You can now use stances in conversations and endeavors, and unless Surprised, you can start each scene in Vigilant Stance. Spend 1 focus to enter a stance mid-conversation or mid-endeavor."
+          "en": "You can now use stances in conversations and endeavors, and unless Surprised, you can start each scene in Vigilant Stance. Spend 1 focus to enter a stance mid-conversation or mid-endeavor.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "required_for": ["Surefooted"],
         "title": {
-          "en": "Ironstance"
+          "en": "Ironstance",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Athletics 2+.\n\nEnter Ironstance: You gain an advantage on Insight, and when you're grazed or missed, you can make a Reactive Strike against your attacker."
+          "en": "**Prerequisite** Athletics 2+.\n\nEnter Ironstance: You gain an advantage on Insight, and when you're grazed or missed, you can make a Reactive Strike against your attacker.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 1 }
       },
       {
         "title": {
-          "en": "Surefooted"
+          "en": "Surefooted",
+          "ru": ""
         },
         "description": {
-          "en": "Your movement increases by 10. Reduce damage from falling and dangerous terrain by twice your tier."
+          "en": "Your movement increases by 10. Reduce damage from falling and dangerous terrain by twice your tier.",
+          "ru": ""
         },
         "kind": "static",
         "double_slug": "surefooted",
@@ -322,50 +376,60 @@
       {
         "required_for": ["Signature Weapon", "Feinting Strike"],
         "title": {
-          "en": "Flamestance"
+          "en": "Flamestance",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Intimidation 1+.\n\nEnter Flamestance: You gain an advantage on Intimidation, and when only one enemy is in reach and no allies are, gain action to attack or Gain Advantage."
+          "en": "**Prerequisite** Intimidation 1+.\n\nEnter Flamestance: You gain an advantage on Intimidation, and when only one enemy is in reach and no allies are, gain action to attack or Gain Advantage.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 1 }
       },
       {
         "title": {
-          "en": "Signature Weapon"
+          "en": "Signature Weapon",
+          "ru": ""
         },
         "description": {
-          "en": "Gain a weapon expertise. Choose one of your weapon expertises, expanding its Opportunity range by 1."
+          "en": "Gain a weapon expertise. Choose one of your weapon expertises, expanding its Opportunity range by 1.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "required_for": ["Vinestance", "Wit's End"],
         "title": {
-          "en": "Feinting Strike"
+          "en": "Feinting Strike",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Intimidation 2+.\n\n**Spend 2 focus** to make a melee weapon attack vs. Cognitive. On a hit, your target loses reaction and loses focus equal to your ranks in Intimidation. On a graze, they lose half as much focus."
+          "en": "**Prerequisite** Intimidation 2+.\n\n**Spend 2 focus** to make a melee weapon attack vs. Cognitive. On a hit, your target loses reaction and loses focus equal to your ranks in Intimidation. On a graze, they lose half as much focus.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 1 }
       },
       {
         "title": {
-          "en": "Vinestance"
+          "en": "Vinestance",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Athletics 3+.\n\nEnter Vinestance: Your Physical and Cognitive defenses increase by 1. After you're hit or grazed in melee, spend to test Athletics vs. Cognitive to make attacker lose 1d4 focus and be pushed."
+          "en": "**Prerequisite** Athletics 3+.\n\nEnter Vinestance: Your Physical and Cognitive defenses increase by 1. After you're hit or grazed in melee, spend to test Athletics vs. Cognitive to make attacker lose 1d4 focus and be pushed.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 1 }
       },
       {
         "title": {
-          "en": "Wit's End"
+          "en": "Wit's End",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Intimidation 3+.\n\n**Spend 1 focus** to move half your movement then make a melee weapon attack vs. Cognitive of a target who has 0 focus. This attack ignores deflect, deals an extra 4d6 damage, and can't graze."
+          "en": "**Prerequisite** Intimidation 3+.\n\n**Spend 1 focus** to move half your movement then make a melee weapon attack vs. Cognitive of a target who has 0 focus. This attack ignores deflect, deals an extra 4d6 damage, and can't graze.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 2 }
@@ -387,20 +451,24 @@
       {
         "required_for": ["Windstance", "Bloodstance"],
         "title": {
-          "en": "Shard Training"
+          "en": "Shard Training",
+          "ru": ""
         },
         "description": {
-          "en": "Gain Shardplate expertise, and gain either Grandbow, Shardblade, or Warhammer expertise. Your Shardplate has 2 additional charges. Your Shardblade Strikes graze additional targets up to your ranks in the skill used."
+          "en": "Gain Shardplate expertise, and gain either Grandbow, Shardblade, or Warhammer expertise. Your Shardplate has 2 additional charges. Your Shardblade Strikes graze additional targets up to your ranks in the skill used.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "required_for": ["Shattering Blow"],
         "title": {
-          "en": "Windstance"
+          "en": "Windstance",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Perception 1+.\n\nEnter Windstance: Gain an advantage on Agility. While you can reach multiple enemies, use free action to gain action to Disengage or attack."
+          "en": "**Prerequisite** Perception 1+.\n\nEnter Windstance: Gain an advantage on Agility. While you can reach multiple enemies, use free action to gain action to Disengage or attack.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -408,19 +476,23 @@
       {
         "required_for": ["Precise Parry"],
         "title": {
-          "en": "Shattering Blow"
+          "en": "Shattering Blow",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Perception 2+.\n\nWhen you hit with a melee attack, spend 2 focus to deplete 1 charge from their armor, and each target you damage is pushed 5 feet."
+          "en": "**Prerequisite** Perception 2+.\n\nWhen you hit with a melee attack, spend 2 focus to deplete 1 charge from their armor, and each target you damage is pushed 5 feet.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Precise Parry"
+          "en": "Precise Parry",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Perception 3+.\n\nBefore being hit in melee, spend 1 focus to attempt to turn it into a graze. If unarmed, test Athletics vs. triggering attack, gaining a disadvantage unless attacked by a Shardblade. If armed, test Light/Heavy Weaponry vs. triggering attack."
+          "en": "**Prerequisite** Perception 3+.\n\nBefore being hit in melee, spend 1 focus to attempt to turn it into a graze. If unarmed, test Athletics vs. triggering attack, gaining a disadvantage unless attacked by a Shardblade. If armed, test Light/Heavy Weaponry vs. triggering attack.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "r": 1 }
@@ -428,10 +500,12 @@
       {
         "required_for": ["Mighty"],
         "title": {
-          "en": "Stonestance"
+          "en": "Stonestance",
+          "ru": ""
         },
         "description": {
-          "en": "Enter Stonestance: Your deflect increases by 1, and enemies within your reach must spend an additional action to attack your allies who aren't in Stonestance."
+          "en": "Enter Stonestance: Your deflect increases by 1, and enemies within your reach must spend an additional action to attack your allies who aren't in Stonestance.",
+          "ru": ""
         },
         "kind": "static",
         "modifiers": {
@@ -442,10 +516,12 @@
       {
         "required_for": ["Bloodstance"],
         "title": {
-          "en": "Mighty"
+          "en": "Mighty",
+          "ru": ""
         },
         "description": {
-          "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier."
+          "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier.",
+          "ru": ""
         },
         "kind": "static",
         "double_slug": "mighty"
@@ -453,20 +529,24 @@
       {
         "required_for": ["Meteoric Leap"],
         "title": {
-          "en": "Bloodstance"
+          "en": "Bloodstance",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Athletics 2+.\n\nEnter Bloodstance: Your Opportunity range for attacks and physical tests expands by 2, but your Physical, Cognitive, and Spiritual defenses decrease by 2."
+          "en": "**Prerequisite** Athletics 2+.\n\nEnter Bloodstance: Your Opportunity range for attacks and physical tests expands by 2, but your Physical, Cognitive, and Spiritual defenses decrease by 2.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 1 }
       },
       {
         "title": {
-          "en": "Meteoric Leap"
+          "en": "Meteoric Leap",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Athletics 3+.\n\n**Spend 2 focus** to leap a quarter of your movement and make unarmed attack vs. Physical of multiple targets, doubling damage and knocking weaker targets Prone. Gain an advantage in Shardplate."
+          "en": "**Prerequisite** Athletics 3+.\n\n**Spend 2 focus** to leap a quarter of your movement and make unarmed attack vs. Physical of multiple targets, doubling damage and knocking weaker targets Prone. Gain an advantage in Shardplate.",
+          "ru": ""
         },
         "kind": "static",
         "price": { "a": 2 }
@@ -487,64 +567,77 @@
       {
         "required_for": ["Defensive Position"],
         "title": {
-          "en": "Cautious Advance"
+          "en": "Cautious Advance",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Discipline 1+.\n\nMove up to half your movement, ignoring difficult terrain, then gain 2 actions to Brace or Gain Advantage."
+          "en": "**Prerequisite** Discipline 1+.\n\nMove up to half your movement, ignoring difficult terrain, then gain 2 actions to Brace or Gain Advantage.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "required_for": ["Formation Drills", "Wary"],
         "title": {
-          "en": "Defensive Position"
+          "en": "Defensive Position",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Athletics 2+.\n\nThe Brace action adds two disadvantages to attacks against you, instead of one, and allies can Brace behind your shield."
+          "en": "**Prerequisite** Athletics 2+.\n\nThe Brace action adds two disadvantages to attacks against you, instead of one, and allies can Brace behind your shield.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Formation Drills"
+          "en": "Formation Drills",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Discipline 2+.\n\nAllies within 10 feet who Brace gain the benefits of your Defensive Position."
+          "en": "**Prerequisite** Discipline 2+.\n\nAllies within 10 feet who Brace gain the benefits of your Defensive Position.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Wary"
+          "en": "Wary",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Discipline 3+.\n\nYou can't be Surprised while you have focus. When you lose focus involuntarily, reduce the amount lost by your ranks in Discipline."
+          "en": "**Prerequisite** Discipline 3+.\n\nYou can't be Surprised while you have focus. When you lose focus involuntarily, reduce the amount lost by your ranks in Discipline.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "required_for": ["Devastating Blow", "Hardy"],
         "title": {
-          "en": "Combat Training"
+          "en": "Combat Training",
+          "ru": ""
         },
         "description": {
-          "en": "Gain expertise in a weapon, armor, and Military Life. Once per round, graze without spending focus."
+          "en": "Gain expertise in a weapon, armor, and Military Life. Once per round, graze without spending focus.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "title": {
-          "en": "Devastating Blow"
+          "en": "Devastating Blow",
+          "ru": ""
         },
         "description": {
-          "en": "**Prerequisite** Athletics 3+.\n\nMake a melee weapon attack vs. Physical, rolling an extra 2d8 damage."
+          "en": "**Prerequisite** Athletics 3+.\n\nMake a melee weapon attack vs. Physical, rolling an extra 2d8 damage.",
+          "ru": ""
         },
         "kind": "static"
       },
       {
         "required_for": ["Swift Strikes"],
         "title": {
-          "en": "Hardy"
+          "en": "Hardy",
+          "ru": ""
         },
         "description": {
           "en": "You gain calculated bonus (equal to {{value}}<<your level>>) to your maximum health.",
@@ -556,10 +649,12 @@
       },
       {
         "title": {
-          "en": "Swift Strikes"
+          "en": "Swift Strikes",
+          "ru": ""
         },
         "description": {
-          "en": "**Spend 1 focus** to make a second Strike with the same weapon."
+          "en": "**Spend 1 focus** to make a second Strike with the same weapon.",
+          "ru": ""
         },
         "kind": "static"
       }
