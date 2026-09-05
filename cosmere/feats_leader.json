@@ -7,7 +7,7 @@
       "ru": "Решительное командование"
     },
     "description": {
-      "en": "Gain a command die, which begins as a d4.\n\n**Spend 1 focus** to choose an ally within 20 feet of you. The next time they make a test before the end of their next turn, they can roll your command die. After rolling, they can choose one die roll from that test, and add the command die to that roll.",
+      "en": "Spend 1 focus to give an ally within 20 feet a d4 command die. They can add it to one die roll on their next test.",
       "ru": "Вы получаете кость командования, которая изначально равна d4.\n\nПотратьте 1 фокус и выберите союзника в пределах 20 футов, на которого вы можете повлиять. До конца его следующего хода, когда он совершает проверку, он может бросить вашу кость командования вместе с остальными костями. После броска он может выбрать одну из костей (кроме кости истории) и прибавить к ней результат броска кости командования."
     },
     "origin": "path",
@@ -27,7 +27,7 @@
       "ru": "Боевая координация"
     },
     "description": {
-      "en": "**Requirements** Leadership 2+.\n\nAfter using Strike, use **Decisive Command** as free action. If your Strike didn't hit, you don't spend the focus for **Decisive Command**.",
+      "en": "**Requirements** Leadership 2+.\n\nAfter you Strike, use **Decisive Command** without spending action. If your Strike didn't hit, you also don't spend focus.",
       "ru": "**Требования** Лидерство 2+.\n\nПосле вашего использования действия Удар вы можете использовать **Решительное командование** как свободное действие. Если ваш Удар не попадает, то вам не нужно тратить фокус для **Решительного командования**."
     },
     "origin": "path",
@@ -44,7 +44,7 @@
       "ru": "Внушительный вид"
     },
     "description": {
-      "en": "**Requirements** Athletics 2+.\n\nAfter an enemy resists your influence while in weapon's reach, they become *Disoriented* until the end of their next turn.",
+      "en": "**Requirements** Athletics 2+.\n\nAfter an enemy resists your influence while in your weapon's reach, they are Disoriented.",
       "ru": "**Требования** Атлетика 2+.\n\nПосле того как враг сопротивляется вашему влиянию, находясь в пределах досягаемости вашего оружия, он становится *Дезориентированым* до конца своего следующего хода."
     },
     "origin": "path",
@@ -61,7 +61,7 @@
       "ru": "Мощь"
     },
     "description": {
-      "en": "When you hit increase the damage you deal by {{value}}<<1 + your tier>> (for each action on attack).",
+      "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier.",
       "ru": "Когда вы попадаете безоружной атакой или атакой оружием за каждое потраченное действие на эту атаку, она наносит дополнительный урон, равный {{value}}<<1 + ваш тир>>."
     },
     "origin": "path",
@@ -79,7 +79,7 @@
       "ru": "Доблестное вмешательство"
     },
     "description": {
-      "en": "**Requirements** Athletics 1+.\n\n**Spend 1 Focus** to move up to 10 feet, then make test (Athletics vs Spiritual defense). On a success, enemy gains a disadvantage on tests against your allies until the end of the next turn.\n\nEnemy can resist this influence, but after they do, you gain an advantage on your next test against them until the end of your next turn.",
+      "en": "**Requirements** Athletics 1+.\n\n**Spend 1 focus** to move 10 feet, then test Athletics vs. Spiritual to give a target a disadvantage on tests against your allies.",
       "ru": "**Требования** Атлетика 1+.\n\n**Потратьте 1 фокус**, чтобы переместиться на расстояние до 10 футов, затем совершите проверку Атлетики против Духовной защиты врага, на которого вы можете повлиять. При успехе цель получает помеху на проверки против ваших союзников до конца своего следующего хода.\n\nЦель может сопротивляться этому влиянию, но после того как она это делает, вы получаете преимущество на следующую проверку против неё до конца своего следующего хода."
     },
     "origin": "path",
@@ -97,7 +97,7 @@
       "ru": "Крепкий"
     },
     "description": {
-      "en": "You gain calculated bonus (equal to {{value}}<<your level>>) to your maximum health.",
+      "en": "Gain +1 max health per level (including previous levels).",
       "ru": "Приобретая этот талант, ваше максимальное и текущее здоровье увеличивается на {{value}}<<1 за каждый уровень>>."
     },
     "origin": "path",
@@ -117,7 +117,7 @@
       "ru": "Решительное противостояние"
     },
     "description": {
-      "en": "**Requirements** Athletics 1+.\n\nWhen using **Valiant Intervention**, you can spend focus up to your ranks in Leadership to target additional characters. After you affect a target with **Valiant Intervention**, they can't make Reactive Strikes against your allies until the end of that target's next turn.",
+      "en": "**Requirements** Athletics 1+.\n\nValiant Intervention prevents Reactive Strikes. Spend focus up to your ranks in Leadership to add that many targets for Valiant Intervention.",
       "ru": "**Требования** Атлетика 1+.\n\nКогда вы используете талант **Доблестное вмешательство**, вы можете потратить количество фокуса вплоть до вашего ранга в Лидерстве, чтобы выбрать столько же дополнительных целей. Кроме того, после воздействия на цель **Доблестным вмешательством**, она не может совершать Удары реакцией против ваших союзников до конца своего следующего хода."
     },
     "origin": "path",
@@ -134,7 +134,7 @@
       "ru": "Стойкий герой"
     },
     "description": {
-      "en": "**Requirements** Athletics 3+.\n\nOnce per scene, while reducing to 0 health, you can use this reaction to change your health to equal your Athletics modifier insted of 0.",
+      "en": "**Requirements** Athletics 3+.\n\nBefore your health drops to 0, it instead becomes equal to your Athletics modifier.",
       "ru": "**Требования** Атлетика 3+.\n\nОдин раз за сцену, перед тем как ваше здоровье будет снижено до 0, вы можете использовать эту реакцию, чтобы вместо этого изменить текущее здоровье на значение равное вашему модификатору Атлетики."
     },
     "origin": "path",
@@ -149,7 +149,7 @@
       "ru": "Демонстративное командование"
     },
     "description": {
-      "en": "**Requirements** Leadership 2+.\n\nBefore you make an Athletics, Agility or Leadership check, you can **spend 1 Focus** to roll your command die.\n\nIncrease the size of your command die by one size.",
+      "en": "**Requirements** Leadership 2+.\n\nIncrease the size of your command die. Spend 1 focus to add your command die to your Athletic, Agility, or Leadership d20 roll.",
       "ru": "**Требования** Лидерство 2+.\n\nПеред тем как совершить проверку Атлетики, Ловкости или Лидерства, вы **можете потратить 1 фокус**, чтобы бросить свою кость командования и прибавить её результат к своему броску d20.\n\nКроме того, приобретая этот талант размер вашей кости командования увеличивается на один."
     },
     "origin": "path",
@@ -163,7 +163,7 @@
       "ru": "Собранность"
     },
     "description": {
-      "en": "You gain calculated bonus (equal to your tier) to maximum focus.",
+      "en": "Increase your max and current focus by your tier.",
       "ru": "Приобретая этот талант, ваш максимальный и текущий фокус увеличивается на значение, равное вашему тиpу."
     },
     "origin": "path",
@@ -182,7 +182,7 @@
       "ru": "Хорошее снабжение"
     },
     "description": {
-      "en": "**Requirements** Persuasion 2+.\n\nWhen you make a test to requisition resources, you can **spend 2 Focus** to add an Opportunity to the result.\n\nYou gain **Military Logistics** expertise.",
+      "en": "**Requirements** Persuasion 2+.\n\nGain Military Logistics expertise. Spend 2 focus to add **Opportunity** to your test to requisition resources.",
       "ru": "**Требования** Убеждение 2+.\n\nКогда вы совершаете проверку на получение или распределение ресурсов, вы можете **потратить 2 фокуса**, чтобы добавить **Возможность** к её результату.\n\nКроме того, приобретая этот талант, вы получаете утилитарную компетенцию **Военная логистика**."
     },
     "origin": "path",
@@ -196,7 +196,7 @@
       "ru": "Cквозь гущу сражения"
     },
     "description": {
-      "en": "**Requirements** Persuasion 1+.\n\nChoose an ally within 20 feet. Before the end of your turn, they can use the Disengage or Gain Advantage as reaction.",
+      "en": "**Requirements** Persuasion 1+.\n\nAn ally within 20 feet can Disengage or Gain Advantage as reaction.",
       "ru": "**Требования** Убеждение 1+.\n\nВыберите союзника, на которого вы можете повлиять и который находится в пределах 20 футов от вас. До конца вашего хода он может использовать действие Отход или Получить преимущество как реакцию."
     },
     "origin": "path",
@@ -214,7 +214,7 @@
       "ru": "Привычное облачение"
     },
     "description": {
-      "en": "While you're wearing presentable armor, your gain calculated bonus +2 to Physical and Spiritual defenses.",
+      "en": "While wearing Presentable armor or appropriate clothing, increase your Physical and Spiritual defenses by 2.",
       "ru": "Пока на вас надета видимая Презентабельная броня или одежда, подчеркивающая ваш статус, ваша Физическая и Духовная защита увеличивается на 2."
     },
     "origin": "path",
@@ -234,7 +234,7 @@
       "ru": "Уверенное командование"
     },
     "description": {
-      "en": "**Requirements** Leadership 2+.\n\nBefore you make an Intimidation, Leadership, or Persuasion test, you can **spend 1 Focus** to roll your command die.\n\nIncrease the size of your command die by one size.",
+      "en": "**Requirements** Leadership 2+.\n\nIncrease the size of your command die. Spend 1 focus to add your command die to your Intimidation, Leadership, or Persuasion d20 roll.",
       "ru": "**Требования** Лидерство 2+.\n\nПеред тем как совершить проверку Запугивания, Лидерства или Убеждения, вы можете **потратить 1 фокус**, чтобы бросить свою кость командования и прибавить её результат к своему броску d20.\n\nКроме того, приобретая этот талант размер вашей кости командования увеличивается на один."
     },
     "origin": "path",
@@ -251,7 +251,7 @@
       "ru": "Непреклонный марш"
     },
     "description": {
-      "en": "**Requirements** Persuasion 3+.\n\nAfter using **Decisive Command**, until the end of their next turn, ally gains bonus +10 to movement rate and ignores the effects of the *Exhausted*, *Slowed* and *Surprised* conditions.",
+      "en": "**Requirements** Persuasion 3+.\n\nDecisive Command increases your target's movement by 10 feet, and they ignore Exhausted, Slowed, and Surprised.",
       "ru": "**Требования** Убеждение 3+.\n\nПосле того как вы используете **Решительное командование** на союзника, до конца его следующего хода его скорость передвижения увеличивается на 10 футов, и он игнорирует эффекты состояний *Истощение*, *Замедлен* и *Взят врасплох*."
     },
     "origin": "path",
@@ -265,7 +265,7 @@
       "ru": "Авторитет"
     },
     "description": {
-      "en": "**Requirements** Title granting you command of 5+ people.\n\nYour talents can affect up to twice as many allies with double range.",
+      "en": "**Requirements** Title granting you command of 5+ people.\n\nDouble the range of Leader talents that affect allies, and double the number of allies affected.",
       "ru": "**Требования** Иметь титул, дающий командование над как минимум 5 людьми.\n\nВаши таланты Лидера, воздействующие на союзников, теперь имеют в два раза большую дальность (если она есть) и могут воздействовать на вдвое большее количество союзников, чем обычно."
     },
     "origin": "path",
@@ -282,7 +282,7 @@
       "ru": "Скоординированная атака"
     },
     "description": {
-      "en": "**Requirements** Leadership 3+.\n\n**Spend 2 Focus** to make a test (Leadership vs Cognitive defense). On a success, choose a number of allies up to your ranks in Leadership. On a failure, choose one ally. On the next turn of each allies gain 1A that can be spent only to Strike against that enemy.",
+      "en": "**Requirements** Leadership 3+.\n\n**Spend 2 focus** to test Leadership vs. enemy's Cognitive. On success, allies up to your ranks in Leadership gain action for an additional Strike against the target. On failure, only one ally gains action.",
       "ru": "**Требования** Лидерство 3+.\n\n**Потратьте 2 фокуса**, чтобы совершить проверку Лидерства против Когнитивной защиты врага, которого вы можете обнаружить. При успехе выберите количество союзников, не превышающее ваш ранг в Лидерстве. При провале выберите одного союзника, на которого вы можете повлиять. На следующем ходу каждого выбранного союзника он получает 1Д, которое можно потратить только на Удар по этому врагу. Этот удар не учитывается в числе количества нанесённых ударов удерживаемым оружием."
     },
     "origin": "path",
@@ -297,7 +297,7 @@
       "ru": "Безжалостные методы"
     },
     "description": {
-      "en": "**Requirements** Deception 1+.\n\nBefore an ally rolls your command die, they can choose to instead raise the stakes. If they do so and roll a **Complication**, you recover 1 focus.",
+      "en": "**Requirements** Deception 1+.\n\nYour ally can raise the stakes instead of rolling your command die; if they roll **Complication**, you recover 1 focus.",
       "ru": "**Требования** Обман 1+.\n\nПрежде чем союзник бросит вашу кость командования в проверке, он может выбрать вместо этого повысить ставки. Если он это делает и выпадает **Осложнение**, вы восстанавливаете 1 фокус."
     },
     "origin": "path",
@@ -314,7 +314,7 @@
       "ru": "Сплетник"
     },
     "description": {
-      "en": "**Requirements** A patron.\n\nWhen you make a test to spread misinformation, you can **spend 2 Focus** to add an Opportunity to the result.\n\nYou gain **Scandal** expertise.",
+      "en": "**Requirements** A patron.\n\nGain Scandal expertise. Spend 2 focus to add **Opportunity** when you make a test to spread misinformation or gather rumors.",
       "ru": "**Требования** Иметь покровителя.\n\nКогда вы совершаете проверку для распространения дезинформации или сбора слухов, вы можете **потратить 2 фокуса**, чтобы добавить **Возможность** к результату.\n\nКроме того, приобретая этот талант вы получаете утилитарную компетенцию **Скандалы**."
     },
     "origin": "path",
@@ -331,7 +331,7 @@
       "ru": "Грозный"
     },
     "description": {
-      "en": "For resisting your influence, a character must spend a Focus equal to {{value}}<<your tier>>.",
+      "en": "To resist your influence, a character must spend additional focus equal to your tier.",
       "ru": "Чтобы сопротивляться вашему влиянию, персонаж должен потратить дополнительное количество фокуса, равное {{value}}<<вашему тиру>>."
     },
     "origin": "path",
@@ -350,7 +350,7 @@
       "ru": "Посеять разлад"
     },
     "description": {
-      "en": "**Requirements** Leadership 3+.\n\nChoose more than one characters and **spend that many focus**. Make a Leadership test (DC - highest Spiritual defense among those targets). On a success, you influence each target to become hostile toward the other targets.",
+      "en": "**Requirements** Leadership 3+.\n\nSpend focus equal to the number of targets you want to seed division among. Test Leadership vs. their highest Spiritual to make them hostile to each other.",
       "ru": "**Требования** Лидерство 3+.\n\nВыберите двух или более персонажей, на которых вы можете повлиять, и потратьте столько фокуса, сколько персонажей выбрали, чтобы посеять между ними раздор. Опишите возможный источник конфликта, затем совершите проверку Лидерства (Сл равна наивысшей Духовной защите среди этих целей). При успехе вы влияете на каждого из выбранных персонажей так, что они становятся враждебны друг другу, что провоцирует спор, драку или иной конфликт, пока они не найдут способ его разрешить.\n\nЦель может сопротивляться вашему влиянию, но после того как она это делает, она теряет дополнительное количество фокуса, равное вашему рангу в Лидерстве. Если сопротивляются лишь некоторые цели, остальные остаются враждебны, однако их конфликт может стать проще для разрешения."
     },
     "origin": "path",
@@ -365,7 +365,7 @@
       "ru": "Хорошо одетый"
     },
     "description": {
-      "en": "While wearing presentable armor, you gain an advantage on the first Deception, Leadership or Persuasion test you make during each scene.\n\nYou gain a **Fashion** expertise.",
+      "en": "Gain Fashion expertise. While wearing Presentable armor or fashionable clothing, gain an advantage on your first Deception, Leadership, or Persuasion test.",
       "ru": "Пока на вас надета видимая презентабельная броня или модная одежда, вы получаете преимущество на первую проверку **Обмана**, **Лидерства** или **Убеждения**, совершаемую во время любой сцены. Кроме того, приобретая этот талант, вы получаете культурную компетенцию **Мода**."
     },
     "origin": "path",
@@ -382,7 +382,7 @@
       "ru": "Проницательное командование"
     },
     "description": {
-      "en": "**Requirements** Leadership 2+.\n\nBefore you make a Deception, Insight or Leadership test, you can **spend 1 Focus** to roll your command die.\n\nIncrease the size of your command die by one size.",
+      "en": "**Requirements** Leadership 2+.\n\nIncrease the size of your command die. Spend 1 focus to add your command die to your Deception, Insight, or Leadership d20 roll.",
       "ru": "**Требования** Лидерство 2+.\n\nПеред тем как совершить проверку Обмана, Проницательности или Лидерства, вы можете **потратить 1 фокус**, чтобы бросить свою кость командования и прибавить её результат к своему броску d20.\n\nКроме того, приобретая этот талант размер вашей кости командования увеличивается на один."
     },
     "origin": "path",
@@ -399,7 +399,7 @@
       "ru": "Великий обман"
     },
     "description": {
-      "en": "**Requirements** Deception 3+.\n\n**Spend 3 Focus** to make a Deception check (DC 15). On a success, choose a detail you established since the start of the last scene and reveal that it was actually a ruse.",
+      "en": "**Requirements** Deception 3+.\n\n**Spend 3 focus** to test Deception (DC 15) to reveal a ruse that changes a detail.",
       "ru": "**Требования** Обман 3+.\n\n**Потратьте 3 фокуса**, чтобы совершить проверку Обмана со Сл 15. При успехе выберите факт, объявленный вами с начала последней сцены, и раскройте, что это на самом деле была уловка. Эта уловка должна быть правдоподобной. Например, допустимо раскрыть, что вы спрятали могущественный артефакт не там, где говорили ранее, или что переместили армию на восток вместо запада. Недопустимо заявлять, что обычный предмет на самом деле является бесценным артефактом, или внезапно объявить о совершённом наборе армии, если ранее вы говорили, что у вас нет союзников в этом регионе. Окончательное решение о том, какие уловки являются допустимы, остаётся за Ведущим."
     },
     "origin": "path",
@@ -414,7 +414,7 @@
       "ru": "Тактическая уловка"
     },
     "description": {
-      "en": "Make a test (Deception vs Cognitive defense) against enemy. On a success, enemy loses one reaction and gains a disadvantage on next cognitive or spiritual test.\n\nA target can resist this influence, but after they do, you gain an advantage on your next test targeting them before the end of your next turn.",
+      "en": "Test Deception vs. Cognitive to make your target lose one reaction and gain a disadvantage on their next cognitive or spiritual test.",
       "ru": "Совершите проверку Обмана против Когнитивной защиты врага, на которого вы можете повлиять. При успехе цель теряет одну реакцию получает помеху на свою следующую Когнитивную или Духовную проверку.\n\nЦель может сопротивляться этому влиянию, но после того как она это делает, вы получаете преимущество на следующую проверку против этой цели до конца вашего следующего хода."
     },
     "origin": "path",
