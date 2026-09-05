@@ -1,0 +1,106 @@
+[
+  {
+    "title": {
+      "en": "Alethi",
+      "ru": "Алети"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Azish",
+      "ru": "Азиш"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Herdazian",
+      "ru": "Гердазиец"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Iriali",
+      "ru": "Ириали"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Kharbranthian",
+      "ru": "Харбрантиец"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Listener",
+      "ru": "Слушатель"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Natan",
+      "ru": "Натанец"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Reshi",
+      "ru": "Реши"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Shin",
+      "ru": "Шинец"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Thaylen",
+      "ru": "Тайленец"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Unkalaki",
+      "ru": "Ункалаки"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Veden",
+      "ru": "Веденец"
+    },
+    "only": [0],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Wayfarer",
+      "ru": "Скиталец"
+    },
+    "only": [0],
+    "public": true
+  }
+]
