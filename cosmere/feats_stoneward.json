@@ -75,7 +75,7 @@
       "ru": "Углубленные узы"
     },
     "description": {
-      "en": "**Requirements** Speak the Third Ideal.\n\nYour spren bond range increases to 100 feet. When you spend focus to give your spren a task, it costs you 1 fewer focus (1 is minimum).",
+      "en": "Your spren bond range increases to 100 feet, and giving your spren a task costs 1 fewer focus.",
       "ru": "**Требования** Произнести Третий Идеал.\n\nВаш радиус уз со спреном увеличивается с 30 до 100 футов. Кроме того, когда вы тратите фокус, чтобы поручить спрену выполнить какую-то задачу, это стоит на 1 фокус меньше (но не меньше 1 фокуса)."
     },
     "origin": "radiant_path",
@@ -89,7 +89,7 @@
       "ru": "Взять оруженосца"
     },
     "description": {
-      "en": "**Requirements** Speak the Third Ideal.\n\nAfter a long rest, choose a companion or player character to make your squire. They must be intelligent and willing to accept.\n\nYou can have up to a maximum number of squires equal to your current Ideal.",
+      "en": "**Requirements** Speak the Third Ideal.\n\nChoose non-Radiant characters as your squires, granting them one or both surges. They can also Breathe Stormlight, Enhance, and Regenerate. Your max number of squires equals twice your level.",
       "ru": "**Требования** Произнести Третий Идеал.\n\nПосле продолжительного отдыха выберите компаньона или персонажа игрока, на которого вы можете повлиять, чтобы сделать его своим оруженосцем. Для этого он должен быть разумным и согласным на это, вы должны быть знакомы с ним не менее одной игровой сессии, и он не должен иметь уз со спреном Сияющих.\n\nКогда вы выбираете оруженосца, решите, хотите ли вы дать ему оба ваших потока, один из них или ни одного. Этот персонаж становится вашим оруженосцем и получает выбранные вами потоки.\n\nВы можете иметь число оруженосцев, не превышающее ваш текущий Идеал."
     },
     "origin": "radiant_path",
@@ -103,7 +103,7 @@
       "ru": "Сплоченная командная работа"
     },
     "description": {
-      "en": "**Requirements** Cohesion 2+; Tension 2+; Speak the First Ideal.\n\nAfter you use the Gain Advantage action while having 1 Investiture or more, whether you succeed or fail, the next test an ally makes against that target gains an advantage. Until the end of your next turn, while standing on stone, you can’t be moved against your will or knocked Prone.",
+      "en": "**Requirements** Cohesion 2+; Tension 2+; Speak the First Ideal.\n\nWhen you Gain Advantage while having Investiture, the next test an ally makes against that target gains an advantage, and you can't be forcibly moved or knocked Prone.",
       "ru": "**Требования** Когезия 2+, Напряжение 2+; Произнести Первый Идеал.\n\nПосле использования действия **Получить преимущество**, имея 1 или более очков Инвеституры, независимо от того, преуспеете вы или потерпите неудачу, следующая проверка, которую союзник совершит против этой цели, получает преимущество. До конца вашего следующего хода, стоя на камне, вас нельзя переместить против вашей воли или сбить с ног."
     },
     "origin": "radiant_path",
@@ -138,7 +138,7 @@
       "ru": "Регенерация травм"
     },
     "description": {
-      "en": "While using Regenerate as free action, you can **spend 2 Investiture** to recover from a temporary injury or **spend 3 Investiture** to recover from a permanent.",
+      "en": "When you Regenerate, **spend 2 Investiture** to recover from a temporary injury, or **spend 3 Investiture** to recover from a permanent one.",
       "ru": "Когда вы используете действие Регенерация как свободное действие, вы можете потратить Инвеституру для мгновенного восстановления от травмы по вашему выбору. **Потратьте 2 Инвеституры**, чтобы восстановиться от временной травмы, или **потратьте 3 Инвеституры** чтобы восстановиться от постоянной травмы."
     },
     "origin": "radiant_path",

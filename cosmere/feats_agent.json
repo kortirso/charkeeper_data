@@ -44,7 +44,7 @@
       "ru": "Заставить говорить"
     },
     "description": {
-      "en": "**Requirements** Insight 2+.\n\nSpend 1 focus to test Deduction vs. Spiritual to learn the target’s motivation. During this scene, you can raise the stakes on tests to leverage this motivation.",
+      "en": "**Requirements** Insight 2+.\n\nSpend 1 focus to test Deduction vs. Spiritual to learn the target's motivation. During this scene, you can raise the stakes on tests to leverage this motivation.",
       "ru": "**Требования** Проницательность 2+.\n\n**Потратьте 1 фокус**, чтобы совершить проверку Дедукции против Духовной защиты персонажа, на которого вы можете повлиять. При успехе вы узнаёте мотивацию цели в этой сцене. До конца сцены, когда вы совершаете проверку, используя эту мотивацию против цели, вы можете повысить ставки."
     },
     "origin": "path",
@@ -234,7 +234,7 @@
       "ru": "Закрыть дело"
     },
     "description": {
-      "en": "**Requirements** Deduction 3+.\n\nSpend 3 focus to test Deduction vs. Cognitive, gaining an advantage if you know the target’s motivation. On failure, the target gains an advantage against you. On success, they back down.",
+      "en": "**Requirements** Deduction 3+.\n\nSpend 3 focus to test Deduction vs. Cognitive, gaining an advantage if you know the target's motivation. On failure, the target gains an advantage against you. On success, they back down.",
       "ru": "**Требования** Дедукция 3+.\n\nОдин раз за сцену вы можете **потратить 3 фокуса** и совершить проверку Дедукции против Когнитивной защиты персонажа, на которого вы можете повлиять. Вы получаете преимущество на эту проверку, если знаете текущую мотивацию цели, и получаете помеху, если не знаете.\n\nПри провале цель получает преимущество на все проверки против вас до конца своего следующего хода.\n\nПри успехе вы оказываете влияние на цель, заставляя её отступить. Она прекращает противодействовать вашим текущим целям в этой сцене и, возможно, захочет покинуть её. Цель может сопротивляться этому влиянию, но если сделает это, то получит помеху на все последующие проверки до конца своего следующего хода."
     },
     "origin": "path",
@@ -266,7 +266,7 @@
       "ru": "Тихая расправа"
     },
     "description": {
-      "en": "**Requirements** Insight 3+.\n\nMake an unarmed attack with Insight vs. an unsuspecting target’s Cognitive, raising the stakes. On a hit, they can’t communicate.",
+      "en": "**Requirements** Insight 3+.\n\nMake an unarmed attack with Insight vs. an unsuspecting target's Cognitive, raising the stakes. On a hit, they can't communicate.",
       "ru": "**Требования** Проницательность 3+.\n\nСовершите безоружную атаку, используя Проницательность против Когнитивной защиты персонажа, который *Взят врасплох*, не обнаруживает вас или не воспринимает как угрозу (например, если вы замаскированы). Цель должна быть вашего размера или меньше. Проверка этой атаки проводится с повышением ставок. При попадании цель не может коммуницировать до конца своего следующего хода. При попадании вы можете потратить *Возможность*, чтобы совершить Захват этой цели как свободное действие, автоматически преуспевая в проверке; пока цель *Скована* этим захватом, она также считается *Сбитой с ног*."
     },
     "origin": "path",
@@ -398,7 +398,7 @@
       "ru": "Теневой шаг"
     },
     "description": {
-      "en": "**Requirements** Thievery 3+.\n\nAfter you Disengage, spend 2 focus to test Thievery vs. each enemy’s Cognitive to hide from them. You gain an advantage if in cover or obscured.",
+      "en": "**Requirements** Thievery 3+.\n\nAfter you Disengage, spend 2 focus to test Thievery vs. each enemy's Cognitive to hide from them. You gain an advantage if in cover or obscured.",
       "ru": "**Требования** Воровство 3+.\n\nПосле вашего *Отхода* вы можете **потратить 2 фокуса**, чтобы совершить проверку Воровства и сравнить её результат с Когнитивной защитой каждого врага, который может вас обнаружить. Вы получаете преимущество на эту проверку, если находитесь в укрытии или в месте, где основное чувство восприятия цели затуманено (например, в темноте). Если вы преуспеваете в проверке против врага, вы скрываетесь от него, как если бы успешно прошли проверку Скрытности."
     },
     "origin": "path",
