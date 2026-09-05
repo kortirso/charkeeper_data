@@ -1,0 +1,763 @@
+[
+  {
+    "title": {
+      "en": "Rebel"
+    },
+    "description": {
+      "en": "Rebels embody the people's discontent, fighting for reform and buoying hope."
+    },
+    "public": true,
+    "only": [1, 2],
+    "origin_class": "agent",
+    "initial_talents": ["True Grit", "Defiant Glare"],
+    "features": [
+      {
+        "required_for": ["Raise the Banner"],
+        "title": {
+          "en": "True Grit"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 1+.\n\nAfter you or an ally gain *Complication*, you recover 1 focus."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Leverage Dissent"],
+        "title": {
+          "en": "Raise the Banner"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 2+.\n\nWhen you Aid an ally, they recover 1 focus."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Through the Grapevine", "Martyr's Boon"],
+        "title": {
+          "en": "Leverage Dissent"
+        },
+        "description": {
+          "en": "Gain Public Speaking expertise. Add your ranks in Leadership to *Complication* on the plot die."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Through the Grapevine"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\nAfter a long rest, test Insight to learn two pieces of information. On success, both pieces are true. On failure, one piece is true and the other false."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Combat Training"],
+        "title": {
+          "en": "Defiant Glare"
+        },
+        "description": {
+          "en": "Prerequisite: Insight 2+ Spend 2 focus to test Insight vs. Spiritual to make the target *Exhausted [−2]*."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Merciless"],
+        "title": {
+          "en": "Combat Training"
+        },
+        "description": {
+          "en": "Gain expertise in a weapon, armor, and Military Life. Once per round, graze without spending focus."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Merciless"
+        },
+        "description": {
+          "en": "Gain an advantage on attacks against *Exhausted*, *Immobilized*, and *Restrained* targets."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Martyr's Boon"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 3+.\n\nAfter you're hit, choose allies up to your ranks in Leadership. They gain for the Recover action."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Grifter"
+    },
+    "description": {
+      "en": "Untethered by standard moral codes, Grifters know the best lies have truth to them."
+    },
+    "public": true,
+    "only": [1, 2],
+    "origin_class": "envoy",
+    "initial_talents": ["False Flattery", "This One's on Me"],
+    "features": [
+      {
+        "required_for": ["Plausible Excuse"],
+        "title": {
+          "en": "False Flattery"
+        },
+        "description": {
+          "en": "You can use **Rousing Presence** on non-allies, then steal the Opportunity from their *Determined* condition."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Outrageous Quip"],
+        "title": {
+          "en": "Plausible Excuse"
+        },
+        "description": {
+          "en": "**Prerequisite** Deception 1+.\n\nGain **Sleight of Hand** expertise. When discovered skulking, spend 2 focus to feign innocence."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Exceptional Bluff", "Insult to Injury"],
+        "title": {
+          "en": "Outrageous Quip"
+        },
+        "description": {
+          "en": "**Prerequisite** Deception 2+.\n\nTest Deception vs. Spiritual to make your target Surprised."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Exceptional Bluff"
+        },
+        "description": {
+          "en": "**Prerequisite** Deception 3+.\n\n**Spend 2 focus** before making a cognitive or spiritual test to influence a character, then test Deception instead of the other skill."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Insult to Injury"
+        },
+        "description": {
+          "en": "Prerequisite: Discipline 3+.\n\n**Spend Complication** from **False Flattery** to make the target suffer an injury."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["The Long Con", "Got 'Em Good!"],
+        "title": {
+          "en": "This One's on Me"
+        },
+        "description": {
+          "en": "**Prerequisite** Discipline 1+.\n\n**Spend 1 focus** to Move between an ally and their ranged attacker. The attack hits you instead, and your ally is *Determined*."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "The Long Con"
+        },
+        "description": {
+          "en": "Gain a patron with fancy amenities you can use to travel, shelter, and create disguises."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Got 'Em Good!"
+        },
+        "description": {
+          "en": "**Prerequisite** Discipline 2+.\n\nMake a clever jab when an ally succeeds vs. Cognitive or Spiritual defense. The target loses 2 focus, then if their focus is 0, they're *Disoriented*."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Hazekiller"
+    },
+    "description": {
+      "en": "Trained and outfitted specifically to combat enemy Allomancers."
+    },
+    "public": true,
+    "only": [1],
+    "origin_class": "hunter",
+    "initial_talents": ["Seek Allomancer", "Hazekiller Weaponry"],
+    "features": [
+      {
+        "required_for": ["Collected"],
+        "title": {
+          "en": "Seek Allomancer"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 1+.\n\n**Spend 1 focus** to choose an Investiture-spending target as your quarry. Additionally, your senses range doubles while an enemy quarry is within 200 feet."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Two Steps Ahead"],
+        "title": {
+          "en": "Collected"
+        },
+        "description": {
+          "en": "Increase your Cognitive and Spiritual defenses by 2."
+        },
+        "kind": "update_result",
+        "modifiers": { "defense.cognitive": { "type": "add", "value": 2 }, "defense.spiritual": { "type": "add", "value": 2 } },
+        "double_slug": "collected"
+      },
+      {
+        "required_for": ["Reckless Ferocity", "Extinguish"],
+        "title": {
+          "en": "Two Steps Ahead"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 2+.\n\nWhile your enemy quarry is within reach, you can't be grazed, and your quarry must spend an additional action to Disengage."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Reckless Ferocity"
+        },
+        "description": {
+          "en": "Make two melee weapon attacks vs. Physical defense. The second attack gains a disadvantage."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      },
+      {
+        "required_for": ["Delicate Touch"],
+        "title": {
+          "en": "Hazekiller Weaponry"
+        },
+        "description": {
+          "en": "Gain expertise in one weapon or in Munitions Crafting. Weapons that counter Invested Arts gain the Quickdraw trait and deal extra damage equal to your ranks in Insight."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Extinguish"],
+        "title": {
+          "en": "Delicate Touch"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 2+.\n\nIgnore the **Fragile** trait. Your Opportunity range increases by 2 with Fragile weapons."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Foresight", "Two Steps Ahead"],
+        "title": {
+          "en": "Extinguish"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\nMake a Reactive Strike before your quarry recovers Investiture. On a hit or graze, they recover half as much and are *Stunned*."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Foresight"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 3+.\n\nGain an additional reaction each turn."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Sharpshooter"
+    },
+    "description": {
+      "en": "Sharpshooter offers their allies invaluable support in nearly any conflict—albeit from a cautious distance."
+    },
+    "public": true,
+    "only": [2],
+    "origin_class": "hunter",
+    "initial_talents": ["Sharp Eye", "Fire Discipline"],
+    "features": [
+      {
+        "required_for": ["Steady Aim"],
+        "title": {
+          "en": "Sharp Eye"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 1+.\n\nObserve a target, then test Perception vs. Cognitive to learn their lowest attribute, lowest defense, or if their health, focus, or Investiture are below half."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Composed", "Swift Targeting"],
+        "title": {
+          "en": "Steady Aim"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 1+.\n\nIncrease your weapon range by half and deal extra damage equal to your ranks in Perception."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Deadly Aim"],
+        "title": {
+          "en": "Composed"
+        },
+        "description": {
+          "en": "Increase your max and current focus by your tier."
+        },
+        "kind": "update_result",
+        "modifiers": { "focus_max": { "type": "add", "value": "tier" } },
+        "double_slug": "composed"
+      },
+      {
+        "title": {
+          "en": "Deadly Aim"
+        },
+        "description": {
+          "en": "**Prerequisite** Perception 3+.\n\nAfter you Gain Advantage with Perception, your Two-Handed ranged weapons gain the Deadly trait against that target."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Deft Drop"],
+        "title": {
+          "en": "Fire Discipline"
+        },
+        "description": {
+          "en": "Gain expertise in a Loaded weapon, and in Crossbow Maintenance or Gun Maintenance. When your Loaded weapon misses, graze without spending focus."
+        },
+        "kind": "static",
+        "double_slug": "fire_discipline"
+      },
+      {
+        "required_for": ["Swift Targeting", "Crack Shot"],
+        "title": {
+          "en": "Deft Drop"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 1+.\n\nDismount and drop Prone, then either Ready an action or reload your weapon."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Swift Targeting"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 2+.\n\nGain Advantage, spending 0 focus if you're Prone or 2 focus if you're not. On success, the target also becomes your quarry."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Crack Shot"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 3+.\n\nWhen testing with a Two-Handed ranged weapon while Prone, spend 1 focus to increase your Opportunity range by 2, and choose a die to avoid disadvantage on."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Mastermind"
+    },
+    "description": {
+      "en": "Masterminds use their knack for strategy and planning to enable their team to accomplish great things."
+    },
+    "public": true,
+    "only": [1, 2],
+    "origin_class": "leader",
+    "initial_talents": ["Master Plan", "Composed"],
+    "features": [
+      {
+        "required_for": ["Stick to the Plan"],
+        "title": {
+          "en": "Master Plan"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 1+.\n\nWork with the GM to create an event with 3+ Opportunity slots. If triggered, your party gains a significant benefit."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      },
+      {
+        "required_for": ["On My Signal"],
+        "title": {
+          "en": "Stick to the Plan"
+        },
+        "description": {
+          "en": "When you or an ally rolls a blank on a plot die, spend 2 focus to fill a slot in your Master Plan event."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Behind You!"],
+        "title": {
+          "en": "Composed"
+        },
+        "description": {
+          "en": "Increase your max and current focus by your tier."
+        },
+        "kind": "update_result",
+        "modifiers": { "focus_max": { "type": "add", "value": "tier" } },
+        "double_slug": "composed"
+      },
+      {
+        "required_for": ["Smooth Execution", "I've Got Just the Thing"],
+        "title": {
+          "en": "On My Signal"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 2+.\n\nWhen your Master Plan event would be triggered, you can delay those effects until later in the scene."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Smooth Execution"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 3+.\n\nWhen your Master Plan event triggers, you and your allies become Focused."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "I've Got Just the Thing"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 3+.\n\nSpend 1 focus to produce an item as if you'd previously purchased it, such as equipment, building blueprints, or a letter."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Precise Command"],
+        "title": {
+          "en": "Behind You!"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 2+.\n\nYou can Avoid Danger or Dodge on behalf of an ally, and each round, you gain a reaction to do so."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Precise Command"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 2+.\n\nIncrease the size of your command die. Spend 1 focus to add your command die to your Deduction, Leadership, or Lore d20 roll."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Inventor"
+    },
+    "description": {
+      "en": "Inventors take pride in optimizing and embellishing their creations."
+    },
+    "public": true,
+    "only": [2],
+    "origin_class": "scholar",
+    "initial_talents": ["Proficient Operator", "Hasty Adjustment"],
+    "features": [
+      {
+        "required_for": ["Acute Scrutiny", "Gunsmith"],
+        "title": {
+          "en": "Proficient Operator"
+        },
+        "description": {
+          "en": "When you're under pressure but doing something you're practiced at, you can use the Interact action instead of Use a Skill."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["It's in Here Somewhere"],
+        "title": {
+          "en": "Acute Scrutiny"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 2+.\n\nWhen a character uses an object, spend 1 focus and test Crafting vs. Cognitive. On success, it doesn't function."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Modern Marveller"],
+        "title": {
+          "en": "It's in Here Somewhere"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 2+.\n\nTest Crafting to assemble a needed item from spare parts."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Modern Marveller"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 3+.\n\nGain Automobile Mechanic expertise, and gain a car with a hidden compartment."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Gunsmith", "Acute Scrutiny"],
+        "title": {
+          "en": "Hasty Adjustment"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 1+.\n\nTest Crafting to create a trap or to improve a tool or machine, and combine components to gain an advantage. You can use Survival to forage for scrap."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Out of a Jam"],
+        "title": {
+          "en": "Gunsmith"
+        },
+        "description": {
+          "en": "**Prerequisite** Crafting 2+.\n\nGain Munitions Crafting expertise. When crafting, your Opportunity range expands by 2 and your material cost is halved."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Detonation Expert"],
+        "title": {
+          "en": "Out of a Jam"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 2+.\n\nSpend 1 focus to reload a weapon or to test Crafting to repair it."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Detonation Expert"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 3+.\n\nGain Dynamite expertise. You can test Lore to attack with dynamite. Gain action to Interact with, Disengage from, or Move away from an explosive."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Brawler"
+    },
+    "description": {
+      "en": "Brawlers relish the challenge of being outnumbered."
+    },
+    "public": true,
+    "only": [1, 2],
+    "origin_class": "warrior",
+    "initial_talents": ["Grappler's Stance", "Surefooted"],
+    "features": [
+      {
+        "required_for": ["Baleful"],
+        "title": {
+          "en": "Grappler's Stance"
+        },
+        "description": {
+          "en": "**Prerequisite** Intimidation 1+.\n\nEnter Grappler's Stance: Gain an advantage on Athletics tests. Grapple or Shove as action. Enemies within reach must spend an additional action to draw a weapon or attack with a ranged weapon."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Bruiser's Stance", "Pulse of Battle"],
+        "title": {
+          "en": "Baleful"
+        },
+        "description": {
+          "en": "To resist your influence, a character must spend additional focus equal to your tier."
+        },
+        "kind": "static",
+        "double_slug": "baleful"
+      },
+      {
+        "required_for": ["Battle-Hardened"],
+        "title": {
+          "en": "Bruiser's Stance"
+        },
+        "description": {
+          "en": "**Prerequisite** Intimidation 2+.\n\nEnter Bruiser's Stance: Your Physical defense increases by 1 per enemy within reach, and Reactive Strikes with an unarmed strike or improvised weapon don't cost reaction."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Battle-Hardened"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 3+.\n\nWhen its result is lower than your ranks in Athletics, you can reroll a recovery die, a damage die for an unarmed attack or improvised weapon, or an injury roll's d20."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Roll With the Punches"],
+        "title": {
+          "en": "Surefooted"
+        },
+        "description": {
+          "en": "Your movement increases by 10. Reduce damage from falling and dangerous terrain by twice your tier."
+        },
+        "kind": "static",
+        "double_slug": "surefooted",
+        "modifiers": { "movement": { "type": "add", "value": 10 } }
+      },
+      {
+        "title": {
+          "en": "Roll With the Punches"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+.\n\nAfter you're hit or grazed, move up to half your movement without triggering Reactive Strikes."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "required_for": ["Wallop"],
+        "title": {
+          "en": "Pulse of Battle"
+        },
+        "description": {
+          "en": "Before being grazed, choose one:\n\n- Increase your deflect by 1 and recover 1 focus.\n\n- Spend 2 focus to gain an additional reaction."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Wallop"
+        },
+        "description": {
+          "en": "**Prerequisite** Intimidation 3+.\n\nAfter an enemy misses or grazes you, spend 2 focus to move up to half your movement, then make an unarmed attack vs. Spiritual, dealing extra damage and ignoring deflect."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Gunslinger"
+    },
+    "description": {
+      "en": "Gunslingers figure that two guns are better than one."
+    },
+    "public": true,
+    "only": [2],
+    "origin_class": "warrior",
+    "initial_talents": ["Trick Shooting", "Fire Discipline"],
+    "features": [
+      {
+        "required_for": ["Twin Weapon Stance"],
+        "title": {
+          "en": "Trick Shooting"
+        },
+        "description": {
+          "en": "Prerequisite: Agility 1+ After you Gain Advantage using Agility or Perception, your one-handed ranged weapons gain the Indirect trait."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Fast Hands"],
+        "title": {
+          "en": "Twin Weapon Stance"
+        },
+        "description": {
+          "en": "Prerequisite: Agility 2+ Enter Twin Weapon Stance: Gain an advantage on Agility tests. Your Opportunity range increases by 2 with one-handed ranged weapons. Choose a one-handed weapon to gain the Offhand trait."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Fast Hands"
+        },
+        "description": {
+          "en": "Prerequisite: Agility 3+ Spend 2 focus to gain 2 actions for drawing or reloading a weapon. That weapon gains an advantage against targets who haven’t taken their turn."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Terrifying Jolt"],
+        "title": {
+          "en": "Fire Discipline"
+        },
+        "description": {
+          "en": "Gain expertise in a Loaded weapon, and in Crossbow Maintenance or Gun Maintenance. When your Loaded weapon misses, graze without spending focus."
+        },
+        "kind": "static",
+        "double_slug": "fire_discipline"
+      },
+      {
+        "required_for": ["Collateral Damage", "Mighty", "Fanning"],
+        "title": {
+          "en": "Terrifying Jolt"
+        },
+        "description": {
+          "en": "Prerequisite: Athletics 2+ After you graze with keen damage, the target loses 1 focus. If their focus drops to 0, they become Surprised."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Collateral Damage"
+        },
+        "description": {
+          "en": "Prerequisite: Athletics 3+ When you make a ranged attack that deals keen damage, also graze another target within 5 feet."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Out of a Jam"
+        },
+        "description": {
+          "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier."
+        },
+        "kind": "static",
+        "double_slug": "mighty"
+      },
+      {
+        "title": {
+          "en": "Fanning"
+        },
+        "description": {
+          "en": "Prerequisite: Agility 3+ Use a Loaded [2+] weapon to attack targets within 15 feet of each other. On success, hit one target and graze the rest."
+        },
+        "kind": "static"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "title": {
+      "en": "Iron Allomancy"
+    },
+    "description": {
+      "en": "Iron Allomancy allows you to see blue lines extending from your center of mass to that of nearby metal objects."
+    },
+    "public": true,
+    "only": [1, 2],
+    "features": [
+      {
+        "required_for": [],
+        "title": {
+          "en": "Leveraging Brace"
+        },
+        "description": {
+          "en": "While you Brace using an object/structure larger than you, use its size instead of your own for the effects of Ironpulling and Steelpushing."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": [],
+        "title": {
+          "en": "Projectile Lurch"
+        },
+        "description": {
+          "en": "Before an ally is attacked with a metal projectile, spend 1 Investiture to make yourself the target."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      }
+    ]
+  }
+]

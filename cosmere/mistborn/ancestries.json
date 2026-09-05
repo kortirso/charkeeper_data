@@ -1,0 +1,250 @@
+[
+  {
+    "title": {
+      "en": "Kandra"
+    },
+    "description": {
+      "en": "Created as immortal spies by the Lord Ruler, kandra are mistwraiths who were granted sapience via two Hemalurgic spikes called Blessings."
+    },
+    "public": true,
+    "only": [1, 2],
+    "attribute_points": 6,
+    "initial_talents": ["Kandra Blessings", "Natural Form"],
+    "features": [
+      {
+        "title": {
+          "en": "Kandra Blessings"
+        },
+        "description": {
+          "en": "Choose one of the following Blessings."
+        },
+        "kind": "many_from_list",
+        "options": [
+          {
+            "title": {
+              "en": "Blessing of Awareness"
+            },
+            "feature": {
+              "title": {
+                "en": "Blessing of Awareness"
+              },
+              "kind": "hidden",
+              "modifiers": {
+                "awa": { "type": "add", "value": 2 }
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Blessing of Potency"
+            },
+            "feature": {
+              "title": {
+                "en": "Blessing of Potency"
+              },
+              "kind": "hidden",
+              "modifiers": {
+                "str": { "type": "add", "value": 1 },
+                "spd": { "type": "add", "value": 1 }
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Blessing of Presence"
+            },
+            "feature": {
+              "title": {
+                "en": "Blessing of Presence"
+              },
+              "kind": "hidden",
+              "modifiers": {
+                "int": { "type": "add", "value": 1 },
+                "pre": { "type": "add", "value": 1 }
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Blessing of Stability"
+            },
+            "feature": {
+              "title": {
+                "en": "Blessing of Stability"
+              },
+              "kind": "hidden",
+              "modifiers": {
+                "wil": { "type": "add", "value": 2 }
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Blessing of Fortitude"
+            },
+            "feature": {
+              "title": {
+                "en": "Blessing of Fortitude"
+              },
+              "description": {
+                "en": "While in your Kandra Disguise form, your deflect value reduces impact damage."
+              },
+              "kind": "static",
+              "modifiers": {
+                "deflect": { "type": "add", "value": 1 }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "required_for": ["Kandra Disguise"],
+        "title": {
+          "en": "Natural Form"
+        },
+        "description": {
+          "en": "While in your amorphous form, you can't speak, but you can pass through small openings. While in any form, you have some resistance to injury and keen damage."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Improvised Imitation", "Secret Away"],
+        "title": {
+          "en": "Kandra Disguise"
+        },
+        "description": {
+          "en": "Over a long rest, ingest and take the form of a Small or Medium human, replacing your Strength, Speed, and Awareness with theirs."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Rapid Reshaping"],
+        "title": {
+          "en": "Improvised Imitation"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 2+.\n\nObserve a character for one scene to imitate their mannerisms, and gain an advantage on related Deception tests."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Distasteful Forms", "Creative Forms"],
+        "title": {
+          "en": "Rapid Reshaping"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 2+.\n\nIngesting and taking the form of a character only takes a short rest instead of a long rest."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Distasteful Forms"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 4+.\n\nIngest and take the form of Small and Medium non-humans, gaining additional benefits from their physical form."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Organic Tools"],
+        "title": {
+          "en": "Secret Away"
+        },
+        "description": {
+          "en": "You or a nearby ally can store or retrieve an object in a secret compartment inside your body."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Creative Forms"],
+        "title": {
+          "en": "Organic Tools"
+        },
+        "description": {
+          "en": "**Prerequisite** Thievery 2+.\n\nPrecisely shape your appendages into tools, and gain an advantage on related Thievery and Crafting tests."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Creative Forms"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\nMake minor changes to your face and other features. When imitating a specific character, test Deception."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Koloss-Blooded"
+    },
+    "description": {
+      "en": "The koloss-blooded people are descended from the koloss of the Final Empire."
+    },
+    "public": true,
+    "only": [2],
+    "initial_talents": ["Koloss Stamina"],
+    "features": [
+      {
+        "required_for": ["Koloss Recovery", "Unchecked Size"],
+        "title": {
+          "en": "Koloss Stamina"
+        },
+        "description": {
+          "en": "Your maximum health increases by 1 for each level."
+        },
+        "kind": "update_result",
+        "modifiers": {
+          "health_max": { "type": "add", "value": "level" },
+          "max_abilities.str": { "type": "add", "value": 1 }
+        }
+      },
+      {
+        "required_for": ["Rapid Recovery"],
+        "title": {
+          "en": "Koloss Recovery"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+.\n\nRoll two recovery dice instead of one, recovering only health when you do."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Reactive Recovery"],
+        "title": {
+          "en": "Rapid Recovery"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 3+.\n\nUse the Recover action as action, recovering only health. You can do this a number of times equal to your tier."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Unchecked Size"
+        },
+        "description": {
+          "en": "**Prerequisite** Level 11+.\n\nIncrease your Strength by 1, and count as Large for all purposes other than occupying space."
+        },
+        "kind": "static",
+        "modifiers": {
+          "str": { "type": "add", "value": 1 }
+        }
+      },
+      {
+        "title": {
+          "en": "Reactive Recovery"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 4+.\n\nBefore you take damage, use the Recover action as reaction."
+        },
+        "kind": "static"
+      }
+    ]
+  }
+]

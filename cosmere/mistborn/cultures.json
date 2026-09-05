@@ -1,0 +1,152 @@
+[
+  {
+    "title": {
+      "en": "Skaa"
+    },
+    "description": {
+      "en": "The skaa are the largest ethnic group in the Final Empire."
+    },
+    "only": [1],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Luthadel"
+    },
+    "description": {
+      "en": "Luthadel is the largest Scadrian city and the seat of the Lord Ruler."
+    },
+    "only": [1],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Inner Dominances"
+    },
+    "description": {
+      "en": "The cultural hegemony of the nobility over the skaa defines life in these regions."
+    },
+    "only": [1],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Terris Dominances"
+    },
+    "description": {
+      "en": "Terris Dominance is a mountainous tundra at the northern edge of the Empire."
+    },
+    "only": [1],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Outer Dominances"
+    },
+    "description": {
+      "en": "The Final Empire's control wanes in the Outer Dominances."
+    },
+    "only": [1],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Elendel"
+    },
+    "description": {
+      "en": "The largest city on Scadrial, Elendel sits on the site of the Final Ascension and is a hub for commerce and invention."
+    },
+    "only": [2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Koloss-Blooded"
+    },
+    "description": {
+      "en": "Koloss-blooded children grow up in the worlds of both peoples."
+    },
+    "only": [2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Malwish"
+    },
+    "description": {
+      "en": "The Malwish nation is home to one of five peoples who populate the Southern Continent of Scadrial."
+    },
+    "only": [2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Outer Cities"
+    },
+    "description": {
+      "en": "The outer cities encompass large population centers such as Bilming and New Seran as well as small settlements such as Doriel, Drypost, Dryport, and Garmet."
+    },
+    "only": [2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "The Roughs"
+    },
+    "description": {
+      "en": "Past the mountain ranges of the Elendel Basin, the Roughs are a swath of frontier land that’s desolate by comparison."
+    },
+    "only": [2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Terris Enclaves"
+    },
+    "description": {
+      "en": "Several Terris enclaves exist across the Elendel Basin, though the largest and most influential is the Village in Elendel."
+    },
+    "only": [2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Kandra Homeland"
+    },
+    "description": {
+      "en": "During the reign of the Lord Ruler, the kandra Homeland is an underground haven with sprawling tunnels, large caverns, and cozy chambers."
+    },
+    "only": [1, 2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "High Society"
+    },
+    "description": {
+      "en": "In the Final Empire, nobles conduct business and politics during lavish balls, at dining tables, and in smoking rooms."
+    },
+    "only": [1, 2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Underworld"
+    },
+    "description": {
+      "en": "The exploitation of the skaa has driven the emergence of a thriving underworld."
+    },
+    "only": [1, 2],
+    "public": true
+  },
+  {
+    "title": {
+      "en": "Wayfarer"
+    },
+    "description": {
+      "en": "There have always been Scadrians who live a life of travel, driven by occupation, exile, or tourism."
+    },
+    "only": [1, 2],
+    "public": true
+  }
+]

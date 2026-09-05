@@ -1,0 +1,431 @@
+[
+  {
+    "title": {
+      "en": "Misting"
+    },
+    "description": {
+      "en": "Mistings are by far the most common type of Metalborn across both eras."
+    },
+    "public": true,
+    "only": [1, 2],
+    "initial_talents": ["Misting Snap"],
+    "features": [
+      {
+        "required_for": ["Invested", "Instinctual Burn"],
+        "extra_skills": ["allomancy", "allomancy"],
+        "title": {
+          "en": "Misting Snap"
+        },
+        "description": {
+          "en": "**Prerequisite** Human or koloss-blooded ancestry; no other Snap or Heritage talent.\n\nGain an Investiture score, the Drink Vial action, the Allomancy skill, and one nascent Allomantic power."
+        },
+        "kind": "static",
+        "investiture": true
+      },
+      {
+        "required_for": ["Powerhouse", "Trace Metals"],
+        "title": {
+          "en": "Invested"
+        },
+        "description": {
+          "en": "Your max Investiture increases by your tier."
+        },
+        "kind": "update_result",
+        "modifiers": { "investiture_max": { "type": "add", "value": "tier" } }
+      },
+      {
+        "required_for": ["Allomantic Savantism"],
+        "title": {
+          "en": "Powerhouse"
+        },
+        "description": {
+          "en": "Your power's range increases by one rank in Allomancy, and maintaining its effect costs 1 fewer Investiture."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Trace Metals"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nUse the nascent version of your Allomantic powers even while at 0 Investiture or otherwise Depleted."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Allomantic Savantism"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 5+.\n\nAfter you complete the **Become a Savant** goal, your power is amplified by 2 Investiture. While Depleted, you suffer withdrawal."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Instinctual Burn"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nAfter a long rest, choose one of your Allomantic powers. You can use its Burn action before each scene."
+        },
+        "kind": "text"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Mistborn"
+    },
+    "description": {
+      "en": "Mistborn are the most iconic and legendary Metalborn of Scadrial."
+    },
+    "public": true,
+    "only": [1],
+    "initial_talents": ["Mistborn Snap"],
+    "features": [
+      {
+        "required_for": ["Invested", "Metallic Splash"],
+        "extra_skills": ["allomancy"],
+        "title": {
+          "en": "Mistborn Snap"
+        },
+        "description": {
+          "en": "**Prerequisite** Human ancestry; no other Snap or Heritage talent.\n\nGain an Investiture score, the Drink Vial action, the Allomancy skill, and all nascent Allomantic powers."
+        },
+        "kind": "static",
+        "investiture": true
+      },
+      {
+        "required_for": ["Metallic Splash", "Trace Metals"],
+        "title": {
+          "en": "Invested"
+        },
+        "description": {
+          "en": "Your max Investiture increases by your tier."
+        },
+        "kind": "update_result",
+        "modifiers": { "investiture_max": { "type": "add", "value": "tier" } }
+      },
+      {
+        "title": {
+          "en": "Trace Metals"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nUse the nascent version of your Allomantic powers even while at 0 Investiture or otherwise Depleted."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Selective Burn", "Instinctual Burn"],
+        "title": {
+          "en": "Metallic Splash"
+        },
+        "description": {
+          "en": "When you make a test for an Allomantic power, spend to also use another nascent power."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Selective Burn"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nUse an Allomantic power by becoming Depleted of that power instead of spending Investiture."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Simultaneous Burn"],
+        "title": {
+          "en": "Instinctual Burn"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nAfter a long rest, choose one of your Allomantic powers. You can use its Burn action before each scene."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Simultaneous Burn"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+.\n\n**Spend 2 focus** to gain 2 actions for activating your Allomantic powers."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Feruchemist"
+    },
+    "description": {
+      "en": "Full Feruchemists can use the metalminds of every Feruchemical metal, storing many of their traits in preparation for tapping them later."
+    },
+    "public": true,
+    "only": [1],
+    "initial_talents": ["Feruchemist Heritage"],
+    "features": [
+      {
+        "required_for": ["Expanded Metalminds", "Fast Storing"],
+        "extra_skills": ["feruchemy"],
+        "title": {
+          "en": "Feruchemist Heritage"
+        },
+        "description": {
+          "en": "**Prerequisite** Human ancestry; no other Snap or Heritage talent.\n\nGain the Feruchemy skill and all nascent Feruchemical powers. You can wear metalminds up to your Intellect score."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Mental Bandwidth", "Embedded Metalmind"],
+        "title": {
+          "en": "Expanded Metalminds"
+        },
+        "description": {
+          "en": "Your maximum metalmind charge increases by a number equal to your tier."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Mental Bandwidth"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nYou can simultaneously wear metalminds up to your Feruchemy modifier (instead of your Intellect score)."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Embedded Metalmind"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 4+.\n\nEmbed a metalmind in your skin. It can't be affected by most Invested abilities, and it'll usually be overlooked."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Instinctual Tap"],
+        "title": {
+          "en": "Fast Storing"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nUse your Feruchemical Store actions as free action."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Fast Tapping"],
+        "title": {
+          "en": "Instinctual Tap"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nAfter a long rest, choose one of your Feruchemical powers. You can use its Tap action before each scene."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Fast Tapping"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 4+.\n\nSpend 2 focus to gain for tapping your Feruchemical powers."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Ferring"
+    },
+    "description": {
+      "en": "After the Catacendre, a new type of Metalborn began to appear: Ferrings, who can use only one Feruchemical power."
+    },
+    "public": true, 
+    "only": [2],
+    "initial_talents": ["Ferring Heritage"],
+    "features": [
+      {
+        "required_for": ["Expanded Metalminds", "Fast Storing"],
+        "extra_skills": ["feruchemy", "feruchemy"],
+        "title": {
+          "en": "Ferring Heritage"
+        },
+        "description": {
+          "en": "**Prerequisite** Human or koloss-blooded ancestry; no other Snap or Heritage talent.\n\nGain the Feruchemy skill and one nascent Feruchemical power."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Last Reserve", "Embedded Metalmind"],
+        "title": {
+          "en": "Expanded Metalminds"
+        },
+        "description": {
+          "en": "Your maximum metalmind charge increases by a number equal to your tier."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Last Reserve"
+        },
+        "description": {
+          "en": "**Prerequisite** Willpower 4+.\n\nWhile your metalmind has no charges, **spend 3 focus** instead of a charge."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Embedded Metalmind"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 4+.\n\nEmbed a metalmind in your skin. It can't be affected by most Invested abilities, and it'll usually be overlooked."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Instinctual Tap"],
+        "title": {
+          "en": "Fast Storing"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nUse your Feruchemical Store actions as free action."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Instinctual Tap"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nAfter a long rest, choose one of your Feruchemical powers. You can use its Tap action before each scene."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Twinborn"
+    },
+    "description": {
+      "en": "The Twinborn of Era 2 have both Allomantic and Feruchemical heritage, allowing them to wield both an Allomantic power and a Feruchemical power."
+    },
+    "public": true, 
+    "only": [2],
+    "initial_talents": ["Twinborn Heritage"],
+    "features": [
+      {
+        "required_for": ["Expanded Metalminds", "Fast Storing", "Invested", "Instinctual Burn"],
+        "extra_skills": ["discipline", "feruchemy", "allomancy"],
+        "title": {
+          "en": "Twinborn Heritage"
+        },
+        "description": {
+          "en": "**Prerequisite** Human or koloss-blooded ancestry; no other Snap or Heritage talent.\n\nGain an Investiture score, the Drink Vial action, the Allomancy and Feruchemy skills, one nascent Allomantic power, and one nascent Feruchemical power."
+        },
+        "kind": "static",
+        "investiture": true
+      },
+      {
+        "required_for": ["Instinctual Tap"],
+        "title": {
+          "en": "Fast Storing"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nUse your Feruchemical Store actions as free action."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Instinctual Tap"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nAfter a long rest, choose one of your Feruchemical powers. You can use its Tap action before each scene."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Instinctual Burn"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nAfter a long rest, choose one of your Allomantic powers. You can use its Burn action before each scene."
+        },
+        "kind": "text"
+      },
+      {
+        "required_for": ["Compounder", "Alloyed Resonance"],
+        "title": {
+          "en": "Invested"
+        },
+        "description": {
+          "en": "Your max Investiture increases by your tier."
+        },
+        "kind": "update_result",
+        "modifiers": { "investiture_max": { "type": "add", "value": "tier" } }
+      },
+      {
+        "required_for": ["Compounder", "Alloyed Resonance", "Embedded Metalmind"],
+        "title": {
+          "en": "Expanded Metalminds"
+        },
+        "description": {
+          "en": "Your maximum metalmind charge increases by a number equal to your tier."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Embedded Metalmind"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 4+.\n\nEmbed a metalmind in your skin. It can't be affected by most Invested abilities, and it'll usually be overlooked."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Compound Recursion"],
+        "title": {
+          "en": "Compounder"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+; Feruchemy 3+; your two powers use the same metal.\n\nDrink Vial to consume part of your metalmind, enabling you to spend Investiture (instead of charges) to fuel your Feruchemical power."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Compound Recursion"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+; Feruchemy 4+.\n\nWhile using **Compounder**, **spend Investiture** to recharge your metalmind."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Metallic Synergy"],
+        "title": {
+          "en": "Alloyed Resonance"
+        },
+        "description": {
+          "en": "**Prerequisite** Your two powers use different metals.\n\n**Spend 1 metalmind charge** to gain an advantage with your Allomantic power, or **spend 1 Investiture** to gain an advantage with your Feruchemical power."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Metallic Synergy"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+; Feruchemy 3+.\n\nAfter using **Alloyed Resonance**, also gain the full benefits of the other power."
+        },
+        "kind": "static"
+      }
+    ]
+  }
+]
