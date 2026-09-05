@@ -97,7 +97,6 @@
       "en": "Always three steps ahead, Strategists know timing is everything and make it work to their benefit."
     },
     "public": true,
-    "only": [],
     "origin_class": "scholar",
     "initial_talents": ["Strategize", "Mind and Body"],
     "features": [
@@ -192,7 +191,6 @@
       "en": "Qualified Surgeons apply their knowledge and empathy to heal the unwell and save lives."
     },
     "public": true,
-    "only": [],
     "origin_class": "scholar",
     "initial_talents": ["Field Medicine", "Emotional Intelligence"],
     "features": [
@@ -483,7 +481,6 @@
       "en": "The most common of fighting forces, Soldiers form the bulk of Roshar's massive armies."
     },
     "public": true,
-    "only": [],
     "origin_class": "warrior",
     "initial_talents": ["Cautious Advance", "Combat Training"],
     "features": [
