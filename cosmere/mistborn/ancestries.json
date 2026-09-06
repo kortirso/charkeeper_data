@@ -10,6 +10,7 @@
     "only": ["scan_1", "scan_2"],
     "attribute_points": 6,
     "initial_talents": ["Kandra Blessings", "Natural Form"],
+    "key_talent": "Natural Form",
     "features": [
       {
         "title": {
@@ -189,6 +190,7 @@
     "public": true,
     "only": ["scan_2"],
     "initial_talents": ["Koloss Stamina"],
+    "key_talent": "Koloss Stamina",
     "features": [
       {
         "required_for": ["Koloss Recovery", "Unchecked Size"],
