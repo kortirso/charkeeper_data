@@ -339,11 +339,11 @@
         "required_for": ["Ironstance"],
         "title": {
           "en": "Practiced Kata",
-          "ru": ""
+          "ru": "Отточенная ката"
         },
         "description": {
           "en": "You can now use stances in conversations and endeavors, and unless Surprised, you can start each scene in Vigilant Stance. Spend 1 focus to enter a stance mid-conversation or mid-endeavor.",
-          "ru": ""
+          "ru": "Вы можете использовать стойки в разговорах и усилиях и если вы не Взяты врасплох, вы можете начать сцену сразу в Стойке бдительности. Вы должны потратить 1 фокус, чтобы принять стойку во время разговора или усилия."
         },
         "kind": "static"
       },
@@ -351,11 +351,11 @@
         "required_for": ["Surefooted"],
         "title": {
           "en": "Ironstance",
-          "ru": ""
+          "ru": "Стойка железа"
         },
         "description": {
           "en": "**Prerequisite** Athletics 2+.\n\nEnter Ironstance: You gain an advantage on Insight, and when you're grazed or missed, you can make a Reactive Strike against your attacker.",
-          "ru": ""
+          "ru": "**Требование** Атлетика 2+.\n\nПримите Стойку железа: Вы получаете преимущество на Проницательность, и когда по вам промахиваются или же задевают вас, вы можете совершить Удар реакцией по атакующему."
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -363,11 +363,11 @@
       {
         "title": {
           "en": "Surefooted",
-          "ru": ""
+          "ru": "Уверенная поступь"
         },
         "description": {
           "en": "Your movement increases by 10. Reduce damage from falling and dangerous terrain by twice your tier.",
-          "ru": ""
+          "ru": "Ваша Скорость передвижения увеличивается на 10. Уменьшайте урон от падения и опасной местности на ваше значение тира × 2."
         },
         "kind": "static",
         "double_slug": "surefooted",
@@ -377,11 +377,11 @@
         "required_for": ["Signature Weapon", "Feinting Strike"],
         "title": {
           "en": "Flamestance",
-          "ru": ""
+          "ru": "Стойка пламени"
         },
         "description": {
           "en": "**Prerequisite** Intimidation 1+.\n\nEnter Flamestance: You gain an advantage on Intimidation, and when only one enemy is in reach and no allies are, gain action to attack or Gain Advantage.",
-          "ru": ""
+          "ru": "**Требование** Запугивание 1+.\n\nПримите Стойку пламени: Вы получаете преимущество на Запугивание, и когда в пределах досягаемости находится только один враг и нет союзников, вы можете получить действие на атаку или Получение преимущества."
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -389,11 +389,11 @@
       {
         "title": {
           "en": "Signature Weapon",
-          "ru": ""
+          "ru": "Фирменное оружие"
         },
         "description": {
           "en": "Gain a weapon expertise. Choose one of your weapon expertises, expanding its Opportunity range by 1.",
-          "ru": ""
+          "ru": "Вы получаете оружейную компетенцию. Выберите одно оружие компетенцией которого обладаете. Ваш диапазон Возможности при проверках с использованием этого вида оружия расширяется на 1."
         },
         "kind": "static"
       },
@@ -401,11 +401,11 @@
         "required_for": ["Vinestance", "Wit's End"],
         "title": {
           "en": "Feinting Strike",
-          "ru": ""
+          "ru": "Обескураживающий удар"
         },
         "description": {
           "en": "**Prerequisite** Intimidation 2+.\n\n**Spend 2 focus** to make a melee weapon attack vs. Cognitive. On a hit, your target loses reaction and loses focus equal to your ranks in Intimidation. On a graze, they lose half as much focus.",
-          "ru": ""
+          "ru": "**Требование** Запугивание 2+.\n\nЗа 2 фокуса совершите атаку оружием ближнего боя против Когнитивной защиты цели. При попадание цель теряет реакцию и количество фокуса равное вашему рангу в Запугивание. При задевании цель теряет лишь половину от этого количества фокуса."
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -413,23 +413,25 @@
       {
         "title": {
           "en": "Vinestance",
-          "ru": ""
+          "ru": "Стойка лозы"
         },
         "description": {
           "en": "**Prerequisite** Athletics 3+.\n\nEnter Vinestance: Your Physical and Cognitive defenses increase by 1. After you're hit or grazed in melee, spend to test Athletics vs. Cognitive to make attacker lose 1d4 focus and be pushed.",
-          "ru": ""
+          "ru": "**Требование** Атлетика 3+.\n\nПримите Стойку лозы: Ваша Физическая и Когнитивная защита увеличивается на 1. После того как по вам попадают или задевают атакой ближнего боя, потратьте реакцию, чтобы совершить проверку Атлетики против Когнитивной защиты атакующего. При успехе атакующий теряет 1d4 фокуса и отталкивается."
         },
         "kind": "static",
-        "price": { "a": 1 }
+        "price": { "a": 1 },
+        "continious": true,
+        "modifiers": { "defense.cognitive": { "type": "add", "value": 1 }, "defense.physical": { "type": "add", "value": 1 } }
       },
       {
         "title": {
           "en": "Wit's End",
-          "ru": ""
+          "ru": "Смерть разума"
         },
         "description": {
           "en": "**Prerequisite** Intimidation 3+.\n\n**Spend 1 focus** to move half your movement then make a melee weapon attack vs. Cognitive of a target who has 0 focus. This attack ignores deflect, deals an extra 4d6 damage, and can't graze.",
-          "ru": ""
+          "ru": "**Требование** Запугивание 3+.\n\nЗа 1 фокус переместитесь на расстояние до половины вашей Скорости передвижения, затем совершите атаку оружием ближнего боя против Когнитивной защиты цели с 0 фокуса. Эта атака игнорирует отражение цели и наносит дополнительные 4d6 урона. Она не может быть задеванием."
         },
         "kind": "static",
         "price": { "a": 2 }
@@ -452,11 +454,11 @@
         "required_for": ["Windstance", "Bloodstance"],
         "title": {
           "en": "Shard Training",
-          "ru": ""
+          "ru": "Осколочная подготовка"
         },
         "description": {
-          "en": "Gain Shardplate expertise, and gain either Grandbow, Shardblade, or Warhammer expertise. Your Shardplate has 2 additional charges. Your Shardblade Strikes graze additional targets up to your ranks in the skill used.",
-          "ru": ""
+          "en": "**Prerequisite** Access to a Shardblade and Shardplate.\n\nGain Shardplate expertise, and gain either Grandbow, Shardblade, or Warhammer expertise. Your Shardplate has 2 additional charges. Your Shardblade Strikes graze additional targets up to your ranks in the skill used.",
+          "ru": "**Требование** Доступ к Осколочному клинку и доспеху.\n\nВы получаете компетению Осколочный доспех и одну из следующих компетенции: Большелук, Осколочный клинок или Боевой молот. Ваш Осколочных доспех получает 2 доп. заряда. Ваш Удар Осколочным клинком может задеть доп. количество целей до вашего ранга в используемом навыке."
         },
         "kind": "static"
       },
@@ -464,11 +466,11 @@
         "required_for": ["Shattering Blow"],
         "title": {
           "en": "Windstance",
-          "ru": ""
+          "ru": "Стойка ветра"
         },
         "description": {
           "en": "**Prerequisite** Perception 1+.\n\nEnter Windstance: Gain an advantage on Agility. While you can reach multiple enemies, use free action to gain action to Disengage or attack.",
-          "ru": ""
+          "ru": "**Требование** Наблюдательность 1+.\n\nПримите Стойку ветра: Вы получаете преимущество на Ловкость, и когда в пределах досягаемости находится несколько врагов, вы можете получить действие на атаку или Отход."
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -477,22 +479,22 @@
         "required_for": ["Precise Parry"],
         "title": {
           "en": "Shattering Blow",
-          "ru": ""
+          "ru": "Раскалывающий удар"
         },
         "description": {
           "en": "**Prerequisite** Perception 2+.\n\nWhen you hit with a melee attack, spend 2 focus to deplete 1 charge from their armor, and each target you damage is pushed 5 feet.",
-          "ru": ""
+          "ru": "**Требование** Наблюдательность 2+.\n\nКогда вы попадаете атакой ближнего боя, за 2 фокуса снимите 1 заряд с брони цели, и оттолкните каждую цель получившую урон от этой атаки на 5 футов."
         },
         "kind": "static"
       },
       {
         "title": {
           "en": "Precise Parry",
-          "ru": ""
+          "ru": "Искусное парирование"
         },
         "description": {
           "en": "**Prerequisite** Perception 3+.\n\nBefore being hit in melee, spend 1 focus to attempt to turn it into a graze. If unarmed, test Athletics vs. triggering attack, gaining a disadvantage unless attacked by a Shardblade. If armed, test Light/Heavy Weaponry vs. triggering attack.",
-          "ru": ""
+          "ru": "**Требование** Наблюдательность 3+.\n\nПеред тем как атака ближнего боя попадёт по вам, за 1 фокус вы можете превратить её в задевание. Для этого вам нужно преуспеть против результата атаки. Если вы безоружны, совершите проверку Атлетики. Если вы вооружены, то проверку Лёгкого или Тяжёлого оружия."
         },
         "kind": "static",
         "price": { "r": 1 }
@@ -501,27 +503,28 @@
         "required_for": ["Mighty"],
         "title": {
           "en": "Stonestance",
-          "ru": ""
+          "ru": "Стойка камня"
         },
         "description": {
           "en": "Enter Stonestance: Your deflect increases by 1, and enemies within your reach must spend an additional action to attack your allies who aren't in Stonestance.",
-          "ru": ""
+          "ru": "Примите Стойку камня: ваше отражение увеличивается на 1, и враги в пределах вашей досягаемости должны потратить дополнительное действие, чтобы атаковать ваших союзников не находящихся в стойке камня."
         },
         "kind": "static",
         "modifiers": {
           "deflect": { "type": "add", "value": 1 }
         },
-        "price": { "a": 1 }
+        "price": { "a": 1 },
+        "continious": true
       },
       {
         "required_for": ["Bloodstance"],
         "title": {
           "en": "Mighty",
-          "ru": ""
+          "ru": "Мощь"
         },
         "description": {
           "en": "When you hit with a weapon or unarmed attack, for each action spent, deal extra damage equal to 1 + your tier.",
-          "ru": ""
+          "ru": "Попадание оружием или безоружной атакой наносит 1 + тир дополнительного урона за каждое потраченное действие."
         },
         "kind": "static",
         "double_slug": "mighty"
@@ -530,23 +533,29 @@
         "required_for": ["Meteoric Leap"],
         "title": {
           "en": "Bloodstance",
-          "ru": ""
+          "ru": "Стойка крови"
         },
         "description": {
           "en": "**Prerequisite** Athletics 2+.\n\nEnter Bloodstance: Your Opportunity range for attacks and physical tests expands by 2, but your Physical, Cognitive, and Spiritual defenses decrease by 2.",
-          "ru": ""
+          "ru": "**Требование** Атлетика 2+.\n\nПримите Стойку крови: ваш диапазон Возможности для атак и физических проверок расширяется на 2, но ваша Физическая, Когнитивная и Духовная защита уменьшается на 2."
         },
         "kind": "static",
-        "price": { "a": 1 }
+        "price": { "a": 1 },
+        "continious": true,
+        "modifiers": {
+          "defense.cognitive": { "type": "add", "value": -2 },
+          "defense.spiritual": { "type": "add", "value": -2 },
+          "defense.physical": { "type": "add", "value": -2 }
+        }
       },
       {
         "title": {
           "en": "Meteoric Leap",
-          "ru": ""
+          "ru": "Метеоритный прыжок"
         },
         "description": {
           "en": "**Prerequisite** Athletics 3+.\n\n**Spend 2 focus** to leap a quarter of your movement and make unarmed attack vs. Physical of multiple targets, doubling damage and knocking weaker targets Prone. Gain an advantage in Shardplate.",
-          "ru": ""
+          "ru": "**Требование** Атлетика 3+.\n\nЗа 2 фокуса совершите прыжок на расстояние до четверти вашей скорости передвижения и совершите Безоружную атаку против Физической защиты нескольких целей, нанося вдвое больше урона и сбивая целей с ног. В Осколочном доспехе проверка получает преимущество."
         },
         "kind": "static",
         "price": { "a": 2 }
@@ -568,11 +577,11 @@
         "required_for": ["Defensive Position"],
         "title": {
           "en": "Cautious Advance",
-          "ru": ""
+          "ru": "Осторожное продвижение"
         },
         "description": {
           "en": "**Prerequisite** Discipline 1+.\n\nMove up to half your movement, ignoring difficult terrain, then gain 2 actions to Brace or Gain Advantage.",
-          "ru": ""
+          "ru": "**Требование** Дисциплина 1+.\n\nПереместитесь на расстояние до половины вашей Скорости передвижения, игнорируя Труднопроходимую местность, затем получите2 на Укрытие или Получение преимущества."
         },
         "kind": "static"
       },
@@ -580,33 +589,33 @@
         "required_for": ["Formation Drills", "Wary"],
         "title": {
           "en": "Defensive Position",
-          "ru": ""
+          "ru": "Оборонительная позиция"
         },
         "description": {
           "en": "**Prerequisite** Athletics 2+.\n\nThe Brace action adds two disadvantages to attacks against you, instead of one, and allies can Brace behind your shield.",
-          "ru": ""
+          "ru": "**Требование** Атлетика 2+.\n\nДействие Укрытие накладывает две помехи на атаки по вам вместо одной. Союзники могут Укрываться за вашим щитом."
         },
         "kind": "static"
       },
       {
         "title": {
           "en": "Formation Drills",
-          "ru": ""
+          "ru": "Отработанное построение"
         },
         "description": {
           "en": "**Prerequisite** Discipline 2+.\n\nAllies within 10 feet who Brace gain the benefits of your Defensive Position.",
-          "ru": ""
+          "ru": "**Требование** Дисциплина 2+.\n\nСоюзники в пределах 10 футах от вас которые Укрываются получают выгоду от вашей Оборонительной позиции."
         },
         "kind": "static"
       },
       {
         "title": {
           "en": "Wary",
-          "ru": ""
+          "ru": "Настороженность"
         },
         "description": {
           "en": "**Prerequisite** Discipline 3+.\n\nYou can't be Surprised while you have focus. When you lose focus involuntarily, reduce the amount lost by your ranks in Discipline.",
-          "ru": ""
+          "ru": "**Требование** Дисциплина 3+.\n\nПока у вас есть фокус, вы не можете быть Взяты врасплох. Когда вы теряете фокус не по своей воле, уменьшите количество теряемого фокуса на ваш ранг в Дисциплине."
         },
         "kind": "static"
       },
@@ -614,22 +623,22 @@
         "required_for": ["Devastating Blow", "Hardy"],
         "title": {
           "en": "Combat Training",
-          "ru": ""
+          "ru": "Боевая подготовка"
         },
         "description": {
           "en": "Gain expertise in a weapon, armor, and Military Life. Once per round, graze without spending focus.",
-          "ru": ""
+          "ru": "Вы получаете оружейную, броневную и культурную компетенцию Военная жизнь. Один раз за раунд вы можете задеть цель без траты фокуса."
         },
         "kind": "static"
       },
       {
         "title": {
           "en": "Devastating Blow",
-          "ru": ""
+          "ru": "Сокрушительный удар"
         },
         "description": {
           "en": "**Prerequisite** Athletics 3+.\n\nMake a melee weapon attack vs. Physical, rolling an extra 2d8 damage.",
-          "ru": ""
+          "ru": "**Требование** Атлетика 3+.\n\nСовершите атаку оружием ближнего боя против Физической защиты цели. Эта атака наносит 2d8 дополнительного урона."
         },
         "kind": "static"
       },
@@ -637,7 +646,7 @@
         "required_for": ["Swift Strikes"],
         "title": {
           "en": "Hardy",
-          "ru": ""
+          "ru": "Крепкий"
         },
         "description": {
           "en": "You gain calculated bonus (equal to {{value}}<<your level>>) to your maximum health.",
@@ -650,11 +659,11 @@
       {
         "title": {
           "en": "Swift Strikes",
-          "ru": ""
+          "ru": "Стремительные удары"
         },
         "description": {
           "en": "**Spend 1 focus** to make a second Strike with the same weapon.",
-          "ru": ""
+          "ru": "**Потратьте 1 фокус**, чтобы совершить второй Удар тем же оружием, которым вы уже совершали Удар в этом ходу."
         },
         "kind": "static"
       }
