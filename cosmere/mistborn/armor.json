@@ -1,6 +1,37 @@
 [
   {
     "name": {
+      "en": "Uniform",
+      "ru": ""
+    },
+    "data": {
+      "weight": 5,
+      "price": 20
+    },
+    "deflect": 0,
+    "only": ["scan_1", "scan_2"],
+    "tooltips": {
+      "presentable": true
+    },
+    "expert_tooltips": {
+      "presentable": true
+    }
+  },
+  {
+    "name": {
+      "en": "Mistcloak",
+      "ru": ""
+    },
+    "data": {
+      "weight": 5
+    },
+    "deflect": 0,
+    "only": ["scan_1", "scan_2"],
+    "tooltips": {},
+    "expert_tooltips": {}
+  },
+  {
+    "name": {
       "en": "Leather",
       "ru": "Кожаная броня"
     },
@@ -9,10 +40,103 @@
       "price": 30
     },
     "deflect": 1,
-    "only": ["cda53c64-7898-4f0d-93e3-f8de3fc34e37", "016128af-29cb-446e-85c8-9b985e3e367a"],
+    "only": ["scan_1", "scan_2"],
     "tooltips": {},
     "expert_tooltips": {
       "presentable": true
+    }
+  },
+  {
+    "name": {
+      "en": "Mistcoat",
+      "ru": ""
+    },
+    "data": {
+      "weight": 10
+    },
+    "deflect": 1,
+    "only": ["scan_2"],
+    "tooltips": {
+      "presentable": true
+    },
+    "expert_tooltips": {
+      "presentable": true
+    }
+  },
+  {
+    "name": {
+      "en": "Breastplate",
+      "ru": ""
+    },
+    "data": {
+      "weight": 30,
+      "price": 50
+    },
+    "deflect": 2,
+    "only": ["scan_1", "scan_2"],
+    "tooltips": {
+      "cumbersome": 3
+    },
+    "expert_tooltips": {
+      "cumbersome": 3,
+      "presentable": true
+    }
+  },
+  {
+    "name": {
+      "en": "Ceramic Breastplate",
+      "ru": ""
+    },
+    "data": {
+      "weight": 20,
+      "price": 250
+    },
+    "deflect": 2,
+    "only": ["scan_1", "scan_2"],
+    "tooltips": {
+      "cumbersome": 3,
+      "fragile": true
+    },
+    "expert_tooltips": {
+      "cumbersome": 2,
+      "fragile": true
+    }
+  },
+  {
+    "name": {
+      "en": "Half-Plate",
+      "ru": ""
+    },
+    "data": {
+      "weight": 40,
+      "price": 200
+    },
+    "deflect": 3,
+    "only": ["scan_1", "scan_2"],
+    "tooltips": {
+      "cumbersome": 4
+    },
+    "expert_tooltips": {
+      "cumbersome": 3
+    }
+  },
+  {
+    "name": {
+      "en": "Wooden Half-Plate",
+      "ru": ""
+    },
+    "data": {
+      "weight": 30,
+      "price": 1000
+    },
+    "deflect": 3,
+    "only": ["scan_1", "scan_2"],
+    "tooltips": {
+      "cumbersome": 5,
+      "fragile": true
+    },
+    "expert_tooltips": {
+      "cumbersome": 5
     }
   }
 ]

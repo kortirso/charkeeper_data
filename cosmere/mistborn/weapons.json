@@ -1,6 +1,621 @@
 [
   {
     "name": {
+      "en": "Glass Dagger",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 50
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d4",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "discreet": true,
+      "fragile": true
+    },
+    "expert_tooltips": {
+      "discreet": true,
+      "fragile": true,
+      "offhand": true,
+      "thrown": "20/60"
+    }
+  },
+  {
+    "name": {
+      "en": "Knife",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 2
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d4",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "discreet": true
+    },
+    "expert_tooltips": {
+      "discreet": true,
+      "offhand": true,
+      "thrown": "20/60"
+    }
+  },
+  {
+    "name": {
+      "en": "Mace",
+      "ru": ""
+    },
+    "data": {
+      "weight": 3,
+      "price": 10
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d6",
+      "damage_type": "impact"
+    },
+    "only": ["scan_1"],
+    "tooltips": {},
+    "expert_tooltips": {
+      "momentum": true
+    }
+  },
+  {
+    "name": {
+      "en": "Shortspear",
+      "ru": ""
+    },
+    "data": {
+      "weight": 3,
+      "price": 5
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d8",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "two_handed": true
+    },
+    "expert_tooltips": {}
+  },
+  {
+    "name": {
+      "en": "Sidesword",
+      "ru": ""
+    },
+    "data": {
+      "weight": 2,
+      "price": 15
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d6",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "quickdraw": true
+    },
+    "expert_tooltips": {
+      "quickdraw": true,
+      "offhand": true
+    }
+  },
+  {
+    "name": {
+      "en": "Wooden Staff",
+      "ru": ""
+    },
+    "data": {
+      "weight": 4,
+      "price": 5
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d6",
+      "damage_type": "impact"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "discreet": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "discreet": true,
+      "two_handed": true,
+      "defensive": true
+    }
+  },
+  {
+    "name": {
+      "en": "Shortbow",
+      "ru": ""
+    },
+    "data": {
+      "weight": 2,
+      "price": 40
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "range",
+      "damage": "1d6",
+      "damage_type": "keen",
+      "dist": "80/320"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "quickdraw": true,
+      "two_handed": true
+    }
+  },
+  {
+    "name": {
+      "en": "Sling",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 1
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d8",
+      "damage_type": "keen",
+      "dist": "30/120"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "discreet": true
+    },
+    "expert_tooltips": {
+      "discreet": true,
+      "indirect": true
+    }
+  },
+  {
+    "name": {
+      "en": "Axe",
+      "ru": ""
+    },
+    "data": {
+      "weight": 2,
+      "price": 10
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d6",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "thrown": "20/60"
+    },
+    "expert_tooltips": {
+      "thrown": "20/60",
+      "offhand": true
+    }
+  },
+  {
+    "name": {
+      "en": "Hammer",
+      "ru": ""
+    },
+    "data": {
+      "weight": 8,
+      "price": 30
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d10",
+      "damage_type": "impact"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "momentum": true,
+      "two_handed": true
+    }
+  },
+  {
+    "name": {
+      "en": "Longspear",
+      "ru": ""
+    },
+    "data": {
+      "weight": 9,
+      "price": 20
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d8",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "reach": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "defensive": true,
+      "reach": true,
+      "two_handed": true
+    }
+  },
+  {
+    "name": {
+      "en": "Longsword",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 1
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d8",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "two_handed": true,
+      "quickdraw": true
+    },
+    "expert_tooltips": {
+      "quickdraw": true
+    }
+  },
+  {
+    "name": {
+      "en": "Obsidian Axe",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 100
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d6",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "fragile": true
+    },
+    "expert_tooltips": {
+      "fragile": true,
+      "offhand": true
+    }
+  },
+  {
+    "name": {
+      "en": "Poleaxe",
+      "ru": ""
+    },
+    "data": {
+      "weight": 5,
+      "price": 20
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d10",
+      "damage_type": "keen"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "reach": true,
+      "two_handed": true
+    }
+  },
+  {
+    "name": {
+      "en": "Shield",
+      "ru": ""
+    },
+    "data": {
+      "weight": 2,
+      "price": 5
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d4",
+      "damage_type": "impact"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "defensive": true
+    },
+    "expert_tooltips": {
+      "defensive": true,
+      "offhand": true
+    }
+  },
+  {
+    "name": {
+      "en": "Wooden Shield",
+      "ru": ""
+    },
+    "data": {
+      "weight": 4,
+      "price": 50
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d6",
+      "damage_type": "impact"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "defensive": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "defensive": true
+    }
+  },
+  {
+    "name": {
+      "en": "Crossbow",
+      "ru": ""
+    },
+    "data": {
+      "weight": 7,
+      "price": 100
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "1d8",
+      "damage_type": "keen",
+      "dist": "100/400"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "loaded": 1,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "loaded": 1,
+      "two_handed": true,
+      "deadly": true
+    }
+  },
+  {
+    "name": {
+      "en": "Longbow",
+      "ru": ""
+    },
+    "data": {
+      "weight": 3,
+      "price": 75
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "1d6",
+      "damage_type": "keen",
+      "dist": "150/600"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "indirect": true,
+      "two_handed": true
+    }
+  },
+  {
+    "name": {
+      "en": "Dueling Cane",
+      "ru": ""
+    },
+    "data": {
+      "weight": 3,
+      "price": 40
+    },
+    "info": {
+      "weapon_skill": "light_weaponry,heavy_weaponry",
+      "type": "melee",
+      "damage": "1d8",
+      "damage_type": "impact"
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "discreet": true
+    },
+    "expert_tooltips": {
+      "discreet": true,
+      "offhand": true,
+    }
+  },
+  {
+    "name": {
+      "en": "Koloss Blade",
+      "ru": ""
+    },
+    "data": {
+      "weight": 200
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "1d12",
+      "damage_type": "impact",
+      "features": [
+        {
+          "en": "Attacks with the koloss blade can't graze."
+        }
+      ]
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "dangerous": true,
+      "deadly": true,
+      "cumbersome": 6,
+      "two_handed": true,
+      "reach": true
+    },
+    "expert_tooltips": {
+      "deadly": true,
+      "cumbersome": 6,
+      "two_handed": true,
+      "reach": true,
+      "damage": "1d20"
+    }
+  },
+  {
+    "name": {
+      "en": "Soundstick",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 50
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "melee",
+      "damage": "1d4",
+      "damage_type": "impact",
+      "features": [
+        {
+          "en": "You can use action to make a Light Weaponry test vs Spiritual defense (characters whose senses range includes your space). Each character you succeed against takes 1d6 vital damage and becomes Disoriented until the end of their next turn."
+        }
+      ]
+    },
+    "only": ["scan_1"],
+    "tooltips": {
+      "fragile": true
+    },
+    "expert_tooltips": {
+      "fragile": true,
+      "offhand": true
+    }
+  },
+  {
+    "name": {
+      "en": "Fragmentation Grenade",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 75
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "range",
+      "damage": "2d4",
+      "damage_type": "keen",
+      "dist": "20/60"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "blast": 5,
+      "pierce": true,
+      "dangerous": true,
+      "thrown": "20/60"
+    },
+    "expert_tooltips": {
+      "blast": 5,
+      "pierce": true,
+      "thrown": "20/60"
+    }
+  },
+  {
+    "name": {
+      "en": "Boot Pistol",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 125
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "range",
+      "damage": "1d4",
+      "damage_type": "keen",
+      "dist": "20/40"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 1,
+      "pierce": true,
+      "discreet": true
+    },
+    "expert_tooltips": {
+      "loaded": 1,
+      "pierce": true,
+      "discreet": true,
+      "quicksraw": true
+    }
+  },
+  {
+    "name": {
+      "en": "Hunting Rifle",
+      "ru": ""
+    },
+    "data": {
+      "weight": 5,
+      "price": 400
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "range",
+      "damage": "1d8",
+      "damage_type": "keen",
+      "dist": "150/600"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 1,
+      "pierce": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "loaded": 3,
+      "pierce": true,
+      "two_handed": true
+    },
+    "charges": 1
+  },
+  {
+    "name": {
       "en": "Revolver",
       "ru": "Револьвер"
     },
@@ -15,7 +630,7 @@
       "damage_type": "keen",
       "dist": "20/80"
     },
-    "only": ["cda53c64-7898-4f0d-93e3-f8de3fc34e37"],
+    "only": ["scan_2"],
     "tooltips": {
       "loaded": 6,
       "pierce": true,
@@ -26,6 +641,92 @@
       "pierce": true
     },
     "charges": 6
+  },
+  {
+    "name": {
+      "en": "Snub Nose Pistol",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 175
+    },
+    "info": {
+      "weapon_skill": "light_weaponry",
+      "type": "range",
+      "damage": "1d4",
+      "damage_type": "keen",
+      "dist": "20/60"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 6,
+      "pierce": true
+    },
+    "expert_tooltips": {
+      "loaded": 6,
+      "pierce": true,
+      "discreet": true,
+      "offhand": true
+    },
+    "charges": 6
+  },
+  {
+    "name": {
+      "en": "Concussion Grenade",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 50
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "2d6",
+      "damage_type": "impact",
+      "dist": "20/60"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "blast": 10,
+      "dangerous": true,
+      "thrown": "20/60"
+    },
+    "expert_tooltips": {
+      "blast": 10,
+      "thrown": "20/60"
+    }
+  },
+  {
+    "name": {
+      "en": "Bolt Rifle",
+      "ru": ""
+    },
+    "data": {
+      "weight": 9,
+      "price": 600
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "1d10",
+      "damage_type": "keen",
+      "dist": "150/600"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 1,
+      "pierce": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "loaded": 1,
+      "pierce": true,
+      "two_handed": true,
+      "dist": "250/1000"
+    },
+    "charges": 1
   },
   {
     "name": {
@@ -43,7 +744,7 @@
       "damage_type": "keen",
       "dist": "80/320"
     },
-    "only": ["cda53c64-7898-4f0d-93e3-f8de3fc34e37"],
+    "only": ["scan_2"],
     "tooltips": {
       "loaded": 4,
       "pierce": true,
@@ -55,5 +756,124 @@
       "two_handed": true
     },
     "charges": 4
+  },
+  {
+    "name": {
+      "en": "Hand Cannon",
+      "ru": ""
+    },
+    "data": {
+      "weight": 2,
+      "price": 300
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "1d8",
+      "damage_type": "keen",
+      "dist": "20/80"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 6,
+      "pierce": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "loaded": 6,
+      "pierce": true
+    },
+    "charges": 6
+  },
+  {
+    "name": {
+      "en": "Shotgun",
+      "ru": ""
+    },
+    "data": {
+      "weight": 7,
+      "price": 600
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "1d10",
+      "damage_type": "keen",
+      "dist": "20/60"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 2,
+      "dangerous": true,
+      "pierce": true,
+      "two_handed": true
+    },
+    "expert_tooltips": {
+      "loaded": 2,
+      "dangerous": true,
+      "pierce": true,
+      "two_handed": true,
+      "blast": 5
+    },
+    "charges": 2
+  },
+  {
+    "name": {
+      "en": "Dynamite",
+      "ru": ""
+    },
+    "data": {
+      "weight": 1,
+      "price": 100
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "melee",
+      "damage": "4d6",
+      "damage_type": "impact"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "blast": 30,
+      "dangerous": true,
+      "thrown": "20/60"
+    },
+    "expert_tooltips": {
+      "blast": 30,
+      "dangerous": true,
+      "thrown": "20/60"
+    }
+  },
+  {
+    "name": {
+      "en": "Rotary Gun",
+      "ru": ""
+    },
+    "data": {
+      "weight": 170,
+      "price": 2500
+    },
+    "info": {
+      "weapon_skill": "heavy_weaponry",
+      "type": "range",
+      "damage": "3d4",
+      "damage_type": "keen",
+      "dist": "20/60"
+    },
+    "only": ["scan_2"],
+    "tooltips": {
+      "loaded": 20,
+      "cumbersome": 6,
+      "pierce": true,
+      "two_handed": true,
+      "dangerous": true
+    },
+    "expert_tooltips": {
+      "loaded": 20,
+      "cumbersome": 6,
+      "pierce": true,
+      "two_handed": true
+    },
+    "charges": 20
   }
 ]
