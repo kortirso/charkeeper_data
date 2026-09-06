@@ -784,5 +784,229 @@
         "kind": "static"
       }
     ]
+  },
+  {
+    "title": {
+      "en": "Steel Allomancy"
+    },
+    "description": {
+      "en": "Steel Allomancy allows you to see blue lines extending from your center of mass to that of nearby metal objects."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Coin Scattershot", "Leveraging Brace"],
+    "features": [
+      {
+        "required_for": ["Pushed Shot", "Coin Sharpshooter"],
+        "title": {
+          "en": "Coin Scattershot"
+        },
+        "description": {
+          "en": "When you Shoot Coin, **spend Investiture** to add the Blast trait (radius of 5 feet per Investiture spent)."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Pushed Shot"
+        },
+        "description": {
+          "en": "**Prerequisite** Heavy Weaponry 2+ or Light Weaponry 2+.\n\nShoot Coin with a ranged weapon that fires metal projectiles, increasing its range and adding Shoot Coin's damage dice."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Coin Sharpshooter"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhen you Shoot Coin, roll an additional damage die."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Steelpush Adept"],
+        "title": {
+          "en": "Leveraging Brace"
+        },
+        "description": {
+          "en": "While you Brace using an object/structure larger than you, use its size instead of your own for the effects of Ironpulling and Steelpushing."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["True Steelflight", "Bubble Shield"],
+        "title": {
+          "en": "Steelpush Adept"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\n**Spend focus** to Steelpush additional times. Additionally, while Invested, you have stable footing for ranged attacks."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "True Steelflight"
+        },
+        "description": {
+          "en": "**Spend 1 Investiture** to gain a 40-foot flying rate until the end of your next turn."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Bubble Shield"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+.\n\n**Spend 1 Investiture** to add a disadvantage to attacks against you with metal projectiles."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Tin Allomancy"
+    },
+    "description": {
+      "en": "Tin Allomancy allows you to powerfully enhance your senses."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Flaring Refocus", "Sensible Preparation"],
+    "features": [
+      {
+        "required_for": ["Tinpoint Accuracy", "Sense for Weakness"],
+        "title": {
+          "en": "Flaring Refocus"
+        },
+        "description": {
+          "en": "Spend Investiture to regain that much focus, taking 1d4 vital damage for each Investiture spent."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Tinpoint Accuracy"
+        },
+        "description": {
+          "en": "**Prerequisite** Heavy Weaponry 1+ or Light Weaponry 1+.\n\nWhile burning tin or tapping sense, the range of your ranged attacks increases, and you don't raise the stakes on ranged attacks near an ally."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Sense for Weakness"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhile burning tin, Gain Advantage with an Awareness skill reveals the target's health and defenses and adds extra damage to your next attack."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Proactive Sensibility"],
+        "title": {
+          "en": "Sensible Preparation"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nBurn tin without spending Investiture. Additionally, burning tin ends the Surprised condition on yourself."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Wasing About Not Seeing"],
+        "title": {
+          "en": "Proactive Sensibility"
+        },
+        "description": {
+          "en": "Bursts of sensory input caused by you or your allies don't cause you to become Disoriented."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Wasing About Not Seeing"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhile burning tin, **spend 2 focus** to quadruple a sense's range and gain Opportunity on related tests, but lose all other senses."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Zinc Allomancy"
+    },
+    "description": {
+      "en": "Zinc Allomancy subtly enflames the emotions of others nearby, encouraging them to act on those emotions while believing it's their idea."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Crowd Control", "Overwhelming Aggression"],
+    "features": [
+      {
+        "required_for": ["Precise Influence"],
+        "title": {
+          "en": "Crowd Control"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nWhen you burn brass or zinc, increase the size of the area, up to Colossal (30-foot)."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Subtle Manipulation"],
+        "title": {
+          "en": "Precise Influence"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nIt costs you one fewer to Burn Brass or Burn Zinc, and you can choose for some targets to be unaffected by those powers."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Subtle Manipulation"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\n**Spend 1 Investiture** to gain an advantage when influencing others. Minions and Rivals who resist lose an additional 2 focus."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Riot Resolve"],
+        "title": {
+          "en": "Overwhelming Aggression"
+        },
+        "description": {
+          "en": "While Rioting a character who has 0 focus, **spend 2 Investiture** to also force them to move toward and attack the nearest character."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Profound Verve"],
+        "title": {
+          "en": "Riot Resolve"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 2+.\n\nForgo Burn Zinc's effects to instead cause other characters to become Determined and recover focus."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Profound Verve"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 3+.\n\nWhen you Riot Resolve, also choose targets up to the Investiture spent, making them Focused."
+        },
+        "kind": "static"
+      }
+    ]
   }
 ]

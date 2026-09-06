@@ -2,7 +2,7 @@
   {
     "name": {
       "en": "Uniform",
-      "ru": ""
+      "ru": "Униформа"
     },
     "data": {
       "weight": 5,
@@ -20,7 +20,7 @@
   {
     "name": {
       "en": "Mistcloak",
-      "ru": ""
+      "ru": "Туманный плащ"
     },
     "data": {
       "weight": 5
@@ -33,7 +33,7 @@
   {
     "name": {
       "en": "Leather",
-      "ru": "Кожаная броня"
+      "ru": "Кожаный доспех"
     },
     "data": {
       "weight": 10,
@@ -49,7 +49,7 @@
   {
     "name": {
       "en": "Mistcoat",
-      "ru": ""
+      "ru": "Туманная куртка"
     },
     "data": {
       "weight": 10
@@ -66,7 +66,7 @@
   {
     "name": {
       "en": "Breastplate",
-      "ru": ""
+      "ru": "Кираса"
     },
     "data": {
       "weight": 30,
@@ -85,7 +85,7 @@
   {
     "name": {
       "en": "Ceramic Breastplate",
-      "ru": ""
+      "ru": "Керамическая кираса"
     },
     "data": {
       "weight": 20,
@@ -105,7 +105,7 @@
   {
     "name": {
       "en": "Half-Plate",
-      "ru": ""
+      "ru": "Полулаты"
     },
     "data": {
       "weight": 40,
@@ -123,7 +123,7 @@
   {
     "name": {
       "en": "Wooden Half-Plate",
-      "ru": ""
+      "ru": "Деревянные полулаты"
     },
     "data": {
       "weight": 30,

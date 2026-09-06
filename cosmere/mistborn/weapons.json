@@ -2,7 +2,7 @@
   {
     "name": {
       "en": "Glass Dagger",
-      "ru": ""
+      "ru": "Стеклянный кинжал"
     },
     "data": {
       "weight": 1,
@@ -29,7 +29,7 @@
   {
     "name": {
       "en": "Knife",
-      "ru": ""
+      "ru": "Нож"
     },
     "data": {
       "weight": 1,
@@ -54,7 +54,7 @@
   {
     "name": {
       "en": "Mace",
-      "ru": ""
+      "ru": "Булава"
     },
     "data": {
       "weight": 3,
@@ -75,7 +75,7 @@
   {
     "name": {
       "en": "Shortspear",
-      "ru": ""
+      "ru": "Короткое копьё"
     },
     "data": {
       "weight": 3,
@@ -96,7 +96,7 @@
   {
     "name": {
       "en": "Sidesword",
-      "ru": ""
+      "ru": "Боковой меч"
     },
     "data": {
       "weight": 2,
@@ -120,7 +120,7 @@
   {
     "name": {
       "en": "Wooden Staff",
-      "ru": ""
+      "ru": "Деревянный посох"
     },
     "data": {
       "weight": 4,
@@ -146,7 +146,7 @@
   {
     "name": {
       "en": "Shortbow",
-      "ru": ""
+      "ru": "Короткий лук"
     },
     "data": {
       "weight": 2,
@@ -171,7 +171,7 @@
   {
     "name": {
       "en": "Sling",
-      "ru": ""
+      "ru": "Праща"
     },
     "data": {
       "weight": 1,
@@ -196,7 +196,7 @@
   {
     "name": {
       "en": "Axe",
-      "ru": ""
+      "ru": "Топор"
     },
     "data": {
       "weight": 2,
@@ -220,7 +220,7 @@
   {
     "name": {
       "en": "Hammer",
-      "ru": ""
+      "ru": "Молот"
     },
     "data": {
       "weight": 8,
@@ -244,7 +244,7 @@
   {
     "name": {
       "en": "Longspear",
-      "ru": ""
+      "ru": "Длинное копьё"
     },
     "data": {
       "weight": 9,
@@ -270,7 +270,7 @@
   {
     "name": {
       "en": "Longsword",
-      "ru": ""
+      "ru": "Длинный меч"
     },
     "data": {
       "weight": 1,
@@ -294,7 +294,7 @@
   {
     "name": {
       "en": "Obsidian Axe",
-      "ru": ""
+      "ru": "Обсидиановый топор"
     },
     "data": {
       "weight": 1,
@@ -318,7 +318,7 @@
   {
     "name": {
       "en": "Poleaxe",
-      "ru": ""
+      "ru": "Двуручная секира"
     },
     "data": {
       "weight": 5,
@@ -342,7 +342,7 @@
   {
     "name": {
       "en": "Shield",
-      "ru": ""
+      "ru": "Щит"
     },
     "data": {
       "weight": 2,
@@ -366,7 +366,7 @@
   {
     "name": {
       "en": "Wooden Shield",
-      "ru": ""
+      "ru": "Деревянный щит"
     },
     "data": {
       "weight": 4,
@@ -390,7 +390,7 @@
   {
     "name": {
       "en": "Crossbow",
-      "ru": ""
+      "ru": "Арбалет"
     },
     "data": {
       "weight": 7,
@@ -417,7 +417,7 @@
   {
     "name": {
       "en": "Longbow",
-      "ru": ""
+      "ru": "Длинный лук"
     },
     "data": {
       "weight": 3,
@@ -442,7 +442,7 @@
   {
     "name": {
       "en": "Dueling Cane",
-      "ru": ""
+      "ru": "Дуэльная трость"
     },
     "data": {
       "weight": 3,
@@ -466,7 +466,7 @@
   {
     "name": {
       "en": "Koloss Blade",
-      "ru": ""
+      "ru": "Меч колосса"
     },
     "data": {
       "weight": 200
@@ -501,7 +501,7 @@
   {
     "name": {
       "en": "Soundstick",
-      "ru": ""
+      "ru": "Трещотки"
     },
     "data": {
       "weight": 1,
@@ -530,7 +530,7 @@
   {
     "name": {
       "en": "Fragmentation Grenade",
-      "ru": ""
+      "ru": "Осколочная граната"
     },
     "data": {
       "weight": 1,
@@ -559,7 +559,7 @@
   {
     "name": {
       "en": "Boot Pistol",
-      "ru": ""
+      "ru": "Засапожный пистолет"
     },
     "data": {
       "weight": 1,
@@ -588,7 +588,7 @@
   {
     "name": {
       "en": "Hunting Rifle",
-      "ru": ""
+      "ru": "Охотничья винтовка"
     },
     "data": {
       "weight": 5,
@@ -645,7 +645,7 @@
   {
     "name": {
       "en": "Snub Nose Pistol",
-      "ru": ""
+      "ru": "Короткоствольный револьвер"
     },
     "data": {
       "weight": 1,
@@ -674,7 +674,7 @@
   {
     "name": {
       "en": "Concussion Grenade",
-      "ru": ""
+      "ru": "Оглушающая граната"
     },
     "data": {
       "weight": 1,
@@ -701,7 +701,7 @@
   {
     "name": {
       "en": "Bolt Rifle",
-      "ru": ""
+      "ru": "Болтовая винтовка"
     },
     "data": {
       "weight": 9,
@@ -760,7 +760,7 @@
   {
     "name": {
       "en": "Hand Cannon",
-      "ru": ""
+      "ru": "Тяжёлый револьвер"
     },
     "data": {
       "weight": 2,
@@ -788,7 +788,7 @@
   {
     "name": {
       "en": "Shotgun",
-      "ru": ""
+      "ru": "Дробовик"
     },
     "data": {
       "weight": 7,
@@ -820,7 +820,7 @@
   {
     "name": {
       "en": "Dynamite",
-      "ru": ""
+      "ru": "Динамит"
     },
     "data": {
       "weight": 1,
@@ -847,7 +847,7 @@
   {
     "name": {
       "en": "Rotary Gun",
-      "ru": ""
+      "ru": "Многоствольный пулемёт"
     },
     "data": {
       "weight": 170,
