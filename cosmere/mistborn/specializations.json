@@ -301,7 +301,8 @@
         "description": {
           "en": "**Prerequisite** Perception 1+.\n\nObserve a target, then test Perception vs. Cognitive to learn their lowest attribute, lowest defense, or if their health, focus, or Investiture are below half."
         },
-        "kind": "static"
+        "kind": "static",
+        "double_slug": "sharp_eye"
       },
       {
         "required_for": ["Composed", "Swift Targeting"],

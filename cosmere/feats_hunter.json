@@ -48,7 +48,8 @@
     "origin": "path",
     "origin_value": "hunter",
     "info": {
-      "required_for": ["exploit_weakness"]
+      "required_for": ["exploit_weakness"],
+      "double_slug": "sharp_eye"
     }
   },
   {
