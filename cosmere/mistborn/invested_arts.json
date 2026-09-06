@@ -8,9 +8,10 @@
     },
     "public": true,
     "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Leveraging Brace", "Projectile Lurch"],
     "features": [
       {
-        "required_for": [],
+        "required_for": ["Ironpull Shot", "Lurching Strike"],
         "title": {
           "en": "Leveraging Brace"
         },
@@ -20,7 +21,25 @@
         "kind": "static"
       },
       {
-        "required_for": [],
+        "title": {
+          "en": "Ironpull Shot"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nIronpull an object toward a character and make a ranged Allomancy attack vs. Physical."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Lurching Strike"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+ or Heavy Weaponry 2+.\n\nMake Lurching Crash attacks using a melee weapon or unarmed attack."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Disarming Lurch", "Lurcher's Gear"],
         "title": {
           "en": "Projectile Lurch"
         },
@@ -28,6 +47,740 @@
           "en": "Before an ally is attacked with a metal projectile, spend 1 Investiture to make yourself the target."
         },
         "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Ironpull Adept"],
+        "title": {
+          "en": "Disarming Lurch"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nUse Projectile Lurch on metal weapons. Test Allomancy vs. the attack roll to become the target and pull the weapon from the attacker's hand."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Lurcher's Gear"
+        },
+        "description": {
+          "en": "**Prerequisite** Expertise in a Defensive weapon or an armor with deflect 3+.\n\nWhile burning iron and wielding or wearing the item in this talent's prerequiste, increase your deflect and ignore Pierce."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": [],
+        "title": {
+          "en": "Ironpull Adept"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nSpend 1 focus to use Ironpull additional times. Additionally, gain reaction each turn for Projectile Lurch."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Atium Allomancy"
+    },
+    "description": {
+      "en": "Atium Allomancy causes you to see **atium shadows** of all the people and objects in sight, projecting the many immediate futures possible for those people and objects."
+    },
+    "public": true,
+    "only": ["scan_1"],
+    "initial_talents": ["Shadow Mastery", "Worst Case Scenario"],
+    "features": [
+      {
+        "required_for": ["Social Seer", "Vital Precision"],
+        "title": {
+          "en": "Shadow Mastery"
+        },
+        "description": {
+          "en": "Your Burn Atium d20 value increases by your ranks in Allomancy for your tests, and decreases by the same for enemy tests."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Social Seer"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\nWhile burning atium, you can also affect tests that mentally or spiritually interact with a character."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["God Mode"],
+        "title": {
+          "en": "Vital Precision"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+.\n\nWhile burning atium, set each damage die you roll to its maximum value."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "God Mode"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 5+.\n\nAfter an enemy finishes a turn while you're burning atium, **spend 1 focus** to use action or reaction."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Clear Your Mind"],
+        "title": {
+          "en": "Worst Case Scenario"
+        },
+        "description": {
+          "en": "**Prerequisite** Deception 3+.\n\nWhile burning atium, avoid being grazed or triggering enemy reactions."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Clear Your Mind"
+        },
+        "description": {
+          "en": "**Prerequisite** Discipline 4+.\n\nBefore an effect sets your dice to a static value, **spend 1 focus** to ignore the effect."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Bendalloy Allomancy"
+    },
+    "description": {
+      "en": "Bendalloy Allomancy forms a time bubble around you, within which time passes more quickly than outside the bubble."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Expanded Bubble", "Reflexive Bubble"],
+    "features": [
+      {
+        "required_for": ["Quickened Coverup"],
+        "title": {
+          "en": "Expanded Bubble"
+        },
+        "description": {
+          "en": "Spend an additional 1 Investiture to increase a time bubble's area to 25 feet."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Quickened Coverup"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhen you fail an endeavor's skill test while in a bendalloy bubble, spend 1 focus to gain Complication instead."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Defensive Bubble", "Expedited Bubble"],
+        "title": {
+          "en": "Reflexive Bubble"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nBefore a character acts in a way that could be affected by a time bubble, spend 1 focus to Burn Bendalloy or Burn Cadmium."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Defensive Bubble"
+        },
+        "description": {
+          "en": "While in a bendalloy bubble, your defenses against outside effects increase by the Investiture spent to create that bubble."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Expedited Bubble"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nIt costs you one fewer action to Burn Bendalloy or Burn Cadmium."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Brass Allomancy"
+    },
+    "description": {
+      "en": "Brass Allomancy subtly dampens the emotions of people nearby, encouraging them to act against those emotions while believing it's their idea."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Crowd Control", "Crushing Apathy"],
+    "features": [
+      {
+        "required_for": ["Precise Influence"],
+        "title": {
+          "en": "Crowd Control"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nWhen you burn brass or zinc, increase the size of the area, up to Colossal (30-foot)."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Subtle Manipulation"],
+        "title": {
+          "en": "Precise Influence"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nIt costs you one fewer to burn brass or zinc, and you can choose for some targets to be unaffected by those powers."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Subtle Manipulation"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\n**Spend 1 Investiture** to gain an advantage when influencing others. Minions and Rivals who resist lose an additional 2 focus."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Soothe Fatigue"],
+        "title": {
+          "en": "Crushing Apathy"
+        },
+        "description": {
+          "en": "While Soothing a character who has 0 focus, spend 2 Investiture to also make them Stunned."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Profound Calm"],
+        "title": {
+          "en": "Soothe Fatigue"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 2+.\n\nBurn brass to instead cause targets to recover health and temporarily reduce their Exhausted penalty."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Profound Calm"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 3+.\n\nWhen you Soothe Fatigue, also end effects equal to the Investiture spent. Choose from Disoriented, Stunned, Surprised, and effects that increase focus costs."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Bronze Allomancy"
+    },
+    "description": {
+      "en": "Bronze Allomancy causes you to sense rhythmic drumlike pulses from nearby kinetic Investiture."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Distant Seeker", "Pulse Adept"],
+    "features": [
+      {
+        "required_for": ["Ever Seeking"],
+        "title": {
+          "en": "Distant Seeker"
+        },
+        "description": {
+          "en": "Your Metallic Art range doubles for your Bronze Allomancy power."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Ever Seeking"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nBurn bronze without spending Investiture. When an enemy benefits from an Invested ability, remove the Surprised condition from yourself."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Reserve Seeker", "Detected Defense", "Cosmere Seeker"],
+        "title": {
+          "en": "Pulse Adept"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nWhen Seeking an effect, you identify its power. Test Allomancy as action to also learn the power's effects and targets."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Reserve Seeker"
+        },
+        "description": {
+          "en": "While Seeking an effect, you can sense its source's maximum and current Investiture."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Detected Defense"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhen you detect an enemy's Invested effect, their next test against you gains a disadvantage, or you gain an advantage on the next test they force you to make."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Cosmere Seeker"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nDetect nearly any Invested ability, including Feruchemical powers and other abilities that don't spend Investiture."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Cadmium Allomancy"
+    },
+    "description": {
+      "en": "Cadmium Allomancy forms a time bubble around you, within which time passes more slowly than outside the bubble."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Expanded Bubble", "Reflexive Bubble"],
+    "features": [
+      {
+        "required_for": ["Time Dilation"],
+        "title": {
+          "en": "Expanded Bubble"
+        },
+        "description": {
+          "en": "Spend an additional 1 Investiture to increase a time bubble's area to 25 feet."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Time Dilation"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nBurn bronze without spending Investiture. When an enemy benefits from an Invested ability, remove the Surprised condition from yourself."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Expedited Bubble"],
+        "title": {
+          "en": "Reflexive Bubble"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nBefore a character acts in a way that could be affected by a time bubble, spend 1 focus to Burn Bendalloy or Burn Cadmium."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Expedited Bubble"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nIt costs you one fewer action to Burn Bendalloy or Burn Cadmium."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Chromium Allomancy"
+    },
+    "description": {
+      "en": "Chromium Allomancy allows you to touch Metalborn or other characters who have Invested abilities, instantly depleting their reserve of power and leaving only a sudden coldness."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Draining Grasp", "Reactive Leech"],
+    "features": [
+      {
+        "required_for": ["Simultaneous Leeching", "Hyperleech"],
+        "title": {
+          "en": "Draining Grasp"
+        },
+        "description": {
+          "en": "After you succeed on a physical test against a target within reach, spend Opportunity or 2 focus to Burn Chromium against them, automatically succeeding on your Allomancy test."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Simultaneous Leeching"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nYou can Leech two targets at the same time, raising the stakes on your Allomancy test if both are unwilling."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Metalmind Siphoner"],
+        "title": {
+          "en": "Hyperleech"
+        },
+        "description": {
+          "en": "Spend additional Investiture when you Burn Chromium, up to your Metallic Art limit, to roll that many additional dice."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Metalmind Siphoner"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+.\n\nLeech metalmind charges equal to your Metallic Art die (instead of half that many), and Leech a metalmind even if its wearer has Investiture."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Evasive Leecher", "Hyperleech"],
+        "title": {
+          "en": "Reactive Leech"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nBefore a character uses an Invested ability, Burn Chromium to potentially deplete them of needed resources."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Evasive Leecher"
+        },
+        "description": {
+          "en": "**Prerequisite** Thievery 2+.\n\nGain reaction for Dodge or your Reactive Leech talent. After you Dodge an attacker, spend 1 focus to target them with Burn Chromium."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Copper Allomancy"
+    },
+    "description": {
+      "en": "Copper Allomancy creates an invisible cloud around you that prevents others from detecting Investiture used by anyone inside your coppercloud."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Reflexive Cover", "Expanded Coppercloud"],
+    "features": [
+      {
+        "required_for": ["Covert Coordination", "Efficient Smoker"],
+        "title": {
+          "en": "Reflexive Cover"
+        },
+        "description": {
+          "en": "Before a character uses an Invested ability that can be blocked by a coppercloud, spend 1 focus to Burn Copper."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Covert Coordination"
+        },
+        "description": {
+          "en": "**Prerequisite** Stealth 3+.\n\nBefore an ally within your coppercloud makes a Stealth test or a test with raised stakes, spend 1 focus to grant them an advantage."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Efficient Smoker"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nYour Burn Copper duration doubles, and you can change the size of your coppercloud as free action."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Efficient Smoker"],
+        "title": {
+          "en": "Expanded Coppercloud"
+        },
+        "description": {
+          "en": "The maximum radius of your coppercloud increases by 5 × your ranks in Allomancy."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Duralumin Allomancy"
+    },
+    "description": {
+      "en": "When burned while using another power, Duralumin Allomancy flares through your entire Investiture reserve in an instantaneous burst."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Controlled Burst", "Selective Burst"],
+    "features": [
+      {
+        "title": {
+          "en": "Controlled Burst"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+; at least one other power or Invested ability.\n\nWhen you Burn Duralumin, you gain more control and don't have to roll a plot die."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Selective Burst"
+        },
+        "description": {
+          "en": "**Prerequisite** at least two other powers or Invested abilities.\n\nWhen you Burn Duralumin, you can become Depleted of the burst power instead of spending Investiture."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Gold Allomancy"
+    },
+    "description": {
+      "en": "Gold Allomancy causes you to see shadowy projections of yourself."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Alloy of Self", "Golden Opportunities"],
+    "features": [
+      {
+        "title": {
+          "en": "Alloy of Self"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nForgo a long rest and spend 1 Investiture to roll a plot die. On Opportunity, advance a goal. On Complication, become Exhausted [−1]."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Golden Opportunities"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+.\n\nPlot die blanks for Burn Gold and Alloy of Self count as Opportunity. Additionally, Burn Gold's Focused condition lasts longer."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Electrum Allomancy"
+    },
+    "description": {
+      "en": "Electrum Allomancy causes you to see **electrum shadows** projecting from you, representing many immediate futures possible for you."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Prescient Reactions", "Lingering Shadows"],
+    "features": [
+      {
+        "required_for": ["Prophetic Electrum", "Slippery Target"],
+        "title": {
+          "en": "Prescient Reactions"
+        },
+        "description": {
+          "en": "Spend an electrum shadow instead of reaction to use Dodge or Reactive Strike."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Prophetic Electrum"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nYou can reroll the d20 for one shadow. Additionally, burning electrum ends the Surprised condition on yourself."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Slippery Target"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhile burning electrum, attacks can't graze you and Reactive Strikes gain a disadvantage."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Proactive Oracle"],
+        "title": {
+          "en": "Lingering Shadows"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\nSpend additional Investiture when you maintain Burn Electrum to keep that many shadows for an additional round."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Theoretical Exercise"],
+        "title": {
+          "en": "Proactive Oracle"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 2+.\n\nWhen you test against a character, spend a shadow to replace your d20 roll with the shadow's recorded result."
+        },
+        "kind": "static",
+        "price": { "r": 1 }
+      },
+      {
+        "title": {
+          "en": "Theoretical Exercise"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nOnce per round, after you use an action or reaction, spend 3 Investiture to undo it."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Nicrosil Allomancy"
+    },
+    "description": {
+      "en": "Nicrosil Allomancy allows you to touch a Metalborn who's using an Invested ability, causing their entire reserve of power to instantly and explosively expend itself."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Proactive Nicroburst", "Assisted Burst"],
+    "features": [
+      {
+        "required_for": ["Bursting Grasp"],
+        "title": {
+          "en": "Proactive Nicroburst"
+        },
+        "description": {
+          "en": "Spend Investiture to burst that many Invested abilities of an character in reach. If they're unwilling, test Physical."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Unexpected Burst"],
+        "title": {
+          "en": "Bursting Grasp"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+ or Thievery 2+.\n\nAfter a physical test vs. a character within reach, spend Opportunity or 2 focus to target them with Proactive Nicroburst."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Unexpected Burst"
+        },
+        "description": {
+          "en": "**Prerequisite** Stealth 3+.\n\nWhen you burst an enemy's ability, add a disadvantage to their plot die, and influence how is resolved."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Assisted Burst"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 4+.\n\nWhen you Burn Nicrosil to assist an ally, they gain more control and don't have to roll a plot die."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Pewter Allomancy"
+    },
+    "description": {
+      "en": "Pewter Allomancy significantly increases your physical capabilities and your constitution."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Regenerate", "Pewterarm Weaponcraft"],
+    "features": [
+      {
+        "required_for": ["Drag It Out"],
+        "title": {
+          "en": "Regenerate"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 2+.\n\n**Spend 1 Investiture** to recover health equal to 1d6 + your tier, even if you're Unconscious."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Drag It Out"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhen reduced to 0 health while burning pewter, ignore Unconscious but become Exhausted [−1] each time you take damage."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Nimble Pugilist", "Dragging Strikes", "Pewter Pitcher"],
+        "title": {
+          "en": "Pewterarm Weaponcraft"
+        },
+        "description": {
+          "en": "**Prerequisite** Heavy Weaponry 1+ or Light Weaponry 1+.\n\nWhile burning pewter or tapping strength, replace your melee weapon's damage with your unarmed damage dice."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Nimble Pugilist"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 1+.\n\nWhile burning pewter, use Speed for unarmed attacks, Grapple, and Shove."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Dragging Strikes"
+        },
+        "description": {
+          "en": "**Prerequisite** Allomancy 3+.\n\nWhile burning pewter, become Exhausted [−1] to make an additional Strike with the same hand."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Pewter Pitcher"
+        },
+        "description": {
+          "en": "While burning pewter or tapping strength, weapons gain Thrown [100/300]. When they're thrown, you can use your unarmed damage dice."
+        },
         "kind": "static"
       }
     ]
