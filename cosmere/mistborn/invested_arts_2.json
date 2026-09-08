@@ -1,0 +1,1039 @@
+[
+  {
+    "title": {
+      "en": "Aluminum Feruchemy"
+    },
+    "description": {
+      "en": "Aluminum Feruchemy allows you to store your spiritual Identity in your aluminummind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Adept Introspection", "Core Drive"],
+    "features": [
+      {
+        "required_for": ["Unshakeable Quintessence"],
+        "title": {
+          "en": "Adept Introspection"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 2+.\n\nForgo a long rest to gain the downtime benefits of Self-Reflection. Additionally, while tapping Identity, your deflect applies to spirit damage."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Core Drive"
+        },
+        "description": {
+          "en": "While tapping Identity, recover 1 focus on turns where you act in accordance with your purpose, obstacle, or goals."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Unshakeable Quintessence"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nTap Identity and spend additional charges to shorten but amplify its effects, and to avoid being grazed by attacks vs. Spiritual."
+        },
+        "kind": "static"
+      },
+    ]
+  },
+  {
+    "title": {
+      "en": "Atium Feruchemy"
+    },
+    "description": {
+      "en": "Through Atium Feruchemy, you can store your youth in your atiummind."
+    },
+    "public": true,
+    "only": ["scan_1"],
+    "initial_talents": ["Peak Condition", "Act Your Age"],
+    "features": [
+      {
+        "title": {
+          "en": "Act Your Age"
+        },
+        "description": {
+          "en": "**Prerequisite** Deception 2+.\n\nGain an advantage on tests using Presence to influence characters in your current age category."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Peak Condition"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhile chronologically Middle-Aged or older, spend 2 charges to momentarily become Young and Enhanced [+1 to all]."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Bendalloy Feruchemy"
+    },
+    "description": {
+      "en": "Bendalloy Feruchemy allows you to store nutrition and hydration in your bendalloymind."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Energy Boost", "Proactive Nutrition"],
+    "features": [
+      {
+        "title": {
+          "en": "Energy Boost"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nTap Nutrition and spend additional charges to instead recover health and reduce your Exhausted penalty."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Drop of Prevention", "Steady Nutrition"],
+        "title": {
+          "en": "Proactive Nutrition"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 2+.\n\nSpend 1 charge from your bendalloymind to reroll one die from your test (other than the plot die) that rolled lower than your ranks in Feruchemy."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Poisoner's Bane"],
+        "title": {
+          "en": "Drop of Prevention"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 3+.\n\nStore an ingestible curative in your bendalloymind. When you later spend that charge, you gain the curative's benefits."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Steady Nutrition"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nIf your rerolled die for Proactive Nutrition is still lower, replace one die with your ranks in Feruchemy."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Poisoner's Bane"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 4+.\n\nStore an ingestible poison in your bendalloymind, then later spend that charge to temporarily succeed on tests to resist it."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Brass Feruchemy"
+    },
+    "description": {
+      "en": "Brass Feruchemy enables the storing of your body's warmth in your brassmind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Searing Palm", "Thermal Conduction"],
+    "features": [
+      {
+        "required_for": ["Soothing Touch", "Numbing Chill"],
+        "title": {
+          "en": "Searing Palm"
+        },
+        "description": {
+          "en": "Grapple, Shove, or make an unarmed attack while tapping warmth. If you succeed or graze the target, deal additional energy damage."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      },
+      {
+        "required_for": ["Soothing Touch", "Numbing Chill"],
+        "title": {
+          "en": "Thermal Conduction"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping warmth, touch a character and deal energy damage."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Firesoul Adept"],
+        "title": {
+          "en": "Soothing Touch"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 2+.\n\nWhile storing or tapping warmth, add your ranks in Feruchemy to an ally's recovery die. Additionally, forgo a long rest to speed an injured ally's recovery."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Firesoul Adept"],
+        "title": {
+          "en": "Numbing Chill"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile storing warmth, spend 2 focus or opportunity to make a target you're touching become Diminished [Speed −2]."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Living Furnace"],
+        "title": {
+          "en": "Firesoul Adept"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nBefore something occurs that could be affected by storing or tapping warmth, spend 1 focus to do so."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Living Furnace"
+        },
+        "description": {
+          "en": "Tap Warmth and spend additional charges to shorten its effects, and to exude ambient heat that deals energy damage."
+        },
+        "kind": "static"
+      },
+    ]
+  },
+  {
+    "title": {
+      "en": "Bronze Feruchemy"
+    },
+    "description": {
+      "en": "You can use Bronze Feruchemy to store wakefulness in your bronzemind; this is the only known Feruchemical trait that can be stored while sleeping."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Awake and Alert", "Drowsy Storing"],
+    "features": [
+      {
+        "required_for": ["Focused Sentry", "Power Nap"],
+        "title": {
+          "en": "Awake and Alert"
+        },
+        "description": {
+          "en": "Spend 1 charge to become Enhanced [Intellect +1] and Enhanced [Awareness +1]."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "title": {
+          "en": "Drowsy Storing"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nStore charges without sleeping, becoming Exhausted [−2]. Remove the Focused condition to gain an additional charge."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Focused Sentry"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nSpend 1 charge to become Focused until the end of your next turn."
+        },
+        "kind": "static",
+        "price": { "a": 1 }
+      },
+      {
+        "required_for": ["Instant Sleep"],
+        "title": {
+          "en": "Power Nap"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nSpend charges to immediately gain the recovery benefits of one short rest per charge spent."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Instant Sleep"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 4+.\n\nSpend 5 charges to immediately gain the benefits of a long rest."
+        },
+        "kind": "static",
+        "price": { "a": 2 }
+      },
+    ]
+  },
+  {
+    "title": {
+      "en": "Cadmium Feruchemy"
+    },
+    "description": {
+      "en": "Through Cadmium Feruchemy, you can store breath."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Boosted Oxygenation", "Deprivation Training"],
+    "features": [
+      {
+        "required_for": ["Feruchemical Endurance"],
+        "title": {
+          "en": "Boosted Oxygenation"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+\n\nTap Breath and spend charges to reduce the focus cost of reaction and free action by the number of charges spent."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Aerobic Excellence"],
+        "title": {
+          "en": "Deprivation Training"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 2+.\n\nYour Tap Breath duration doubles. While not tapping or storing, your first reaction or free action in a scene costs 1 fewer focus."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Feruchemical Endurance"
+        },
+        "description": {
+          "en": "While you're Afflicted or Disoriented, spend 1 charge to remove that condition."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Recovery Burst"],
+        "title": {
+          "en": "Aerobic Excellence"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nThis power reduces the focus cost of all actions, not just reaction and free action."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Recovery Burst"
+        },
+        "description": {
+          "en": "**Prerequisite** Athletics 3+.\n\nWhen you recover health and / or focus while tapping breath, recover additional equal to your ranks in Feruchemy."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Chromium Feruchemy"
+    },
+    "description": {
+      "en": "Chromium Feruchemy grants the ability to store spiritual Fortune in your chromiummind."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Not Quite Yet", "Whispers of Destiny"],
+    "features": [
+      {
+        "required_for": ["Share Fate"],
+        "title": {
+          "en": "Not Quite Yet"
+        },
+        "description": {
+          "en": "When the GM raises the stakes, you can stop tapping Fortune to store it, test without raised stakes, and regain 1 charge."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Right Time", "Right Place"],
+        "title": {
+          "en": "Whispers of Destiny"
+        },
+        "description": {
+          "en": "After a rest, spend 1 charge to feel how impactful the upcoming scene will be, and become Focused when an important person, place, or moment arrives."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Share Fate"
+        },
+        "description": {
+          "en": "**Prerequisite** Leadership 2+.\n\nBefore an ally makes a test while you're tapping Fortune, spend 1 charge to raise the stakes."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Right Time"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping Fortune, use the Ready action as free action."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Nexus of Fortune"],
+        "title": {
+          "en": "Right Place"
+        },
+        "description": {
+          "en": "**Prerequisite** Insight 2+.\n\nWhen a scene begins, spend charges to Move once for each charge spent."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Nexus of Fortune"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\n Spend charges to increase your opportunity and complication ranges by 1 + charges spent, and raise the stakes on all tests."
+        },
+        "kind": "static"
+      },
+    ]
+  },
+  {
+    "title": {
+      "en": "Copper Feruchemy"
+    },
+    "description": {
+      "en": "Copper Feruchemy allows you to store and retrieve memories from your coppermind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Expertise Archivist","Indexed Coppermind"],
+    "features": [
+      {
+        "required_for": ["Cramming Pupil","Muscle Memory"],
+        "title": {
+          "en": "Expertise Archivist"
+        },
+        "description": {
+          "en": "Store an expertise with Store Memory. When you Tap Memory to recall it, gain an advantage on related cognitive and spiritual tests."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Mnemonic Adept"],
+        "title": {
+          "en": "Indexed Coppermind"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nTap Memory and spend charges to recall the memories connected to each charge."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Cramming Pupil"
+        },
+        "description": {
+          "en": "After a rest spent working toward an expertise, store that expertise in your coppermind."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Muscle Memory"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 2+ or Athletics 2+.\n\nWhen you Tap Memory to recall an expertise, gain an advantage on related physical tests."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Keeper of Knowledge"],
+        "title": {
+          "en": "Mnemonic Adept"
+        },
+        "description": {
+          "en": "**Prerequisite** Lore 2+.\n\nYour Copper Feruchemy effects that usually last for 1 scene instead last until after a long rest."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Keeper of Knowledge"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+; Lore 3+.\n\nYour coppermind's max charges increase by 5, and your Intellect increases by 2."
+        },
+        "kind": "static"
+      },
+    ]
+  },
+  {
+    "title": {
+      "en": "Duralumin Feruchemy"
+    },
+    "description": {
+      "en": "Through Duralumin Feruchemy, you can store spiritual Connection."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Individual Connection","Force of Personality"],
+    "features": [
+      {
+        "required_for": ["Instant Bond"],
+        "title": {
+          "en": "Individual Connection"
+        },
+        "description": {
+          "en": "When you Store Connection, choose which characters to exempt. When you gain a language from Tap Connection, it lasts until you tap another."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["True Connecting"],
+        "title": {
+          "en": "Force of Personality"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping Connection, resisting your influence costs an additional 2 focus."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Foe to Friend"],
+        "title": {
+          "en": "Instant Bond"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nSpend 2 charges to test Feruchemy vs. a non-enemy's Spiritual; on success, they temporarily become your friend."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Foe to Friend"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nIt costs you one fewer action to use Instant Bond. Additionally, Instant Bond can also target Minion enemies."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "True Connecting"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nTap Connection and spend additional charges to shorten but amplify its effects, and to make resisting your influence cost additional focus."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Electrum Feruchemy"
+    },
+    "description": {
+      "en": "Electrum Feruchemy enables you to store determination in your electrummind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Hardened Will","Go With the Flow"],
+    "features": [
+      {
+        "required_for": ["Intensity of Purpose", "Adamant Resolve"],
+        "title": {
+          "en": "Hardened Will"
+        },
+        "description": {
+          "en": "The first time you Tap Determination, either become Determined or ignore a temporary injury."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Endless Agreeability"],
+        "title": {
+          "en": "Go With the Flow"
+        },
+        "description": {
+          "en": "While storing determination, resisting influence costs 1 focus more, but you gain an advantage on Insight and Persuasion."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Indomitable Essence"],
+        "title": {
+          "en": "Intensity of Purpose"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping determination, spend opportunity to make yourself and your allies Determined and your enemies Exhausted [−1]."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Indomitable Essence"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhen you choose to regain consciousness, spend charges and roll a recovery die for each charge spent."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Adamant Resolve"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nTap Determination and spend additional charges to shorten but amplify its effects, and to ignore your injuries."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Endless Agreeability"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile storing determination, when you choose not to resist influence, recover 2 focus and learn key information."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Gold Feruchemy"
+    },
+    "description": {
+      "en": "Through Gold Feruchemy, you can store health in your goldmind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Injury Specialist", "Reflexive Bloodmaker"],
+    "features": [
+      {
+        "required_for": ["Expedited Bloodmaking"],
+        "title": {
+          "en": "Injury Specialist"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nTap Health to heal yourself from temporary injuries, and spend additional charges to heal permanent ones."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Run From Death", "Subconscious Bloodmaking"],
+        "title": {
+          "en": "Reflexive Bloodmaker"
+        },
+        "description": {
+          "en": "Tap Health to avoid becoming Unconscious and immediately recover health."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Instant Regeneration"],
+        "title": {
+          "en": "Expedited Bloodmaking"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nSpend charges to recover some health."
+        },
+        "price": { "a": 1 },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Instant Regeneration"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 4+.\n\nSpend 5 charges to recover all health, heal your injuries, and end the effects of diseases, drugs, and poisons."
+        },
+        "price": { "a": 2 },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Run From Death"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nDisengage as part of Reflexive Bloodmaker, and gain reaction for Reflexive Bloodmaker each turn."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Subconscious Bloodmaking"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhile Unconscious or recently dead, Tap Health as free action."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Iron Feruchemy"
+    },
+    "description": {
+      "en": "Iron Feruchemy enables you to store your physical weight in your ironmind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Heavyweight Blow", "Featherweight Slip"],
+    "features": [
+      {
+        "required_for": ["Immovable Object"],
+        "title": {
+          "en": "Heavyweight Blow"
+        },
+        "description": {
+          "en": "While tapping weight, make a melee weapon or unarmed attack, dealing extra damage and pushing smaller targets."
+        },
+        "price": { "a": 2 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Light on Your Feet"],
+        "title": {
+          "en": "Featherweight Slip"
+        },
+        "description": {
+          "en": "While storing weight, reduce impact and keen damage by your Feruchemy, then move 10 feet without Reactive Strikes."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Critical Mass", "Skimming Adept"],
+        "title": {
+          "en": "Immovable Object"
+        },
+        "description": {
+          "en": "After a smaller character hits you with a melee attack, knock them Prone."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Critical Mass"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nTap Weight and spend additional charges to shorten but amplify its effects."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Skimming Adept"],
+        "title": {
+          "en": "Light on Your Feet"
+        },
+        "description": {
+          "en": "**Prerequisite** Agility 2+.\n\nWhile storing weight, gain an advantage on non-attack tests using Speed, and jump much farther without a test."
+        },
+        "kind": "static"
+      }
+      {
+        "title": {
+          "en": "Skimming Adept"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nBefore an action or event that could be affected by storing or tapping weight, spend 1 focus to Store or Tap Weight."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Nicrosil Feruchemy"
+    },
+    "description": {
+      "en": "Through Nicrosil Feruchemy, you can store your very ability to wield Investiture."
+    },
+    "public": true,
+    "only": ["scan_2"],
+    "initial_talents": ["Wall of Muscle", "Pewterarm Weaponcraft"],
+    "features": [
+      {
+        "required_for": ["Pewter Barricade", "Body Builder"],
+        "title": {
+          "en": "Wall of Muscle"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping strength, your deflect increases, you can Brace without cover, and you count as cover for allies."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Pewter Pitcher"],
+        "title": {
+          "en": "Pewterarm Weaponcraft"
+        },
+        "description": {
+          "en": "**Prerequisite** Heavy Weaponry 1+ or Light Weaponry 1+.\n\nWhile burning pewter or tapping strength, replace your melee weapon's damage with your unarmed damage dice."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Pewter Barricade"
+        },
+        "description": {
+          "en": "While tapping strength, you and allies benefitting from your Wall of Muscle ignore Pierce."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Body Builder"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nTap Strength and spend additional charges to shorten but amplify its effects, and to increase your size by one category."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Toss 'Em Around"],
+        "title": {
+          "en": "Pewter Pitcher"
+        },
+        "description": {
+          "en": "While burning pewter or tapping strength, weapons gain Thrown [100/300]. When they're thrown, you can use your unarmed damage dice."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Toss 'Em Around"
+        },
+        "description": {
+          "en": "**Prerequisite** Heavy Weaponry 3+.\n\nWhile tapping strength, throw an ally or Restrained enemy up to 100 feet, dealing damage if they're an enemy."
+        },
+        "price": { "a": 1 },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Steel Feruchemy"
+    },
+    "description": {
+      "en": "Steel Feruchemy enables you to store physical speed in your steelmind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Hastened Dodge", "Run it Back"],
+    "features": [
+      {
+        "required_for": ["Accelerated Reflexes"],
+        "title": {
+          "en": "Hastened Dodge"
+        },
+        "description": {
+          "en": "When you Dodge while tapping speed, you can't be grazed."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Speed Burst", "Steelsprinter"],
+        "title": {
+          "en": "Run it Back"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping speed, spend 1 focus to reuse an action. It must involve a physical test."
+        },
+        "price": { "a": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["True Steelrunning"],
+        "title": {
+          "en": "Accelerated Reflexes"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhile tapping speed or mental speed, spend 1 charge to gain reaction on each character's turn."
+        },
+        "price": { "a": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["True Steelrunning"],
+        "title": {
+          "en": "Speed Burst"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhile tapping speed, spend 1 charge to gain 2 actions for Brace, Disengage, Interact, Move, or physical tests."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Steelsprinter"
+        },
+        "description": {
+          "en": "Spend 1 charge before a scene to gain 2 actions or an additional contribution at the start of the scene."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "True Steelrunning"
+        },
+        "description": {
+          "en": "Tap Speed and spend additional charges to shorten but amplify its effects, and to Move each turn as free action once per charge."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Tin Feruchemy"
+    },
+    "description": {
+      "en": "Tin Feruchemy grants you the ability to store your senses—typically hearing, sight, smell, taste, and touch—in your tinmind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Tinpoint Accuracy", "Sensory Control"],
+    "features": [
+      {
+        "title": {
+          "en": "Tinpoint Accuracy"
+        },
+        "description": {
+          "en": "**Prerequisite** Heavy Weaponry 1+ or Light Weaponry 1+.\n\nWhile burning tin or tapping sense, the range of your ranged attacks increases, and you don't raise the stakes on ranged attacks near an ally."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Store Pain", "True Windwhispering", "Reflexive Windwhisperer"],
+        "title": {
+          "en": "Sensory Control"
+        },
+        "description": {
+          "en": "Tap Sense doesn't end Store Sense, and vice versa, as long as you store and tap different senses."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Store Pain"
+        },
+        "description": {
+          "en": "**Prerequisite** Medicine 2+.\n\nWhile storing your sense of touch, reduce incoming damage and ignore Afflicted, Exhausted, and Slowed."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "True Windwhispering"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nTap Sense and spend additional charges to shorten but amplify its effects, and to apply it to senses up to the charges spent."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Multisensory Storing"],
+        "title": {
+          "en": "Reflexive Windwhisperer"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nBefore a sensory trigger, Store Sense and gain an advantage against the triggering effect."
+        },
+        "price": { "r": 1 },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Multisensory Storing"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhen you Store Sense, store senses up to your tier. For each additional sense, gain a charge and becoming Diminished [Awareness −1]."
+        },
+        "kind": "static"
+      }
+    ]
+  },
+  {
+    "title": {
+      "en": "Zinc Feruchemy"
+    },
+    "description": {
+      "en": "Zinc Feruchemy enables you to store mental speed in your zincmind."
+    },
+    "public": true,
+    "only": ["scan_1", "scan_2"],
+    "initial_talents": ["Sparked Aid", "Think Again"],
+    "features": [
+      {
+        "required_for": ["Accelerated Reflexes"],
+        "title": {
+          "en": "Sparked Aid"
+        },
+        "description": {
+          "en": "While tapping mental speed, your Aid reaction grants a bonus equal to your Feruchemy."
+        },
+        "kind": "static"
+      },
+      {
+        "required_for": ["Quick Thinking", "Eureka Moment"],
+        "title": {
+          "en": "Think Again"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile tapping mental speed, spend 1 focus to reuse an action. It must involve a cognitive or Awareness test."
+        },
+        "price": { "a": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["True Sparking"],
+        "title": {
+          "en": "Accelerated Reflexes"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhile tapping speed or mental speed, spend 1 charge to gain reaction on each character's turn."
+        },
+        "price": { "a": 1 },
+        "kind": "static"
+      },
+      {
+        "required_for": ["True Sparking"],
+        "title": {
+          "en": "Quick Thinking"
+        },
+        "description": {
+          "en": "**Prerequisite** Feruchemy 3+.\n\nWhile tapping mental speed, spend 1 charge to gain 2 actions for Ready, Recover, or tests using Awareness, Intellect, or Willpower."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "True Sparking"
+        },
+        "description": {
+          "en": "Tap mental speed and spend additional charges to shorten but amplify its effects."
+        },
+        "kind": "static"
+      },
+      {
+        "title": {
+          "en": "Eureka Moment"
+        },
+        "description": {
+          "en": "**Prerequisite** Deduction 2+.\n\nSpend 1 charge to have an epiphany about the current scene."
+        },
+        "kind": "static"
+      }
+    ]
+  }
+]
