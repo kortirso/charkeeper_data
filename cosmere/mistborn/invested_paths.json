@@ -209,7 +209,7 @@
             "feature": {
               "title": { "en": "Aluminum Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -217,7 +217,7 @@
             "feature": {
               "title": { "en": "Atium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -225,7 +225,7 @@
             "feature": {
               "title": { "en": "Bendalloy Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -233,7 +233,7 @@
             "feature": {
               "title": { "en": "Brass Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -241,7 +241,7 @@
             "feature": {
               "title": { "en": "Bronze Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -249,7 +249,7 @@
             "feature": {
               "title": { "en": "Cadmium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -257,7 +257,7 @@
             "feature": {
               "title": { "en": "Chromium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -265,7 +265,7 @@
             "feature": {
               "title": { "en": "Copper Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -273,7 +273,7 @@
             "feature": {
               "title": { "en": "Duralumin Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -281,7 +281,7 @@
             "feature": {
               "title": { "en": "Electrum Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -289,7 +289,7 @@
             "feature": {
               "title": { "en": "Gold Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -297,7 +297,7 @@
             "feature": {
               "title": { "en": "Iron Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -305,7 +305,7 @@
             "feature": {
               "title": { "en": "Nicrosil Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -313,7 +313,7 @@
             "feature": {
               "title": { "en": "Pewter Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -321,7 +321,7 @@
             "feature": {
               "title": { "en": "Steel Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -329,7 +329,7 @@
             "feature": {
               "title": { "en": "Tin Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -337,7 +337,7 @@
             "feature": {
               "title": { "en": "Zinc Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           }
         ]
@@ -438,7 +438,7 @@
             "feature": {
               "title": { "en": "Aluminum Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -446,7 +446,7 @@
             "feature": {
               "title": { "en": "Atium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -454,7 +454,7 @@
             "feature": {
               "title": { "en": "Bendalloy Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -462,7 +462,7 @@
             "feature": {
               "title": { "en": "Brass Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -470,7 +470,7 @@
             "feature": {
               "title": { "en": "Bronze Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -478,7 +478,7 @@
             "feature": {
               "title": { "en": "Cadmium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -486,7 +486,7 @@
             "feature": {
               "title": { "en": "Chromium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -494,7 +494,7 @@
             "feature": {
               "title": { "en": "Copper Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -502,7 +502,7 @@
             "feature": {
               "title": { "en": "Duralumin Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -510,7 +510,7 @@
             "feature": {
               "title": { "en": "Electrum Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -518,7 +518,7 @@
             "feature": {
               "title": { "en": "Gold Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -526,7 +526,7 @@
             "feature": {
               "title": { "en": "Iron Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -534,7 +534,7 @@
             "feature": {
               "title": { "en": "Nicrosil Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -542,7 +542,7 @@
             "feature": {
               "title": { "en": "Pewter Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -550,7 +550,7 @@
             "feature": {
               "title": { "en": "Steel Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -558,7 +558,7 @@
             "feature": {
               "title": { "en": "Tin Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -566,7 +566,7 @@
             "feature": {
               "title": { "en": "Zinc Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           }
         ]
@@ -685,7 +685,7 @@
             "feature": {
               "title": { "en": "Aluminum Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -693,7 +693,7 @@
             "feature": {
               "title": { "en": "Atium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -701,7 +701,7 @@
             "feature": {
               "title": { "en": "Bendalloy Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -709,7 +709,7 @@
             "feature": {
               "title": { "en": "Brass Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -717,7 +717,7 @@
             "feature": {
               "title": { "en": "Bronze Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -725,7 +725,7 @@
             "feature": {
               "title": { "en": "Cadmium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -733,7 +733,7 @@
             "feature": {
               "title": { "en": "Chromium Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -741,7 +741,7 @@
             "feature": {
               "title": { "en": "Copper Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -749,7 +749,7 @@
             "feature": {
               "title": { "en": "Duralumin Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -757,7 +757,7 @@
             "feature": {
               "title": { "en": "Electrum Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -765,7 +765,7 @@
             "feature": {
               "title": { "en": "Gold Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -773,7 +773,7 @@
             "feature": {
               "title": { "en": "Iron Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -781,7 +781,7 @@
             "feature": {
               "title": { "en": "Nicrosil Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -789,7 +789,7 @@
             "feature": {
               "title": { "en": "Pewter Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -797,7 +797,7 @@
             "feature": {
               "title": { "en": "Steel Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -805,7 +805,7 @@
             "feature": {
               "title": { "en": "Tin Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           },
           {
@@ -813,7 +813,7 @@
             "feature": {
               "title": { "en": "Zinc Feruchemy" },
               "kind": "static",
-              "tokens": { "limit": "feruchemy" }
+              "tokens": { "limit": "2 + feruchemy" }
             }
           }
         ]
