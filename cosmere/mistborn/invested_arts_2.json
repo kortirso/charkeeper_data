@@ -68,7 +68,16 @@
           "en": "**Prerequisite** Feruchemy 3+.\n\nWhile chronologically Middle-Aged or older, spend 2 charges to momentarily become Young and Enhanced [+1 to all]."
         },
         "kind": "static",
-        "price": { "a": 1 }
+        "price": { "a": 1 },
+        "continious": true,
+        "modifiers": {
+          "str": { "type": "add", "value": 1 },
+          "spd": { "type": "add", "value": 1 },
+          "int": { "type": "add", "value": 1 },
+          "wil": { "type": "add", "value": 1 },
+          "awa": { "type": "add", "value": 1 },
+          "pre": { "type": "add", "value": 1 }
+        }
       }
     ]
   },
@@ -98,7 +107,7 @@
           "en": "Proactive Nutrition"
         },
         "description": {
-          "en": "**Prerequisite** Medicine 2+.\n\nSpend 1 charge from your bendalloymind to reroll one die from your test (other than the plot die) that rolled lower than your ranks in Feruchemy."
+          "en": "**Prerequisite** Medicine 2+.\n\n**Spend 1 charge** from your bendalloymind to reroll one die from your test (other than the plot die) that rolled lower than your ranks in Feruchemy."
         },
         "kind": "static"
       },
@@ -180,7 +189,7 @@
           "en": "Numbing Chill"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile storing warmth, spend 2 focus or opportunity to make a target you're touching become Diminished [Speed −2]."
+          "en": "**Prerequisite** Feruchemy 2+.\n\nWhile storing warmth, **spend 2 focus** or opportunity to make a target you're touching become Diminished [Speed −2]."
         },
         "kind": "static"
       },
@@ -190,7 +199,7 @@
           "en": "Firesoul Adept"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 3+.\n\nBefore something occurs that could be affected by storing or tapping warmth, spend 1 focus to do so."
+          "en": "**Prerequisite** Feruchemy 3+.\n\nBefore something occurs that could be affected by storing or tapping warmth, **spend 1 focus** to do so."
         },
         "kind": "static"
       },
@@ -225,7 +234,12 @@
           "en": "Spend 1 charge to become Enhanced [Intellect +1] and Enhanced [Awareness +1]."
         },
         "kind": "static",
-        "price": { "a": 1 }
+        "price": { "a": 1 },
+        "continious": true,
+        "modifiers": {
+          "int": { "type": "add", "value": 1 },
+          "awa": { "type": "add", "value": 1 }
+        }
       },
       {
         "title": {
@@ -241,7 +255,7 @@
           "en": "Focused Sentry"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 2+.\n\nSpend 1 charge to become Focused until the end of your next turn."
+          "en": "**Prerequisite** Feruchemy 2+.\n\n**Spend 1 charge** to become Focused until the end of your next turn."
         },
         "kind": "static",
         "price": { "a": 1 }
@@ -252,7 +266,7 @@
           "en": "Power Nap"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 3+.\n\nSpend charges to immediately gain the recovery benefits of one short rest per charge spent."
+          "en": "**Prerequisite** Feruchemy 3+.\n\n**Spend charges** to immediately gain the recovery benefits of one short rest per charge spent."
         },
         "kind": "static"
       },
@@ -261,7 +275,7 @@
           "en": "Instant Sleep"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 4+.\n\nSpend 5 charges to immediately gain the benefits of a long rest."
+          "en": "**Prerequisite** Feruchemy 4+.\n\n**Spend 5 charges** to immediately gain the benefits of a long rest."
         },
         "kind": "static",
         "price": { "a": 2 }
@@ -395,7 +409,7 @@
           "en": "Nexus of Fortune"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 3+.\n\n Spend charges to increase your opportunity and complication ranges by 1 + charges spent, and raise the stakes on all tests."
+          "en": "**Prerequisite** Feruchemy 3+.\n\nSpend charges to increase your opportunity and complication ranges by 1 + charges spent, and raise the stakes on all tests."
         },
         "kind": "static"
       },
@@ -467,7 +481,10 @@
         "description": {
           "en": "**Prerequisite** Feruchemy 3+; Lore 3+.\n\nYour coppermind's max charges increase by 5, and your Intellect increases by 2."
         },
-        "kind": "static"
+        "kind": "static",
+        "modifiers": {
+          "int": { "type": "add", "value": 2 }
+        }
       },
     ]
   },
@@ -517,7 +534,7 @@
           "en": "Foe to Friend"
         },
         "description": {
-          "en": "**Prerequisite** Feruchemy 3+.\n\nIt costs you one fewer action to use Instant Bond. Additionally, Instant Bond can also target Minion enemies."
+          "en": "**Prerequisite** Feruchemy 3+.\n\nIt costs you one fewer action to use Instant Bond. Additionally, **Instant Bond** can also target Minion enemies."
         },
         "kind": "static"
       },
