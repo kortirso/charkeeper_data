@@ -37,7 +37,7 @@
           "en": "**Prerequisite** Feruchemy 3+.\n\nTap Identity and spend additional charges to shorten but amplify its effects, and to avoid being grazed by attacks vs. Spiritual."
         },
         "kind": "static"
-      },
+      }
     ]
   },
   {
@@ -211,7 +211,7 @@
           "en": "Tap Warmth and spend additional charges to shorten its effects, and to exude ambient heat that deals energy damage."
         },
         "kind": "static"
-      },
+      }
     ]
   },
   {
@@ -279,7 +279,7 @@
         },
         "kind": "static",
         "price": { "a": 2 }
-      },
+      }
     ]
   },
   {
@@ -412,7 +412,7 @@
           "en": "**Prerequisite** Feruchemy 3+.\n\nSpend charges to increase your opportunity and complication ranges by 1 + charges spent, and raise the stakes on all tests."
         },
         "kind": "static"
-      },
+      }
     ]
   },
   {
@@ -485,7 +485,7 @@
         "modifiers": {
           "int": { "type": "add", "value": 2 }
         }
-      },
+      }
     ]
   },
   {
