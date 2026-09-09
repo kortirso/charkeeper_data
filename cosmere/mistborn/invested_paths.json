@@ -11,8 +11,37 @@
     "initial_talents": ["Misting Snap"],
     "features": [
       {
+        "title": {
+          "en": "Allomantic Power"
+        },
+        "description": {
+          "en": "Choose one of the following powers."
+        },
+        "kind": "one_from_list",
+        "options": [
+          { "title": { "en": "Aluminum" } },
+          { "title": { "en": "Atium" } },
+          { "title": { "en": "Bendalloy" } },
+          { "title": { "en": "Brass" } },
+          { "title": { "en": "Bronze" } },
+          { "title": { "en": "Cadmium" } },
+          { "title": { "en": "Chromium" } },
+          { "title": { "en": "Copper" } },
+          { "title": { "en": "Duralumin" } },
+          { "title": { "en": "Electrum" } },
+          { "title": { "en": "Gold" } },
+          { "title": { "en": "Iron" } },
+          { "title": { "en": "Nicrosil" } },
+          { "title": { "en": "Pewter" } },
+          { "title": { "en": "Steel" } },
+          { "title": { "en": "Tin" } },
+          { "title": { "en": "Zinc" } }
+        ]
+      },
+      {
         "required_for": ["Invested", "Instinctual Burn"],
         "extra_skills": ["allomancy", "allomancy"],
+        "extra_feats": ["Allomantic Power"],
         "title": {
           "en": "Misting Snap"
         },
@@ -167,8 +196,156 @@
     "initial_talents": ["Feruchemist Heritage"],
     "features": [
       {
+        "title": {
+          "en": "Feruchemy Power"
+        },
+        "description": {
+          "en": "Choose many of the following powers."
+        },
+        "kind": "many_from_list",
+        "options": [
+          {
+            "title": { "en": "Aluminum" },
+            "feature": {
+              "title": { "en": "Aluminum Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Atium" },
+            "feature": {
+              "title": { "en": "Atium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Bendalloy" },
+            "feature": {
+              "title": { "en": "Bendalloy Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Brass" },
+            "feature": {
+              "title": { "en": "Brass Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Bronze" },
+            "feature": {
+              "title": { "en": "Bronze Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Cadmium" },
+            "feature": {
+              "title": { "en": "Cadmium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Chromium" },
+            "feature": {
+              "title": { "en": "Chromium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Copper" },
+            "feature": {
+              "title": { "en": "Copper Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Duralumin" },
+            "feature": {
+              "title": { "en": "Duralumin Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Electrum" },
+            "feature": {
+              "title": { "en": "Electrum Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Gold" },
+            "feature": {
+              "title": { "en": "Gold Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Iron" },
+            "feature": {
+              "title": { "en": "Iron Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Nicrosil" },
+            "feature": {
+              "title": { "en": "Nicrosil Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Pewter" },
+            "feature": {
+              "title": { "en": "Pewter Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Steel" },
+            "feature": {
+              "title": { "en": "Steel Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Tin" },
+            "feature": {
+              "title": { "en": "Tin Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Zinc" },
+            "feature": {
+              "title": { "en": "Zinc Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          }
+        ]
+      },
+      {
         "required_for": ["Expanded Metalminds", "Fast Storing"],
         "extra_skills": ["feruchemy"],
+        "extra_feats": ["Feruchemy Power"],
         "title": {
           "en": "Feruchemist Heritage"
         },
@@ -248,8 +425,156 @@
     "initial_talents": ["Ferring Heritage"],
     "features": [
       {
+        "title": {
+          "en": "Feruchemy Power"
+        },
+        "description": {
+          "en": "Choose one of the following powers."
+        },
+        "kind": "one_from_list",
+        "options": [
+          {
+            "title": { "en": "Aluminum" },
+            "feature": {
+              "title": { "en": "Aluminum Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Atium" },
+            "feature": {
+              "title": { "en": "Atium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Bendalloy" },
+            "feature": {
+              "title": { "en": "Bendalloy Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Brass" },
+            "feature": {
+              "title": { "en": "Brass Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Bronze" },
+            "feature": {
+              "title": { "en": "Bronze Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Cadmium" },
+            "feature": {
+              "title": { "en": "Cadmium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Chromium" },
+            "feature": {
+              "title": { "en": "Chromium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Copper" },
+            "feature": {
+              "title": { "en": "Copper Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Duralumin" },
+            "feature": {
+              "title": { "en": "Duralumin Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Electrum" },
+            "feature": {
+              "title": { "en": "Electrum Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Gold" },
+            "feature": {
+              "title": { "en": "Gold Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Iron" },
+            "feature": {
+              "title": { "en": "Iron Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Nicrosil" },
+            "feature": {
+              "title": { "en": "Nicrosil Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Pewter" },
+            "feature": {
+              "title": { "en": "Pewter Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Steel" },
+            "feature": {
+              "title": { "en": "Steel Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Tin" },
+            "feature": {
+              "title": { "en": "Tin Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Zinc" },
+            "feature": {
+              "title": { "en": "Zinc Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          }
+        ]
+      },
+      {
         "required_for": ["Expanded Metalminds", "Fast Storing"],
         "extra_skills": ["feruchemy", "feruchemy"],
+        "extra_feats": ["Feruchemy Power"],
         "title": {
           "en": "Ferring Heritage"
         },
@@ -319,8 +644,184 @@
     "initial_talents": ["Twinborn Heritage"],
     "features": [
       {
+        "title": {
+          "en": "Allomantic Power"
+        },
+        "description": {
+          "en": "Choose one of the following powers."
+        },
+        "kind": "one_from_list",
+        "options": [
+          { "title": { "en": "Aluminum" } },
+          { "title": { "en": "Atium" } },
+          { "title": { "en": "Bendalloy" } },
+          { "title": { "en": "Brass" } },
+          { "title": { "en": "Bronze" } },
+          { "title": { "en": "Cadmium" } },
+          { "title": { "en": "Chromium" } },
+          { "title": { "en": "Copper" } },
+          { "title": { "en": "Duralumin" } },
+          { "title": { "en": "Electrum" } },
+          { "title": { "en": "Gold" } },
+          { "title": { "en": "Iron" } },
+          { "title": { "en": "Nicrosil" } },
+          { "title": { "en": "Pewter" } },
+          { "title": { "en": "Steel" } },
+          { "title": { "en": "Tin" } },
+          { "title": { "en": "Zinc" } }
+        ]
+      },
+      {
+        "title": {
+          "en": "Feruchemy Power"
+        },
+        "description": {
+          "en": "Choose one of the following powers."
+        },
+        "kind": "one_from_list",
+        "options": [
+          {
+            "title": { "en": "Aluminum" },
+            "feature": {
+              "title": { "en": "Aluminum Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Atium" },
+            "feature": {
+              "title": { "en": "Atium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Bendalloy" },
+            "feature": {
+              "title": { "en": "Bendalloy Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Brass" },
+            "feature": {
+              "title": { "en": "Brass Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Bronze" },
+            "feature": {
+              "title": { "en": "Bronze Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Cadmium" },
+            "feature": {
+              "title": { "en": "Cadmium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Chromium" },
+            "feature": {
+              "title": { "en": "Chromium Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Copper" },
+            "feature": {
+              "title": { "en": "Copper Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Duralumin" },
+            "feature": {
+              "title": { "en": "Duralumin Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Electrum" },
+            "feature": {
+              "title": { "en": "Electrum Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Gold" },
+            "feature": {
+              "title": { "en": "Gold Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Iron" },
+            "feature": {
+              "title": { "en": "Iron Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Nicrosil" },
+            "feature": {
+              "title": { "en": "Nicrosil Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Pewter" },
+            "feature": {
+              "title": { "en": "Pewter Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Steel" },
+            "feature": {
+              "title": { "en": "Steel Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Tin" },
+            "feature": {
+              "title": { "en": "Tin Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          },
+          {
+            "title": { "en": "Zinc" },
+            "feature": {
+              "title": { "en": "Zinc Feruchemy" },
+              "kind": "static",
+              "tokens": { "limit": "feruchemy" }
+            }
+          }
+        ]
+      },
+      {
         "required_for": ["Expanded Metalminds", "Fast Storing", "Invested", "Instinctual Burn"],
         "extra_skills": ["discipline", "feruchemy", "allomancy"],
+        "extra_feats": ["Allomantic Power", "Feruchemy Power"],
         "title": {
           "en": "Twinborn Heritage"
         },
