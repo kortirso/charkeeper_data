@@ -7,7 +7,7 @@
       "en": "Aluminum Feruchemy allows you to store your spiritual Identity in your aluminummind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Adept Introspection", "Core Drive"],
     "features": [
       {
@@ -48,7 +48,7 @@
       "en": "Through Atium Feruchemy, you can store your youth in your atiummind."
     },
     "public": true,
-    "only": ["scan_1"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796"],
     "initial_talents": ["Peak Condition", "Act Your Age"],
     "features": [
       {
@@ -89,7 +89,7 @@
       "en": "Bendalloy Feruchemy allows you to store nutrition and hydration in your bendalloymind."
     },
     "public": true,
-    "only": ["scan_2"],
+    "only": ["bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Energy Boost", "Proactive Nutrition"],
     "features": [
       {
@@ -149,7 +149,7 @@
       "en": "Brass Feruchemy enables the storing of your body's warmth in your brassmind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Searing Palm", "Thermal Conduction"],
     "features": [
       {
@@ -222,7 +222,7 @@
       "en": "You can use Bronze Feruchemy to store wakefulness in your bronzemind; this is the only known Feruchemical trait that can be stored while sleeping."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Awake and Alert", "Drowsy Storing"],
     "features": [
       {
@@ -290,7 +290,7 @@
       "en": "Through Cadmium Feruchemy, you can store breath."
     },
     "public": true,
-    "only": ["scan_2"],
+    "only": ["bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Boosted Oxygenation", "Deprivation Training"],
     "features": [
       {
@@ -351,7 +351,7 @@
       "en": "Chromium Feruchemy grants the ability to store spiritual Fortune in your chromiummind."
     },
     "public": true,
-    "only": ["scan_2"],
+    "only": ["bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Not Quite Yet", "Whispers of Destiny"],
     "features": [
       {
@@ -423,7 +423,7 @@
       "en": "Copper Feruchemy allows you to store and retrieve memories from your coppermind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Expertise Archivist","Indexed Coppermind"],
     "features": [
       {
@@ -496,7 +496,7 @@
       "en": "Through Duralumin Feruchemy, you can store spiritual Connection."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Individual Connection","Force of Personality"],
     "features": [
       {
@@ -557,7 +557,7 @@
       "en": "Electrum Feruchemy enables you to store determination in your electrummind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Hardened Will","Go With the Flow"],
     "features": [
       {
@@ -627,7 +627,7 @@
       "en": "Through Gold Feruchemy, you can store health in your goldmind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Injury Specialist", "Reflexive Bloodmaker"],
     "features": [
       {
@@ -700,7 +700,7 @@
       "en": "Iron Feruchemy enables you to store your physical weight in your ironmind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Heavyweight Blow", "Featherweight Slip"],
     "features": [
       {
@@ -774,7 +774,7 @@
       "en": "Through Nicrosil Feruchemy, you can store your very ability to wield Investiture."
     },
     "public": true,
-    "only": ["scan_2"],
+    "only": ["bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Wall of Muscle", "Pewterarm Weaponcraft"],
     "features": [
       {
@@ -845,7 +845,7 @@
       "en": "Steel Feruchemy enables you to store physical speed in your steelmind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Hastened Dodge", "Run it Back"],
     "features": [
       {
@@ -918,7 +918,7 @@
       "en": "Tin Feruchemy grants you the ability to store your senses—typically hearing, sight, smell, taste, and touch—in your tinmind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Tinpoint Accuracy", "Sensory Control"],
     "features": [
       {
@@ -988,7 +988,7 @@
       "en": "Zinc Feruchemy enables you to store mental speed in your zincmind."
     },
     "public": true,
-    "only": ["scan_1", "scan_2"],
+    "only": ["3f15d0c7-5ee2-4213-ac22-3d1a9c262796", "bdeda4fd-3541-45b4-b55e-d6994185f1e0"],
     "initial_talents": ["Sparked Aid", "Think Again"],
     "features": [
       {
